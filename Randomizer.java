@@ -37,8 +37,8 @@ public class Randomizer
     }
     
     /**
-     * Reset the randomization.
-     * This will have no effect if randomization is not through
+     * Reset the randomisation.
+     * This will have no effect if randomisation is not through
      * a shared Random generator.
      */
     public static void reset()

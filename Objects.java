@@ -1,5 +1,3 @@
-import java.util.List;
-
 /**
  * A class representing shared characteristics of objects.
  * 

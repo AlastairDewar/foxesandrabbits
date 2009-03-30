@@ -18,7 +18,7 @@ import java.util.Map;
 public class SimulatorView extends JFrame
 {
 
-	private static final long serialVersionUID = 4152280370006935594L;
+	private static final long serialVersionUID = 1L;
 
 	// Colours used for empty locations.
     private static final Color EMPTY_COLOR = Color.white;
@@ -169,7 +169,12 @@ public class SimulatorView extends JFrame
      */
     private class FieldView extends JPanel
     {
-        private final int GRID_VIEW_SCALING_FACTOR = 6;
+        /**
+		 * 
+		 */
+		private static final long serialVersionUID = 1L;
+
+		private final int GRID_VIEW_SCALING_FACTOR = 6;
 
         private int gridWidth, gridHeight;
         private int xScale, yScale;

@@ -1,5 +1,5 @@
-import java.awt.Color;
 import java.util.HashMap;
+import java.util.Set;
 
 /**
  * This class collects and provides some statistical data on the state 
@@ -98,7 +98,7 @@ public class FieldStats
         }
         for(Class key : counters.keySet()) {
             Counter info = counters.get(key);
-            if(info.getCount() > 0) {
+            if(info.getCount() > 0 && key.getSuperclass().getName().equals("Animal")) {
                 nonZero++;
             }
         }
@@ -125,4 +125,16 @@ public class FieldStats
         }
         countsValid = true;
     }
+    
+   /* private Set<Class> getAnimalKeys(){
+    	Set<Class> animalKeys = counters.keySet();
+    	for(Class key : animalKeys) {
+    		if(!key.getSuperclass().getName().equals("Animal"))
+    		{
+    			animalKeys.remove(key);
+    			//System.out.println(key.getSuperclass().getName());
+    		}
+    	}
+    	return animalKeys;
+    }*/
 }
