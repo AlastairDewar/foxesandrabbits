@@ -17,6 +17,8 @@ public class Fox extends Animal
     private static final int BREEDING_AGE = 10;
     // The age to which a fox can live.
     private static final int MAX_AGE = 150;
+    // The age to which a fox can live when diseased.
+    private static final int MAX_DISEASED_AGE = 80;
     // The likelihood of a fox breeding.
     private static final double BREEDING_PROBABILITY = 0.35;
     // The maximum number of births.
@@ -70,7 +72,7 @@ public class Fox extends Animal
             // Move towards a source of food if found.
             Location location = getLocation();
             Location newLocation = findFood(location);
-            if(newLocation == null) { 
+            if(newLocation == null) {
                 // No food found - try to move to a free location.
                 newLocation = getField().freeAdjacentLocation(location);
             }
@@ -91,8 +93,10 @@ public class Fox extends Animal
     private void incrementAge()
     {
         age++;
-        if(age > MAX_AGE) {
+        if(age > MAX_AGE ) {
             setDead();
+        } else if(isDiseased() && age > MAX_DISEASED_AGE) {
+        	setDead();
         }
     }
     

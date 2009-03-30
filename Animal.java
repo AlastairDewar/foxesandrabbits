@@ -10,6 +10,8 @@ public abstract class Animal
 {
     // Whether the animal is alive or not.
     private boolean alive;
+    // Whether the animal is diseased.
+    private boolean diseased;
     // The animal's field.
     private Field field;
     // The animal's position in the field.
@@ -24,6 +26,7 @@ public abstract class Animal
     public Animal(Field field, Location location)
     {
         alive = true;
+        diseased = false;
         this.field = field;
         setLocation(location);
     }
@@ -45,6 +48,15 @@ public abstract class Animal
     }
 
     /**
+     * Check whether the animal is diseased or not.
+     * @return true if the animal is diseased.
+     */
+    public boolean isDiseased()
+    {
+    	return diseased;
+    }
+    
+    /**
      * Indicate that the animal is no longer alive.
      * It is removed from the field.
      */
@@ -56,6 +68,15 @@ public abstract class Animal
             location = null;
             field = null;
         }
+    }
+    
+    /**
+     * Indicate that the animal is no longer alive.
+     * It is removed from the field.
+     */
+    public void setDiseased()
+    {
+        diseased = true;
     }
 
     /**

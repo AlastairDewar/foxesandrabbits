@@ -1,5 +1,4 @@
 import java.awt.*;
-import java.awt.event.*;
 import javax.swing.*;
 
 import java.util.LinkedHashMap;
@@ -7,9 +6,9 @@ import java.util.Map;
 
 /**
  * A graphical view of the simulation grid.
- * The view displays a colored rectangle for each location 
- * representing its contents. It uses a default background color.
- * Colors for each type of species can be defined using the
+ * The view displays a coloured rectangle for each location 
+ * representing its contents. It uses a default background colour.
+ * Colours for each type of species can be defined using the
  * setColor method.
  * 
  * @author David J. Barnes and Michael Kolling
@@ -18,10 +17,13 @@ import java.util.Map;
  */
 public class SimulatorView extends JFrame
 {
-    // Colors used for empty locations.
+
+	private static final long serialVersionUID = 4152280370006935594L;
+
+	// Colours used for empty locations.
     private static final Color EMPTY_COLOR = Color.white;
 
-    // Color used for objects that have no defined color.
+    // Colour used for objects that have no defined color.
     private static final Color UNKNOWN_COLOR = Color.gray;
 
     private final String STEP_PREFIX = "Step: ";
@@ -29,8 +31,8 @@ public class SimulatorView extends JFrame
     private JLabel stepLabel, population;
     private FieldView fieldView;
     
-    // A map for storing colors for participants in the simulation
-    private Map<Class, Color> colors;
+    // A map for storing colours for participants in the simulation
+	private Map<Class, Color> colors;
     // A statistics object computing and storing simulation information
     private FieldStats stats;
 
@@ -69,6 +71,8 @@ public class SimulatorView extends JFrame
         insertMenu.add(menuItem5);      
         JMenuItem menuItem6 = new JMenuItem("Traps");
         insertMenu.add(menuItem6);      
+        JMenuItem menuItem8 = new JMenuItem("Disease");
+        insertMenu.add(menuItem8);      
         
         JMenu helpMenu = new JMenu("Help");
         menuBar.add(helpMenu);
@@ -100,7 +104,7 @@ public class SimulatorView extends JFrame
     /**
      * @return The color to be used for a given class of animal.
      */
-    private Color getColor(Class anyClass)
+    private Color getColor(Class<? extends Object> anyClass)
     {
         Color col = colors.get(anyClass);
         if(col == null) {

@@ -1,5 +1,3 @@
-import java.util.List;
-
 /**
  * A simple model of a trap.
  * Traps eat rabbits and foxes.
@@ -44,6 +42,11 @@ public class Trap extends Objects
         }
     }
     
+    /**
+     * This is what the trap does most of the time: it just 
+     * waits for itself to be snared.
+     * @return Whether or not the trap has been snared.
+     */
     public boolean isSnared()
     {
     	return snared;

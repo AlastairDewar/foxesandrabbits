@@ -16,6 +16,8 @@ public class Rabbit extends Animal
     private static final int BREEDING_AGE = 5;
     // The age to which a rabbit can live.
     private static final int MAX_AGE = 40;
+    // The age to which a rabbit can live when diseased.
+    private static final int MAX_DISEASED_AGE = 20;
     // The likelihood of a rabbit breeding.
     private static final double BREEDING_PROBABILITY = 0.15;
     // The maximum number of births.
@@ -76,6 +78,8 @@ public class Rabbit extends Animal
         age++;
         if(age > MAX_AGE) {
             setDead();
+        } else if(isDiseased() && age > MAX_DISEASED_AGE) {
+        	setDead();
         }
     }
     
