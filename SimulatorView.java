@@ -1,4 +1,7 @@
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 import javax.swing.*;
 
 import java.util.LinkedHashMap;
@@ -15,7 +18,7 @@ import java.util.Map;
  * @author Alastair Fraser Dewar
  * @version 2009.03.27
  */
-public class SimulatorView extends JFrame
+public class SimulatorView extends JFrame implements ActionListener
 {
 
 	private static final long serialVersionUID = 1L;
@@ -31,10 +34,12 @@ public class SimulatorView extends JFrame
     private JLabel stepLabel, population;
     private FieldView fieldView;
     
+    private Simulator sim;
+    
     // A map for storing colours for participants in the simulation
 	private Map<Class, Color> colors;
     // A statistics object computing and storing simulation information
-    private FieldStats stats;
+    public FieldStats stats;
 
     /**
      * Create a view of the given width and height.
@@ -49,6 +54,7 @@ public class SimulatorView extends JFrame
         setTitle("Fox and Rabbit Simulation");
         stepLabel = new JLabel(STEP_PREFIX, JLabel.CENTER);
         population = new JLabel(POPULATION_PREFIX, JLabel.CENTER);
+        setResizable(false);
         
       //Create the menu bar.
         JMenuBar menuBar = new JMenuBar();
@@ -61,7 +67,12 @@ public class SimulatorView extends JFrame
         fileMenu.add(menuItem2);
         fileMenu.addSeparator();
         JMenuItem menuItem7 = new JMenuItem("Reset");
+        menuItem7.addActionListener(this);
         fileMenu.add(menuItem7);
+        fileMenu.addSeparator();
+        JMenuItem menuItem11 = new JMenuItem("Quit");
+        menuItem11.addActionListener(this);
+        fileMenu.add(menuItem11);
    
         JMenu insertMenu = new JMenu("Insert");
         menuBar.add(insertMenu);        
@@ -73,6 +84,13 @@ public class SimulatorView extends JFrame
         insertMenu.add(menuItem6);      
         JMenuItem menuItem8 = new JMenuItem("Disease");
         insertMenu.add(menuItem8);      
+        
+        JMenu analysisMenu = new JMenu("Analysis");
+        menuBar.add(analysisMenu);
+        JMenuItem menuItem9 = new JMenuItem("Check number of logs");
+        analysisMenu.add(menuItem9);
+        JMenuItem menuItem10 = new JMenuItem("Analyse logs");
+        analysisMenu.add(menuItem10);        
         
         JMenu helpMenu = new JMenu("Help");
         menuBar.add(helpMenu);
@@ -252,6 +270,21 @@ public class SimulatorView extends JFrame
     }
 	public static void main(String[] args) {
 		Simulator main = new Simulator();
-		main.runLongSimulation();
+	}
+
+	public void actionPerformed(ActionEvent arg0){
+		if(arg0.getSource().toString().contains("Long simulation")){
+			sim.runLongSimulation();}
+		else if(arg0.getSource().toString().contains("Custom number of steps")){
+			// Show dialog box
+			JOptionPane.showMessageDialog(rootPane,
+		    "How many steps do you wish to run through?");
+			sim.simulate(0);}
+		else if(arg0.getSource().toString().contains("Reset")){
+			this.dispose();
+			Simulator sim = new Simulator();}
+		else if(arg0.getSource().toString().contains("Quit")){
+			this.dispose();
+			System.exit(0);}
 	}
 }

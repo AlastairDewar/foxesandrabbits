@@ -12,9 +12,9 @@ import java.util.Set;
 public class FieldStats
 {
     // Counters for each type of entity (fox, rabbit, etc.) in the simulation.s
-	private HashMap<Class, Counter> counters;
+	public HashMap<Class, Counter> counters;
     // Whether the counters are currently up to date.
-    private boolean countsValid;
+    public boolean countsValid;
 
     /**
      * Construct a FieldStats object.
@@ -82,6 +82,7 @@ public class FieldStats
     public void countFinished()
     {
         countsValid = true;
+        
     }
 
     /**

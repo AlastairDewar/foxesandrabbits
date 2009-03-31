@@ -1,16 +1,22 @@
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class Logger /* extends FieldStats */ {
 
-	private File logs;
+	private BufferedWriter logs;
 	
-	private void appendToLog(String message)
-	{
-		
+	public void Logger(){
+
 	}
 	
-	private void reset()
+	public void appendToLog(String message)
 	{
+
+	}
+	
+	private void reset() {
 		
 	}
 	

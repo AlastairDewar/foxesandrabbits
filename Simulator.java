@@ -1,3 +1,6 @@
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Random;
 import java.util.List;
 import java.util.ArrayList;
@@ -36,6 +39,8 @@ public class Simulator
     // A graphical view of the simulation.
     private SimulatorView view;
     
+    private List<String> logs;
+    
     /**
      * Construct a simulation field with default size.
      */
@@ -60,6 +65,7 @@ public class Simulator
         
         animals = new ArrayList<Animal>();
         objects = new ArrayList<Objects>();
+        logs = new ArrayList<String>();
         field = new Field(depth, width);
 
         // Create a view of the state of each location in the field.
@@ -67,7 +73,7 @@ public class Simulator
         view.setColor(Rabbit.class, Color.orange);
         view.setColor(Fox.class, Color.blue);
         view.setColor(Trap.class, Color.red);
-        
+        this.writeToLogs("[Init]");
         // Setup a valid starting point.
         reset();
     }
@@ -91,6 +97,7 @@ public class Simulator
         for(int step = 1; step <= numSteps && view.isViable(field); step++) {
             simulateOneStep();
         }
+        if(!view.isViable(field)){this.writeToLogs("[Halt]");this.writeLog(this.logs);}
     }
     
     /**
@@ -122,6 +129,9 @@ public class Simulator
         animals.addAll(newAnimals);
 
         view.showStatus(step, field);
+        
+        String logMessage = view.stats.getPopulationDetails(field);
+        this.writeToLogs(logMessage);
     }
         
     /**
@@ -167,5 +177,27 @@ public class Simulator
                 // else leave the location empty.
             }
         }
+    }
+    
+    private void writeToLogs(String message) {
+    	logs.add(message);
+    }
+    
+    private void writeLog(List<String> logs) {
+		try {
+			FileWriter log = new FileWriter("Logs.dat", true);
+		   	   try {
+		   		Iterator<String> it = logs.iterator();
+		   		while(it.hasNext()){
+			    log.write(it.next()+"\n");}
+			    log.close();
+		   	   }
+		   	   catch(NullPointerException e){
+		   		   System.out.println(""+e);
+		   	   }
+		}
+		catch(IOException e) {
+		    System.out.println(e);
+		}
     }
 }
