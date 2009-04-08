@@ -34,7 +34,7 @@ public class SimulatorView extends JFrame implements ActionListener
     private JLabel stepLabel, population;
     private FieldView fieldView;
     
-    private Simulator sim;
+    public Simulator sim;
     
     // A map for storing colours for participants in the simulation
 	private Map<Class, Color> colors;
@@ -56,46 +56,78 @@ public class SimulatorView extends JFrame implements ActionListener
         population = new JLabel(POPULATION_PREFIX, JLabel.CENTER);
         setResizable(false);
         
-      //Create the menu bar.
         JMenuBar menuBar = new JMenuBar();
         
         JMenu fileMenu = new JMenu("Run");
         menuBar.add(fileMenu);
-        JMenuItem menuItem = new JMenuItem("Long simulation");
-        fileMenu.add(menuItem);
-        JMenuItem menuItem2 = new JMenuItem("Custom number of steps");
-        fileMenu.add(menuItem2);
+        
+        JMenuItem menuItemRun = new JMenuItem("Long simulation");
+        menuItemRun.setActionCommand("run");
+        menuItemRun.addActionListener(this);
+        fileMenu.add(menuItemRun);
+        
+        JMenuItem menuItemCustomRun = new JMenuItem("Custom number of steps");
+        menuItemCustomRun.setActionCommand("customrun");
+        menuItemCustomRun.addActionListener(this);
+        fileMenu.add(menuItemCustomRun);
+        
         fileMenu.addSeparator();
-        JMenuItem menuItem7 = new JMenuItem("Reset");
-        menuItem7.addActionListener(this);
-        fileMenu.add(menuItem7);
+        
+        JMenuItem menuItemReset = new JMenuItem("Reset");
+        menuItemReset.setActionCommand("reset");
+        menuItemReset.addActionListener(this);
+        fileMenu.add(menuItemReset);
+        
         fileMenu.addSeparator();
-        JMenuItem menuItem11 = new JMenuItem("Quit");
-        menuItem11.addActionListener(this);
-        fileMenu.add(menuItem11);
+        
+        JMenuItem menuItemQuit = new JMenuItem("Quit");
+        menuItemQuit.setActionCommand("quit");
+        menuItemQuit.addActionListener(this);
+        fileMenu.add(menuItemQuit);
    
         JMenu insertMenu = new JMenu("Insert");
-        menuBar.add(insertMenu);        
-        JMenuItem menuItem4 = new JMenuItem("Rabbits");
-        insertMenu.add(menuItem4);      
-        JMenuItem menuItem5 = new JMenuItem("Foxes");
-        insertMenu.add(menuItem5);      
-        JMenuItem menuItem6 = new JMenuItem("Traps");
-        insertMenu.add(menuItem6);      
-        JMenuItem menuItem8 = new JMenuItem("Disease");
-        insertMenu.add(menuItem8);      
+        menuBar.add(insertMenu);
+        
+        JMenuItem menuItemRabbits = new JMenuItem("Rabbits");
+        menuItemRabbits.setActionCommand("rabbits");
+        menuItemRabbits.addActionListener(this);
+        insertMenu.add(menuItemRabbits);
+        
+        JMenuItem menuItemFoxes = new JMenuItem("Foxes");
+        menuItemFoxes.setActionCommand("foxes");
+        menuItemFoxes.addActionListener(this);
+        insertMenu.add(menuItemFoxes);      
+        
+        JMenuItem menuItemTraps = new JMenuItem("Traps");
+        menuItemTraps.setActionCommand("traps");
+        menuItemTraps.addActionListener(this);
+        insertMenu.add(menuItemTraps);
+        
+        JMenuItem menuItemDisease = new JMenuItem("Disease");
+        menuItemDisease.setActionCommand("disease");
+        menuItemDisease.addActionListener(this);
+        insertMenu.add(menuItemDisease);
+        
+        JMenuItem menuItemPond = new JMenuItem("Pond");
+        menuItemPond.setActionCommand("pond");
+        menuItemPond.addActionListener(this);
+        insertMenu.add(menuItemPond);
         
         JMenu analysisMenu = new JMenu("Analysis");
         menuBar.add(analysisMenu);
-        JMenuItem menuItem9 = new JMenuItem("Check number of logs");
-        analysisMenu.add(menuItem9);
-        JMenuItem menuItem10 = new JMenuItem("Analyse logs");
-        analysisMenu.add(menuItem10);        
+        
+        JMenuItem menuItemAnalyse = new JMenuItem("Analyse logs");
+        menuItemAnalyse.setActionCommand("analyse");
+        menuItemAnalyse.addActionListener(this);
+        analysisMenu.add(menuItemAnalyse);        
         
         JMenu helpMenu = new JMenu("Help");
         menuBar.add(helpMenu);
-        JMenuItem menuItem3 = new JMenuItem("About");
-        helpMenu.add(menuItem3);
+        
+        JMenuItem menuItemAbout = new JMenuItem("About");
+        menuItemAbout.setActionCommand("about");
+        menuItemAbout.addActionListener(this);
+        helpMenu.add(menuItemAbout);
         
         setJMenuBar(menuBar);
         
@@ -176,6 +208,36 @@ public class SimulatorView extends JFrame implements ActionListener
     {
         return stats.isViable(field);
     }
+    
+	public static void main(String[] args) {
+		Simulator sim = new Simulator(80,80);
+	}
+	
+	public void reset() {
+		int height = this.fieldView.gridHeight;
+		int width = this.fieldView.gridWidth;
+		this.dispose();
+		this.sim = new Simulator(height, width);
+	}
+
+	public void actionPerformed(ActionEvent arg0){
+		System.out.println(arg0.getActionCommand());
+		if(arg0.getActionCommand().equalsIgnoreCase("run")){
+			this.reset();
+			sim.runLongSimulation();}
+		else if(arg0.getActionCommand().equalsIgnoreCase("customrun")){
+			String runs = (String)JOptionPane.showInputDialog("How many steps would you like to iterate through?");
+			if(this.sim.getCurrentStep() == 0){this.reset();}
+			this.sim.simulate(Integer.parseInt(runs));}
+		else if(arg0.getActionCommand().equalsIgnoreCase("reset")){
+			this.reset();}
+		else if(arg0.getActionCommand().equalsIgnoreCase("quit")){
+			this.dispose();
+			System.exit(0);}
+		else if(arg0.getActionCommand().equalsIgnoreCase("about")){
+			JOptionPane.showConfirmDialog(rootPane, "Foxes and Rabbits Extended v1 is a simulator for the population trends of foxes an rabbits in the wild.\n\nWritten by Alastair Fraser Dewar, David J. Barnes and Michael Kolling.", "About", JOptionPane.DEFAULT_OPTION);
+		}
+	}
     
     /**
      * Provide a graphical view of a rectangular field. This is 
@@ -268,27 +330,4 @@ public class SimulatorView extends JFrame implements ActionListener
             }
         }
     }
-	public static void main(String[] args) {
-		Simulator main = new Simulator(80,80);
-	}
-
-	public void actionPerformed(ActionEvent arg0){
-		if(arg0.getSource().toString().contains("Long simulation")){
-			sim.runLongSimulation();}
-		else if(arg0.getSource().toString().contains("Custom number of steps")){
-			JOptionPane.showMessageDialog(rootPane,
-		    "How many steps do you wish to run through?");
-			sim.simulate(0);}
-		else if(arg0.getSource().toString().contains("Reset")){
-			int height = this.fieldView.gridHeight;
-			int width = this.fieldView.gridWidth;
-			this.dispose();
-			Simulator sim = new Simulator(height, width);}
-		else if(arg0.getSource().toString().contains("Quit")){
-			this.dispose();
-			System.exit(0);}
-		else if(arg0.getSource().toString().contains("About")){
-			JOptionPane.showConfirmDialog(rootPane, "Foxes and Rabbits Extended v1 is a simulator for the population trends of foxes an rabbits in the wild.\n\nWritten by Alastair Fraser Dewar, David J. Barnes and Michael Kolling.", "About", JOptionPane.DEFAULT_OPTION);
-}
-	}
 }

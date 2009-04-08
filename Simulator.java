@@ -199,4 +199,8 @@ public class Simulator
 		    System.out.println(e);
 		}
     }
+    
+    public int getCurrentStep(){
+    	return this.step;
+    }
 }
