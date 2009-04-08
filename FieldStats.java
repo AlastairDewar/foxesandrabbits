@@ -1,5 +1,4 @@
 import java.util.HashMap;
-import java.util.Set;
 
 /**
  * This class collects and provides some statistical data on the state 

@@ -269,22 +269,26 @@ public class SimulatorView extends JFrame implements ActionListener
         }
     }
 	public static void main(String[] args) {
-		Simulator main = new Simulator();
+		Simulator main = new Simulator(80,80);
 	}
 
 	public void actionPerformed(ActionEvent arg0){
 		if(arg0.getSource().toString().contains("Long simulation")){
 			sim.runLongSimulation();}
 		else if(arg0.getSource().toString().contains("Custom number of steps")){
-			// Show dialog box
 			JOptionPane.showMessageDialog(rootPane,
 		    "How many steps do you wish to run through?");
 			sim.simulate(0);}
 		else if(arg0.getSource().toString().contains("Reset")){
+			int height = this.fieldView.gridHeight;
+			int width = this.fieldView.gridWidth;
 			this.dispose();
-			Simulator sim = new Simulator();}
+			Simulator sim = new Simulator(height, width);}
 		else if(arg0.getSource().toString().contains("Quit")){
 			this.dispose();
 			System.exit(0);}
+		else if(arg0.getSource().toString().contains("About")){
+			JOptionPane.showConfirmDialog(rootPane, "Foxes and Rabbits Extended v1 is a simulator for the population trends of foxes an rabbits in the wild.\n\nWritten by Alastair Fraser Dewar, David J. Barnes and Michael Kolling.", "About", JOptionPane.DEFAULT_OPTION);
+}
 	}
 }
