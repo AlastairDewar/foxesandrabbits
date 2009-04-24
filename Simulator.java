@@ -1,9 +1,5 @@
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.Random;
-import java.util.List;
-import java.util.ArrayList;
-import java.util.Iterator;
+import java.io.*;
+import java.util.*;
 import java.awt.Color;
 
 /**
@@ -40,6 +36,9 @@ public class Simulator
     
     private List<String> logs;
     
+    private boolean paused = false;
+    private int stepsToBeTaken;
+    
     /**
      * Construct a simulation field with default size.
      */
@@ -68,13 +67,28 @@ public class Simulator
         field = new Field(depth, width);
 
         // Create a view of the state of each location in the field.
-        view = new SimulatorView(depth, width);
+        view = new SimulatorView(this, depth, width);
         view.setColor(Rabbit.class, Color.orange);
         view.setColor(Fox.class, Color.blue);
         view.setColor(Trap.class, Color.red);
         this.writeToLogs("[Init]");
         // Setup a valid starting point.
         reset();
+    }
+    
+    public void pause() {
+    	this.paused = true;
+    	System.out.println("Simulation paused");
+    }
+    
+    public void resume() {
+    	this.paused = false;
+    	this.simulate(this.getRemainingSteps());
+    	System.out.println("Simulation resuming");
+    }
+    
+    public int getRemainingSteps() {
+    	return this.stepsToBeTaken - this.step;
     }
     
     /**
@@ -93,10 +107,14 @@ public class Simulator
      */
     public void simulate(int numSteps)
     {
-        for(int step = 1; step <= numSteps && view.isViable(field); step++) {
+        for(int step = 1; step <= numSteps; step++) {
             simulateOneStep();
         }
-        if(!view.isViable(field)){this.writeToLogs("[Halt]");this.writeLog(this.logs);}
+        if(!view.isViable(field))
+        {
+        	this.writeToLogs("[Halt]");
+        	this.writeLog(this.logs);
+        }
     }
     
     /**
@@ -107,7 +125,6 @@ public class Simulator
     public void simulateOneStep()
     {
         step++;
-
         // Provide space for newborn animals.
         List<Animal> newAnimals = new ArrayList<Animal>();        
         // Let all rabbits act.
@@ -126,9 +143,7 @@ public class Simulator
                
         // Add the newly born foxes and rabbits to the main lists.
         animals.addAll(newAnimals);
-
-        view.showStatus(step, field);
-        
+        this.view.showStatus(step, field);
         String logMessage = view.stats.getPopulationDetails(field);
         this.writeToLogs(logMessage);
     }
@@ -153,9 +168,6 @@ public class Simulator
     {
         Random rand = Randomizer.getRandom();
         field.clear();
-        /*if(this.pondExists = true) {
-        	Pond pond = new Pond(field);
-        }*/
         for(int row = 0; row < field.getDepth(); row++) {
             for(int col = 0; col < field.getWidth(); col++) {
                 if(rand.nextDouble() <= TRAP_CREATION_PROBABILITY) {
@@ -195,11 +207,11 @@ public class Simulator
 			    log.close();
 		   	   }
 		   	   catch(NullPointerException e){
-		   		   System.out.println(""+e);
+		   		   System.out.println("Error writing logs \n"+e);
 		   	   }
 		}
 		catch(IOException e) {
-		    System.out.println(e);
+		    System.out.println("Error writing logs \n"+e);
 		}
     }
     

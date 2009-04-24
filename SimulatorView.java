@@ -1,11 +1,26 @@
-import java.awt.*;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Container;
+import java.awt.Dimension;
+import java.awt.Graphics;
+import java.awt.Image;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
-import javax.swing.*;
-
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Scanner;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
 
 /**
  * A graphical view of the simulation grid.
@@ -46,8 +61,10 @@ public class SimulatorView extends JFrame implements ActionListener
      * @param height The simulation's height.
      * @param width  The simulation's width.
      */
-    public SimulatorView(int height, int width)
+    public SimulatorView(Simulator newSim, int height, int width)
     {
+    	this.sim = newSim;
+    	
         stats = new FieldStats();
         colors = new LinkedHashMap<Class, Color>();
 
@@ -58,18 +75,25 @@ public class SimulatorView extends JFrame implements ActionListener
         
         JMenuBar menuBar = new JMenuBar();
         
-        JMenu fileMenu = new JMenu("Run");
+        JMenu fileMenu = new JMenu("Simulator");
         menuBar.add(fileMenu);
         
-        JMenuItem menuItemRun = new JMenuItem("Long simulation");
+        JMenuItem menuItemRun = new JMenuItem("Run long simulation");
         menuItemRun.setActionCommand("run");
         menuItemRun.addActionListener(this);
         fileMenu.add(menuItemRun);
         
-        JMenuItem menuItemCustomRun = new JMenuItem("Custom number of steps");
+        JMenuItem menuItemCustomRun = new JMenuItem("Run custom number of steps");
         menuItemCustomRun.setActionCommand("customrun");
         menuItemCustomRun.addActionListener(this);
         fileMenu.add(menuItemCustomRun);
+        
+        fileMenu.addSeparator();
+        
+        JMenuItem menuItemPause = new JMenuItem("Pause");
+        menuItemPause.setActionCommand("pause");
+        menuItemPause.addActionListener(this);
+        fileMenu.add(menuItemPause);        
         
         fileMenu.addSeparator();
         
@@ -77,8 +101,6 @@ public class SimulatorView extends JFrame implements ActionListener
         menuItemReset.setActionCommand("reset");
         menuItemReset.addActionListener(this);
         fileMenu.add(menuItemReset);
-        
-        fileMenu.addSeparator();
         
         JMenuItem menuItemQuit = new JMenuItem("Quit");
         menuItemQuit.setActionCommand("quit");
@@ -134,6 +156,7 @@ public class SimulatorView extends JFrame implements ActionListener
         contents.add(population, BorderLayout.SOUTH);
         pack();
         setVisible(true);
+       
     }
     
     /**
@@ -169,7 +192,7 @@ public class SimulatorView extends JFrame implements ActionListener
     public void showStatus(int step, Field field)
     {
         if(!isVisible()) {
-            setVisible(true);
+            this.setVisible(true);
         }
             
         stepLabel.setText(STEP_PREFIX + step);
@@ -205,8 +228,7 @@ public class SimulatorView extends JFrame implements ActionListener
     }
     
 	public static void main(String[] args) {
-		Simulator x = new Simulator(80,80);
-		x.runLongSimulation();
+		Simulator sim = new Simulator(80,80);
 	}
 	
 	public void reset() {
@@ -217,13 +239,10 @@ public class SimulatorView extends JFrame implements ActionListener
 	}
 
 	public void actionPerformed(ActionEvent arg0){
-		System.out.println(arg0.getActionCommand());
 		if(arg0.getActionCommand().equalsIgnoreCase("run")){
-			this.reset();
-			sim.runLongSimulation();}
+			this.sim.runLongSimulation();}
 		else if(arg0.getActionCommand().equalsIgnoreCase("customrun")){
 			String runs = (String)JOptionPane.showInputDialog("How many steps would you like to iterate through?");
-			if(this.sim.getCurrentStep() == 0){this.reset();}
 			this.sim.simulate(Integer.parseInt(runs));}
 		else if(arg0.getActionCommand().equalsIgnoreCase("reset")){
 			this.reset();}
@@ -231,10 +250,42 @@ public class SimulatorView extends JFrame implements ActionListener
 			this.dispose();
 			System.exit(0);}
 		else if(arg0.getActionCommand().equalsIgnoreCase("about")){
-			JOptionPane.showConfirmDialog(rootPane, "Foxes and Rabbits Extended V1 is a simulator for \nthe population trends of foxes and rabbits in the wild.\n\nWritten by Alastair Fraser Dewar, David J. Barnes and Michael Kolling.", "About", JOptionPane.DEFAULT_OPTION);
+			JOptionPane.showConfirmDialog(rootPane, "Foxes and Rabbits Extended V1 is a simulator for \nthe population trends of foxes and rabbits in the wild.\n\nWritten by Alastair Fraser Dewar, David J. Barnes and Michael Kolling.", "About", JOptionPane.DEFAULT_OPTION);}
+		else if(arg0.getActionCommand().equalsIgnoreCase("analyse")) {
+			JOptionPane.showConfirmDialog(rootPane, "There are currently "+Integer.toString(this.getLogCount())+" logs.", "Log Analysis", JOptionPane.DEFAULT_OPTION);}
+		else if(arg0.getActionCommand().equalsIgnoreCase("pause")) {
+			Simulator x = this.sim;
+			x.pause();
 		}
 	}
     
+    public int getLogCount() {
+    	int logCount = 0;
+    	try {
+    	      FileReader fr = new FileReader("Logs.dat");
+    	      BufferedReader reader = new BufferedReader(fr);
+    	      String line = reader.readLine();
+    	      Scanner scan = null;
+    	      int haltCount = 0;
+    	      while (line != null) {
+  	    	  	if(line.equalsIgnoreCase("[Halt]")){
+    	    	  	haltCount = haltCount+1;}
+  	    	  	logCount = haltCount;
+    	            scan = new Scanner(line);
+    	            line = reader.readLine();
+    	      }
+    	      reader.close();
+    	  }
+    	  catch (FileNotFoundException e) {
+    	      System.out.println("Couldnae find the file");
+    	  }
+    	  catch (IOException e) {
+    	      System.out.println("Wee problem reading from file");
+    	  }
+
+    	return logCount;
+    }	
+	
     /**
      * Provide a graphical view of a rectangular field. This is 
      * a nested class (a class defined inside a class) which
