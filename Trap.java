@@ -24,8 +24,7 @@ public class Trap extends Objects
      */
     public Trap(Field field, Location location)
     {
-        super(field, location);
-
+        super(field, location, false);
     }
     
     /**
@@ -33,7 +32,7 @@ public class Trap extends Objects
      * waits for itself to be snared.
      * @param newTraps A list to add newly added traps to.
      */
-    public void act(Animal animal)
+    public void react(Animal animal)
     {
         if(isTriggered()) {
             this.snared = true;

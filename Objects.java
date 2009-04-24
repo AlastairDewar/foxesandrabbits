@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /**
  * A class representing shared characteristics of objects.
  * 
@@ -8,6 +10,8 @@ public abstract class Objects
 {
     // Whether the object has been triggered or not.
     private boolean triggered;
+    // Whether the object is visible to animals or not.
+    private boolean visibleToAnimals;
     // The objects's field.
     private Field field;
     // The objects's position in the field.
@@ -19,19 +23,25 @@ public abstract class Objects
      * @param field The field currently occupied.
      * @param location The location within the field.
      */
-    public Objects(Field field, Location location)
+    public Objects(Field field, Location location, boolean visibility)
     {
-        triggered = false;
+        this.triggered = false;
+        this.visibleToAnimals = visibility;
         this.field = field;
         setLocation(location);
     }
     
-    /**
-     * Make this object act - that is: make it do
+    public Objects(Field field, ArrayList<Location> locations)
+    {
+    	this.visibleToAnimals = true;
+    	this.field = field;
+    }
+
+	/**
+     * Make this object react to an animal - that is: make it do
      * whatever it wants/needs to do.
-     * @param newObjects A list to add newly created objects to.
      */
-    abstract public void act(Animal animal);
+    abstract public void react(Animal animal);
 
     /**
      * Check whether the object is triggered or not.
@@ -40,6 +50,15 @@ public abstract class Objects
     public boolean isTriggered()
     {
         return triggered;
+    }
+    
+    /**
+     * Check whether the object is visible to animals or not
+     * @return whether the object is visible to animals or not.
+     */
+    public boolean isVisibleToAnimals()
+    {
+        return visibleToAnimals;
     }
 
     /**

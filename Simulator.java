@@ -117,7 +117,7 @@ public class Simulator
             for(Iterator<Objects> it2 = objects.iterator(); it2.hasNext(); ) {
             	Objects object = it2.next();
             	if(object.getLocation().equals(animal.getLocation()))
-            	{object.act(animal);}
+            	{object.react(animal);}
             }
             if(! animal.isAlive()) {
                 it.remove();
@@ -153,6 +153,9 @@ public class Simulator
     {
         Random rand = Randomizer.getRandom();
         field.clear();
+        /*if(this.pondExists = true) {
+        	Pond pond = new Pond(field);
+        }*/
         for(int row = 0; row < field.getDepth(); row++) {
             for(int col = 0; col < field.getWidth(); col++) {
                 if(rand.nextDouble() <= TRAP_CREATION_PROBABILITY) {

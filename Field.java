@@ -5,7 +5,7 @@ import java.util.Random;
 
 /**
  * Represent a rectangular grid of field positions.
- * Each position is able to store a single animal.
+ * Each position is able to store a single animal/object.
  * 
  * @author David J. Barnes and Michael Kolling
  * @version 2008.03.30
@@ -123,6 +123,7 @@ public class Field
         List<Location> free = new LinkedList<Location>();
         List<Location> adjacent = adjacentLocations(location);
         for(Location next : adjacent) {
+        	// TODO Change to make it check if its visible, not its name
             if(getObjectAt(next) == null || getObjectAt(next).toString().contains("Trap")) {
                 free.add(next);
             }
