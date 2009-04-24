@@ -108,11 +108,6 @@ public class SimulatorView extends JFrame implements ActionListener
         menuItemDisease.addActionListener(this);
         insertMenu.add(menuItemDisease);
         
-        JMenuItem menuItemPond = new JMenuItem("Pond");
-        menuItemPond.setActionCommand("pond");
-        menuItemPond.addActionListener(this);
-        insertMenu.add(menuItemPond);
-        
         JMenu analysisMenu = new JMenu("Analysis");
         menuBar.add(analysisMenu);
         
