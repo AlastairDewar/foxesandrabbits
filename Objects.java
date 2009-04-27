@@ -22,19 +22,29 @@ public abstract class Objects
      * 
      * @param field The field currently occupied.
      * @param location The location within the field.
+     * @param visibility Wether the object is visible to animals
      */
-    public Objects(Field field, Location location, boolean visibility)
+    public Objects(Field field, Location location, boolean animalVisibility)
     {
         this.triggered = false;
-        this.visibleToAnimals = visibility;
+        this.visibleToAnimals = animalVisibility;
         this.field = field;
         setLocation(location);
     }
-    
-    public Objects(Field field, ArrayList<Location> locations)
+ 
+    /**
+     * Create a new object at location in field.
+     * 
+     * @param field The field currently occupied.
+     * @param location An arraylist of the locations occcupied by the object
+     * @param visibility Wether the object is visible to animals
+     */
+    public Objects(Field field, ArrayList<Location> locations, boolean animalVisibility)
     {
-    	this.visibleToAnimals = true;
+    	this.triggered = false;
     	this.field = field;
+    	this.visibleToAnimals = true;
+    	setLocation(locations);
     }
 
 	/**
@@ -103,6 +113,19 @@ public abstract class Objects
         }
         location = newLocation;
         field.place(this, newLocation);
+    }
+    
+    /**
+     * Place the object at the new locations in the given field.
+     * @param newLocations The object's new locations.
+     */
+    public void setLocation(ArrayList<Location> newLocations)
+    {
+        /*if(location != null) {
+            field.clear(location);
+        }
+        location = newLocation;
+        field.place(this, newLocation);*/
     }
     
     public void trigger()

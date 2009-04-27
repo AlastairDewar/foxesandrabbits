@@ -34,10 +34,10 @@ public class Simulator
     // A graphical view of the simulation.
     private SimulatorView view;
     
-    private List<String> logs;
-    
+    public List<String> logs;
     private boolean paused = false;
     private int stepsToBeTaken;
+    public boolean logged = false;
     
     /**
      * Construct a simulation field with default size.
@@ -67,11 +67,11 @@ public class Simulator
         field = new Field(depth, width);
 
         // Create a view of the state of each location in the field.
-        view = new SimulatorView(this, depth, width);
-        view.setColor(Rabbit.class, Color.orange);
-        view.setColor(Fox.class, Color.blue);
-        view.setColor(Trap.class, Color.red);
-        this.writeToLogs("[Init]");
+        this.view = new SimulatorView(this, depth, width);
+        this.view.setColor(Rabbit.class, Color.orange);
+        this.view.setColor(Fox.class, Color.blue);
+        this.view.setColor(Trap.class, Color.red);
+
         // Setup a valid starting point.
         reset();
     }
@@ -107,12 +107,14 @@ public class Simulator
      */
     public void simulate(int numSteps)
     {
-        for(int step = 1; step <= numSteps; step++) {
+    	int step = 1;
+        while(step <= numSteps && view.isViable(field) && !paused) {
             simulateOneStep();
+            step++;
         }
         if(!view.isViable(field))
         {
-        	this.writeToLogs("[Halt]");
+        	this.logged = true;
         	this.writeLog(this.logs);
         }
     }
@@ -156,7 +158,7 @@ public class Simulator
         step = 0;
         animals.clear();
         populate();
-        
+        logged = false;
         // Show the starting state in the view.
         view.showStatus(step, field);
     }
@@ -197,13 +199,15 @@ public class Simulator
     	logs.add(message);
     }
     
-    private void writeLog(List<String> logs) {
+    public void writeLog(List<String> logs) {
 		try {
 			FileWriter log = new FileWriter("Logs.dat", true);
 		   	   try {
 		   		Iterator<String> it = logs.iterator();
+	        	this.writeToLogs("[Init]");
 		   		while(it.hasNext()){
 			    log.write(it.next()+"\n");}
+	        	this.writeToLogs("[Halt]");
 			    log.close();
 		   	   }
 		   	   catch(NullPointerException e){

@@ -56,6 +56,8 @@ public class SimulatorView extends JFrame implements ActionListener
     // A statistics object computing and storing simulation information
     public FieldStats stats;
 
+    private JMenuItem menuItemPause;
+    
     /**
      * Create a view of the given width and height.
      * @param height The simulation's height.
@@ -90,7 +92,7 @@ public class SimulatorView extends JFrame implements ActionListener
         
         fileMenu.addSeparator();
         
-        JMenuItem menuItemPause = new JMenuItem("Pause");
+        this.menuItemPause = new JMenuItem("Pause");
         menuItemPause.setActionCommand("pause");
         menuItemPause.addActionListener(this);
         fileMenu.add(menuItemPause);        
@@ -216,6 +218,7 @@ public class SimulatorView extends JFrame implements ActionListener
 
         population.setText(POPULATION_PREFIX + stats.getPopulationDetails(field));
         fieldView.repaint();
+        
     }
 
     /**
@@ -230,13 +233,6 @@ public class SimulatorView extends JFrame implements ActionListener
 	public static void main(String[] args) {
 		Simulator sim = new Simulator(80,80);
 	}
-	
-	public void reset() {
-		int height = this.fieldView.gridHeight;
-		int width = this.fieldView.gridWidth;
-		this.dispose();
-		this.sim = new Simulator(height, width);
-	}
 
 	public void actionPerformed(ActionEvent arg0){
 		if(arg0.getActionCommand().equalsIgnoreCase("run")){
@@ -245,8 +241,9 @@ public class SimulatorView extends JFrame implements ActionListener
 			String runs = (String)JOptionPane.showInputDialog("How many steps would you like to iterate through?");
 			this.sim.simulate(Integer.parseInt(runs));}
 		else if(arg0.getActionCommand().equalsIgnoreCase("reset")){
-			this.reset();}
+			this.sim.reset();}
 		else if(arg0.getActionCommand().equalsIgnoreCase("quit")){
+			if(!this.sim.logged){this.sim.writeLog(sim.logs);}
 			this.dispose();
 			System.exit(0);}
 		else if(arg0.getActionCommand().equalsIgnoreCase("about")){
@@ -254,8 +251,12 @@ public class SimulatorView extends JFrame implements ActionListener
 		else if(arg0.getActionCommand().equalsIgnoreCase("analyse")) {
 			JOptionPane.showConfirmDialog(rootPane, "There are currently "+Integer.toString(this.getLogCount())+" logs.", "Log Analysis", JOptionPane.DEFAULT_OPTION);}
 		else if(arg0.getActionCommand().equalsIgnoreCase("pause")) {
-			Simulator x = this.sim;
-			x.pause();
+			if(menuItemPause.getText().equalsIgnoreCase("Pause")){
+			this.sim.pause();
+			menuItemPause.setText("Resume");}
+			else if(menuItemPause.getText().equalsIgnoreCase("Resume")){
+			this.sim.resume();
+			menuItemPause.setText("Pause");}
 		}
 	}
     
@@ -271,8 +272,6 @@ public class SimulatorView extends JFrame implements ActionListener
   	    	  	if(line.equalsIgnoreCase("[Halt]")){
     	    	  	haltCount = haltCount+1;}
   	    	  	logCount = haltCount;
-    	            scan = new Scanner(line);
-    	            line = reader.readLine();
     	      }
     	      reader.close();
     	  }

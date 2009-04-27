@@ -17,7 +17,7 @@ public class Field
     
     // The depth and width of the field.
     private int depth, width;
-    // Storage for the animals.
+    // Storage for the animals and objects.
     private Object[][] field;
 
     /**
