@@ -68,7 +68,7 @@ public class Fox extends Animal
         incrementAge();
         incrementHunger();
         if(isAlive()) {
-            giveBirth(newFoxes);            
+            giveBirth(newFoxes);
             // Move towards a source of food if found.
             Location location = getLocation();
             Location newLocation = findFood(location);
@@ -145,15 +145,18 @@ public class Fox extends Animal
      */
     private void giveBirth(List<Animal> newFoxes)
     {
-        // New foxes are born into adjacent locations.
-        // Get a list of adjacent free locations.
-        Field field = getField();
-        List<Location> free = field.getFreeAdjacentLocations(getLocation());
-        int births = breed();
-        for(int b = 0; b < births && free.size() > 0; b++) {
-            Location loc = free.remove(0);
-            Fox young = new Fox(false, field, loc);
-            newFoxes.add(young);
+    	if(getGender() == 'F')
+    	{
+	        // New foxes are born into adjacent locations.
+	        // Get a list of adjacent free locations.
+	        Field field = getField();
+	        List<Location> free = field.getFreeAdjacentLocations(getLocation());
+	        int births = breed();
+	        for(int b = 0; b < births && free.size() > 0; b++) {
+	            Location loc = free.remove(0);
+	            Fox young = new Fox(false, field, loc);
+	            newFoxes.add(young);
+	        }
         }
     }
         

@@ -1,7 +1,6 @@
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.Scanner;
 
 
@@ -64,7 +63,7 @@ public class Analyser {
 		for(int i=0;i<logs.size();i++)
 		{
 			ArrayList<String> records = logs.get(i);
-			if(records.size() > 300){count++;}
+			if(records.size() > 100){count++;}
 		}
 		return count;
 	}

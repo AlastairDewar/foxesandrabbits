@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
@@ -66,8 +67,17 @@ public class Field
         place(object, new Location(row, col));
     }
     
+    public void place(Object object, ArrayList<Location> newLocations)
+    {
+    	for(int counter = 0; counter < newLocations.size(); counter++)
+    	{
+    		Location location = newLocations.get(counter); 
+	        place(object, location);
+        }
+    }
+    
     /**
-     * Place an animal/object at the given location.
+     * Place an animal/object at the given location.index
      * If there is already an animal/object at the location it will
      * be lost.
      * @param object The animal/object to be placed.
@@ -203,4 +213,39 @@ public class Field
     {
         return width;
     }
+    
+    public Location getRandomFreeLocation() 
+    {
+    	Location location = null;
+    	Randomizer random = new Randomizer();
+    	int startingPointDepth = random.getRandom().nextInt(this.depth);
+    	int startingPointWidth = random.getRandom().nextInt(this.width);
+    	location = new Location(startingPointDepth, startingPointWidth);
+    	// TODO Needs a while loop
+    	if(this.getObjectAt(location) == null)
+    	{
+    		// Do Nothing
+    	}
+    	else if(this.freeAdjacentLocation(location) != null)
+    	{
+    		location = this.freeAdjacentLocation(location);
+    	}
+    	else
+    	{
+    		location = null;
+    	}
+    	return location;
+    }
+    
+    public int getLocationsLeft()
+    {
+    	int locationsLeft = 0;
+        for(int row = 0; row < getDepth(); row++) {
+            for(int col = 0; col < getWidth(); col++) {
+            	if(getObjectAt(row, col) == null){locationsLeft++;}
+            }
+        }
+    	return locationsLeft;
+    }
+    
 }

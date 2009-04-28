@@ -70,4 +70,5 @@ public class Location
     {
         return col;
     }
+    
 }

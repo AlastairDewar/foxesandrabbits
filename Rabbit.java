@@ -89,16 +89,19 @@ public class Rabbit extends Animal
      * @param newRabbits A list to add newly born rabbits to.
      */
     private void giveBirth(List<Animal> newRabbits)
-    {
-        // New rabbits are born into adjacent locations.
-        // Get a list of adjacent free locations.
-        Field field = getField();
-        List<Location> free = field.getFreeAdjacentLocations(getLocation());
-        int births = breed();
-        for(int b = 0; b < births && free.size() > 0; b++) {
-            Location loc = free.remove(0);
-            Rabbit young = new Rabbit(false, field, loc);
-            newRabbits.add(young);
+    {    	
+    	if(getGender() == 'F')
+    	{
+	        // New rabbits are born into adjacent locations.
+	        // Get a list of adjacent free locations.
+	        Field field = getField();
+	        List<Location> free = field.getFreeAdjacentLocations(getLocation());
+	        int births = breed();
+	        for(int b = 0; b < births && free.size() > 0; b++) {
+	            Location loc = free.remove(0);
+	            Rabbit young = new Rabbit(false, field, loc);
+	            newRabbits.add(young);
+	        }
         }
     }
         

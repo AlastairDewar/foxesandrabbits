@@ -133,11 +133,15 @@ public abstract class Objects
      */
     public void setLocation(ArrayList<Location> newLocations)
     {
-        /*if(location != null) {
-            field.clear(location);
+    	for(int counter = 0; counter < newLocations.size(); counter++)
+    	{
+    		Location location = newLocations.get(counter); 
+	        if(location != null) {
+	            field.clear(location);
+	        }
         }
-        location = newLocation;
-        field.place(this, newLocation);*/
+        locations = newLocations;
+        field.place(this, newLocations);
     }
     
     public void trigger()

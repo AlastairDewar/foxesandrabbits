@@ -6,14 +6,8 @@ import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.Scanner;
-
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JMenu;
@@ -80,7 +74,7 @@ public class SimulatorView extends JFrame implements ActionListener
         JMenu fileMenu = new JMenu("Simulator");
         menuBar.add(fileMenu);
         
-        JMenuItem menuItemRun = new JMenuItem("Run long simulation");
+        JMenuItem menuItemRun = new JMenuItem("Run long simulation (500 steps)");
         menuItemRun.setActionCommand("run");
         menuItemRun.addActionListener(this);
         fileMenu.add(menuItemRun);
@@ -126,11 +120,6 @@ public class SimulatorView extends JFrame implements ActionListener
         menuItemTraps.setActionCommand("traps");
         menuItemTraps.addActionListener(this);
         insertMenu.add(menuItemTraps);
-        
-        JMenuItem menuItemDisease = new JMenuItem("Disease");
-        menuItemDisease.setActionCommand("disease");
-        menuItemDisease.addActionListener(this);
-        insertMenu.add(menuItemDisease);
         
         JMenu analysisMenu = new JMenu("Analysis");
         menuBar.add(analysisMenu);
@@ -231,7 +220,7 @@ public class SimulatorView extends JFrame implements ActionListener
     }
     
 	public static void main(String[] args) {
-		Simulator sim = new Simulator(80,80);
+		new Simulator(80,80);
 	}
 
 	public void actionPerformed(ActionEvent arg0){
@@ -239,7 +228,11 @@ public class SimulatorView extends JFrame implements ActionListener
 			this.sim.runLongSimulation();}
 		else if(arg0.getActionCommand().equalsIgnoreCase("customrun")){
 			String runs = (String)JOptionPane.showInputDialog("How many steps would you like to iterate through?");
-			this.sim.simulate(Integer.parseInt(runs));}
+			if(Integer.parseInt(runs) > 0 && Integer.parseInt(runs) <= 3000){
+				this.sim.simulate(Integer.parseInt(runs));}
+			else{
+				JOptionPane.showMessageDialog(this, "There is a limit set in place of a maxiumum of 3000 steps\n in any one run. You can always keep repeating this step.");
+			}}
 		else if(arg0.getActionCommand().equalsIgnoreCase("reset")){
 			if(!this.sim.logged){this.sim.logger.finish();}
 			this.sim.reset();}
@@ -253,7 +246,7 @@ public class SimulatorView extends JFrame implements ActionListener
 			Analyser analyser = new Analyser();
 			analyser.loadLogs();
 			//analyser.checkSuccessor();
-			JOptionPane.showConfirmDialog(rootPane, "There are currently "+Integer.toString(analyser.getLogCount())+" logs.\n"+analyser.getWorthyLogCount()+" of which are full enough for analysis.", "Log Analysis", JOptionPane.DEFAULT_OPTION);}
+			JOptionPane.showConfirmDialog(rootPane, "There are currently "+Integer.toString(analyser.getLogCount())+" logs.\n"+analyser.getWorthyLogCount()+" of which are suitable for analysis.", "Log Analysis", JOptionPane.DEFAULT_OPTION);}
 		else if(arg0.getActionCommand().equalsIgnoreCase("pause")) {
 			if(menuItemPause.getText().equalsIgnoreCase("Pause")){
 			this.sim.pause();
@@ -262,6 +255,24 @@ public class SimulatorView extends JFrame implements ActionListener
 			this.sim.resume();
 			menuItemPause.setText("Pause");}
 		}
+		else if(arg0.getActionCommand().equalsIgnoreCase("rabbits")) {
+			String runs = (String)JOptionPane.showInputDialog("How many rabbits would you like to add?");
+	    	if(Integer.parseInt(runs) > sim.getField().getLocationsLeft() && Integer.parseInt(runs) > 0){
+	    		JOptionPane.showMessageDialog(this, "There are "+sim.getField().getLocationsLeft()+" locations free.");
+	    	}else{
+			this.sim.addRabbits(Integer.parseInt(runs));}}
+		else if(arg0.getActionCommand().equalsIgnoreCase("foxes")) {
+			String runs = (String)JOptionPane.showInputDialog("How many foxes would you like to add?");
+	    	if(Integer.parseInt(runs) > sim.getField().getLocationsLeft() && Integer.parseInt(runs) > 0){
+	    		JOptionPane.showMessageDialog(this, "There are "+sim.getField().getLocationsLeft()+" locations free.");
+	    	}else{
+			this.sim.addFoxes(Integer.parseInt(runs));}}
+		else if(arg0.getActionCommand().equalsIgnoreCase("traps")) {
+			String runs = (String)JOptionPane.showInputDialog("How many traps would you like to add?");
+	    	if(Integer.parseInt(runs) > sim.getField().getLocationsLeft() && Integer.parseInt(runs) > 0){
+	    		JOptionPane.showMessageDialog(this, "There are "+sim.getField().getLocationsLeft()+" locations free.");
+	    	}else{
+			this.sim.addTraps(Integer.parseInt(runs));}}
 	}
 	
     /**

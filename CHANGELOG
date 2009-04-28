@@ -32,6 +32,6 @@ Feature		Added the ability to pause the simulation
 
 25/4/09
 Feature		Completed support for objects over multiple locations
-
+Fix			Logging waits till the end before writing it all at once
 					
 

@@ -105,16 +105,19 @@ public class Simulator
      */
     public void simulate(int numSteps)
     {
-    	int step = 1;
-        while(step <= numSteps && view.isViable(field) && !paused) {
-            simulateOneStep();
-            step++;
-        }
-        if(!view.isViable(field))
-        {
-        	this.logged = true;
-        	logger.finish();
-        }
+    	if(numSteps > 0)
+    	{
+	    	int step = 1;
+	        while(step <= numSteps && view.isViable(field) && !paused) {
+	            simulateOneStep();
+	            step++;
+	        }
+	        if(!view.isViable(field))
+	        {
+	        	this.logged = true;
+	        	logger.finish();
+	        }
+    	}
     }
     
     /**
@@ -127,7 +130,6 @@ public class Simulator
         step++;
         // Provide space for newborn animals.
         List<Animal> newAnimals = new ArrayList<Animal>();        
-        // Let all rabbits act.
         for(Iterator<Animal> it = animals.iterator(); it.hasNext(); ) {
             Animal animal = it.next();
             animal.act(newAnimals);
@@ -136,6 +138,7 @@ public class Simulator
             	if(object.getLocation().equals(animal.getLocation()))
             	{object.react(animal);}
             }
+            // If the animal is dead, lets get rid of it
             if(! animal.isAlive()) {
                 it.remove();
             }
@@ -204,5 +207,50 @@ public class Simulator
     
     public SimulatorView getView() {
     	return this.view;
+    }
+    
+    public void addRabbits(int count) {
+    	if(count > 0 && count <= field.getLocationsLeft()){
+    	for(int counter = 0; counter < count; counter++) {
+    		addRabbit();
+    	}}
+    }
+    
+    public void addRabbit() {
+        Location randomFreeLocation = field.getRandomFreeLocation();
+        Rabbit rabbit = new Rabbit(true, field, randomFreeLocation);
+        animals.add(rabbit);
+        field.place(rabbit, randomFreeLocation);
+        view.showStatus(step, field);
+    }
+    
+    public void addFoxes(int count) {
+    	if(count > 0 && count <= field.getLocationsLeft()){
+	    for(int counter = 0; counter < count; counter++) {
+	    	addFox();
+	    }}
+    }
+    
+    public void addFox() {
+        Location randomFreeLocation = field.getRandomFreeLocation();
+        Fox fox = new Fox(true, field, randomFreeLocation);
+        animals.add(fox);
+        field.place(fox, randomFreeLocation);
+        view.showStatus(step, field);
+    }
+    
+    public void addTraps(int count) {
+    	if(count > 0 && count <= field.getLocationsLeft()){
+    	for(int counter = 0; counter < count; counter++) {
+    		addTrap();
+    	}}
+    }
+    
+    public void addTrap() {
+        Location randomFreeLocation = field.getRandomFreeLocation();
+        Trap trap = new Trap(field, randomFreeLocation);
+        objects.add(trap);
+        field.place(trap, randomFreeLocation);
+        view.showStatus(step, field);
     }
 }

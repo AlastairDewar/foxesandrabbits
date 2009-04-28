@@ -16,6 +16,8 @@ public abstract class Animal
     private Field field;
     // The animal's position in the field.
     private Location location;
+    // The animal's gender
+    private char gender;
     
     /**
      * Create a new animal at location in field.
@@ -23,12 +25,15 @@ public abstract class Animal
      * @param field The field currently occupied.
      * @param location The location within the field.
      */
-    public Animal(Field field, Location location)
+    public Animal(Field newField, Location location)
     {
         alive = true;
         diseased = false;
-        this.field = field;
+        field = newField;
         setLocation(location);
+        Randomizer random = new Randomizer();
+        if(random.getRandom().nextBoolean() == true)
+        	{gender = 'M';}else{gender = 'F';}
     }
     
     /**
@@ -109,5 +114,8 @@ public abstract class Animal
         location = newLocation;
         field.place(this, newLocation);
     }
-    
+
+    public char getGender() {
+    	return gender;
+    }
 }
