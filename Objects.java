@@ -16,6 +16,7 @@ public abstract class Objects
     private Field field;
     // The objects's position in the field.
     private Location location;
+    private ArrayList<Location> locations;
     
     /**
      * Create a new object at location in field.
@@ -29,6 +30,7 @@ public abstract class Objects
         this.triggered = false;
         this.visibleToAnimals = animalVisibility;
         this.field = field;
+        this.locations = null;
         setLocation(location);
     }
  
@@ -44,6 +46,7 @@ public abstract class Objects
     	this.triggered = false;
     	this.field = field;
     	this.visibleToAnimals = true;
+    	this.location = null;
     	setLocation(locations);
     }
 
@@ -91,6 +94,15 @@ public abstract class Objects
     public Location getLocation()
     {
         return location;
+    }
+   
+    /**
+     * Return the object's location.
+     * @return The object's location.
+     */
+    public ArrayList<Location> getLocations()
+    {
+        return locations;
     }
     
     /**

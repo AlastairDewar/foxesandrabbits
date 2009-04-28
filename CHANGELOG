@@ -1,0 +1,37 @@
+29/3/09
+Feature		Added the Object class 
+				Objects don't move around the map and when animals try to move into their spot the object reacts (only works when invisible)
+Feature		Added a new object to the game, Traps.
+				Invisible to animals, kills the animal when it walks into it and it then renders the trap triggered and unusable
+
+30/3/09
+Feature		Added the start of disease in animals
+				Still requires rates, the possibility of new colours, or offset colours to distinguish.
+Fix			Wouldn't terminate if only traps remained
+				Now, it terminates when all animals only are gone.
+Feature		Added a GUI
+				Only uses drop down menus, I tried with buttons but, it means the map has more limitations on its size.
+Feature		Added the start of logging
+				Added the barest of skeletons and setup a new format
+					[Init]
+					Rabbits: X Traps: X Foxes: X
+					Rabbits: X Traps: X Foxes: X
+					[Halt]
+				(Order inside the tags changes due to an issue with HashMaps but it holds the same order for each log)
+
+31/3/09
+Fix			Logging only works after a full simulation or the user quits
+
+8/4/09
+Fix			Resetting now resets to the previous size, not the default size
+Feature		Finished off the GUI, now almost all of it with the exception of the insert menu works
+
+24/4/09
+Fix			Managed to fix an issue where the GUI and Simulator weren't properly tethered to one another
+Feature		Added the ability to pause the simulation
+
+25/4/09
+Feature		Completed support for objects over multiple locations
+
+					
+

@@ -243,7 +243,7 @@ public class SimulatorView extends JFrame implements ActionListener
 		else if(arg0.getActionCommand().equalsIgnoreCase("reset")){
 			this.sim.reset();}
 		else if(arg0.getActionCommand().equalsIgnoreCase("quit")){
-			if(!this.sim.logged){this.sim.writeLog(sim.logs);}
+			if(!this.sim.logged){this.sim.logger.finish();}
 			this.dispose();
 			System.exit(0);}
 		else if(arg0.getActionCommand().equalsIgnoreCase("about")){

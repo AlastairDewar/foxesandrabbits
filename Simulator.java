@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.*;
 import java.awt.Color;
 
@@ -34,7 +33,7 @@ public class Simulator
     // A graphical view of the simulation.
     private SimulatorView view;
     
-    public List<String> logs;
+    public Logger logger;
     private boolean paused = false;
     private int stepsToBeTaken;
     public boolean logged = false;
@@ -63,7 +62,7 @@ public class Simulator
         
         animals = new ArrayList<Animal>();
         objects = new ArrayList<Objects>();
-        logs = new ArrayList<String>();
+        logger = new Logger(this);
         field = new Field(depth, width);
 
         // Create a view of the state of each location in the field.
@@ -115,7 +114,7 @@ public class Simulator
         if(!view.isViable(field))
         {
         	this.logged = true;
-        	this.writeLog(this.logs);
+        	logger.finish();
         }
     }
     
@@ -147,7 +146,7 @@ public class Simulator
         animals.addAll(newAnimals);
         this.view.showStatus(step, field);
         String logMessage = view.stats.getPopulationDetails(field);
-        this.writeToLogs(logMessage);
+        logger.addRecord(logMessage);
     }
         
     /**
@@ -195,31 +194,11 @@ public class Simulator
         }
     }
     
-    private void writeToLogs(String message) {
-    	logs.add(message);
-    }
-    
-    public void writeLog(List<String> logs) {
-		try {
-			FileWriter log = new FileWriter("Logs.dat", true);
-		   	   try {
-		   		Iterator<String> it = logs.iterator();
-	        	this.writeToLogs("[Init]");
-		   		while(it.hasNext()){
-			    log.write(it.next()+"\n");}
-	        	this.writeToLogs("[Halt]");
-			    log.close();
-		   	   }
-		   	   catch(NullPointerException e){
-		   		   System.out.println("Error writing logs \n"+e);
-		   	   }
-		}
-		catch(IOException e) {
-		    System.out.println("Error writing logs \n"+e);
-		}
-    }
-    
     public int getCurrentStep(){
     	return this.step;
+    }
+    
+    public Field getField() {
+    	return this.field;
     }
 }
