@@ -241,6 +241,7 @@ public class SimulatorView extends JFrame implements ActionListener
 			String runs = (String)JOptionPane.showInputDialog("How many steps would you like to iterate through?");
 			this.sim.simulate(Integer.parseInt(runs));}
 		else if(arg0.getActionCommand().equalsIgnoreCase("reset")){
+			if(!this.sim.logged){this.sim.logger.finish();}
 			this.sim.reset();}
 		else if(arg0.getActionCommand().equalsIgnoreCase("quit")){
 			if(!this.sim.logged){this.sim.logger.finish();}
@@ -249,7 +250,10 @@ public class SimulatorView extends JFrame implements ActionListener
 		else if(arg0.getActionCommand().equalsIgnoreCase("about")){
 			JOptionPane.showConfirmDialog(rootPane, "Foxes and Rabbits Extended V1 is a simulator for \nthe population trends of foxes and rabbits in the wild.\n\nWritten by Alastair Fraser Dewar, David J. Barnes and Michael Kolling.", "About", JOptionPane.DEFAULT_OPTION);}
 		else if(arg0.getActionCommand().equalsIgnoreCase("analyse")) {
-			JOptionPane.showConfirmDialog(rootPane, "There are currently "+Integer.toString(this.getLogCount())+" logs.", "Log Analysis", JOptionPane.DEFAULT_OPTION);}
+			Analyser analyser = new Analyser();
+			analyser.loadLogs();
+			//analyser.checkSuccessor();
+			JOptionPane.showConfirmDialog(rootPane, "There are currently "+Integer.toString(analyser.getLogCount())+" logs.\n"+analyser.getWorthyLogCount()+" of which are full enough for analysis.", "Log Analysis", JOptionPane.DEFAULT_OPTION);}
 		else if(arg0.getActionCommand().equalsIgnoreCase("pause")) {
 			if(menuItemPause.getText().equalsIgnoreCase("Pause")){
 			this.sim.pause();
@@ -259,31 +263,6 @@ public class SimulatorView extends JFrame implements ActionListener
 			menuItemPause.setText("Pause");}
 		}
 	}
-    
-    public int getLogCount() {
-    	int logCount = 0;
-    	try {
-    	      FileReader fr = new FileReader("Logs.dat");
-    	      BufferedReader reader = new BufferedReader(fr);
-    	      String line = reader.readLine();
-    	      Scanner scan = null;
-    	      int haltCount = 0;
-    	      while (line != null) {
-  	    	  	if(line.equalsIgnoreCase("[Halt]")){
-    	    	  	haltCount = haltCount+1;}
-  	    	  	logCount = haltCount;
-    	      }
-    	      reader.close();
-    	  }
-    	  catch (FileNotFoundException e) {
-    	      System.out.println("Couldnae find the file");
-    	  }
-    	  catch (IOException e) {
-    	      System.out.println("Wee problem reading from file");
-    	  }
-
-    	return logCount;
-    }	
 	
     /**
      * Provide a graphical view of a rectangular field. This is 

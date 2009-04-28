@@ -12,8 +12,9 @@ public class Logger {
 	public Logger (Simulator sim) {
 		this.simulator = sim;
 		logs = new ArrayList<String>();
-		write("[init]");
+		write("[start]");
 		//write("[size="+sim.getField().getDepth()+","+sim.getField().getWidth()+"]");
+		addRecord(simulator.getView().stats.getPopulationDetails(simulator.getField()));
 	}
 	
 	public void addRecord(String record) {
@@ -51,9 +52,9 @@ public class Logger {
 	}
 	
 	public void finish() {
-		write("[halt]");
+		write("[finish]");
 		try {
-			FileWriter log = new FileWriter("Logs2.dat", true);
+			FileWriter log = new FileWriter("Logs.dat", true);
 		   	   try {
 		   		Iterator<String> it = logs.iterator();
 		   		while(it.hasNext()){

@@ -1,4860 +1,569 @@
-[Init]
-Trap: 31 Rabbit: 518 Fox: 171 
-Trap: 30 Rabbit: 565 Fox: 232 
-Trap: 26 Rabbit: 593 Fox: 296 
-Trap: 25 Rabbit: 619 Fox: 334 
-Trap: 21 Rabbit: 628 Fox: 389 
-Trap: 18 Rabbit: 679 Fox: 445 
-Trap: 16 Rabbit: 713 Fox: 486 
-Trap: 14 Rabbit: 738 Fox: 474 
-Trap: 12 Rabbit: 760 Fox: 479 
-Trap: 9 Rabbit: 772 Fox: 462 
-Trap: 8 Rabbit: 765 Fox: 461 
-Trap: 7 Rabbit: 755 Fox: 474 
-Trap: 5 Rabbit: 773 Fox: 489 
-Trap: 4 Rabbit: 748 Fox: 530 
-Trap: 4 Rabbit: 727 Fox: 583 
-Trap: 4 Rabbit: 701 Fox: 629 
-Trap: 3 Rabbit: 640 Fox: 662 
-Trap: 2 Rabbit: 580 Fox: 705 
-Trap: 2 Rabbit: 534 Fox: 727 
-Trap: 2 Rabbit: 482 Fox: 738 
-Trap: 1 Rabbit: 447 Fox: 704 
-Trap: 1 Rabbit: 426 Fox: 700 
-Trap: 1 Rabbit: 397 Fox: 711 
-Trap: 1 Rabbit: 356 Fox: 698 
-Trap: 1 Rabbit: 327 Fox: 674 
-Trap: 1 Rabbit: 288 Fox: 672 
-Trap: 1 Rabbit: 256 Fox: 647 
-Trap: 1 Rabbit: 249 Fox: 649 
-Trap: 1 Rabbit: 230 Fox: 627 
-Trap: 1 Rabbit: 207 Fox: 588 
-Trap: 1 Rabbit: 185 Fox: 547 
-Trap: 1 Rabbit: 176 Fox: 505 
-Trap: 1 Rabbit: 191 Fox: 475 
-Trap: 1 Rabbit: 168 Fox: 464 
-Trap: 1 Rabbit: 164 Fox: 420 
-Trap: 1 Rabbit: 155 Fox: 409 
-Trap: 1 Rabbit: 139 Fox: 374 
-Trap: 1 Rabbit: 122 Fox: 339 
-Trap: 1 Rabbit: 116 Fox: 319 
-Trap: 1 Rabbit: 120 Fox: 301 
-Trap: 0 Rabbit: 122 Fox: 236 
-Trap: 0 Rabbit: 124 Fox: 229 
-Trap: 0 Rabbit: 129 Fox: 204 
-Trap: 0 Rabbit: 164 Fox: 183 
-Trap: 0 Rabbit: 174 Fox: 174 
-Trap: 0 Rabbit: 184 Fox: 165 
-Trap: 0 Rabbit: 201 Fox: 155 
-Trap: 0 Rabbit: 222 Fox: 160 
-Trap: 0 Rabbit: 231 Fox: 138 
-Trap: 0 Rabbit: 253 Fox: 118 
-Trap: 0 Rabbit: 277 Fox: 130 
-Trap: 0 Rabbit: 309 Fox: 118 
-Trap: 0 Rabbit: 341 Fox: 106 
-Trap: 0 Rabbit: 360 Fox: 101 
-Trap: 0 Rabbit: 380 Fox: 95 
-Trap: 0 Rabbit: 397 Fox: 97 
-Trap: 0 Rabbit: 410 Fox: 104 
-Trap: 0 Rabbit: 443 Fox: 111 
-Trap: 0 Rabbit: 444 Fox: 109 
-Trap: 0 Rabbit: 472 Fox: 115 
-Trap: 0 Rabbit: 499 Fox: 119 
-Trap: 0 Rabbit: 528 Fox: 123 
-Trap: 0 Rabbit: 585 Fox: 128 
-Trap: 0 Rabbit: 629 Fox: 140 
-Trap: 0 Rabbit: 678 Fox: 153 
-Trap: 0 Rabbit: 695 Fox: 155 
-Trap: 0 Rabbit: 709 Fox: 163 
-Trap: 0 Rabbit: 738 Fox: 165 
-Trap: 0 Rabbit: 802 Fox: 174 
-Trap: 0 Rabbit: 880 Fox: 166 
-Trap: 0 Rabbit: 922 Fox: 156 
-Trap: 0 Rabbit: 972 Fox: 141 
-Trap: 0 Rabbit: 1023 Fox: 141 
-Trap: 0 Rabbit: 1055 Fox: 147 
-Trap: 0 Rabbit: 1080 Fox: 164 
-Trap: 0 Rabbit: 1110 Fox: 202 
-Trap: 0 Rabbit: 1148 Fox: 213 
-Trap: 0 Rabbit: 1216 Fox: 217 
-Trap: 0 Rabbit: 1244 Fox: 230 
-Trap: 0 Rabbit: 1295 Fox: 248 
-Trap: 0 Rabbit: 1320 Fox: 272 
-Trap: 0 Rabbit: 1371 Fox: 269 
-Trap: 0 Rabbit: 1402 Fox: 256 
-Trap: 0 Rabbit: 1449 Fox: 269 
-Trap: 0 Rabbit: 1482 Fox: 292 
-Trap: 0 Rabbit: 1522 Fox: 306 
-Trap: 0 Rabbit: 1539 Fox: 338 
-Trap: 0 Rabbit: 1584 Fox: 328 
-Trap: 0 Rabbit: 1593 Fox: 340 
-Trap: 0 Rabbit: 1644 Fox: 357 
-Trap: 0 Rabbit: 1655 Fox: 373 
-Trap: 0 Rabbit: 1647 Fox: 374 
-Trap: 0 Rabbit: 1655 Fox: 395 
-Trap: 0 Rabbit: 1662 Fox: 381 
-Trap: 0 Rabbit: 1698 Fox: 430 
-Trap: 0 Rabbit: 1723 Fox: 465 
-Trap: 0 Rabbit: 1725 Fox: 462 
-Trap: 0 Rabbit: 1714 Fox: 478 
-Trap: 0 Rabbit: 1691 Fox: 503 
-Trap: 0 Rabbit: 1667 Fox: 537 
-Trap: 0 Rabbit: 1644 Fox: 554 
-Trap: 0 Rabbit: 1635 Fox: 556 
-Trap: 0 Rabbit: 1608 Fox: 555 
-Trap: 0 Rabbit: 1562 Fox: 616 
-Trap: 0 Rabbit: 1502 Fox: 620 
-Trap: 0 Rabbit: 1454 Fox: 657 
-Trap: 0 Rabbit: 1382 Fox: 677 
-Trap: 0 Rabbit: 1287 Fox: 690 
-Trap: 0 Rabbit: 1239 Fox: 715 
-Trap: 0 Rabbit: 1140 Fox: 723 
-Trap: 0 Rabbit: 1057 Fox: 744 
-Trap: 0 Rabbit: 989 Fox: 717 
-Trap: 0 Rabbit: 900 Fox: 702 
-Trap: 0 Rabbit: 804 Fox: 664 
-Trap: 0 Rabbit: 710 Fox: 657 
-Trap: 0 Rabbit: 637 Fox: 660 
-Trap: 0 Rabbit: 583 Fox: 662 
-Trap: 0 Rabbit: 517 Fox: 663 
-Trap: 0 Rabbit: 487 Fox: 705 
-Trap: 0 Rabbit: 446 Fox: 687 
-Trap: 0 Rabbit: 406 Fox: 702 
-Trap: 0 Rabbit: 367 Fox: 675 
-Trap: 0 Rabbit: 340 Fox: 641 
-Trap: 0 Rabbit: 313 Fox: 582 
-Trap: 0 Rabbit: 289 Fox: 545 
-Trap: 0 Rabbit: 270 Fox: 469 
-Trap: 0 Rabbit: 243 Fox: 406 
-Trap: 0 Rabbit: 234 Fox: 374 
-Trap: 0 Rabbit: 199 Fox: 330 
-Trap: 0 Rabbit: 174 Fox: 299 
-Trap: 0 Rabbit: 158 Fox: 279 
-Trap: 0 Rabbit: 142 Fox: 252 
-Trap: 0 Rabbit: 122 Fox: 231 
-Trap: 0 Rabbit: 108 Fox: 230 
-Trap: 0 Rabbit: 90 Fox: 195 
-Trap: 0 Rabbit: 83 Fox: 161 
-Trap: 0 Rabbit: 73 Fox: 153 
-Trap: 0 Rabbit: 68 Fox: 155 
-Trap: 0 Rabbit: 48 Fox: 136 
-Trap: 0 Rabbit: 38 Fox: 131 
-Trap: 0 Rabbit: 28 Fox: 125 
-Trap: 0 Rabbit: 20 Fox: 114 
-Trap: 0 Rabbit: 19 Fox: 121 
-Trap: 0 Rabbit: 14 Fox: 117 
-Trap: 0 Rabbit: 10 Fox: 108 
-Trap: 0 Rabbit: 7 Fox: 94 
-Trap: 0 Rabbit: 6 Fox: 80 
-Trap: 0 Rabbit: 10 Fox: 76 
-Trap: 0 Rabbit: 10 Fox: 70 
-Trap: 0 Rabbit: 10 Fox: 60 
-Trap: 0 Rabbit: 13 Fox: 48 
-Trap: 0 Rabbit: 17 Fox: 35 
-Trap: 0 Rabbit: 18 Fox: 30 
-Trap: 0 Rabbit: 17 Fox: 30 
-Trap: 0 Rabbit: 17 Fox: 20 
-Trap: 0 Rabbit: 17 Fox: 15 
-Trap: 0 Rabbit: 23 Fox: 10 
-Trap: 0 Rabbit: 29 Fox: 5 
-Trap: 0 Rabbit: 29 Fox: 5 
-Trap: 0 Rabbit: 32 Fox: 5 
-Trap: 0 Rabbit: 37 Fox: 4 
-Trap: 0 Rabbit: 44 Fox: 0 
-[Halt]
-[Init]
-Fox: 158 Rabbit: 631 Trap: 60 
-Fox: 213 Rabbit: 695 Trap: 54 
-Fox: 254 Rabbit: 733 Trap: 41 
-Fox: 307 Rabbit: 781 Trap: 33 
-Fox: 340 Rabbit: 826 Trap: 27 
-Fox: 381 Rabbit: 833 Trap: 21 
-Fox: 422 Rabbit: 866 Trap: 19 
-Fox: 420 Rabbit: 902 Trap: 17 
-Fox: 430 Rabbit: 917 Trap: 14 
-Fox: 438 Rabbit: 944 Trap: 13 
-Fox: 435 Rabbit: 951 Trap: 13 
-Fox: 466 Rabbit: 942 Trap: 11 
-Fox: 517 Rabbit: 921 Trap: 9 
-Fox: 572 Rabbit: 933 Trap: 8 
-Fox: 611 Rabbit: 912 Trap: 6 
-Fox: 703 Rabbit: 871 Trap: 6 
-Fox: 767 Rabbit: 812 Trap: 6 
-Fox: 819 Rabbit: 728 Trap: 6 
-Fox: 843 Rabbit: 630 Trap: 5 
-Fox: 862 Rabbit: 558 Trap: 4 
-Fox: 907 Rabbit: 497 Trap: 4 
-Fox: 938 Rabbit: 402 Trap: 2 
-Fox: 908 Rabbit: 320 Trap: 2 
-Fox: 897 Rabbit: 242 Trap: 1 
-Fox: 877 Rabbit: 189 Trap: 1 
-Fox: 902 Rabbit: 145 Trap: 1 
-Fox: 893 Rabbit: 99 Trap: 1 
-Fox: 865 Rabbit: 82 Trap: 1 
-Fox: 830 Rabbit: 67 Trap: 1 
-Fox: 781 Rabbit: 59 Trap: 1 
-Fox: 749 Rabbit: 65 Trap: 1 
-Fox: 703 Rabbit: 74 Trap: 0 
-Fox: 605 Rabbit: 70 Trap: 0 
-Fox: 482 Rabbit: 72 Trap: 0 
-Fox: 397 Rabbit: 87 Trap: 0 
-Fox: 303 Rabbit: 95 Trap: 0 
-Fox: 252 Rabbit: 108 Trap: 0 
-Fox: 171 Rabbit: 110 Trap: 0 
-Fox: 117 Rabbit: 128 Trap: 0 
-Fox: 89 Rabbit: 131 Trap: 0 
-Fox: 82 Rabbit: 129 Trap: 0 
-Fox: 85 Rabbit: 149 Trap: 0 
-Fox: 91 Rabbit: 152 Trap: 0 
-Fox: 88 Rabbit: 169 Trap: 0 
-Fox: 85 Rabbit: 198 Trap: 0 
-Fox: 77 Rabbit: 204 Trap: 0 
-Fox: 83 Rabbit: 224 Trap: 0 
-Fox: 90 Rabbit: 234 Trap: 0 
-Fox: 91 Rabbit: 251 Trap: 0 
-Fox: 74 Rabbit: 274 Trap: 0 
-Fox: 72 Rabbit: 307 Trap: 0 
-Fox: 77 Rabbit: 332 Trap: 0 
-Fox: 84 Rabbit: 367 Trap: 0 
-Fox: 78 Rabbit: 378 Trap: 0 
-Fox: 73 Rabbit: 410 Trap: 0 
-Fox: 71 Rabbit: 432 Trap: 0 
-Fox: 71 Rabbit: 459 Trap: 0 
-Fox: 65 Rabbit: 493 Trap: 0 
-Fox: 66 Rabbit: 526 Trap: 0 
-Fox: 77 Rabbit: 557 Trap: 0 
-Fox: 82 Rabbit: 566 Trap: 0 
-Fox: 86 Rabbit: 578 Trap: 0 
-Fox: 93 Rabbit: 593 Trap: 0 
-Fox: 91 Rabbit: 611 Trap: 0 
-Fox: 95 Rabbit: 620 Trap: 0 
-Fox: 89 Rabbit: 636 Trap: 0 
-Fox: 91 Rabbit: 651 Trap: 0 
-Fox: 101 Rabbit: 661 Trap: 0 
-Fox: 120 Rabbit: 677 Trap: 0 
-Fox: 129 Rabbit: 687 Trap: 0 
-Fox: 162 Rabbit: 676 Trap: 0 
-Fox: 191 Rabbit: 641 Trap: 0 
-Fox: 238 Rabbit: 594 Trap: 0 
-Fox: 269 Rabbit: 576 Trap: 0 
-Fox: 302 Rabbit: 543 Trap: 0 
-Fox: 322 Rabbit: 502 Trap: 0 
-Fox: 348 Rabbit: 459 Trap: 0 
-Fox: 376 Rabbit: 432 Trap: 0 
-Fox: 418 Rabbit: 373 Trap: 0 
-Fox: 423 Rabbit: 341 Trap: 0 
-Fox: 436 Rabbit: 308 Trap: 0 
-Fox: 439 Rabbit: 270 Trap: 0 
-Fox: 464 Rabbit: 256 Trap: 0 
-Fox: 491 Rabbit: 245 Trap: 0 
-Fox: 476 Rabbit: 255 Trap: 0 
-Fox: 446 Rabbit: 243 Trap: 0 
-Fox: 398 Rabbit: 240 Trap: 0 
-Fox: 367 Rabbit: 241 Trap: 0 
-Fox: 335 Rabbit: 241 Trap: 0 
-Fox: 290 Rabbit: 246 Trap: 0 
-Fox: 241 Rabbit: 258 Trap: 0 
-Fox: 215 Rabbit: 270 Trap: 0 
-Fox: 195 Rabbit: 296 Trap: 0 
-Fox: 186 Rabbit: 331 Trap: 0 
-Fox: 179 Rabbit: 361 Trap: 0 
-Fox: 177 Rabbit: 368 Trap: 0 
-Fox: 170 Rabbit: 389 Trap: 0 
-Fox: 170 Rabbit: 409 Trap: 0 
-Fox: 167 Rabbit: 441 Trap: 0 
-Fox: 157 Rabbit: 477 Trap: 0 
-Fox: 134 Rabbit: 499 Trap: 0 
-Fox: 122 Rabbit: 531 Trap: 0 
-Fox: 107 Rabbit: 559 Trap: 0 
-Fox: 102 Rabbit: 595 Trap: 0 
-Fox: 95 Rabbit: 619 Trap: 0 
-Fox: 84 Rabbit: 658 Trap: 0 
-Fox: 85 Rabbit: 690 Trap: 0 
-Fox: 100 Rabbit: 705 Trap: 0 
-Fox: 107 Rabbit: 725 Trap: 0 
-Fox: 102 Rabbit: 744 Trap: 0 
-Fox: 96 Rabbit: 777 Trap: 0 
-Fox: 90 Rabbit: 799 Trap: 0 
-Fox: 98 Rabbit: 810 Trap: 0 
-Fox: 111 Rabbit: 830 Trap: 0 
-Fox: 108 Rabbit: 850 Trap: 0 
-Fox: 105 Rabbit: 880 Trap: 0 
-Fox: 115 Rabbit: 944 Trap: 0 
-Fox: 126 Rabbit: 952 Trap: 0 
-Fox: 129 Rabbit: 967 Trap: 0 
-Fox: 134 Rabbit: 1001 Trap: 0 
-Fox: 122 Rabbit: 1009 Trap: 0 
-Fox: 115 Rabbit: 1059 Trap: 0 
-Fox: 114 Rabbit: 1091 Trap: 0 
-Fox: 130 Rabbit: 1118 Trap: 0 
-Fox: 143 Rabbit: 1150 Trap: 0 
-Fox: 148 Rabbit: 1147 Trap: 0 
-Fox: 147 Rabbit: 1168 Trap: 0 
-Fox: 171 Rabbit: 1204 Trap: 0 
-Fox: 185 Rabbit: 1230 Trap: 0 
-Fox: 210 Rabbit: 1237 Trap: 0 
-Fox: 229 Rabbit: 1249 Trap: 0 
-Fox: 218 Rabbit: 1291 Trap: 0 
-Fox: 225 Rabbit: 1322 Trap: 0 
-Fox: 238 Rabbit: 1351 Trap: 0 
-Fox: 233 Rabbit: 1363 Trap: 0 
-Fox: 237 Rabbit: 1398 Trap: 0 
-Fox: 213 Rabbit: 1450 Trap: 0 
-Fox: 194 Rabbit: 1459 Trap: 0 
-Fox: 221 Rabbit: 1474 Trap: 0 
-Fox: 224 Rabbit: 1484 Trap: 0 
-Fox: 215 Rabbit: 1524 Trap: 0 
-Fox: 236 Rabbit: 1537 Trap: 0 
-Fox: 226 Rabbit: 1547 Trap: 0 
-Fox: 244 Rabbit: 1567 Trap: 0 
-Fox: 269 Rabbit: 1579 Trap: 0 
-Fox: 263 Rabbit: 1612 Trap: 0 
-Fox: 278 Rabbit: 1628 Trap: 0 
-Fox: 289 Rabbit: 1599 Trap: 0 
-Fox: 302 Rabbit: 1573 Trap: 0 
-Fox: 322 Rabbit: 1553 Trap: 0 
-Fox: 363 Rabbit: 1531 Trap: 0 
-Fox: 390 Rabbit: 1508 Trap: 0 
-Fox: 433 Rabbit: 1475 Trap: 0 
-Fox: 473 Rabbit: 1410 Trap: 0 
-Fox: 511 Rabbit: 1353 Trap: 0 
-Fox: 540 Rabbit: 1303 Trap: 0 
-Fox: 583 Rabbit: 1265 Trap: 0 
-Fox: 600 Rabbit: 1221 Trap: 0 
-Fox: 612 Rabbit: 1208 Trap: 0 
-Fox: 625 Rabbit: 1173 Trap: 0 
-Fox: 672 Rabbit: 1195 Trap: 0 
-Fox: 672 Rabbit: 1146 Trap: 0 
-Fox: 652 Rabbit: 1121 Trap: 0 
-Fox: 619 Rabbit: 1121 Trap: 0 
-Fox: 621 Rabbit: 1106 Trap: 0 
-Fox: 620 Rabbit: 1074 Trap: 0 
-Fox: 611 Rabbit: 1026 Trap: 0 
-Fox: 603 Rabbit: 986 Trap: 0 
-Fox: 584 Rabbit: 964 Trap: 0 
-Fox: 583 Rabbit: 940 Trap: 0 
-Fox: 590 Rabbit: 900 Trap: 0 
-Fox: 569 Rabbit: 853 Trap: 0 
-Fox: 558 Rabbit: 838 Trap: 0 
-Fox: 546 Rabbit: 797 Trap: 0 
-Fox: 488 Rabbit: 774 Trap: 0 
-Fox: 503 Rabbit: 781 Trap: 0 
-Fox: 496 Rabbit: 778 Trap: 0 
-Fox: 481 Rabbit: 783 Trap: 0 
-Fox: 478 Rabbit: 773 Trap: 0 
-Fox: 467 Rabbit: 736 Trap: 0 
-Fox: 456 Rabbit: 701 Trap: 0 
-Fox: 439 Rabbit: 682 Trap: 0 
-Fox: 403 Rabbit: 680 Trap: 0 
-Fox: 369 Rabbit: 670 Trap: 0 
-Fox: 345 Rabbit: 660 Trap: 0 
-Fox: 333 Rabbit: 653 Trap: 0 
-Fox: 315 Rabbit: 614 Trap: 0 
-Fox: 327 Rabbit: 618 Trap: 0 
-Fox: 325 Rabbit: 590 Trap: 0 
-Fox: 339 Rabbit: 587 Trap: 0 
-Fox: 355 Rabbit: 564 Trap: 0 
-Fox: 356 Rabbit: 541 Trap: 0 
-Fox: 387 Rabbit: 530 Trap: 0 
-Fox: 395 Rabbit: 522 Trap: 0 
-Fox: 380 Rabbit: 506 Trap: 0 
-Fox: 374 Rabbit: 503 Trap: 0 
-Fox: 399 Rabbit: 507 Trap: 0 
-Fox: 371 Rabbit: 493 Trap: 0 
-Fox: 354 Rabbit: 495 Trap: 0 
-Fox: 324 Rabbit: 493 Trap: 0 
-Fox: 300 Rabbit: 474 Trap: 0 
-Fox: 325 Rabbit: 474 Trap: 0 
-Fox: 331 Rabbit: 498 Trap: 0 
-Fox: 328 Rabbit: 516 Trap: 0 
-Fox: 316 Rabbit: 552 Trap: 0 
-Fox: 319 Rabbit: 561 Trap: 0 
-Fox: 354 Rabbit: 575 Trap: 0 
-Fox: 341 Rabbit: 594 Trap: 0 
-Fox: 290 Rabbit: 641 Trap: 0 
-Fox: 268 Rabbit: 675 Trap: 0 
-Fox: 223 Rabbit: 681 Trap: 0 
-Fox: 227 Rabbit: 700 Trap: 0 
-Fox: 222 Rabbit: 751 Trap: 0 
-Fox: 197 Rabbit: 746 Trap: 0 
-Fox: 190 Rabbit: 788 Trap: 0 
-Fox: 206 Rabbit: 816 Trap: 0 
-Fox: 198 Rabbit: 816 Trap: 0 
-Fox: 206 Rabbit: 816 Trap: 0 
-Fox: 184 Rabbit: 807 Trap: 0 
-Fox: 186 Rabbit: 830 Trap: 0 
-Fox: 192 Rabbit: 843 Trap: 0 
-Fox: 199 Rabbit: 853 Trap: 0 
-Fox: 198 Rabbit: 861 Trap: 0 
-Fox: 232 Rabbit: 871 Trap: 0 
-Fox: 245 Rabbit: 851 Trap: 0 
-Fox: 274 Rabbit: 841 Trap: 0 
-Fox: 281 Rabbit: 853 Trap: 0 
-Fox: 272 Rabbit: 841 Trap: 0 
-Fox: 271 Rabbit: 840 Trap: 0 
-Fox: 271 Rabbit: 831 Trap: 0 
-Fox: 272 Rabbit: 854 Trap: 0 
-Fox: 258 Rabbit: 848 Trap: 0 
-Fox: 237 Rabbit: 839 Trap: 0 
-Fox: 240 Rabbit: 858 Trap: 0 
-Fox: 243 Rabbit: 858 Trap: 0 
-Fox: 247 Rabbit: 841 Trap: 0 
-Fox: 242 Rabbit: 822 Trap: 0 
-Fox: 251 Rabbit: 810 Trap: 0 
-Fox: 260 Rabbit: 811 Trap: 0 
-Fox: 264 Rabbit: 824 Trap: 0 
-Fox: 254 Rabbit: 837 Trap: 0 
-Fox: 267 Rabbit: 794 Trap: 0 
-Fox: 266 Rabbit: 766 Trap: 0 
-Fox: 262 Rabbit: 765 Trap: 0 
-Fox: 261 Rabbit: 753 Trap: 0 
-Fox: 271 Rabbit: 751 Trap: 0 
-Fox: 273 Rabbit: 747 Trap: 0 
-Fox: 258 Rabbit: 733 Trap: 0 
-Fox: 262 Rabbit: 720 Trap: 0 
-Fox: 274 Rabbit: 704 Trap: 0 
-Fox: 281 Rabbit: 655 Trap: 0 
-Fox: 273 Rabbit: 613 Trap: 0 
-Fox: 257 Rabbit: 588 Trap: 0 
-Fox: 258 Rabbit: 581 Trap: 0 
-Fox: 301 Rabbit: 584 Trap: 0 
-Fox: 305 Rabbit: 570 Trap: 0 
-Fox: 309 Rabbit: 539 Trap: 0 
-Fox: 310 Rabbit: 530 Trap: 0 
-Fox: 309 Rabbit: 501 Trap: 0 
-Fox: 327 Rabbit: 493 Trap: 0 
-Fox: 337 Rabbit: 463 Trap: 0 
-Fox: 325 Rabbit: 434 Trap: 0 
-Fox: 320 Rabbit: 408 Trap: 0 
-Fox: 318 Rabbit: 373 Trap: 0 
-Fox: 333 Rabbit: 354 Trap: 0 
-Fox: 350 Rabbit: 363 Trap: 0 
-Fox: 346 Rabbit: 372 Trap: 0 
-Fox: 354 Rabbit: 368 Trap: 0 
-Fox: 328 Rabbit: 371 Trap: 0 
-Fox: 322 Rabbit: 358 Trap: 0 
-Fox: 304 Rabbit: 363 Trap: 0 
-Fox: 264 Rabbit: 385 Trap: 0 
-Fox: 230 Rabbit: 401 Trap: 0 
-Fox: 216 Rabbit: 440 Trap: 0 
-Fox: 184 Rabbit: 450 Trap: 0 
-Fox: 173 Rabbit: 480 Trap: 0 
-Fox: 150 Rabbit: 513 Trap: 0 
-Fox: 112 Rabbit: 543 Trap: 0 
-Fox: 98 Rabbit: 563 Trap: 0 
-Fox: 90 Rabbit: 588 Trap: 0 
-Fox: 68 Rabbit: 612 Trap: 0 
-Fox: 55 Rabbit: 641 Trap: 0 
-Fox: 47 Rabbit: 675 Trap: 0 
-Fox: 39 Rabbit: 727 Trap: 0 
-Fox: 45 Rabbit: 757 Trap: 0 
-Fox: 51 Rabbit: 778 Trap: 0 
-Fox: 54 Rabbit: 817 Trap: 0 
-Fox: 56 Rabbit: 864 Trap: 0 
-Fox: 51 Rabbit: 888 Trap: 0 
-Fox: 52 Rabbit: 921 Trap: 0 
-Fox: 50 Rabbit: 979 Trap: 0 
-Fox: 41 Rabbit: 1029 Trap: 0 
-Fox: 36 Rabbit: 1072 Trap: 0 
-Fox: 28 Rabbit: 1121 Trap: 0 
-Fox: 21 Rabbit: 1127 Trap: 0 
-Fox: 22 Rabbit: 1202 Trap: 0 
-Fox: 22 Rabbit: 1274 Trap: 0 
-Fox: 23 Rabbit: 1347 Trap: 0 
-Fox: 31 Rabbit: 1406 Trap: 0 
-Fox: 38 Rabbit: 1485 Trap: 0 
-Fox: 38 Rabbit: 1542 Trap: 0 
-Fox: 43 Rabbit: 1614 Trap: 0 
-Fox: 47 Rabbit: 1688 Trap: 0 
-Fox: 43 Rabbit: 1771 Trap: 0 
-Fox: 38 Rabbit: 1856 Trap: 0 
-Fox: 43 Rabbit: 1966 Trap: 0 
-Fox: 40 Rabbit: 2066 Trap: 0 
-Fox: 43 Rabbit: 2173 Trap: 0 
-Fox: 53 Rabbit: 2258 Trap: 0 
-Fox: 61 Rabbit: 2371 Trap: 0 
-Fox: 65 Rabbit: 2454 Trap: 0 
-Fox: 65 Rabbit: 2514 Trap: 0 
-Fox: 57 Rabbit: 2609 Trap: 0 
-Fox: 61 Rabbit: 2716 Trap: 0 
-Fox: 65 Rabbit: 2790 Trap: 0 
-Fox: 58 Rabbit: 2904 Trap: 0 
-Fox: 69 Rabbit: 2968 Trap: 0 
-Fox: 75 Rabbit: 3020 Trap: 0 
-Fox: 82 Rabbit: 3075 Trap: 0 
-Fox: 91 Rabbit: 3122 Trap: 0 
-Fox: 104 Rabbit: 3194 Trap: 0 
-Fox: 123 Rabbit: 3259 Trap: 0 
-Fox: 139 Rabbit: 3300 Trap: 0 
-Fox: 141 Rabbit: 3315 Trap: 0 
-Fox: 169 Rabbit: 3332 Trap: 0 
-Fox: 198 Rabbit: 3359 Trap: 0 
-Fox: 207 Rabbit: 3396 Trap: 0 
-Fox: 244 Rabbit: 3420 Trap: 0 
-Fox: 256 Rabbit: 3414 Trap: 0 
-Fox: 291 Rabbit: 3367 Trap: 0 
-Fox: 340 Rabbit: 3365 Trap: 0 
-Fox: 382 Rabbit: 3333 Trap: 0 
-Fox: 389 Rabbit: 3317 Trap: 0 
-Fox: 406 Rabbit: 3304 Trap: 0 
-Fox: 428 Rabbit: 3272 Trap: 0 
-Fox: 468 Rabbit: 3237 Trap: 0 
-Fox: 497 Rabbit: 3185 Trap: 0 
-Fox: 510 Rabbit: 3126 Trap: 0 
-Fox: 528 Rabbit: 3067 Trap: 0 
-Fox: 545 Rabbit: 3006 Trap: 0 
-Fox: 570 Rabbit: 2928 Trap: 0 
-Fox: 604 Rabbit: 2823 Trap: 0 
-Fox: 606 Rabbit: 2725 Trap: 0 
-Fox: 617 Rabbit: 2629 Trap: 0 
-Fox: 612 Rabbit: 2525 Trap: 0 
-Fox: 623 Rabbit: 2450 Trap: 0 
-Fox: 657 Rabbit: 2366 Trap: 0 
-Fox: 680 Rabbit: 2270 Trap: 0 
-Fox: 638 Rabbit: 2196 Trap: 0 
-Fox: 669 Rabbit: 2099 Trap: 0 
-Fox: 675 Rabbit: 2024 Trap: 0 
-Fox: 666 Rabbit: 1953 Trap: 0 
-Fox: 652 Rabbit: 1867 Trap: 0 
-Fox: 632 Rabbit: 1779 Trap: 0 
-Fox: 584 Rabbit: 1685 Trap: 0 
-Fox: 577 Rabbit: 1637 Trap: 0 
-Fox: 526 Rabbit: 1565 Trap: 0 
-Fox: 518 Rabbit: 1494 Trap: 0 
-Fox: 517 Rabbit: 1387 Trap: 0 
-Fox: 511 Rabbit: 1313 Trap: 0 
-Fox: 496 Rabbit: 1237 Trap: 0 
-Fox: 496 Rabbit: 1155 Trap: 0 
-Fox: 505 Rabbit: 1099 Trap: 0 
-Fox: 511 Rabbit: 1009 Trap: 0 
-Fox: 504 Rabbit: 949 Trap: 0 
-Fox: 493 Rabbit: 889 Trap: 0 
-Fox: 483 Rabbit: 808 Trap: 0 
-Fox: 460 Rabbit: 731 Trap: 0 
-Fox: 458 Rabbit: 690 Trap: 0 
-Fox: 448 Rabbit: 613 Trap: 0 
-Fox: 413 Rabbit: 551 Trap: 0 
-Fox: 403 Rabbit: 500 Trap: 0 
-Fox: 406 Rabbit: 463 Trap: 0 
-Fox: 377 Rabbit: 435 Trap: 0 
-Fox: 364 Rabbit: 395 Trap: 0 
-Fox: 355 Rabbit: 362 Trap: 0 
-Fox: 318 Rabbit: 342 Trap: 0 
-Fox: 341 Rabbit: 323 Trap: 0 
-Fox: 303 Rabbit: 305 Trap: 0 
-Fox: 268 Rabbit: 283 Trap: 0 
-Fox: 270 Rabbit: 255 Trap: 0 
-Fox: 256 Rabbit: 227 Trap: 0 
-Fox: 232 Rabbit: 210 Trap: 0 
-Fox: 220 Rabbit: 190 Trap: 0 
-Fox: 191 Rabbit: 175 Trap: 0 
-Fox: 166 Rabbit: 168 Trap: 0 
-Fox: 169 Rabbit: 155 Trap: 0 
-Fox: 151 Rabbit: 142 Trap: 0 
-Fox: 127 Rabbit: 123 Trap: 0 
-Fox: 117 Rabbit: 105 Trap: 0 
-Fox: 120 Rabbit: 93 Trap: 0 
-Fox: 106 Rabbit: 83 Trap: 0 
-Fox: 114 Rabbit: 69 Trap: 0 
-Fox: 106 Rabbit: 65 Trap: 0 
-Fox: 101 Rabbit: 55 Trap: 0 
-Fox: 104 Rabbit: 45 Trap: 0 
-Fox: 102 Rabbit: 35 Trap: 0 
-Fox: 91 Rabbit: 28 Trap: 0 
-Fox: 79 Rabbit: 27 Trap: 0 
-Fox: 66 Rabbit: 30 Trap: 0 
-Fox: 59 Rabbit: 27 Trap: 0 
-Fox: 53 Rabbit: 33 Trap: 0 
-Fox: 46 Rabbit: 36 Trap: 0 
-Fox: 31 Rabbit: 39 Trap: 0 
-Fox: 21 Rabbit: 48 Trap: 0 
-Fox: 21 Rabbit: 56 Trap: 0 
-Fox: 22 Rabbit: 67 Trap: 0 
-Fox: 21 Rabbit: 80 Trap: 0 
-Fox: 17 Rabbit: 91 Trap: 0 
-Fox: 13 Rabbit: 106 Trap: 0 
-Fox: 13 Rabbit: 117 Trap: 0 
-Fox: 13 Rabbit: 137 Trap: 0 
-Fox: 9 Rabbit: 163 Trap: 0 
-Fox: 0 Rabbit: 173 Trap: 0 
-[Halt]
-[Init]
-Fox: 177 Rabbit: 581 Trap: 47 
-Fox: 204 Rabbit: 644 Trap: 38 
-Fox: 242 Rabbit: 670 Trap: 33 
-Fox: 263 Rabbit: 698 Trap: 32 
-Fox: 281 Rabbit: 719 Trap: 30 
-Fox: 298 Rabbit: 741 Trap: 27 
-Fox: 342 Rabbit: 802 Trap: 25 
-Fox: 353 Rabbit: 874 Trap: 20 
-Fox: 373 Rabbit: 907 Trap: 16 
-Fox: 376 Rabbit: 946 Trap: 12 
-Fox: 380 Rabbit: 995 Trap: 11 
-Fox: 458 Rabbit: 963 Trap: 9 
-Fox: 496 Rabbit: 950 Trap: 8 
-Fox: 541 Rabbit: 941 Trap: 6 
-Fox: 581 Rabbit: 906 Trap: 4 
-Fox: 603 Rabbit: 880 Trap: 4 
-Fox: 644 Rabbit: 855 Trap: 4 
-Fox: 679 Rabbit: 844 Trap: 4 
-Fox: 695 Rabbit: 781 Trap: 4 
-Fox: 734 Rabbit: 715 Trap: 4 
-Fox: 761 Rabbit: 665 Trap: 4 
-Fox: 784 Rabbit: 601 Trap: 4 
-Fox: 837 Rabbit: 536 Trap: 4 
-Fox: 866 Rabbit: 483 Trap: 4 
-Fox: 885 Rabbit: 419 Trap: 3 
-Fox: 897 Rabbit: 366 Trap: 3 
-Fox: 885 Rabbit: 318 Trap: 3 
-Fox: 842 Rabbit: 275 Trap: 2 
-Fox: 789 Rabbit: 238 Trap: 2 
-Fox: 744 Rabbit: 210 Trap: 2 
-Fox: 698 Rabbit: 176 Trap: 2 
-Fox: 643 Rabbit: 159 Trap: 2 
-Fox: 593 Rabbit: 138 Trap: 2 
-Fox: 537 Rabbit: 119 Trap: 2 
-Fox: 507 Rabbit: 104 Trap: 2 
-Fox: 485 Rabbit: 91 Trap: 2 
-Fox: 419 Rabbit: 79 Trap: 2 
-Fox: 390 Rabbit: 71 Trap: 2 
-Fox: 354 Rabbit: 67 Trap: 2 
-Fox: 320 Rabbit: 64 Trap: 2 
-Fox: 288 Rabbit: 81 Trap: 2 
-Fox: 280 Rabbit: 77 Trap: 2 
-Fox: 240 Rabbit: 75 Trap: 2 
-Fox: 224 Rabbit: 82 Trap: 2 
-Fox: 192 Rabbit: 82 Trap: 2 
-Fox: 179 Rabbit: 79 Trap: 2 
-Fox: 160 Rabbit: 91 Trap: 2 
-Fox: 136 Rabbit: 96 Trap: 2 
-Fox: 106 Rabbit: 102 Trap: 2 
-Fox: 88 Rabbit: 111 Trap: 2 
-Fox: 82 Rabbit: 123 Trap: 2 
-Fox: 88 Rabbit: 138 Trap: 2 
-Fox: 79 Rabbit: 165 Trap: 2 
-Fox: 72 Rabbit: 170 Trap: 2 
-Fox: 69 Rabbit: 194 Trap: 2 
-Fox: 67 Rabbit: 202 Trap: 2 
-Fox: 62 Rabbit: 241 Trap: 2 
-Fox: 55 Rabbit: 271 Trap: 2 
-Fox: 45 Rabbit: 303 Trap: 2 
-Fox: 35 Rabbit: 341 Trap: 2 
-Fox: 32 Rabbit: 375 Trap: 2 
-Fox: 24 Rabbit: 431 Trap: 2 
-Fox: 33 Rabbit: 486 Trap: 2 
-Fox: 31 Rabbit: 531 Trap: 2 
-Fox: 24 Rabbit: 605 Trap: 2 
-Fox: 20 Rabbit: 663 Trap: 2 
-Fox: 19 Rabbit: 731 Trap: 2 
-Fox: 23 Rabbit: 807 Trap: 2 
-Fox: 21 Rabbit: 904 Trap: 2 
-Fox: 7 Rabbit: 983 Trap: 2 
-Fox: 7 Rabbit: 1042 Trap: 2 
-Fox: 7 Rabbit: 1119 Trap: 2 
-Fox: 5 Rabbit: 1216 Trap: 2 
-Fox: 5 Rabbit: 1315 Trap: 2 
-Fox: 0 Rabbit: 1410 Trap: 2 
-[Halt]
-[Init]
-Rabbit: 568 Trap: 37 Fox: 145 
-Rabbit: 611 Trap: 33 Fox: 197 
-Rabbit: 666 Trap: 27 Fox: 240 
-Rabbit: 703 Trap: 22 Fox: 271 
-Rabbit: 738 Trap: 20 Fox: 330 
-Rabbit: 787 Trap: 16 Fox: 365 
-Rabbit: 842 Trap: 14 Fox: 404 
-Rabbit: 904 Trap: 9 Fox: 393 
-Rabbit: 973 Trap: 8 Fox: 382 
-Rabbit: 1042 Trap: 7 Fox: 363 
-Rabbit: 1088 Trap: 6 Fox: 372 
-Rabbit: 1157 Trap: 5 Fox: 382 
-Rabbit: 1189 Trap: 5 Fox: 401 
-Rabbit: 1214 Trap: 4 Fox: 423 
-Rabbit: 1255 Trap: 4 Fox: 446 
-Rabbit: 1295 Trap: 4 Fox: 502 
-Rabbit: 1299 Trap: 4 Fox: 526 
-Rabbit: 1283 Trap: 3 Fox: 552 
-Rabbit: 1219 Trap: 3 Fox: 565 
-Rabbit: 1164 Trap: 3 Fox: 588 
-Rabbit: 1095 Trap: 2 Fox: 633 
-Rabbit: 1018 Trap: 2 Fox: 652 
-Rabbit: 944 Trap: 2 Fox: 670 
-Rabbit: 846 Trap: 1 Fox: 713 
-Rabbit: 769 Trap: 1 Fox: 785 
-Rabbit: 663 Trap: 1 Fox: 878 
-Rabbit: 553 Trap: 1 Fox: 910 
-Rabbit: 480 Trap: 1 Fox: 936 
-Rabbit: 393 Trap: 1 Fox: 928 
-Rabbit: 311 Trap: 1 Fox: 942 
-Rabbit: 235 Trap: 1 Fox: 961 
-Rabbit: 170 Trap: 1 Fox: 939 
-Rabbit: 122 Trap: 1 Fox: 870 
-Rabbit: 100 Trap: 1 Fox: 805 
-Rabbit: 84 Trap: 1 Fox: 775 
-Rabbit: 70 Trap: 1 Fox: 750 
-Rabbit: 58 Trap: 1 Fox: 678 
-Rabbit: 52 Trap: 1 Fox: 610 
-Rabbit: 51 Trap: 1 Fox: 514 
-Rabbit: 45 Trap: 1 Fox: 424 
-Rabbit: 42 Trap: 1 Fox: 343 
-Rabbit: 38 Trap: 1 Fox: 263 
-Rabbit: 47 Trap: 1 Fox: 189 
-Rabbit: 49 Trap: 1 Fox: 154 
-Rabbit: 60 Trap: 1 Fox: 103 
-Rabbit: 61 Trap: 1 Fox: 77 
-Rabbit: 65 Trap: 1 Fox: 70 
-Rabbit: 74 Trap: 1 Fox: 63 
-Rabbit: 84 Trap: 1 Fox: 59 
-Rabbit: 99 Trap: 1 Fox: 54 
-Rabbit: 115 Trap: 1 Fox: 53 
-Rabbit: 125 Trap: 1 Fox: 46 
-Rabbit: 144 Trap: 1 Fox: 41 
-Rabbit: 167 Trap: 1 Fox: 37 
-Rabbit: 182 Trap: 1 Fox: 29 
-Rabbit: 207 Trap: 1 Fox: 22 
-Rabbit: 230 Trap: 1 Fox: 20 
-Rabbit: 264 Trap: 1 Fox: 17 
-Rabbit: 315 Trap: 1 Fox: 17 
-Rabbit: 374 Trap: 1 Fox: 15 
-Rabbit: 429 Trap: 1 Fox: 14 
-Rabbit: 487 Trap: 1 Fox: 12 
-Rabbit: 555 Trap: 1 Fox: 11 
-Rabbit: 637 Trap: 1 Fox: 9 
-Rabbit: 696 Trap: 1 Fox: 9 
-Rabbit: 782 Trap: 1 Fox: 12 
-Rabbit: 883 Trap: 1 Fox: 12 
-Rabbit: 937 Trap: 1 Fox: 12 
-Rabbit: 1035 Trap: 1 Fox: 15 
-Rabbit: 1125 Trap: 1 Fox: 19 
-Rabbit: 1219 Trap: 0 Fox: 19 
-Rabbit: 1332 Trap: 0 Fox: 19 
-Rabbit: 1409 Trap: 0 Fox: 20 
-Rabbit: 1530 Trap: 0 Fox: 19 
-Rabbit: 1610 Trap: 0 Fox: 23 
-Rabbit: 1715 Trap: 0 Fox: 21 
-Rabbit: 1832 Trap: 0 Fox: 17 
-Rabbit: 1966 Trap: 0 Fox: 17 
-Rabbit: 2063 Trap: 0 Fox: 19 
-Rabbit: 2157 Trap: 0 Fox: 23 
-Rabbit: 2280 Trap: 0 Fox: 26 
-Rabbit: 2364 Trap: 0 Fox: 26 
-Rabbit: 2473 Trap: 0 Fox: 39 
-Rabbit: 2560 Trap: 0 Fox: 51 
-Rabbit: 2646 Trap: 0 Fox: 55 
-Rabbit: 2736 Trap: 0 Fox: 64 
-Rabbit: 2824 Trap: 0 Fox: 67 
-Rabbit: 2894 Trap: 0 Fox: 76 
-Rabbit: 2962 Trap: 0 Fox: 77 
-Rabbit: 3040 Trap: 0 Fox: 101 
-Rabbit: 3099 Trap: 0 Fox: 119 
-Rabbit: 3128 Trap: 0 Fox: 133 
-Rabbit: 3171 Trap: 0 Fox: 142 
-Rabbit: 3230 Trap: 0 Fox: 160 
-Rabbit: 3239 Trap: 0 Fox: 169 
-Rabbit: 3272 Trap: 0 Fox: 185 
-Rabbit: 3298 Trap: 0 Fox: 204 
-Rabbit: 3324 Trap: 0 Fox: 219 
-Rabbit: 3334 Trap: 0 Fox: 210 
-Rabbit: 3343 Trap: 0 Fox: 223 
-Rabbit: 3308 Trap: 0 Fox: 241 
-Rabbit: 3307 Trap: 0 Fox: 273 
-Rabbit: 3326 Trap: 0 Fox: 293 
-Rabbit: 3341 Trap: 0 Fox: 320 
-Rabbit: 3314 Trap: 0 Fox: 329 
-Rabbit: 3277 Trap: 0 Fox: 344 
-Rabbit: 3278 Trap: 0 Fox: 344 
-Rabbit: 3273 Trap: 0 Fox: 341 
-Rabbit: 3245 Trap: 0 Fox: 319 
-Rabbit: 3197 Trap: 0 Fox: 328 
-Rabbit: 3159 Trap: 0 Fox: 308 
-Rabbit: 3129 Trap: 0 Fox: 312 
-Rabbit: 3131 Trap: 0 Fox: 307 
-Rabbit: 3086 Trap: 0 Fox: 323 
-Rabbit: 3050 Trap: 0 Fox: 323 
-Rabbit: 2995 Trap: 0 Fox: 313 
-Rabbit: 2945 Trap: 0 Fox: 304 
-Rabbit: 2953 Trap: 0 Fox: 302 
-Rabbit: 2876 Trap: 0 Fox: 307 
-Rabbit: 2802 Trap: 0 Fox: 315 
-Rabbit: 2755 Trap: 0 Fox: 318 
-Rabbit: 2672 Trap: 0 Fox: 332 
-Rabbit: 2623 Trap: 0 Fox: 356 
-Rabbit: 2557 Trap: 0 Fox: 389 
-Rabbit: 2472 Trap: 0 Fox: 394 
-Rabbit: 2420 Trap: 0 Fox: 410 
-Rabbit: 2331 Trap: 0 Fox: 435 
-Rabbit: 2260 Trap: 0 Fox: 421 
-Rabbit: 2180 Trap: 0 Fox: 443 
-Rabbit: 2116 Trap: 0 Fox: 442 
-Rabbit: 2023 Trap: 0 Fox: 464 
-Rabbit: 1969 Trap: 0 Fox: 455 
-Rabbit: 1919 Trap: 0 Fox: 465 
-Rabbit: 1840 Trap: 0 Fox: 472 
-Rabbit: 1785 Trap: 0 Fox: 499 
-Rabbit: 1695 Trap: 0 Fox: 519 
-Rabbit: 1629 Trap: 0 Fox: 509 
-Rabbit: 1554 Trap: 0 Fox: 505 
-Rabbit: 1508 Trap: 0 Fox: 525 
-Rabbit: 1460 Trap: 0 Fox: 527 
-Rabbit: 1390 Trap: 0 Fox: 491 
-Rabbit: 1326 Trap: 0 Fox: 497 
-Rabbit: 1281 Trap: 0 Fox: 437 
-Rabbit: 1231 Trap: 0 Fox: 439 
-Rabbit: 1163 Trap: 0 Fox: 406 
-Rabbit: 1100 Trap: 0 Fox: 373 
-Rabbit: 1048 Trap: 0 Fox: 385 
-Rabbit: 994 Trap: 0 Fox: 373 
-Rabbit: 934 Trap: 0 Fox: 369 
-Rabbit: 900 Trap: 0 Fox: 361 
-Rabbit: 848 Trap: 0 Fox: 330 
-Rabbit: 791 Trap: 0 Fox: 334 
-Rabbit: 743 Trap: 0 Fox: 338 
-Rabbit: 678 Trap: 0 Fox: 328 
-Rabbit: 630 Trap: 0 Fox: 342 
-Rabbit: 578 Trap: 0 Fox: 308 
-Rabbit: 538 Trap: 0 Fox: 312 
-Rabbit: 492 Trap: 0 Fox: 326 
-Rabbit: 440 Trap: 0 Fox: 334 
-Rabbit: 408 Trap: 0 Fox: 323 
-Rabbit: 375 Trap: 0 Fox: 320 
-Rabbit: 329 Trap: 0 Fox: 300 
-Rabbit: 312 Trap: 0 Fox: 295 
-Rabbit: 279 Trap: 0 Fox: 288 
-Rabbit: 258 Trap: 0 Fox: 275 
-Rabbit: 235 Trap: 0 Fox: 252 
-Rabbit: 201 Trap: 0 Fox: 240 
-Rabbit: 187 Trap: 0 Fox: 219 
-Rabbit: 151 Trap: 0 Fox: 198 
-Rabbit: 151 Trap: 0 Fox: 191 
-Rabbit: 140 Trap: 0 Fox: 190 
-Rabbit: 133 Trap: 0 Fox: 171 
-Rabbit: 120 Trap: 0 Fox: 154 
-Rabbit: 110 Trap: 0 Fox: 146 
-Rabbit: 103 Trap: 0 Fox: 136 
-Rabbit: 99 Trap: 0 Fox: 124 
-Rabbit: 82 Trap: 0 Fox: 127 
-Rabbit: 88 Trap: 0 Fox: 125 
-Rabbit: 84 Trap: 0 Fox: 120 
-Rabbit: 83 Trap: 0 Fox: 123 
-Rabbit: 92 Trap: 0 Fox: 115 
-Rabbit: 104 Trap: 0 Fox: 104 
-Rabbit: 110 Trap: 0 Fox: 98 
-Rabbit: 135 Trap: 0 Fox: 82 
-Rabbit: 167 Trap: 0 Fox: 63 
-Rabbit: 177 Trap: 0 Fox: 44 
-Rabbit: 186 Trap: 0 Fox: 36 
-Rabbit: 203 Trap: 0 Fox: 32 
-Rabbit: 220 Trap: 0 Fox: 17 
-Rabbit: 239 Trap: 0 Fox: 6 
-Rabbit: 254 Trap: 0 Fox: 2 
-Rabbit: 277 Trap: 0 Fox: 0 
-[Halt]
-[Init]
-Fox: 176 Rabbit: 613 Trap: 41 
-Fox: 217 Rabbit: 665 Trap: 37 
-Fox: 275 Rabbit: 717 Trap: 33 
-Fox: 305 Rabbit: 750 Trap: 32 
-Fox: 370 Rabbit: 759 Trap: 30 
-Fox: 404 Rabbit: 764 Trap: 24 
-Fox: 448 Rabbit: 787 Trap: 22 
-Fox: 449 Rabbit: 836 Trap: 19 
-Fox: 447 Rabbit: 869 Trap: 16 
-Fox: 436 Rabbit: 860 Trap: 14 
-Fox: 454 Rabbit: 871 Trap: 13 
-Fox: 461 Rabbit: 877 Trap: 12 
-Fox: 476 Rabbit: 875 Trap: 12 
-Fox: 514 Rabbit: 860 Trap: 10 
-Fox: 562 Rabbit: 834 Trap: 7 
-Fox: 621 Rabbit: 806 Trap: 5 
-Fox: 689 Rabbit: 736 Trap: 5 
-Fox: 704 Rabbit: 635 Trap: 5 
-Fox: 706 Rabbit: 541 Trap: 5 
-Fox: 727 Rabbit: 482 Trap: 4 
-Fox: 758 Rabbit: 437 Trap: 4 
-Fox: 762 Rabbit: 380 Trap: 4 
-Fox: 770 Rabbit: 345 Trap: 4 
-Fox: 742 Rabbit: 299 Trap: 4 
-Fox: 750 Rabbit: 260 Trap: 3 
-Fox: 767 Rabbit: 219 Trap: 3 
-Fox: 772 Rabbit: 175 Trap: 3 
-Fox: 742 Rabbit: 148 Trap: 2 
-Fox: 701 Rabbit: 125 Trap: 2 
-Fox: 656 Rabbit: 98 Trap: 2 
-Fox: 619 Rabbit: 93 Trap: 2 
-Fox: 565 Rabbit: 78 Trap: 2 
-Fox: 488 Rabbit: 78 Trap: 2 
-Fox: 414 Rabbit: 67 Trap: 2 
-Fox: 351 Rabbit: 65 Trap: 2 
-Fox: 322 Rabbit: 59 Trap: 2 
-Fox: 281 Rabbit: 53 Trap: 2 
-Fox: 243 Rabbit: 57 Trap: 2 
-Fox: 213 Rabbit: 67 Trap: 2 
-Fox: 171 Rabbit: 65 Trap: 2 
-Fox: 141 Rabbit: 73 Trap: 2 
-Fox: 120 Rabbit: 80 Trap: 2 
-Fox: 94 Rabbit: 87 Trap: 2 
-Fox: 82 Rabbit: 97 Trap: 2 
-Fox: 63 Rabbit: 109 Trap: 2 
-Fox: 53 Rabbit: 122 Trap: 2 
-Fox: 47 Rabbit: 133 Trap: 2 
-Fox: 34 Rabbit: 149 Trap: 2 
-Fox: 17 Rabbit: 181 Trap: 2 
-Fox: 10 Rabbit: 191 Trap: 2 
-Fox: 10 Rabbit: 207 Trap: 2 
-Fox: 12 Rabbit: 243 Trap: 2 
-Fox: 24 Rabbit: 269 Trap: 2 
-Fox: 31 Rabbit: 290 Trap: 2 
-Fox: 34 Rabbit: 316 Trap: 2 
-Fox: 34 Rabbit: 335 Trap: 2 
-Fox: 33 Rabbit: 365 Trap: 2 
-Fox: 30 Rabbit: 400 Trap: 2 
-Fox: 30 Rabbit: 432 Trap: 2 
-Fox: 34 Rabbit: 461 Trap: 2 
-Fox: 26 Rabbit: 480 Trap: 2 
-Fox: 22 Rabbit: 532 Trap: 2 
-Fox: 27 Rabbit: 559 Trap: 2 
-Fox: 36 Rabbit: 583 Trap: 2 
-Fox: 34 Rabbit: 616 Trap: 2 
-Fox: 38 Rabbit: 658 Trap: 2 
-Fox: 39 Rabbit: 742 Trap: 2 
-Fox: 38 Rabbit: 770 Trap: 2 
-Fox: 40 Rabbit: 804 Trap: 2 
-Fox: 39 Rabbit: 866 Trap: 2 
-Fox: 33 Rabbit: 916 Trap: 2 
-Fox: 31 Rabbit: 958 Trap: 2 
-Fox: 30 Rabbit: 982 Trap: 2 
-Fox: 35 Rabbit: 1027 Trap: 2 
-Fox: 50 Rabbit: 1059 Trap: 2 
-Fox: 49 Rabbit: 1133 Trap: 2 
-Fox: 57 Rabbit: 1179 Trap: 2 
-Fox: 69 Rabbit: 1229 Trap: 2 
-Fox: 70 Rabbit: 1289 Trap: 2 
-Fox: 71 Rabbit: 1318 Trap: 2 
-Fox: 63 Rabbit: 1376 Trap: 2 
-Fox: 54 Rabbit: 1415 Trap: 2 
-Fox: 55 Rabbit: 1459 Trap: 2 
-Fox: 52 Rabbit: 1531 Trap: 2 
-Fox: 54 Rabbit: 1576 Trap: 2 
-Fox: 59 Rabbit: 1649 Trap: 2 
-Fox: 77 Rabbit: 1702 Trap: 2 
-Fox: 86 Rabbit: 1749 Trap: 2 
-Fox: 104 Rabbit: 1798 Trap: 2 
-Fox: 107 Rabbit: 1839 Trap: 2 
-Fox: 112 Rabbit: 1885 Trap: 2 
-Fox: 114 Rabbit: 1923 Trap: 2 
-Fox: 119 Rabbit: 1965 Trap: 2 
-Fox: 123 Rabbit: 2002 Trap: 2 
-Fox: 130 Rabbit: 2074 Trap: 2 
-Fox: 129 Rabbit: 2142 Trap: 2 
-Fox: 139 Rabbit: 2180 Trap: 2 
-Fox: 156 Rabbit: 2247 Trap: 2 
-Fox: 165 Rabbit: 2306 Trap: 2 
-Fox: 154 Rabbit: 2332 Trap: 2 
-Fox: 156 Rabbit: 2369 Trap: 1 
-Fox: 147 Rabbit: 2413 Trap: 1 
-Fox: 156 Rabbit: 2449 Trap: 1 
-Fox: 158 Rabbit: 2491 Trap: 1 
-Fox: 138 Rabbit: 2548 Trap: 1 
-Fox: 137 Rabbit: 2572 Trap: 1 
-Fox: 133 Rabbit: 2639 Trap: 1 
-Fox: 141 Rabbit: 2690 Trap: 1 
-Fox: 158 Rabbit: 2702 Trap: 1 
-Fox: 169 Rabbit: 2700 Trap: 1 
-Fox: 177 Rabbit: 2720 Trap: 1 
-Fox: 189 Rabbit: 2735 Trap: 1 
-Fox: 236 Rabbit: 2763 Trap: 0 
-Fox: 258 Rabbit: 2783 Trap: 0 
-Fox: 263 Rabbit: 2774 Trap: 0 
-Fox: 269 Rabbit: 2795 Trap: 0 
-Fox: 272 Rabbit: 2793 Trap: 0 
-Fox: 279 Rabbit: 2786 Trap: 0 
-Fox: 276 Rabbit: 2772 Trap: 0 
-Fox: 252 Rabbit: 2768 Trap: 0 
-Fox: 254 Rabbit: 2779 Trap: 0 
-Fox: 250 Rabbit: 2769 Trap: 0 
-Fox: 276 Rabbit: 2759 Trap: 0 
-Fox: 278 Rabbit: 2744 Trap: 0 
-Fox: 296 Rabbit: 2690 Trap: 0 
-Fox: 310 Rabbit: 2670 Trap: 0 
-Fox: 309 Rabbit: 2631 Trap: 0 
-Fox: 316 Rabbit: 2611 Trap: 0 
-Fox: 317 Rabbit: 2614 Trap: 0 
-Fox: 293 Rabbit: 2578 Trap: 0 
-Fox: 302 Rabbit: 2540 Trap: 0 
-Fox: 313 Rabbit: 2499 Trap: 0 
-Fox: 327 Rabbit: 2489 Trap: 0 
-Fox: 333 Rabbit: 2439 Trap: 0 
-Fox: 348 Rabbit: 2388 Trap: 0 
-Fox: 371 Rabbit: 2349 Trap: 0 
-Fox: 403 Rabbit: 2290 Trap: 0 
-Fox: 392 Rabbit: 2221 Trap: 0 
-Fox: 403 Rabbit: 2169 Trap: 0 
-Fox: 412 Rabbit: 2115 Trap: 0 
-Fox: 426 Rabbit: 2068 Trap: 0 
-Fox: 418 Rabbit: 2009 Trap: 0 
-Fox: 412 Rabbit: 1958 Trap: 0 
-Fox: 392 Rabbit: 1904 Trap: 0 
-Fox: 433 Rabbit: 1870 Trap: 0 
-Fox: 432 Rabbit: 1819 Trap: 0 
-Fox: 419 Rabbit: 1764 Trap: 0 
-Fox: 402 Rabbit: 1699 Trap: 0 
-Fox: 417 Rabbit: 1631 Trap: 0 
-Fox: 425 Rabbit: 1576 Trap: 0 
-Fox: 455 Rabbit: 1494 Trap: 0 
-Fox: 460 Rabbit: 1441 Trap: 0 
-Fox: 455 Rabbit: 1357 Trap: 0 
-Fox: 482 Rabbit: 1288 Trap: 0 
-Fox: 493 Rabbit: 1204 Trap: 0 
-Fox: 481 Rabbit: 1132 Trap: 0 
-Fox: 471 Rabbit: 1070 Trap: 0 
-Fox: 451 Rabbit: 993 Trap: 0 
-Fox: 430 Rabbit: 920 Trap: 0 
-Fox: 429 Rabbit: 859 Trap: 0 
-Fox: 404 Rabbit: 794 Trap: 0 
-Fox: 417 Rabbit: 718 Trap: 0 
-Fox: 421 Rabbit: 647 Trap: 0 
-Fox: 407 Rabbit: 595 Trap: 0 
-Fox: 420 Rabbit: 554 Trap: 0 
-Fox: 425 Rabbit: 519 Trap: 0 
-Fox: 429 Rabbit: 486 Trap: 0 
-Fox: 438 Rabbit: 434 Trap: 0 
-Fox: 391 Rabbit: 405 Trap: 0 
-Fox: 352 Rabbit: 375 Trap: 0 
-Fox: 345 Rabbit: 340 Trap: 0 
-Fox: 317 Rabbit: 329 Trap: 0 
-Fox: 279 Rabbit: 305 Trap: 0 
-Fox: 269 Rabbit: 282 Trap: 0 
-Fox: 232 Rabbit: 267 Trap: 0 
-Fox: 231 Rabbit: 245 Trap: 0 
-Fox: 227 Rabbit: 219 Trap: 0 
-Fox: 194 Rabbit: 192 Trap: 0 
-Fox: 190 Rabbit: 176 Trap: 0 
-Fox: 171 Rabbit: 155 Trap: 0 
-Fox: 165 Rabbit: 141 Trap: 0 
-Fox: 155 Rabbit: 127 Trap: 0 
-Fox: 150 Rabbit: 109 Trap: 0 
-Fox: 151 Rabbit: 93 Trap: 0 
-Fox: 151 Rabbit: 78 Trap: 0 
-Fox: 146 Rabbit: 74 Trap: 0 
-Fox: 142 Rabbit: 66 Trap: 0 
-Fox: 131 Rabbit: 50 Trap: 0 
-Fox: 134 Rabbit: 40 Trap: 0 
-Fox: 132 Rabbit: 28 Trap: 0 
-Fox: 111 Rabbit: 22 Trap: 0 
-Fox: 103 Rabbit: 14 Trap: 0 
-Fox: 92 Rabbit: 8 Trap: 0 
-Fox: 78 Rabbit: 5 Trap: 0 
-Fox: 68 Rabbit: 4 Trap: 0 
-Fox: 56 Rabbit: 1 Trap: 0 
-Fox: 42 Rabbit: 0 Trap: 0 
-[Halt]
-[Init]
-Fox: 157 Trap: 48 Rabbit: 640 
-Fox: 195 Trap: 43 Rabbit: 720 
-Fox: 239 Trap: 42 Rabbit: 783 
-Fox: 267 Trap: 39 Rabbit: 827 
-Fox: 291 Trap: 32 Rabbit: 863 
-Fox: 322 Trap: 30 Rabbit: 917 
-Fox: 350 Trap: 25 Rabbit: 979 
-Fox: 353 Trap: 20 Rabbit: 1027 
-Fox: 366 Trap: 15 Rabbit: 1077 
-Fox: 357 Trap: 10 Rabbit: 1137 
-Fox: 397 Trap: 9 Rabbit: 1165 
-Fox: 452 Trap: 6 Rabbit: 1176 
-Fox: 533 Trap: 6 Rabbit: 1235 
-Fox: 596 Trap: 6 Rabbit: 1250 
-Fox: 641 Trap: 6 Rabbit: 1251 
-Fox: 680 Trap: 4 Rabbit: 1200 
-Fox: 749 Trap: 4 Rabbit: 1167 
-Fox: 771 Trap: 4 Rabbit: 1108 
-Fox: 771 Trap: 2 Rabbit: 1011 
-Fox: 760 Trap: 2 Rabbit: 919 
-Fox: 811 Trap: 2 Rabbit: 827 
-Fox: 825 Trap: 2 Rabbit: 725 
-Fox: 864 Trap: 2 Rabbit: 629 
-Fox: 893 Trap: 2 Rabbit: 542 
-Fox: 890 Trap: 2 Rabbit: 466 
-Fox: 934 Trap: 2 Rabbit: 369 
-Fox: 977 Trap: 2 Rabbit: 312 
-Fox: 925 Trap: 2 Rabbit: 278 
-Fox: 917 Trap: 2 Rabbit: 248 
-Fox: 893 Trap: 2 Rabbit: 219 
-Fox: 878 Trap: 2 Rabbit: 194 
-Fox: 842 Trap: 2 Rabbit: 159 
-Fox: 737 Trap: 2 Rabbit: 160 
-Fox: 613 Trap: 2 Rabbit: 133 
-Fox: 534 Trap: 2 Rabbit: 112 
-Fox: 474 Trap: 2 Rabbit: 103 
-Fox: 405 Trap: 2 Rabbit: 98 
-Fox: 319 Trap: 2 Rabbit: 90 
-Fox: 259 Trap: 2 Rabbit: 87 
-Fox: 216 Trap: 2 Rabbit: 75 
-Fox: 197 Trap: 2 Rabbit: 78 
-Fox: 176 Trap: 2 Rabbit: 68 
-Fox: 180 Trap: 2 Rabbit: 61 
-Fox: 166 Trap: 2 Rabbit: 49 
-Fox: 159 Trap: 2 Rabbit: 39 
-Fox: 144 Trap: 2 Rabbit: 39 
-Fox: 150 Trap: 2 Rabbit: 38 
-Fox: 136 Trap: 2 Rabbit: 38 
-Fox: 133 Trap: 2 Rabbit: 34 
-Fox: 120 Trap: 2 Rabbit: 35 
-Fox: 121 Trap: 2 Rabbit: 35 
-Fox: 108 Trap: 2 Rabbit: 35 
-Fox: 103 Trap: 2 Rabbit: 39 
-Fox: 83 Trap: 2 Rabbit: 41 
-Fox: 75 Trap: 2 Rabbit: 43 
-Fox: 62 Trap: 2 Rabbit: 41 
-Fox: 47 Trap: 2 Rabbit: 47 
-Fox: 30 Trap: 2 Rabbit: 48 
-Fox: 29 Trap: 2 Rabbit: 61 
-Fox: 33 Trap: 2 Rabbit: 65 
-Fox: 38 Trap: 2 Rabbit: 72 
-Fox: 38 Trap: 2 Rabbit: 84 
-Fox: 46 Trap: 2 Rabbit: 80 
-Fox: 46 Trap: 2 Rabbit: 93 
-Fox: 53 Trap: 2 Rabbit: 110 
-Fox: 45 Trap: 2 Rabbit: 117 
-Fox: 46 Trap: 2 Rabbit: 119 
-Fox: 46 Trap: 2 Rabbit: 131 
-Fox: 38 Trap: 2 Rabbit: 138 
-Fox: 37 Trap: 2 Rabbit: 156 
-Fox: 39 Trap: 2 Rabbit: 167 
-Fox: 35 Trap: 2 Rabbit: 179 
-Fox: 37 Trap: 2 Rabbit: 182 
-Fox: 40 Trap: 2 Rabbit: 205 
-Fox: 37 Trap: 2 Rabbit: 218 
-Fox: 36 Trap: 2 Rabbit: 233 
-Fox: 31 Trap: 2 Rabbit: 265 
-Fox: 33 Trap: 2 Rabbit: 269 
-Fox: 43 Trap: 2 Rabbit: 279 
-Fox: 45 Trap: 2 Rabbit: 303 
-Fox: 52 Trap: 2 Rabbit: 321 
-Fox: 57 Trap: 2 Rabbit: 342 
-Fox: 60 Trap: 2 Rabbit: 358 
-Fox: 63 Trap: 2 Rabbit: 408 
-Fox: 66 Trap: 2 Rabbit: 435 
-Fox: 61 Trap: 2 Rabbit: 481 
-Fox: 76 Trap: 2 Rabbit: 503 
-Fox: 78 Trap: 2 Rabbit: 558 
-Fox: 85 Trap: 2 Rabbit: 602 
-Fox: 91 Trap: 2 Rabbit: 655 
-Fox: 98 Trap: 2 Rabbit: 696 
-Fox: 119 Trap: 2 Rabbit: 738 
-Fox: 126 Trap: 2 Rabbit: 768 
-Fox: 122 Trap: 2 Rabbit: 810 
-Fox: 130 Trap: 2 Rabbit: 882 
-Fox: 137 Trap: 2 Rabbit: 941 
-Fox: 149 Trap: 2 Rabbit: 980 
-Fox: 155 Trap: 2 Rabbit: 1034 
-Fox: 162 Trap: 2 Rabbit: 1076 
-Fox: 172 Trap: 2 Rabbit: 1135 
-Fox: 199 Trap: 2 Rabbit: 1175 
-Fox: 217 Trap: 2 Rabbit: 1220 
-Fox: 213 Trap: 2 Rabbit: 1241 
-Fox: 207 Trap: 2 Rabbit: 1294 
-Fox: 225 Trap: 2 Rabbit: 1317 
-Fox: 223 Trap: 2 Rabbit: 1366 
-Fox: 225 Trap: 2 Rabbit: 1414 
-Fox: 209 Trap: 2 Rabbit: 1438 
-Fox: 209 Trap: 1 Rabbit: 1472 
-Fox: 220 Trap: 1 Rabbit: 1474 
-Fox: 243 Trap: 1 Rabbit: 1496 
-Fox: 264 Trap: 1 Rabbit: 1540 
-Fox: 288 Trap: 1 Rabbit: 1551 
-Fox: 314 Trap: 1 Rabbit: 1536 
-Fox: 331 Trap: 1 Rabbit: 1532 
-Fox: 327 Trap: 0 Rabbit: 1531 
-Fox: 368 Trap: 0 Rabbit: 1526 
-Fox: 370 Trap: 0 Rabbit: 1510 
-Fox: 375 Trap: 0 Rabbit: 1453 
-Fox: 359 Trap: 0 Rabbit: 1442 
-Fox: 370 Trap: 0 Rabbit: 1399 
-Fox: 404 Trap: 0 Rabbit: 1340 
-Fox: 429 Trap: 0 Rabbit: 1320 
-Fox: 423 Trap: 0 Rabbit: 1288 
-Fox: 458 Trap: 0 Rabbit: 1257 
-Fox: 480 Trap: 0 Rabbit: 1228 
-Fox: 500 Trap: 0 Rabbit: 1165 
-Fox: 533 Trap: 0 Rabbit: 1134 
-Fox: 529 Trap: 0 Rabbit: 1105 
-Fox: 531 Trap: 0 Rabbit: 1075 
-Fox: 533 Trap: 0 Rabbit: 1040 
-Fox: 534 Trap: 0 Rabbit: 996 
-Fox: 541 Trap: 0 Rabbit: 981 
-Fox: 539 Trap: 0 Rabbit: 952 
-Fox: 492 Trap: 0 Rabbit: 908 
-Fox: 484 Trap: 0 Rabbit: 902 
-Fox: 456 Trap: 0 Rabbit: 851 
-Fox: 447 Trap: 0 Rabbit: 844 
-Fox: 416 Trap: 0 Rabbit: 830 
-Fox: 407 Trap: 0 Rabbit: 781 
-Fox: 425 Trap: 0 Rabbit: 757 
-Fox: 443 Trap: 0 Rabbit: 752 
-Fox: 435 Trap: 0 Rabbit: 744 
-Fox: 437 Trap: 0 Rabbit: 735 
-Fox: 463 Trap: 0 Rabbit: 716 
-Fox: 478 Trap: 0 Rabbit: 705 
-Fox: 470 Trap: 0 Rabbit: 708 
-Fox: 454 Trap: 0 Rabbit: 686 
-Fox: 418 Trap: 0 Rabbit: 672 
-Fox: 403 Trap: 0 Rabbit: 642 
-Fox: 406 Trap: 0 Rabbit: 628 
-Fox: 407 Trap: 0 Rabbit: 591 
-Fox: 396 Trap: 0 Rabbit: 563 
-Fox: 391 Trap: 0 Rabbit: 570 
-Fox: 432 Trap: 0 Rabbit: 553 
-Fox: 453 Trap: 0 Rabbit: 532 
-Fox: 454 Trap: 0 Rabbit: 532 
-Fox: 477 Trap: 0 Rabbit: 488 
-Fox: 484 Trap: 0 Rabbit: 454 
-Fox: 495 Trap: 0 Rabbit: 446 
-Fox: 481 Trap: 0 Rabbit: 424 
-Fox: 450 Trap: 0 Rabbit: 415 
-Fox: 459 Trap: 0 Rabbit: 395 
-Fox: 475 Trap: 0 Rabbit: 373 
-Fox: 486 Trap: 0 Rabbit: 338 
-Fox: 454 Trap: 0 Rabbit: 318 
-Fox: 456 Trap: 0 Rabbit: 297 
-Fox: 448 Trap: 0 Rabbit: 308 
-Fox: 440 Trap: 0 Rabbit: 307 
-Fox: 422 Trap: 0 Rabbit: 288 
-Fox: 398 Trap: 0 Rabbit: 279 
-Fox: 362 Trap: 0 Rabbit: 272 
-Fox: 336 Trap: 0 Rabbit: 280 
-Fox: 313 Trap: 0 Rabbit: 286 
-Fox: 303 Trap: 0 Rabbit: 283 
-Fox: 330 Trap: 0 Rabbit: 252 
-Fox: 338 Trap: 0 Rabbit: 237 
-Fox: 344 Trap: 0 Rabbit: 218 
-Fox: 317 Trap: 0 Rabbit: 199 
-Fox: 316 Trap: 0 Rabbit: 200 
-Fox: 306 Trap: 0 Rabbit: 186 
-Fox: 311 Trap: 0 Rabbit: 186 
-Fox: 290 Trap: 0 Rabbit: 158 
-Fox: 267 Trap: 0 Rabbit: 137 
-Fox: 261 Trap: 0 Rabbit: 127 
-Fox: 262 Trap: 0 Rabbit: 118 
-Fox: 279 Trap: 0 Rabbit: 124 
-Fox: 287 Trap: 0 Rabbit: 101 
-Fox: 274 Trap: 0 Rabbit: 85 
-Fox: 243 Trap: 0 Rabbit: 87 
-Fox: 230 Trap: 0 Rabbit: 91 
-Fox: 207 Trap: 0 Rabbit: 85 
-Fox: 203 Trap: 0 Rabbit: 102 
-Fox: 180 Trap: 0 Rabbit: 115 
-Fox: 158 Trap: 0 Rabbit: 124 
-Fox: 144 Trap: 0 Rabbit: 122 
-Fox: 140 Trap: 0 Rabbit: 110 
-Fox: 133 Trap: 0 Rabbit: 115 
-Fox: 134 Trap: 0 Rabbit: 122 
-Fox: 118 Trap: 0 Rabbit: 139 
-Fox: 100 Trap: 0 Rabbit: 144 
-Fox: 96 Trap: 0 Rabbit: 151 
-Fox: 89 Trap: 0 Rabbit: 154 
-Fox: 87 Trap: 0 Rabbit: 153 
-Fox: 86 Trap: 0 Rabbit: 147 
-Fox: 89 Trap: 0 Rabbit: 155 
-Fox: 91 Trap: 0 Rabbit: 155 
-Fox: 98 Trap: 0 Rabbit: 152 
-Fox: 101 Trap: 0 Rabbit: 147 
-Fox: 111 Trap: 0 Rabbit: 134 
-Fox: 109 Trap: 0 Rabbit: 111 
-Fox: 107 Trap: 0 Rabbit: 108 
-Fox: 96 Trap: 0 Rabbit: 100 
-Fox: 91 Trap: 0 Rabbit: 113 
-Fox: 87 Trap: 0 Rabbit: 119 
-Fox: 91 Trap: 0 Rabbit: 123 
-Fox: 82 Trap: 0 Rabbit: 123 
-Fox: 78 Trap: 0 Rabbit: 118 
-Fox: 90 Trap: 0 Rabbit: 130 
-Fox: 83 Trap: 0 Rabbit: 144 
-Fox: 83 Trap: 0 Rabbit: 152 
-Fox: 93 Trap: 0 Rabbit: 157 
-Fox: 89 Trap: 0 Rabbit: 151 
-Fox: 99 Trap: 0 Rabbit: 165 
-Fox: 102 Trap: 0 Rabbit: 184 
-Fox: 87 Trap: 0 Rabbit: 195 
-Fox: 96 Trap: 0 Rabbit: 218 
-Fox: 94 Trap: 0 Rabbit: 211 
-Fox: 81 Trap: 0 Rabbit: 210 
-Fox: 98 Trap: 0 Rabbit: 209 
-Fox: 111 Trap: 0 Rabbit: 206 
-Fox: 109 Trap: 0 Rabbit: 229 
-Fox: 129 Trap: 0 Rabbit: 249 
-Fox: 135 Trap: 0 Rabbit: 272 
-Fox: 155 Trap: 0 Rabbit: 285 
-Fox: 159 Trap: 0 Rabbit: 306 
-Fox: 161 Trap: 0 Rabbit: 323 
-Fox: 135 Trap: 0 Rabbit: 343 
-Fox: 134 Trap: 0 Rabbit: 371 
-Fox: 115 Trap: 0 Rabbit: 372 
-Fox: 124 Trap: 0 Rabbit: 390 
-Fox: 117 Trap: 0 Rabbit: 405 
-Fox: 121 Trap: 0 Rabbit: 421 
-Fox: 125 Trap: 0 Rabbit: 441 
-Fox: 149 Trap: 0 Rabbit: 433 
-Fox: 166 Trap: 0 Rabbit: 428 
-Fox: 188 Trap: 0 Rabbit: 451 
-Fox: 195 Trap: 0 Rabbit: 455 
-Fox: 204 Trap: 0 Rabbit: 454 
-Fox: 212 Trap: 0 Rabbit: 469 
-Fox: 238 Trap: 0 Rabbit: 466 
-Fox: 235 Trap: 0 Rabbit: 448 
-Fox: 251 Trap: 0 Rabbit: 454 
-Fox: 247 Trap: 0 Rabbit: 441 
-Fox: 254 Trap: 0 Rabbit: 441 
-Fox: 251 Trap: 0 Rabbit: 464 
-Fox: 265 Trap: 0 Rabbit: 442 
-Fox: 262 Trap: 0 Rabbit: 442 
-Fox: 267 Trap: 0 Rabbit: 438 
-Fox: 282 Trap: 0 Rabbit: 435 
-Fox: 287 Trap: 0 Rabbit: 432 
-Fox: 291 Trap: 0 Rabbit: 416 
-Fox: 296 Trap: 0 Rabbit: 399 
-Fox: 284 Trap: 0 Rabbit: 391 
-Fox: 291 Trap: 0 Rabbit: 384 
-Fox: 281 Trap: 0 Rabbit: 380 
-Fox: 281 Trap: 0 Rabbit: 388 
-Fox: 282 Trap: 0 Rabbit: 381 
-Fox: 274 Trap: 0 Rabbit: 382 
-Fox: 258 Trap: 0 Rabbit: 388 
-Fox: 249 Trap: 0 Rabbit: 375 
-Fox: 238 Trap: 0 Rabbit: 387 
-Fox: 241 Trap: 0 Rabbit: 377 
-Fox: 217 Trap: 0 Rabbit: 402 
-Fox: 189 Trap: 0 Rabbit: 397 
-Fox: 174 Trap: 0 Rabbit: 397 
-Fox: 185 Trap: 0 Rabbit: 411 
-Fox: 180 Trap: 0 Rabbit: 399 
-Fox: 166 Trap: 0 Rabbit: 392 
-Fox: 155 Trap: 0 Rabbit: 374 
-Fox: 162 Trap: 0 Rabbit: 355 
-Fox: 171 Trap: 0 Rabbit: 331 
-Fox: 179 Trap: 0 Rabbit: 305 
-Fox: 173 Trap: 0 Rabbit: 310 
-Fox: 176 Trap: 0 Rabbit: 324 
-Fox: 188 Trap: 0 Rabbit: 316 
-Fox: 197 Trap: 0 Rabbit: 314 
-Fox: 188 Trap: 0 Rabbit: 313 
-Fox: 189 Trap: 0 Rabbit: 310 
-Fox: 185 Trap: 0 Rabbit: 306 
-Fox: 180 Trap: 0 Rabbit: 314 
-Fox: 191 Trap: 0 Rabbit: 305 
-Fox: 185 Trap: 0 Rabbit: 293 
-Fox: 167 Trap: 0 Rabbit: 290 
-Fox: 155 Trap: 0 Rabbit: 295 
-Fox: 152 Trap: 0 Rabbit: 292 
-Fox: 137 Trap: 0 Rabbit: 284 
-Fox: 133 Trap: 0 Rabbit: 278 
-Fox: 115 Trap: 0 Rabbit: 268 
-Fox: 109 Trap: 0 Rabbit: 257 
-Fox: 106 Trap: 0 Rabbit: 250 
-Fox: 108 Trap: 0 Rabbit: 257 
-Fox: 118 Trap: 0 Rabbit: 266 
-Fox: 116 Trap: 0 Rabbit: 258 
-Fox: 116 Trap: 0 Rabbit: 255 
-Fox: 133 Trap: 0 Rabbit: 260 
-Fox: 135 Trap: 0 Rabbit: 250 
-Fox: 136 Trap: 0 Rabbit: 244 
-Fox: 155 Trap: 0 Rabbit: 241 
-Fox: 154 Trap: 0 Rabbit: 232 
-Fox: 154 Trap: 0 Rabbit: 228 
-Fox: 142 Trap: 0 Rabbit: 227 
-Fox: 121 Trap: 0 Rabbit: 222 
-Fox: 112 Trap: 0 Rabbit: 227 
-Fox: 120 Trap: 0 Rabbit: 233 
-Fox: 108 Trap: 0 Rabbit: 232 
-Fox: 111 Trap: 0 Rabbit: 216 
-Fox: 106 Trap: 0 Rabbit: 212 
-Fox: 113 Trap: 0 Rabbit: 213 
-Fox: 123 Trap: 0 Rabbit: 210 
-Fox: 130 Trap: 0 Rabbit: 206 
-Fox: 132 Trap: 0 Rabbit: 213 
-Fox: 143 Trap: 0 Rabbit: 202 
-Fox: 135 Trap: 0 Rabbit: 198 
-Fox: 145 Trap: 0 Rabbit: 188 
-Fox: 143 Trap: 0 Rabbit: 186 
-Fox: 147 Trap: 0 Rabbit: 186 
-Fox: 146 Trap: 0 Rabbit: 187 
-Fox: 142 Trap: 0 Rabbit: 183 
-Fox: 142 Trap: 0 Rabbit: 178 
-Fox: 145 Trap: 0 Rabbit: 167 
-Fox: 132 Trap: 0 Rabbit: 157 
-Fox: 130 Trap: 0 Rabbit: 150 
-Fox: 130 Trap: 0 Rabbit: 143 
-Fox: 132 Trap: 0 Rabbit: 145 
-Fox: 131 Trap: 0 Rabbit: 141 
-Fox: 125 Trap: 0 Rabbit: 144 
-Fox: 118 Trap: 0 Rabbit: 149 
-Fox: 115 Trap: 0 Rabbit: 145 
-Fox: 117 Trap: 0 Rabbit: 140 
-Fox: 114 Trap: 0 Rabbit: 146 
-Fox: 105 Trap: 0 Rabbit: 140 
-Fox: 104 Trap: 0 Rabbit: 135 
-Fox: 104 Trap: 0 Rabbit: 122 
-Fox: 103 Trap: 0 Rabbit: 120 
-Fox: 104 Trap: 0 Rabbit: 122 
-Fox: 103 Trap: 0 Rabbit: 121 
-Fox: 115 Trap: 0 Rabbit: 108 
-Fox: 122 Trap: 0 Rabbit: 99 
-Fox: 122 Trap: 0 Rabbit: 94 
-Fox: 123 Trap: 0 Rabbit: 85 
-Fox: 124 Trap: 0 Rabbit: 91 
-Fox: 122 Trap: 0 Rabbit: 88 
-Fox: 124 Trap: 0 Rabbit: 92 
-Fox: 126 Trap: 0 Rabbit: 107 
-Fox: 114 Trap: 0 Rabbit: 115 
-Fox: 101 Trap: 0 Rabbit: 121 
-Fox: 88 Trap: 0 Rabbit: 143 
-Fox: 80 Trap: 0 Rabbit: 167 
-Fox: 71 Trap: 0 Rabbit: 181 
-Fox: 57 Trap: 0 Rabbit: 206 
-Fox: 40 Trap: 0 Rabbit: 235 
-Fox: 37 Trap: 0 Rabbit: 278 
-Fox: 26 Trap: 0 Rabbit: 304 
-Fox: 16 Trap: 0 Rabbit: 336 
-Fox: 15 Trap: 0 Rabbit: 363 
-Fox: 9 Trap: 0 Rabbit: 412 
-Fox: 8 Trap: 0 Rabbit: 448 
-Fox: 11 Trap: 0 Rabbit: 472 
-Fox: 15 Trap: 0 Rabbit: 504 
-Fox: 15 Trap: 0 Rabbit: 538 
-Fox: 18 Trap: 0 Rabbit: 593 
-Fox: 25 Trap: 0 Rabbit: 640 
-Fox: 32 Trap: 0 Rabbit: 687 
-Fox: 37 Trap: 0 Rabbit: 713 
-Fox: 41 Trap: 0 Rabbit: 746 
-Fox: 42 Trap: 0 Rabbit: 782 
-Fox: 41 Trap: 0 Rabbit: 797 
-Fox: 44 Trap: 0 Rabbit: 828 
-Fox: 57 Trap: 0 Rabbit: 896 
-Fox: 57 Trap: 0 Rabbit: 941 
-Fox: 58 Trap: 0 Rabbit: 986 
-Fox: 69 Trap: 0 Rabbit: 1033 
-Fox: 84 Trap: 0 Rabbit: 1101 
-Fox: 94 Trap: 0 Rabbit: 1140 
-Fox: 102 Trap: 0 Rabbit: 1184 
-Fox: 113 Trap: 0 Rabbit: 1212 
-Fox: 123 Trap: 0 Rabbit: 1245 
-Fox: 127 Trap: 0 Rabbit: 1290 
-Fox: 128 Trap: 0 Rabbit: 1327 
-Fox: 125 Trap: 0 Rabbit: 1380 
-Fox: 128 Trap: 0 Rabbit: 1432 
-Fox: 124 Trap: 0 Rabbit: 1455 
-Fox: 132 Trap: 0 Rabbit: 1479 
-Fox: 144 Trap: 0 Rabbit: 1542 
-Fox: 144 Trap: 0 Rabbit: 1554 
-Fox: 163 Trap: 0 Rabbit: 1601 
-Fox: 184 Trap: 0 Rabbit: 1648 
-Fox: 192 Trap: 0 Rabbit: 1658 
-Fox: 197 Trap: 0 Rabbit: 1689 
-Fox: 217 Trap: 0 Rabbit: 1756 
-Fox: 226 Trap: 0 Rabbit: 1814 
-Fox: 241 Trap: 0 Rabbit: 1861 
-Fox: 264 Trap: 0 Rabbit: 1913 
-Fox: 260 Trap: 0 Rabbit: 1928 
-Fox: 268 Trap: 0 Rabbit: 1958 
-Fox: 303 Trap: 0 Rabbit: 1996 
-Fox: 316 Trap: 0 Rabbit: 2019 
-Fox: 316 Trap: 0 Rabbit: 2029 
-Fox: 305 Trap: 0 Rabbit: 2053 
-Fox: 315 Trap: 0 Rabbit: 2068 
-Fox: 331 Trap: 0 Rabbit: 2079 
-Fox: 347 Trap: 0 Rabbit: 2060 
-Fox: 357 Trap: 0 Rabbit: 2111 
-Fox: 357 Trap: 0 Rabbit: 2077 
-Fox: 387 Trap: 0 Rabbit: 2074 
-Fox: 403 Trap: 0 Rabbit: 2065 
-Fox: 390 Trap: 0 Rabbit: 2061 
-Fox: 405 Trap: 0 Rabbit: 2058 
-Fox: 407 Trap: 0 Rabbit: 2046 
-Fox: 396 Trap: 0 Rabbit: 2017 
-Fox: 407 Trap: 0 Rabbit: 2027 
-Fox: 435 Trap: 0 Rabbit: 1987 
-Fox: 435 Trap: 0 Rabbit: 1909 
-Fox: 453 Trap: 0 Rabbit: 1874 
-Fox: 461 Trap: 0 Rabbit: 1810 
-Fox: 474 Trap: 0 Rabbit: 1767 
-Fox: 503 Trap: 0 Rabbit: 1704 
-Fox: 507 Trap: 0 Rabbit: 1672 
-Fox: 488 Trap: 0 Rabbit: 1625 
-Fox: 491 Trap: 0 Rabbit: 1565 
-Fox: 488 Trap: 0 Rabbit: 1516 
-Fox: 521 Trap: 0 Rabbit: 1452 
-Fox: 538 Trap: 0 Rabbit: 1398 
-Fox: 514 Trap: 0 Rabbit: 1332 
-Fox: 510 Trap: 0 Rabbit: 1309 
-Fox: 510 Trap: 0 Rabbit: 1241 
-Fox: 512 Trap: 0 Rabbit: 1187 
-Fox: 512 Trap: 0 Rabbit: 1152 
-Fox: 484 Trap: 0 Rabbit: 1085 
-Fox: 464 Trap: 0 Rabbit: 1016 
-Fox: 463 Trap: 0 Rabbit: 979 
-Fox: 450 Trap: 0 Rabbit: 940 
-Fox: 436 Trap: 0 Rabbit: 897 
-Fox: 407 Trap: 0 Rabbit: 842 
-Fox: 378 Trap: 0 Rabbit: 793 
-Fox: 361 Trap: 0 Rabbit: 749 
-Fox: 355 Trap: 0 Rabbit: 727 
-Fox: 357 Trap: 0 Rabbit: 663 
-Fox: 343 Trap: 0 Rabbit: 613 
-Fox: 361 Trap: 0 Rabbit: 560 
-Fox: 356 Trap: 0 Rabbit: 508 
-Fox: 362 Trap: 0 Rabbit: 460 
-Fox: 346 Trap: 0 Rabbit: 409 
-Fox: 345 Trap: 0 Rabbit: 355 
-Fox: 344 Trap: 0 Rabbit: 327 
-Fox: 346 Trap: 0 Rabbit: 296 
-Fox: 356 Trap: 0 Rabbit: 267 
-Fox: 356 Trap: 0 Rabbit: 242 
-Fox: 357 Trap: 0 Rabbit: 219 
-Fox: 352 Trap: 0 Rabbit: 216 
-Fox: 323 Trap: 0 Rabbit: 218 
-Fox: 306 Trap: 0 Rabbit: 229 
-Fox: 293 Trap: 0 Rabbit: 238 
-Fox: 237 Trap: 0 Rabbit: 254 
-Fox: 199 Trap: 0 Rabbit: 264 
-Fox: 170 Trap: 0 Rabbit: 296 
-Fox: 145 Trap: 0 Rabbit: 317 
-Fox: 133 Trap: 0 Rabbit: 336 
-Fox: 103 Trap: 0 Rabbit: 357 
-Fox: 85 Trap: 0 Rabbit: 369 
-Fox: 81 Trap: 0 Rabbit: 396 
-Fox: 71 Trap: 0 Rabbit: 439 
-Fox: 49 Trap: 0 Rabbit: 485 
-Fox: 43 Trap: 0 Rabbit: 495 
-Fox: 33 Trap: 0 Rabbit: 516 
-Fox: 28 Trap: 0 Rabbit: 558 
-Fox: 17 Trap: 0 Rabbit: 614 
-Fox: 13 Trap: 0 Rabbit: 680 
-Fox: 10 Trap: 0 Rabbit: 722 
-Fox: 6 Trap: 0 Rabbit: 765 
-Fox: 3 Trap: 0 Rabbit: 797 
-Fox: 3 Trap: 0 Rabbit: 836 
-Fox: 3 Trap: 0 Rabbit: 897 
-Fox: 0 Trap: 0 Rabbit: 935 
-[Halt]
-[Init]
-Fox: 163 Rabbit: 563 Trap: 44 
-Fox: 203 Rabbit: 597 Trap: 41 
-Fox: 274 Rabbit: 589 Trap: 35 
-Fox: 335 Rabbit: 623 Trap: 34 
-Fox: 377 Rabbit: 634 Trap: 28 
-Fox: 417 Rabbit: 657 Trap: 26 
-Fox: 460 Rabbit: 675 Trap: 25 
-Fox: 458 Rabbit: 691 Trap: 22 
-Fox: 446 Rabbit: 708 Trap: 20 
-Fox: 415 Rabbit: 728 Trap: 16 
-Fox: 413 Rabbit: 736 Trap: 15 
-Fox: 422 Rabbit: 763 Trap: 15 
-Fox: 429 Rabbit: 792 Trap: 15 
-Fox: 451 Rabbit: 816 Trap: 12 
-Fox: 471 Rabbit: 800 Trap: 11 
-Fox: 513 Rabbit: 772 Trap: 11 
-Fox: 533 Rabbit: 741 Trap: 9 
-Fox: 580 Rabbit: 694 Trap: 7 
-Fox: 623 Rabbit: 658 Trap: 7 
-Fox: 641 Rabbit: 607 Trap: 7 
-Fox: 688 Rabbit: 544 Trap: 6 
-Fox: 734 Rabbit: 477 Trap: 6 
-Fox: 753 Rabbit: 419 Trap: 6 
-Fox: 767 Rabbit: 373 Trap: 6 
-Fox: 770 Rabbit: 329 Trap: 6 
-Fox: 743 Rabbit: 294 Trap: 5 
-Fox: 737 Rabbit: 228 Trap: 4 
-Fox: 722 Rabbit: 195 Trap: 4 
-Fox: 699 Rabbit: 157 Trap: 4 
-Fox: 649 Rabbit: 139 Trap: 4 
-Fox: 619 Rabbit: 125 Trap: 4 
-Fox: 572 Rabbit: 113 Trap: 4 
-Fox: 540 Rabbit: 113 Trap: 4 
-Fox: 484 Rabbit: 112 Trap: 4 
-Fox: 383 Rabbit: 106 Trap: 3 
-Fox: 307 Rabbit: 105 Trap: 3 
-Fox: 258 Rabbit: 97 Trap: 2 
-Fox: 220 Rabbit: 99 Trap: 2 
-Fox: 187 Rabbit: 116 Trap: 2 
-Fox: 162 Rabbit: 127 Trap: 2 
-Fox: 150 Rabbit: 125 Trap: 2 
-Fox: 147 Rabbit: 124 Trap: 2 
-Fox: 131 Rabbit: 126 Trap: 2 
-Fox: 117 Rabbit: 143 Trap: 2 
-Fox: 111 Rabbit: 147 Trap: 2 
-Fox: 106 Rabbit: 160 Trap: 2 
-Fox: 104 Rabbit: 163 Trap: 2 
-Fox: 85 Rabbit: 162 Trap: 2 
-Fox: 76 Rabbit: 176 Trap: 2 
-Fox: 82 Rabbit: 197 Trap: 2 
-Fox: 70 Rabbit: 218 Trap: 2 
-Fox: 73 Rabbit: 234 Trap: 2 
-Fox: 73 Rabbit: 253 Trap: 2 
-Fox: 76 Rabbit: 281 Trap: 2 
-Fox: 79 Rabbit: 296 Trap: 2 
-Fox: 82 Rabbit: 306 Trap: 2 
-Fox: 77 Rabbit: 310 Trap: 2 
-Fox: 96 Rabbit: 299 Trap: 2 
-Fox: 96 Rabbit: 314 Trap: 2 
-Fox: 125 Rabbit: 327 Trap: 2 
-Fox: 129 Rabbit: 316 Trap: 2 
-Fox: 153 Rabbit: 326 Trap: 2 
-Fox: 163 Rabbit: 318 Trap: 2 
-Fox: 172 Rabbit: 317 Trap: 2 
-Fox: 183 Rabbit: 291 Trap: 2 
-Fox: 173 Rabbit: 271 Trap: 2 
-Fox: 183 Rabbit: 263 Trap: 2 
-Fox: 187 Rabbit: 279 Trap: 2 
-Fox: 182 Rabbit: 311 Trap: 2 
-Fox: 197 Rabbit: 297 Trap: 2 
-Fox: 193 Rabbit: 300 Trap: 2 
-Fox: 210 Rabbit: 300 Trap: 2 
-Fox: 225 Rabbit: 302 Trap: 2 
-Fox: 231 Rabbit: 278 Trap: 2 
-Fox: 229 Rabbit: 261 Trap: 2 
-Fox: 242 Rabbit: 263 Trap: 2 
-Fox: 250 Rabbit: 269 Trap: 2 
-Fox: 265 Rabbit: 256 Trap: 2 
-Fox: 276 Rabbit: 267 Trap: 2 
-Fox: 278 Rabbit: 259 Trap: 2 
-Fox: 258 Rabbit: 254 Trap: 2 
-Fox: 255 Rabbit: 274 Trap: 2 
-Fox: 249 Rabbit: 297 Trap: 2 
-Fox: 238 Rabbit: 309 Trap: 2 
-Fox: 214 Rabbit: 314 Trap: 2 
-Fox: 173 Rabbit: 321 Trap: 2 
-Fox: 163 Rabbit: 312 Trap: 2 
-Fox: 170 Rabbit: 355 Trap: 2 
-Fox: 173 Rabbit: 361 Trap: 2 
-Fox: 165 Rabbit: 375 Trap: 2 
-Fox: 173 Rabbit: 385 Trap: 2 
-Fox: 176 Rabbit: 399 Trap: 2 
-Fox: 166 Rabbit: 437 Trap: 2 
-Fox: 159 Rabbit: 459 Trap: 2 
-Fox: 158 Rabbit: 487 Trap: 2 
-Fox: 146 Rabbit: 503 Trap: 2 
-Fox: 132 Rabbit: 542 Trap: 2 
-Fox: 108 Rabbit: 561 Trap: 2 
-Fox: 99 Rabbit: 586 Trap: 2 
-Fox: 103 Rabbit: 616 Trap: 2 
-Fox: 94 Rabbit: 667 Trap: 2 
-Fox: 79 Rabbit: 693 Trap: 2 
-Fox: 78 Rabbit: 723 Trap: 2 
-Fox: 84 Rabbit: 751 Trap: 2 
-Fox: 82 Rabbit: 776 Trap: 2 
-Fox: 73 Rabbit: 808 Trap: 2 
-Fox: 72 Rabbit: 843 Trap: 2 
-Fox: 62 Rabbit: 896 Trap: 2 
-Fox: 58 Rabbit: 913 Trap: 2 
-Fox: 55 Rabbit: 957 Trap: 2 
-Fox: 45 Rabbit: 970 Trap: 2 
-Fox: 43 Rabbit: 1008 Trap: 2 
-Fox: 37 Rabbit: 1030 Trap: 2 
-Fox: 27 Rabbit: 1071 Trap: 2 
-Fox: 27 Rabbit: 1109 Trap: 2 
-Fox: 24 Rabbit: 1129 Trap: 2 
-Fox: 11 Rabbit: 1149 Trap: 2 
-Fox: 9 Rabbit: 1190 Trap: 2 
-Fox: 3 Rabbit: 1232 Trap: 2 
-Fox: 7 Rabbit: 1258 Trap: 2 
-Fox: 7 Rabbit: 1272 Trap: 2 
-Fox: 9 Rabbit: 1305 Trap: 2 
-Fox: 8 Rabbit: 1336 Trap: 2 
-Fox: 10 Rabbit: 1378 Trap: 2 
-Fox: 10 Rabbit: 1409 Trap: 2 
-Fox: 11 Rabbit: 1476 Trap: 2 
-Fox: 9 Rabbit: 1489 Trap: 2 
-Fox: 11 Rabbit: 1524 Trap: 2 
-Fox: 11 Rabbit: 1567 Trap: 2 
-Fox: 16 Rabbit: 1615 Trap: 2 
-Fox: 15 Rabbit: 1644 Trap: 2 
-Fox: 18 Rabbit: 1668 Trap: 2 
-Fox: 18 Rabbit: 1695 Trap: 2 
-Fox: 19 Rabbit: 1725 Trap: 2 
-Fox: 22 Rabbit: 1787 Trap: 2 
-Fox: 24 Rabbit: 1812 Trap: 2 
-Fox: 27 Rabbit: 1820 Trap: 2 
-Fox: 30 Rabbit: 1848 Trap: 2 
-Fox: 34 Rabbit: 1884 Trap: 2 
-Fox: 43 Rabbit: 1911 Trap: 2 
-Fox: 50 Rabbit: 1943 Trap: 2 
-Fox: 57 Rabbit: 1931 Trap: 2 
-Fox: 65 Rabbit: 1971 Trap: 2 
-Fox: 71 Rabbit: 1977 Trap: 2 
-Fox: 79 Rabbit: 1997 Trap: 2 
-Fox: 90 Rabbit: 2047 Trap: 2 
-Fox: 104 Rabbit: 2075 Trap: 2 
-Fox: 126 Rabbit: 2116 Trap: 2 
-Fox: 135 Rabbit: 2135 Trap: 2 
-Fox: 146 Rabbit: 2179 Trap: 2 
-Fox: 160 Rabbit: 2180 Trap: 2 
-Fox: 180 Rabbit: 2174 Trap: 2 
-Fox: 193 Rabbit: 2196 Trap: 2 
-Fox: 205 Rabbit: 2199 Trap: 2 
-Fox: 217 Rabbit: 2214 Trap: 2 
-Fox: 224 Rabbit: 2217 Trap: 2 
-Fox: 228 Rabbit: 2224 Trap: 2 
-Fox: 247 Rabbit: 2229 Trap: 2 
-Fox: 235 Rabbit: 2258 Trap: 2 
-Fox: 224 Rabbit: 2306 Trap: 2 
-Fox: 257 Rabbit: 2312 Trap: 2 
-Fox: 261 Rabbit: 2349 Trap: 2 
-Fox: 268 Rabbit: 2358 Trap: 2 
-Fox: 284 Rabbit: 2367 Trap: 2 
-Fox: 299 Rabbit: 2384 Trap: 2 
-Fox: 299 Rabbit: 2382 Trap: 2 
-Fox: 320 Rabbit: 2392 Trap: 2 
-Fox: 313 Rabbit: 2396 Trap: 2 
-Fox: 312 Rabbit: 2356 Trap: 2 
-Fox: 302 Rabbit: 2353 Trap: 2 
-Fox: 331 Rabbit: 2343 Trap: 2 
-Fox: 336 Rabbit: 2332 Trap: 2 
-Fox: 327 Rabbit: 2335 Trap: 2 
-Fox: 340 Rabbit: 2348 Trap: 2 
-Fox: 347 Rabbit: 2332 Trap: 2 
-Fox: 350 Rabbit: 2323 Trap: 2 
-Fox: 365 Rabbit: 2317 Trap: 2 
-Fox: 357 Rabbit: 2349 Trap: 2 
-Fox: 334 Rabbit: 2322 Trap: 1 
-Fox: 341 Rabbit: 2326 Trap: 1 
-Fox: 338 Rabbit: 2288 Trap: 1 
-Fox: 349 Rabbit: 2247 Trap: 1 
-Fox: 338 Rabbit: 2249 Trap: 1 
-Fox: 337 Rabbit: 2184 Trap: 1 
-Fox: 325 Rabbit: 2185 Trap: 1 
-Fox: 337 Rabbit: 2188 Trap: 1 
-Fox: 352 Rabbit: 2162 Trap: 1 
-Fox: 357 Rabbit: 2119 Trap: 1 
-Fox: 355 Rabbit: 2094 Trap: 1 
-Fox: 363 Rabbit: 2075 Trap: 1 
-Fox: 366 Rabbit: 2052 Trap: 1 
-Fox: 372 Rabbit: 2008 Trap: 1 
-Fox: 364 Rabbit: 1969 Trap: 1 
-Fox: 331 Rabbit: 1928 Trap: 1 
-Fox: 351 Rabbit: 1875 Trap: 1 
-Fox: 345 Rabbit: 1834 Trap: 1 
-Fox: 360 Rabbit: 1747 Trap: 1 
-Fox: 371 Rabbit: 1720 Trap: 1 
-Fox: 362 Rabbit: 1651 Trap: 1 
-Fox: 392 Rabbit: 1616 Trap: 1 
-Fox: 420 Rabbit: 1538 Trap: 1 
-Fox: 409 Rabbit: 1472 Trap: 1 
-Fox: 406 Rabbit: 1413 Trap: 1 
-Fox: 399 Rabbit: 1352 Trap: 1 
-Fox: 395 Rabbit: 1322 Trap: 1 
-Fox: 402 Rabbit: 1267 Trap: 0 
-Fox: 398 Rabbit: 1261 Trap: 0 
-Fox: 400 Rabbit: 1216 Trap: 0 
-Fox: 389 Rabbit: 1156 Trap: 0 
-Fox: 407 Rabbit: 1108 Trap: 0 
-Fox: 398 Rabbit: 1063 Trap: 0 
-Fox: 379 Rabbit: 1017 Trap: 0 
-Fox: 358 Rabbit: 974 Trap: 0 
-Fox: 337 Rabbit: 950 Trap: 0 
-Fox: 322 Rabbit: 895 Trap: 0 
-Fox: 327 Rabbit: 853 Trap: 0 
-Fox: 315 Rabbit: 825 Trap: 0 
-Fox: 302 Rabbit: 790 Trap: 0 
-Fox: 318 Rabbit: 741 Trap: 0 
-Fox: 335 Rabbit: 700 Trap: 0 
-Fox: 351 Rabbit: 650 Trap: 0 
-Fox: 358 Rabbit: 595 Trap: 0 
-Fox: 356 Rabbit: 544 Trap: 0 
-Fox: 347 Rabbit: 502 Trap: 0 
-Fox: 367 Rabbit: 439 Trap: 0 
-Fox: 353 Rabbit: 393 Trap: 0 
-Fox: 351 Rabbit: 334 Trap: 0 
-Fox: 327 Rabbit: 287 Trap: 0 
-Fox: 327 Rabbit: 252 Trap: 0 
-Fox: 334 Rabbit: 217 Trap: 0 
-Fox: 336 Rabbit: 196 Trap: 0 
-Fox: 301 Rabbit: 181 Trap: 0 
-Fox: 279 Rabbit: 157 Trap: 0 
-Fox: 258 Rabbit: 142 Trap: 0 
-Fox: 262 Rabbit: 116 Trap: 0 
-Fox: 257 Rabbit: 100 Trap: 0 
-Fox: 223 Rabbit: 93 Trap: 0 
-Fox: 207 Rabbit: 84 Trap: 0 
-Fox: 192 Rabbit: 81 Trap: 0 
-Fox: 175 Rabbit: 81 Trap: 0 
-Fox: 155 Rabbit: 76 Trap: 0 
-Fox: 115 Rabbit: 78 Trap: 0 
-Fox: 84 Rabbit: 86 Trap: 0 
-Fox: 69 Rabbit: 88 Trap: 0 
-Fox: 61 Rabbit: 101 Trap: 0 
-Fox: 53 Rabbit: 126 Trap: 0 
-Fox: 51 Rabbit: 156 Trap: 0 
-Fox: 46 Rabbit: 172 Trap: 0 
-Fox: 41 Rabbit: 181 Trap: 0 
-Fox: 30 Rabbit: 203 Trap: 0 
-Fox: 24 Rabbit: 221 Trap: 0 
-Fox: 15 Rabbit: 246 Trap: 0 
-Fox: 15 Rabbit: 274 Trap: 0 
-Fox: 10 Rabbit: 312 Trap: 0 
-Fox: 6 Rabbit: 374 Trap: 0 
-Fox: 2 Rabbit: 383 Trap: 0 
-Fox: 2 Rabbit: 424 Trap: 0 
-Fox: 0 Rabbit: 461 Trap: 0 
-[Halt][Init]
-Fox: 127 Rabbit: 657 Trap: 35 
-Fox: 154 Rabbit: 756 Trap: 31 
-Fox: 175 Rabbit: 856 Trap: 26 
-Fox: 223 Rabbit: 903 Trap: 22 
-Fox: 247 Rabbit: 945 Trap: 15 
-Fox: 274 Rabbit: 1014 Trap: 13 
-Fox: 332 Rabbit: 1050 Trap: 12 
-Fox: 339 Rabbit: 1078 Trap: 12 
-Fox: 348 Rabbit: 1164 Trap: 10 
-Fox: 370 Rabbit: 1209 Trap: 8 
-Fox: 407 Rabbit: 1283 Trap: 6 
-Fox: 463 Rabbit: 1374 Trap: 4 
-Fox: 478 Rabbit: 1394 Trap: 4 
-Fox: 499 Rabbit: 1412 Trap: 4 
-Fox: 567 Rabbit: 1405 Trap: 3 
-Fox: 630 Rabbit: 1338 Trap: 2 
-Fox: 693 Rabbit: 1325 Trap: 1 
-Fox: 746 Rabbit: 1247 Trap: 1 
-Fox: 768 Rabbit: 1140 Trap: 1 
-Fox: 830 Rabbit: 1071 Trap: 1 
-Fox: 881 Rabbit: 980 Trap: 1 
-Fox: 922 Rabbit: 874 Trap: 1 
-Fox: 934 Rabbit: 755 Trap: 1 
-Fox: 969 Rabbit: 676 Trap: 1 
-Fox: 960 Rabbit: 586 Trap: 1 
-Fox: 939 Rabbit: 525 Trap: 1 
-Fox: 972 Rabbit: 458 Trap: 1 
-Fox: 962 Rabbit: 385 Trap: 1 
-Fox: 900 Rabbit: 313 Trap: 1 
-Fox: 876 Rabbit: 251 Trap: 1 
-Fox: 840 Rabbit: 203 Trap: 1 
-Fox: 801 Rabbit: 167 Trap: 1 
-Fox: 777 Rabbit: 137 Trap: 1 
-Fox: 682 Rabbit: 109 Trap: 1 
-Fox: 621 Rabbit: 101 Trap: 1 
-Fox: 572 Rabbit: 100 Trap: 1 
-Fox: 480 Rabbit: 93 Trap: 1 
-Fox: 407 Rabbit: 74 Trap: 1 
-Fox: 340 Rabbit: 63 Trap: 1 
-Fox: 281 Rabbit: 53 Trap: 1 
-Fox: 224 Rabbit: 50 Trap: 1 
-Fox: 184 Rabbit: 45 Trap: 1 
-Fox: 155 Rabbit: 47 Trap: 1 
-Fox: 142 Rabbit: 54 Trap: 1 
-Fox: 128 Rabbit: 54 Trap: 1 
-Fox: 118 Rabbit: 61 Trap: 1 
-Fox: 107 Rabbit: 66 Trap: 1 
-Fox: 103 Rabbit: 80 Trap: 1 
-Fox: 85 Rabbit: 80 Trap: 1 
-Fox: 77 Rabbit: 91 Trap: 1 
-Fox: 61 Rabbit: 100 Trap: 1 
-Fox: 41 Rabbit: 114 Trap: 1 
-Fox: 31 Rabbit: 141 Trap: 1 
-Fox: 18 Rabbit: 158 Trap: 1 
-Fox: 9 Rabbit: 176 Trap: 1 
-Fox: 10 Rabbit: 193 Trap: 1 
-Fox: 8 Rabbit: 224 Trap: 1 
-Fox: 14 Rabbit: 250 Trap: 1 
-Fox: 17 Rabbit: 289 Trap: 1 
-Fox: 20 Rabbit: 307 Trap: 1 
-Fox: 20 Rabbit: 350 Trap: 1 
-Fox: 19 Rabbit: 370 Trap: 1 
-Fox: 20 Rabbit: 419 Trap: 1 
-Fox: 23 Rabbit: 484 Trap: 1 
-Fox: 18 Rabbit: 538 Trap: 1 
-Fox: 14 Rabbit: 574 Trap: 1 
-Fox: 14 Rabbit: 632 Trap: 1 
-Fox: 13 Rabbit: 714 Trap: 1 
-Fox: 13 Rabbit: 775 Trap: 1 
-Fox: 10 Rabbit: 847 Trap: 1 
-Fox: 6 Rabbit: 924 Trap: 1 
-Fox: 5 Rabbit: 1005 Trap: 1 
-Fox: 5 Rabbit: 1071 Trap: 1 
-Fox: 3 Rabbit: 1161 Trap: 1 
-Fox: 3 Rabbit: 1249 Trap: 1 
-Fox: 2 Rabbit: 1304 Trap: 1 
-Fox: 2 Rabbit: 1381 Trap: 1 
-Fox: 2 Rabbit: 1456 Trap: 1 
-Fox: 2 Rabbit: 1530 Trap: 1 
-Fox: 2 Rabbit: 1618 Trap: 1 
-Fox: 2 Rabbit: 1722 Trap: 1 
-Fox: 3 Rabbit: 1787 Trap: 0 
-Fox: 3 Rabbit: 1883 Trap: 0 
-Fox: 3 Rabbit: 1957 Trap: 0 
-Fox: 12 Rabbit: 2046 Trap: 0 
-Fox: 13 Rabbit: 2143 Trap: 0 
-Fox: 15 Rabbit: 2210 Trap: 0 
-Fox: 15 Rabbit: 2311 Trap: 0 
-Fox: 15 Rabbit: 2375 Trap: 0 
-Fox: 17 Rabbit: 2465 Trap: 0 
-Fox: 19 Rabbit: 2550 Trap: 0 
-Fox: 25 Rabbit: 2655 Trap: 0 
-Fox: 26 Rabbit: 2734 Trap: 0 
-Fox: 26 Rabbit: 2817 Trap: 0 
-Fox: 39 Rabbit: 2900 Trap: 0 
-Fox: 49 Rabbit: 2971 Trap: 0 
-Fox: 66 Rabbit: 3020 Trap: 0 
-Fox: 72 Rabbit: 3125 Trap: 0 
-Fox: 78 Rabbit: 3184 Trap: 0 
-Fox: 81 Rabbit: 3245 Trap: 0 
-Fox: 87 Rabbit: 3292 Trap: 0 
-Fox: 103 Rabbit: 3392 Trap: 0 
-Fox: 108 Rabbit: 3394 Trap: 0 
-Fox: 117 Rabbit: 3475 Trap: 0 
-Fox: 123 Rabbit: 3501 Trap: 0 
-Fox: 152 Rabbit: 3555 Trap: 0 
-Fox: 188 Rabbit: 3549 Trap: 0 
-Fox: 228 Rabbit: 3552 Trap: 0 
-Fox: 243 Rabbit: 3541 Trap: 0 
-Fox: 263 Rabbit: 3522 Trap: 0 
-Fox: 281 Rabbit: 3516 Trap: 0 
-Fox: 301 Rabbit: 3511 Trap: 0 
-Fox: 297 Rabbit: 3510 Trap: 0 
-Fox: 298 Rabbit: 3473 Trap: 0 
-Fox: 280 Rabbit: 3489 Trap: 0 
-Fox: 267 Rabbit: 3442 Trap: 0 
-Fox: 268 Rabbit: 3437 Trap: 0 
-Fox: 274 Rabbit: 3411 Trap: 0 
-Fox: 274 Rabbit: 3352 Trap: 0 
-Fox: 313 Rabbit: 3327 Trap: 0 
-Fox: 340 Rabbit: 3283 Trap: 0 
-Fox: 364 Rabbit: 3238 Trap: 0 
-Fox: 379 Rabbit: 3200 Trap: 0 
-Fox: 396 Rabbit: 3165 Trap: 0 
-Fox: 394 Rabbit: 3143 Trap: 0 
-Fox: 388 Rabbit: 3118 Trap: 0 
-Fox: 375 Rabbit: 3056 Trap: 0 
-Fox: 351 Rabbit: 3047 Trap: 0 
-Fox: 347 Rabbit: 3027 Trap: 0 
-Fox: 348 Rabbit: 2991 Trap: 0 
-Fox: 361 Rabbit: 2932 Trap: 0 
-Fox: 369 Rabbit: 2863 Trap: 0 
-Fox: 373 Rabbit: 2834 Trap: 0 
-Fox: 375 Rabbit: 2777 Trap: 0 
-Fox: 384 Rabbit: 2745 Trap: 0 
-Fox: 382 Rabbit: 2675 Trap: 0 
-Fox: 392 Rabbit: 2640 Trap: 0 
-Fox: 389 Rabbit: 2618 Trap: 0 
-Fox: 387 Rabbit: 2545 Trap: 0 
-Fox: 364 Rabbit: 2501 Trap: 0 
-Fox: 369 Rabbit: 2442 Trap: 0 
-Fox: 369 Rabbit: 2407 Trap: 0 
-Fox: 368 Rabbit: 2342 Trap: 0 
-Fox: 348 Rabbit: 2299 Trap: 0 
-Fox: 340 Rabbit: 2253 Trap: 0 
-Fox: 344 Rabbit: 2189 Trap: 0 
-Fox: 347 Rabbit: 2114 Trap: 0 
-Fox: 361 Rabbit: 2062 Trap: 0 
-Fox: 361 Rabbit: 1995 Trap: 0 
-Fox: 365 Rabbit: 1932 Trap: 0 
-Fox: 404 Rabbit: 1855 Trap: 0 
-Fox: 422 Rabbit: 1788 Trap: 0 
-Fox: 424 Rabbit: 1728 Trap: 0 
-Fox: 420 Rabbit: 1630 Trap: 0 
-Fox: 413 Rabbit: 1576 Trap: 0 
-Fox: 421 Rabbit: 1494 Trap: 0 
-Fox: 407 Rabbit: 1435 Trap: 0 
-Fox: 413 Rabbit: 1365 Trap: 0 
-Fox: 409 Rabbit: 1310 Trap: 0 
-Fox: 414 Rabbit: 1224 Trap: 0 
-Fox: 446 Rabbit: 1141 Trap: 0 
-Fox: 476 Rabbit: 1079 Trap: 0 
-Fox: 472 Rabbit: 1004 Trap: 0 
-Fox: 498 Rabbit: 922 Trap: 0 
-Fox: 490 Rabbit: 884 Trap: 0 
-Fox: 501 Rabbit: 827 Trap: 0 
-Fox: 505 Rabbit: 777 Trap: 0 
-Fox: 494 Rabbit: 708 Trap: 0 
-Fox: 468 Rabbit: 638 Trap: 0 
-Fox: 437 Rabbit: 589 Trap: 0 
-Fox: 412 Rabbit: 537 Trap: 0 
-Fox: 403 Rabbit: 477 Trap: 0 
-Fox: 413 Rabbit: 441 Trap: 0 
-Fox: 396 Rabbit: 380 Trap: 0 
-Fox: 376 Rabbit: 332 Trap: 0 
-Fox: 349 Rabbit: 302 Trap: 0 
-Fox: 387 Rabbit: 277 Trap: 0 
-Fox: 364 Rabbit: 238 Trap: 0 
-Fox: 351 Rabbit: 193 Trap: 0 
-Fox: 315 Rabbit: 167 Trap: 0 
-Fox: 309 Rabbit: 152 Trap: 0 
-Fox: 282 Rabbit: 136 Trap: 0 
-Fox: 280 Rabbit: 119 Trap: 0 
-Fox: 246 Rabbit: 107 Trap: 0 
-Fox: 234 Rabbit: 87 Trap: 0 
-Fox: 212 Rabbit: 77 Trap: 0 
-Fox: 184 Rabbit: 62 Trap: 0 
-Fox: 167 Rabbit: 53 Trap: 0 
-Fox: 146 Rabbit: 39 Trap: 0 
-Fox: 126 Rabbit: 32 Trap: 0 
-Fox: 108 Rabbit: 26 Trap: 0 
-Fox: 90 Rabbit: 16 Trap: 0 
-Fox: 84 Rabbit: 6 Trap: 0 
-Fox: 74 Rabbit: 1 Trap: 0 
-Fox: 70 Rabbit: 0 Trap: 0 
-[Halt]
-[Init]
-Rabbit: 587 Fox: 163 Trap: 48 
-Rabbit: 629 Fox: 192 Trap: 42 
-Rabbit: 668 Fox: 228 Trap: 36 
-Rabbit: 713 Fox: 274 Trap: 30 
-Rabbit: 741 Fox: 304 Trap: 26 
-Rabbit: 756 Fox: 338 Trap: 24 
-Rabbit: 782 Fox: 381 Trap: 21 
-Rabbit: 822 Fox: 374 Trap: 20 
-Rabbit: 848 Fox: 369 Trap: 18 
-Rabbit: 899 Fox: 373 Trap: 13 
-Rabbit: 914 Fox: 393 Trap: 12 
-Rabbit: 920 Fox: 424 Trap: 11 
-Rabbit: 919 Fox: 470 Trap: 10 
-Rabbit: 875 Fox: 491 Trap: 8 
-Rabbit: 863 Fox: 538 Trap: 8 
-Rabbit: 861 Fox: 622 Trap: 8 
-Rabbit: 792 Fox: 691 Trap: 8 
-Rabbit: 751 Fox: 739 Trap: 8 
-Rabbit: 667 Fox: 754 Trap: 6 
-Rabbit: 584 Fox: 784 Trap: 5 
-Rabbit: 504 Fox: 834 Trap: 4 
-Rabbit: 415 Fox: 879 Trap: 3 
-Rabbit: 349 Fox: 889 Trap: 2 
-Rabbit: 298 Fox: 890 Trap: 2 
-Rabbit: 241 Fox: 855 Trap: 2 
-Rabbit: 167 Fox: 838 Trap: 2 
-Rabbit: 126 Fox: 843 Trap: 2 
-Rabbit: 116 Fox: 790 Trap: 2 
-Rabbit: 88 Fox: 729 Trap: 2 
-Rabbit: 77 Fox: 711 Trap: 2 
-Rabbit: 64 Fox: 657 Trap: 2 
-Rabbit: 48 Fox: 639 Trap: 2 
-Rabbit: 45 Fox: 592 Trap: 2 
-Rabbit: 47 Fox: 508 Trap: 2 
-Rabbit: 44 Fox: 426 Trap: 2 
-Rabbit: 47 Fox: 391 Trap: 2 
-Rabbit: 50 Fox: 318 Trap: 2 
-Rabbit: 48 Fox: 279 Trap: 2 
-Rabbit: 47 Fox: 212 Trap: 2 
-Rabbit: 48 Fox: 162 Trap: 2 
-Rabbit: 51 Fox: 121 Trap: 2 
-Rabbit: 50 Fox: 99 Trap: 2 
-Rabbit: 60 Fox: 63 Trap: 2 
-Rabbit: 68 Fox: 53 Trap: 2 
-Rabbit: 67 Fox: 54 Trap: 2 
-Rabbit: 77 Fox: 53 Trap: 2 
-Rabbit: 84 Fox: 50 Trap: 2 
-Rabbit: 113 Fox: 47 Trap: 2 
-Rabbit: 123 Fox: 42 Trap: 2 
-Rabbit: 134 Fox: 51 Trap: 2 
-Rabbit: 140 Fox: 47 Trap: 2 
-Rabbit: 156 Fox: 37 Trap: 2 
-Rabbit: 178 Fox: 36 Trap: 2 
-Rabbit: 194 Fox: 31 Trap: 2 
-Rabbit: 228 Fox: 34 Trap: 2 
-Rabbit: 253 Fox: 41 Trap: 2 
-Rabbit: 285 Fox: 32 Trap: 1 
-Rabbit: 312 Fox: 33 Trap: 1 
-Rabbit: 355 Fox: 28 Trap: 1 
-Rabbit: 390 Fox: 25 Trap: 1 
-Rabbit: 443 Fox: 21 Trap: 1 
-Rabbit: 495 Fox: 16 Trap: 1 
-Rabbit: 551 Fox: 7 Trap: 1 
-Rabbit: 613 Fox: 7 Trap: 1 
-Rabbit: 671 Fox: 1 Trap: 1 
-Rabbit: 712 Fox: 1 Trap: 1 
-Rabbit: 795 Fox: 6 Trap: 1 
-Rabbit: 876 Fox: 6 Trap: 1 
-Rabbit: 967 Fox: 6 Trap: 1 
-Rabbit: 1056 Fox: 6 Trap: 1 
-Rabbit: 1134 Fox: 6 Trap: 1 
-Rabbit: 1246 Fox: 5 Trap: 1 
-Rabbit: 1343 Fox: 5 Trap: 1 
-Rabbit: 1444 Fox: 3 Trap: 1 
-Rabbit: 1532 Fox: 3 Trap: 1 
-Rabbit: 1618 Fox: 3 Trap: 1 
-Rabbit: 1722 Fox: 3 Trap: 1 
-Rabbit: 1807 Fox: 8 Trap: 1 
-Rabbit: 1918 Fox: 10 Trap: 1 
-Rabbit: 1982 Fox: 13 Trap: 1 
-Rabbit: 2051 Fox: 15 Trap: 1 
-Rabbit: 2158 Fox: 20 Trap: 1 
-Rabbit: 2262 Fox: 24 Trap: 1 
-Rabbit: 2333 Fox: 27 Trap: 1 
-Rabbit: 2412 Fox: 30 Trap: 0 
-Rabbit: 2491 Fox: 33 Trap: 0 
-Rabbit: 2598 Fox: 36 Trap: 0 
-Rabbit: 2671 Fox: 40 Trap: 0 
-Rabbit: 2773 Fox: 49 Trap: 0 
-Rabbit: 2871 Fox: 51 Trap: 0 
-Rabbit: 2987 Fox: 62 Trap: 0 
-Rabbit: 3088 Fox: 68 Trap: 0 
-Rabbit: 3140 Fox: 66 Trap: 0 
-Rabbit: 3211 Fox: 67 Trap: 0 
-Rabbit: 3233 Fox: 82 Trap: 0 
-Rabbit: 3308 Fox: 82 Trap: 0 
-Rabbit: 3364 Fox: 88 Trap: 0 
-Rabbit: 3411 Fox: 108 Trap: 0 
-Rabbit: 3456 Fox: 119 Trap: 0 
-Rabbit: 3479 Fox: 133 Trap: 0 
-Rabbit: 3515 Fox: 149 Trap: 0 
-Rabbit: 3578 Fox: 167 Trap: 0 
-Rabbit: 3590 Fox: 169 Trap: 0 
-Rabbit: 3625 Fox: 183 Trap: 0 
-Rabbit: 3669 Fox: 180 Trap: 0 
-Rabbit: 3696 Fox: 188 Trap: 0 
-Rabbit: 3709 Fox: 186 Trap: 0 
-Rabbit: 3733 Fox: 182 Trap: 0 
-Rabbit: 3746 Fox: 195 Trap: 0 
-Rabbit: 3725 Fox: 217 Trap: 0 
-Rabbit: 3670 Fox: 234 Trap: 0 
-Rabbit: 3670 Fox: 234 Trap: 0 
-Rabbit: 3665 Fox: 248 Trap: 0 
-Rabbit: 3610 Fox: 261 Trap: 0 
-Rabbit: 3613 Fox: 264 Trap: 0 
-Rabbit: 3599 Fox: 267 Trap: 0 
-Rabbit: 3578 Fox: 264 Trap: 0 
-Rabbit: 3494 Fox: 266 Trap: 0 
-Rabbit: 3472 Fox: 290 Trap: 0 
-Rabbit: 3390 Fox: 296 Trap: 0 
-Rabbit: 3371 Fox: 306 Trap: 0 
-Rabbit: 3348 Fox: 312 Trap: 0 
-Rabbit: 3285 Fox: 330 Trap: 0 
-Rabbit: 3224 Fox: 328 Trap: 0 
-Rabbit: 3198 Fox: 336 Trap: 0 
-Rabbit: 3107 Fox: 349 Trap: 0 
-Rabbit: 3062 Fox: 360 Trap: 0 
-Rabbit: 2970 Fox: 377 Trap: 0 
-Rabbit: 2861 Fox: 426 Trap: 0 
-Rabbit: 2815 Fox: 440 Trap: 0 
-Rabbit: 2757 Fox: 434 Trap: 0 
-Rabbit: 2694 Fox: 448 Trap: 0 
-Rabbit: 2594 Fox: 450 Trap: 0 
-Rabbit: 2465 Fox: 449 Trap: 0 
-Rabbit: 2435 Fox: 452 Trap: 0 
-Rabbit: 2355 Fox: 430 Trap: 0 
-Rabbit: 2306 Fox: 425 Trap: 0 
-Rabbit: 2242 Fox: 459 Trap: 0 
-Rabbit: 2164 Fox: 466 Trap: 0 
-Rabbit: 2106 Fox: 474 Trap: 0 
-Rabbit: 2010 Fox: 460 Trap: 0 
-Rabbit: 1942 Fox: 474 Trap: 0 
-Rabbit: 1855 Fox: 483 Trap: 0 
-Rabbit: 1792 Fox: 471 Trap: 0 
-Rabbit: 1729 Fox: 486 Trap: 0 
-Rabbit: 1672 Fox: 477 Trap: 0 
-Rabbit: 1594 Fox: 472 Trap: 0 
-Rabbit: 1553 Fox: 465 Trap: 0 
-Rabbit: 1477 Fox: 463 Trap: 0 
-Rabbit: 1431 Fox: 446 Trap: 0 
-Rabbit: 1390 Fox: 449 Trap: 0 
-Rabbit: 1341 Fox: 430 Trap: 0 
-Rabbit: 1297 Fox: 428 Trap: 0 
-Rabbit: 1229 Fox: 427 Trap: 0 
-Rabbit: 1162 Fox: 435 Trap: 0 
-Rabbit: 1116 Fox: 395 Trap: 0 
-Rabbit: 1054 Fox: 383 Trap: 0 
-Rabbit: 993 Fox: 371 Trap: 0 
-Rabbit: 950 Fox: 360 Trap: 0 
-Rabbit: 910 Fox: 358 Trap: 0 
-Rabbit: 860 Fox: 347 Trap: 0 
-Rabbit: 785 Fox: 352 Trap: 0 
-Rabbit: 737 Fox: 352 Trap: 0 
-Rabbit: 694 Fox: 362 Trap: 0 
-Rabbit: 643 Fox: 358 Trap: 0 
-Rabbit: 617 Fox: 362 Trap: 0 
-Rabbit: 554 Fox: 345 Trap: 0 
-Rabbit: 489 Fox: 331 Trap: 0 
-Rabbit: 447 Fox: 348 Trap: 0 
-Rabbit: 423 Fox: 339 Trap: 0 
-Rabbit: 366 Fox: 335 Trap: 0 
-Rabbit: 311 Fox: 328 Trap: 0 
-Rabbit: 265 Fox: 338 Trap: 0 
-Rabbit: 240 Fox: 338 Trap: 0 
-Rabbit: 212 Fox: 330 Trap: 0 
-Rabbit: 186 Fox: 297 Trap: 0 
-Rabbit: 172 Fox: 294 Trap: 0 
-Rabbit: 154 Fox: 291 Trap: 0 
-Rabbit: 143 Fox: 297 Trap: 0 
-Rabbit: 144 Fox: 259 Trap: 0 
-Rabbit: 131 Fox: 225 Trap: 0 
-Rabbit: 117 Fox: 194 Trap: 0 
-Rabbit: 107 Fox: 183 Trap: 0 
-Rabbit: 107 Fox: 164 Trap: 0 
-Rabbit: 118 Fox: 141 Trap: 0 
-Rabbit: 133 Fox: 116 Trap: 0 
-Rabbit: 155 Fox: 110 Trap: 0 
-Rabbit: 170 Fox: 98 Trap: 0 
-Rabbit: 176 Fox: 91 Trap: 0 
-Rabbit: 186 Fox: 68 Trap: 0 
-Rabbit: 202 Fox: 53 Trap: 0 
-Rabbit: 229 Fox: 43 Trap: 0 
-Rabbit: 249 Fox: 34 Trap: 0 
-Rabbit: 263 Fox: 19 Trap: 0 
-Rabbit: 264 Fox: 10 Trap: 0 
-Rabbit: 279 Fox: 1 Trap: 0 
-Rabbit: 319 Fox: 0 Trap: 0 
-[Halt]
-[Init]
-Trap: 35 Fox: 116 Rabbit: 616 
-Trap: 30 Fox: 151 Rabbit: 685 
-Trap: 27 Fox: 176 Rabbit: 796 
-Trap: 22 Fox: 214 Rabbit: 857 
-Trap: 21 Fox: 262 Rabbit: 876 
-Trap: 19 Fox: 297 Rabbit: 889 
-Trap: 16 Fox: 331 Rabbit: 953 
-Trap: 15 Fox: 354 Rabbit: 997 
-Trap: 13 Fox: 372 Rabbit: 1037 
-Trap: 9 Fox: 387 Rabbit: 1063 
-Trap: 9 Fox: 400 Rabbit: 1084 
-Trap: 7 Fox: 444 Rabbit: 1138 
-Trap: 5 Fox: 492 Rabbit: 1123 
-Trap: 4 Fox: 558 Rabbit: 1134 
-Trap: 4 Fox: 589 Rabbit: 1128 
-Trap: 3 Fox: 638 Rabbit: 1046 
-Trap: 2 Fox: 720 Rabbit: 1011 
-Trap: 2 Fox: 798 Rabbit: 954 
-Trap: 2 Fox: 849 Rabbit: 895 
-Trap: 2 Fox: 867 Rabbit: 769 
-Trap: 1 Fox: 883 Rabbit: 691 
-Trap: 1 Fox: 916 Rabbit: 608 
-Trap: 1 Fox: 930 Rabbit: 498 
-Trap: 1 Fox: 947 Rabbit: 401 
-Trap: 1 Fox: 968 Rabbit: 338 
-Trap: 1 Fox: 948 Rabbit: 275 
-Trap: 1 Fox: 969 Rabbit: 237 
-Trap: 1 Fox: 979 Rabbit: 186 
-Trap: 1 Fox: 959 Rabbit: 145 
-Trap: 1 Fox: 925 Rabbit: 104 
-Trap: 1 Fox: 849 Rabbit: 85 
-Trap: 1 Fox: 771 Rabbit: 70 
-Trap: 1 Fox: 706 Rabbit: 58 
-Trap: 1 Fox: 594 Rabbit: 51 
-Trap: 1 Fox: 519 Rabbit: 42 
-Trap: 1 Fox: 457 Rabbit: 34 
-Trap: 1 Fox: 347 Rabbit: 23 
-Trap: 1 Fox: 287 Rabbit: 17 
-Trap: 1 Fox: 231 Rabbit: 16 
-Trap: 1 Fox: 193 Rabbit: 17 
-Trap: 1 Fox: 146 Rabbit: 20 
-Trap: 1 Fox: 113 Rabbit: 20 
-Trap: 1 Fox: 70 Rabbit: 25 
-Trap: 0 Fox: 46 Rabbit: 27 
-Trap: 0 Fox: 36 Rabbit: 28 
-Trap: 0 Fox: 21 Rabbit: 37 
-Trap: 0 Fox: 11 Rabbit: 44 
-Trap: 0 Fox: 11 Rabbit: 47 
-Trap: 0 Fox: 0 Rabbit: 61 
-Trap: 0 Fox: 0 Rabbit: 71 
-Trap: 0 Fox: 0 Rabbit: 89 
-Trap: 0 Fox: 0 Rabbit: 96 
-Trap: 0 Fox: 0 Rabbit: 103 
-Trap: 0 Fox: 0 Rabbit: 112 
-Trap: 0 Fox: 0 Rabbit: 120 
-Trap: 0 Fox: 0 Rabbit: 149 
-Trap: 0 Fox: 0 Rabbit: 170 
-Trap: 0 Fox: 0 Rabbit: 181 
-Trap: 0 Fox: 0 Rabbit: 221 
-Trap: 0 Fox: 0 Rabbit: 253 
-Trap: 0 Fox: 0 Rabbit: 278 
-Trap: 0 Fox: 0 Rabbit: 320 
-Trap: 0 Fox: 0 Rabbit: 349 
-Trap: 0 Fox: 0 Rabbit: 374 
-Trap: 0 Fox: 0 Rabbit: 412 
-Trap: 0 Fox: 0 Rabbit: 466 
-Trap: 0 Fox: 0 Rabbit: 516 
-Trap: 0 Fox: 0 Rabbit: 571 
-Trap: 0 Fox: 0 Rabbit: 608 
-Trap: 0 Fox: 0 Rabbit: 661 
-Trap: 0 Fox: 0 Rabbit: 738 
-Trap: 0 Fox: 0 Rabbit: 796 
-Trap: 0 Fox: 0 Rabbit: 852 
-Trap: 0 Fox: 0 Rabbit: 936 
-Trap: 0 Fox: 0 Rabbit: 968 
-Trap: 0 Fox: 0 Rabbit: 1038 
-Trap: 0 Fox: 0 Rabbit: 1120 
-Trap: 0 Fox: 0 Rabbit: 1166 
-Trap: 0 Fox: 0 Rabbit: 1250 
-Trap: 0 Fox: 0 Rabbit: 1295 
-Trap: 0 Fox: 0 Rabbit: 1371 
-Trap: 0 Fox: 0 Rabbit: 1433 
-Trap: 0 Fox: 0 Rabbit: 1506 
-Trap: 0 Fox: 0 Rabbit: 1580 
-Trap: 0 Fox: 0 Rabbit: 1648 
-Trap: 0 Fox: 0 Rabbit: 1721 
-Trap: 0 Fox: 0 Rabbit: 1779 
-Trap: 0 Fox: 0 Rabbit: 1848 
-Trap: 0 Fox: 0 Rabbit: 1899 
-Trap: 0 Fox: 0 Rabbit: 1944 
-Trap: 0 Fox: 0 Rabbit: 2011 
-Trap: 0 Fox: 0 Rabbit: 2060 
-Trap: 0 Fox: 0 Rabbit: 2096 
-Trap: 0 Fox: 0 Rabbit: 2125 
-Trap: 0 Fox: 0 Rabbit: 2181 
-Trap: 0 Fox: 0 Rabbit: 2209 
-Trap: 0 Fox: 0 Rabbit: 2251 
-Trap: 0 Fox: 0 Rabbit: 2294 
-Trap: 0 Fox: 0 Rabbit: 2343 
-Trap: 0 Fox: 0 Rabbit: 2366 
-Trap: 0 Fox: 0 Rabbit: 2364 
-Trap: 0 Fox: 0 Rabbit: 2414 
-Trap: 0 Fox: 0 Rabbit: 2454 
-Trap: 0 Fox: 0 Rabbit: 2500 
-Trap: 0 Fox: 0 Rabbit: 2553 
-Trap: 0 Fox: 0 Rabbit: 2610 
-Trap: 0 Fox: 0 Rabbit: 2628 
-Trap: 0 Fox: 0 Rabbit: 2660 
-Trap: 0 Fox: 0 Rabbit: 2683 
-Trap: 0 Fox: 0 Rabbit: 2736 
-Trap: 0 Fox: 0 Rabbit: 2772 
-Trap: 0 Fox: 0 Rabbit: 2827 
-Trap: 0 Fox: 0 Rabbit: 2845 
-Trap: 0 Fox: 0 Rabbit: 2894 
-Trap: 0 Fox: 0 Rabbit: 2916 
-Trap: 0 Fox: 0 Rabbit: 2943 
-Trap: 0 Fox: 0 Rabbit: 2995 
-Trap: 0 Fox: 0 Rabbit: 3037 
-Trap: 0 Fox: 0 Rabbit: 3100 
-Trap: 0 Fox: 0 Rabbit: 3137 
-Trap: 0 Fox: 0 Rabbit: 3169 
-Trap: 0 Fox: 0 Rabbit: 3237 
-Trap: 0 Fox: 0 Rabbit: 3285 
-Trap: 0 Fox: 0 Rabbit: 3277 
-Trap: 0 Fox: 0 Rabbit: 3293 
-Trap: 0 Fox: 0 Rabbit: 3325 
-Trap: 0 Fox: 0 Rabbit: 3376 
-Trap: 0 Fox: 0 Rabbit: 3446 
-Trap: 0 Fox: 0 Rabbit: 3454 
-Trap: 0 Fox: 0 Rabbit: 3482 
-Trap: 0 Fox: 0 Rabbit: 3497 
-Trap: 0 Fox: 0 Rabbit: 3533 
-Trap: 0 Fox: 0 Rabbit: 3583 
-Trap: 0 Fox: 0 Rabbit: 3631 
-Trap: 0 Fox: 0 Rabbit: 3659 
-Trap: 0 Fox: 0 Rabbit: 3718 
-Trap: 0 Fox: 0 Rabbit: 3745 
-Trap: 0 Fox: 0 Rabbit: 3814 
-Trap: 0 Fox: 0 Rabbit: 3847 
-Trap: 0 Fox: 0 Rabbit: 3861 
-Trap: 0 Fox: 0 Rabbit: 3905 
-Trap: 0 Fox: 0 Rabbit: 3940 
-Trap: 0 Fox: 0 Rabbit: 4006 
-Trap: 0 Fox: 0 Rabbit: 4038 
-Trap: 0 Fox: 0 Rabbit: 4086 
-Trap: 0 Fox: 0 Rabbit: 4099 
-Trap: 0 Fox: 0 Rabbit: 4161 
-Trap: 0 Fox: 0 Rabbit: 4193 
-Trap: 0 Fox: 0 Rabbit: 4242 
-Trap: 0 Fox: 0 Rabbit: 4250 
-Trap: 0 Fox: 0 Rabbit: 4326 
-Trap: 0 Fox: 0 Rabbit: 4359 
-Trap: 0 Fox: 0 Rabbit: 4432 
-Trap: 0 Fox: 0 Rabbit: 4463 
-Trap: 0 Fox: 0 Rabbit: 4492 
-Trap: 0 Fox: 0 Rabbit: 4518 
-Trap: 0 Fox: 0 Rabbit: 4547 
-Trap: 0 Fox: 0 Rabbit: 4545 
-Trap: 0 Fox: 0 Rabbit: 4571 
-Trap: 0 Fox: 0 Rabbit: 4613 
-Trap: 0 Fox: 0 Rabbit: 4623 
-Trap: 0 Fox: 0 Rabbit: 4653 
-Trap: 0 Fox: 0 Rabbit: 4677 
-Trap: 0 Fox: 0 Rabbit: 4697 
-Trap: 0 Fox: 0 Rabbit: 4704 
-Trap: 0 Fox: 0 Rabbit: 4718 
-Trap: 0 Fox: 0 Rabbit: 4713 
-Trap: 0 Fox: 0 Rabbit: 4748 
-Trap: 0 Fox: 0 Rabbit: 4758 
-Trap: 0 Fox: 0 Rabbit: 4788 
-Trap: 0 Fox: 0 Rabbit: 4767 
-Trap: 0 Fox: 0 Rabbit: 4787 
-Trap: 0 Fox: 0 Rabbit: 4813 
-Trap: 0 Fox: 0 Rabbit: 4829 
-Trap: 0 Fox: 0 Rabbit: 4821 
-Trap: 0 Fox: 0 Rabbit: 4860 
-Trap: 0 Fox: 0 Rabbit: 4835 
-Trap: 0 Fox: 0 Rabbit: 4862 
-Trap: 0 Fox: 0 Rabbit: 4893 
-Trap: 0 Fox: 0 Rabbit: 4897 
-Trap: 0 Fox: 0 Rabbit: 4868 
-Trap: 0 Fox: 0 Rabbit: 4889 
-Trap: 0 Fox: 0 Rabbit: 4876 
-Trap: 0 Fox: 0 Rabbit: 4883 
-Trap: 0 Fox: 0 Rabbit: 4906 
-Trap: 0 Fox: 0 Rabbit: 4906 
-Trap: 0 Fox: 0 Rabbit: 4874 
-Trap: 0 Fox: 0 Rabbit: 4854 
-Trap: 0 Fox: 0 Rabbit: 4871 
-Trap: 0 Fox: 0 Rabbit: 4891 
-Trap: 0 Fox: 0 Rabbit: 4851 
-Trap: 0 Fox: 0 Rabbit: 4889 
-Trap: 0 Fox: 0 Rabbit: 4878 
-Trap: 0 Fox: 0 Rabbit: 4893 
-Trap: 0 Fox: 0 Rabbit: 4888 
-Trap: 0 Fox: 0 Rabbit: 4886 
-Trap: 0 Fox: 0 Rabbit: 4898 
-Trap: 0 Fox: 0 Rabbit: 4870 
-Trap: 0 Fox: 0 Rabbit: 4897 
-Trap: 0 Fox: 0 Rabbit: 4877 
-Trap: 0 Fox: 0 Rabbit: 4887 
-Trap: 0 Fox: 0 Rabbit: 4878 
-Trap: 0 Fox: 0 Rabbit: 4905 
-Trap: 0 Fox: 0 Rabbit: 4915 
-Trap: 0 Fox: 0 Rabbit: 4893 
-Trap: 0 Fox: 0 Rabbit: 4868 
-Trap: 0 Fox: 0 Rabbit: 4861 
-Trap: 0 Fox: 0 Rabbit: 4862 
-Trap: 0 Fox: 0 Rabbit: 4885 
-Trap: 0 Fox: 0 Rabbit: 4884 
-Trap: 0 Fox: 0 Rabbit: 4921 
-Trap: 0 Fox: 0 Rabbit: 4912 
-Trap: 0 Fox: 0 Rabbit: 4875 
-Trap: 0 Fox: 0 Rabbit: 4929 
-Trap: 0 Fox: 0 Rabbit: 4907 
-Trap: 0 Fox: 0 Rabbit: 4903 
-Trap: 0 Fox: 0 Rabbit: 4873 
-Trap: 0 Fox: 0 Rabbit: 4898 
-Trap: 0 Fox: 0 Rabbit: 4908 
-Trap: 0 Fox: 0 Rabbit: 4882 
-Trap: 0 Fox: 0 Rabbit: 4898 
-Trap: 0 Fox: 0 Rabbit: 4888 
-Trap: 0 Fox: 0 Rabbit: 4920 
-Trap: 0 Fox: 0 Rabbit: 4939 
-Trap: 0 Fox: 0 Rabbit: 4862 
-Trap: 0 Fox: 0 Rabbit: 4870 
-Trap: 0 Fox: 0 Rabbit: 4903 
-Trap: 0 Fox: 0 Rabbit: 4896 
-Trap: 0 Fox: 0 Rabbit: 4900 
-Trap: 0 Fox: 0 Rabbit: 4928 
-Trap: 0 Fox: 0 Rabbit: 4941 
-Trap: 0 Fox: 0 Rabbit: 4907 
-Trap: 0 Fox: 0 Rabbit: 4890 
-Trap: 0 Fox: 0 Rabbit: 4897 
-Trap: 0 Fox: 0 Rabbit: 4869 
-Trap: 0 Fox: 0 Rabbit: 4906 
-Trap: 0 Fox: 0 Rabbit: 4902 
-Trap: 0 Fox: 0 Rabbit: 4847 
-Trap: 0 Fox: 0 Rabbit: 4900 
-Trap: 0 Fox: 0 Rabbit: 4911 
-Trap: 0 Fox: 0 Rabbit: 4899 
-Trap: 0 Fox: 0 Rabbit: 4918 
-Trap: 0 Fox: 0 Rabbit: 4893 
-Trap: 0 Fox: 0 Rabbit: 4906 
-Trap: 0 Fox: 0 Rabbit: 4950 
-Trap: 0 Fox: 0 Rabbit: 4916 
-Trap: 0 Fox: 0 Rabbit: 4923 
-Trap: 0 Fox: 0 Rabbit: 4930 
-Trap: 0 Fox: 0 Rabbit: 4868 
-Trap: 0 Fox: 0 Rabbit: 4875 
-Trap: 0 Fox: 0 Rabbit: 4904 
-Trap: 0 Fox: 0 Rabbit: 4895 
-Trap: 0 Fox: 0 Rabbit: 4868 
-Trap: 0 Fox: 0 Rabbit: 4878 
-Trap: 0 Fox: 0 Rabbit: 4889 
-Trap: 0 Fox: 0 Rabbit: 4888 
-Trap: 0 Fox: 0 Rabbit: 4894 
-Trap: 0 Fox: 0 Rabbit: 4897 
-Trap: 0 Fox: 0 Rabbit: 4871 
-Trap: 0 Fox: 0 Rabbit: 4895 
-Trap: 0 Fox: 0 Rabbit: 4886 
-Trap: 0 Fox: 0 Rabbit: 4868 
-Trap: 0 Fox: 0 Rabbit: 4896 
-Trap: 0 Fox: 0 Rabbit: 4942 
-Trap: 0 Fox: 0 Rabbit: 4887 
-Trap: 0 Fox: 0 Rabbit: 4886 
-Trap: 0 Fox: 0 Rabbit: 4877 
-Trap: 0 Fox: 0 Rabbit: 4891 
-Trap: 0 Fox: 0 Rabbit: 4903 
-Trap: 0 Fox: 0 Rabbit: 4878 
-Trap: 0 Fox: 0 Rabbit: 4899 
-Trap: 0 Fox: 0 Rabbit: 4926 
-Trap: 0 Fox: 0 Rabbit: 4925 
-Trap: 0 Fox: 0 Rabbit: 4924 
-Trap: 0 Fox: 0 Rabbit: 4909 
-Trap: 0 Fox: 0 Rabbit: 4902 
-Trap: 0 Fox: 0 Rabbit: 4906 
-Trap: 0 Fox: 0 Rabbit: 4917 
-Trap: 0 Fox: 0 Rabbit: 4907 
-Trap: 0 Fox: 0 Rabbit: 4894 
-Trap: 0 Fox: 0 Rabbit: 4861 
-Trap: 0 Fox: 0 Rabbit: 4846 
-Trap: 0 Fox: 0 Rabbit: 4856 
-Trap: 0 Fox: 0 Rabbit: 4899 
-Trap: 0 Fox: 0 Rabbit: 4900 
-Trap: 0 Fox: 0 Rabbit: 4885 
-Trap: 0 Fox: 0 Rabbit: 4895 
-Trap: 0 Fox: 0 Rabbit: 4921 
-Trap: 0 Fox: 0 Rabbit: 4876 
-Trap: 0 Fox: 0 Rabbit: 4899 
-Trap: 0 Fox: 0 Rabbit: 4895 
-Trap: 0 Fox: 0 Rabbit: 4908 
-Trap: 0 Fox: 0 Rabbit: 4914 
-Trap: 0 Fox: 0 Rabbit: 4907 
-Trap: 0 Fox: 0 Rabbit: 4883 
-Trap: 0 Fox: 0 Rabbit: 4909 
-Trap: 0 Fox: 0 Rabbit: 4871 
-Trap: 0 Fox: 0 Rabbit: 4909 
-Trap: 0 Fox: 0 Rabbit: 4912 
-Trap: 0 Fox: 0 Rabbit: 4872 
-Trap: 0 Fox: 0 Rabbit: 4876 
-Trap: 0 Fox: 0 Rabbit: 4897 
-Trap: 0 Fox: 0 Rabbit: 4927 
-Trap: 0 Fox: 0 Rabbit: 4905 
-Trap: 0 Fox: 0 Rabbit: 4900 
-Trap: 0 Fox: 0 Rabbit: 4886 
-Trap: 0 Fox: 0 Rabbit: 4913 
-Trap: 0 Fox: 0 Rabbit: 4900 
-Trap: 0 Fox: 0 Rabbit: 4896 
-Trap: 0 Fox: 0 Rabbit: 4954 
-Trap: 0 Fox: 0 Rabbit: 4924 
-Trap: 0 Fox: 0 Rabbit: 4907 
-Trap: 0 Fox: 0 Rabbit: 4897 
-Trap: 0 Fox: 0 Rabbit: 4883 
-Trap: 0 Fox: 0 Rabbit: 4921 
-Trap: 0 Fox: 0 Rabbit: 4904 
-Trap: 0 Fox: 0 Rabbit: 4868 
-Trap: 0 Fox: 0 Rabbit: 4881 
-Trap: 0 Fox: 0 Rabbit: 4904 
-Trap: 0 Fox: 0 Rabbit: 4897 
-Trap: 0 Fox: 0 Rabbit: 4900 
-Trap: 0 Fox: 0 Rabbit: 4913 
-Trap: 0 Fox: 0 Rabbit: 4914 
-Trap: 0 Fox: 0 Rabbit: 4873 
-Trap: 0 Fox: 0 Rabbit: 4894 
-Trap: 0 Fox: 0 Rabbit: 4869 
-Trap: 0 Fox: 0 Rabbit: 4879 
-Trap: 0 Fox: 0 Rabbit: 4882 
-Trap: 0 Fox: 0 Rabbit: 4895 
-Trap: 0 Fox: 0 Rabbit: 4884 
-Trap: 0 Fox: 0 Rabbit: 4887 
-Trap: 0 Fox: 0 Rabbit: 4926 
-Trap: 0 Fox: 0 Rabbit: 4904 
-Trap: 0 Fox: 0 Rabbit: 4926 
-Trap: 0 Fox: 0 Rabbit: 4915 
-Trap: 0 Fox: 0 Rabbit: 4911 
-Trap: 0 Fox: 0 Rabbit: 4912 
-Trap: 0 Fox: 0 Rabbit: 4916 
-Trap: 0 Fox: 0 Rabbit: 4915 
-Trap: 0 Fox: 0 Rabbit: 4919 
-Trap: 0 Fox: 0 Rabbit: 4895 
-Trap: 0 Fox: 0 Rabbit: 4861 
-Trap: 0 Fox: 0 Rabbit: 4901 
-Trap: 0 Fox: 0 Rabbit: 4893 
-Trap: 0 Fox: 0 Rabbit: 4928 
-Trap: 0 Fox: 0 Rabbit: 4915 
-Trap: 0 Fox: 0 Rabbit: 4866 
-Trap: 0 Fox: 0 Rabbit: 4878 
-Trap: 0 Fox: 0 Rabbit: 4870 
-Trap: 0 Fox: 0 Rabbit: 4856 
-Trap: 0 Fox: 0 Rabbit: 4861 
-Trap: 0 Fox: 0 Rabbit: 4891 
-Trap: 0 Fox: 0 Rabbit: 4923 
-Trap: 0 Fox: 0 Rabbit: 4923 
-Trap: 0 Fox: 0 Rabbit: 4910 
-Trap: 0 Fox: 0 Rabbit: 4925 
-Trap: 0 Fox: 0 Rabbit: 4889 
-Trap: 0 Fox: 0 Rabbit: 4902 
-Trap: 0 Fox: 0 Rabbit: 4864 
-Trap: 0 Fox: 0 Rabbit: 4910 
-Trap: 0 Fox: 0 Rabbit: 4884 
-Trap: 0 Fox: 0 Rabbit: 4901 
-Trap: 0 Fox: 0 Rabbit: 4908 
-Trap: 0 Fox: 0 Rabbit: 4912 
-Trap: 0 Fox: 0 Rabbit: 4891 
-Trap: 0 Fox: 0 Rabbit: 4928 
-Trap: 0 Fox: 0 Rabbit: 4896 
-Trap: 0 Fox: 0 Rabbit: 4903 
-Trap: 0 Fox: 0 Rabbit: 4884 
-Trap: 0 Fox: 0 Rabbit: 4891 
-Trap: 0 Fox: 0 Rabbit: 4908 
-Trap: 0 Fox: 0 Rabbit: 4916 
-Trap: 0 Fox: 0 Rabbit: 4911 
-Trap: 0 Fox: 0 Rabbit: 4935 
-Trap: 0 Fox: 0 Rabbit: 4902 
-Trap: 0 Fox: 0 Rabbit: 4913 
-Trap: 0 Fox: 0 Rabbit: 4898 
-Trap: 0 Fox: 0 Rabbit: 4913 
-Trap: 0 Fox: 0 Rabbit: 4910 
-Trap: 0 Fox: 0 Rabbit: 4878 
-Trap: 0 Fox: 0 Rabbit: 4920 
-Trap: 0 Fox: 0 Rabbit: 4946 
-Trap: 0 Fox: 0 Rabbit: 4941 
-Trap: 0 Fox: 0 Rabbit: 4932 
-Trap: 0 Fox: 0 Rabbit: 4912 
-Trap: 0 Fox: 0 Rabbit: 4921 
-Trap: 0 Fox: 0 Rabbit: 4900 
-Trap: 0 Fox: 0 Rabbit: 4906 
-Trap: 0 Fox: 0 Rabbit: 4908 
-Trap: 0 Fox: 0 Rabbit: 4930 
-Trap: 0 Fox: 0 Rabbit: 4921 
-Trap: 0 Fox: 0 Rabbit: 4882 
-Trap: 0 Fox: 0 Rabbit: 4874 
-Trap: 0 Fox: 0 Rabbit: 4872 
-Trap: 0 Fox: 0 Rabbit: 4884 
-Trap: 0 Fox: 0 Rabbit: 4914 
-Trap: 0 Fox: 0 Rabbit: 4929 
-Trap: 0 Fox: 0 Rabbit: 4884 
-Trap: 0 Fox: 0 Rabbit: 4871 
-Trap: 0 Fox: 0 Rabbit: 4891 
-Trap: 0 Fox: 0 Rabbit: 4869 
-Trap: 0 Fox: 0 Rabbit: 4901 
-Trap: 0 Fox: 0 Rabbit: 4898 
-Trap: 0 Fox: 0 Rabbit: 4919 
-Trap: 0 Fox: 0 Rabbit: 4910 
-Trap: 0 Fox: 0 Rabbit: 4886 
-Trap: 0 Fox: 0 Rabbit: 4891 
-Trap: 0 Fox: 0 Rabbit: 4896 
-Trap: 0 Fox: 0 Rabbit: 4879 
-Trap: 0 Fox: 0 Rabbit: 4874 
-Trap: 0 Fox: 0 Rabbit: 4896 
-Trap: 0 Fox: 0 Rabbit: 4904 
-Trap: 0 Fox: 0 Rabbit: 4873 
-Trap: 0 Fox: 0 Rabbit: 4892 
-Trap: 0 Fox: 0 Rabbit: 4920 
-Trap: 0 Fox: 0 Rabbit: 4883 
-Trap: 0 Fox: 0 Rabbit: 4883 
-Trap: 0 Fox: 0 Rabbit: 4889 
-Trap: 0 Fox: 0 Rabbit: 4917 
-Trap: 0 Fox: 0 Rabbit: 4875 
-Trap: 0 Fox: 0 Rabbit: 4899 
-Trap: 0 Fox: 0 Rabbit: 4906 
-Trap: 0 Fox: 0 Rabbit: 4900 
-Trap: 0 Fox: 0 Rabbit: 4936 
-Trap: 0 Fox: 0 Rabbit: 4883 
-Trap: 0 Fox: 0 Rabbit: 4908 
-Trap: 0 Fox: 0 Rabbit: 4894 
-Trap: 0 Fox: 0 Rabbit: 4886 
-Trap: 0 Fox: 0 Rabbit: 4893 
-Trap: 0 Fox: 0 Rabbit: 4913 
-Trap: 0 Fox: 0 Rabbit: 4905 
-Trap: 0 Fox: 0 Rabbit: 4899 
-Trap: 0 Fox: 0 Rabbit: 4914 
-Trap: 0 Fox: 0 Rabbit: 4895 
-Trap: 0 Fox: 0 Rabbit: 4923 
-Trap: 0 Fox: 0 Rabbit: 4887 
-Trap: 0 Fox: 0 Rabbit: 4899 
-Trap: 0 Fox: 0 Rabbit: 4896 
-Trap: 0 Fox: 0 Rabbit: 4887 
-Trap: 0 Fox: 0 Rabbit: 4903 
-Trap: 0 Fox: 0 Rabbit: 4902 
-Trap: 0 Fox: 0 Rabbit: 4913 
-Trap: 0 Fox: 0 Rabbit: 4869 
-Trap: 0 Fox: 0 Rabbit: 4891 
-Trap: 0 Fox: 0 Rabbit: 4889 
-Trap: 0 Fox: 0 Rabbit: 4891 
-Trap: 0 Fox: 0 Rabbit: 4882 
-Trap: 0 Fox: 0 Rabbit: 4914 
-Trap: 0 Fox: 0 Rabbit: 4899 
-Trap: 0 Fox: 0 Rabbit: 4908 
-Trap: 0 Fox: 0 Rabbit: 4884 
-Trap: 0 Fox: 0 Rabbit: 4897 
-Trap: 0 Fox: 0 Rabbit: 4890 
-Trap: 0 Fox: 0 Rabbit: 4863 
-Trap: 0 Fox: 0 Rabbit: 4894 
-Trap: 0 Fox: 0 Rabbit: 4900 
-Trap: 0 Fox: 0 Rabbit: 4918 
-Trap: 0 Fox: 0 Rabbit: 4885 
-Trap: 0 Fox: 0 Rabbit: 4863 
-Trap: 0 Fox: 0 Rabbit: 4870 
-Trap: 0 Fox: 0 Rabbit: 4883 
-Trap: 0 Fox: 0 Rabbit: 4914 
-Trap: 0 Fox: 0 Rabbit: 4904 
-Trap: 0 Fox: 0 Rabbit: 4900 
-Trap: 0 Fox: 0 Rabbit: 4862 
-Trap: 0 Fox: 0 Rabbit: 4888 
-Trap: 0 Fox: 0 Rabbit: 4899 
-Trap: 0 Fox: 0 Rabbit: 4910 
-Trap: 0 Fox: 0 Rabbit: 4915 
-Trap: 0 Fox: 0 Rabbit: 4916 
-Trap: 0 Fox: 0 Rabbit: 4899 
-Trap: 0 Fox: 0 Rabbit: 4862 
-Trap: 0 Fox: 0 Rabbit: 4891 
-Trap: 0 Fox: 0 Rabbit: 4919 
-Trap: 0 Fox: 0 Rabbit: 4913 
-Trap: 0 Fox: 0 Rabbit: 4935 
-Trap: 0 Fox: 0 Rabbit: 4911 
-Trap: 0 Fox: 0 Rabbit: 4907 
-Trap: 0 Fox: 0 Rabbit: 4891 
-Trap: 0 Fox: 0 Rabbit: 4887 
-Trap: 0 Fox: 0 Rabbit: 4895 
-Trap: 0 Fox: 0 Rabbit: 4892 
-Trap: 0 Fox: 0 Rabbit: 4886 
-Trap: 0 Fox: 0 Rabbit: 4887 
-Trap: 0 Fox: 0 Rabbit: 4889 
-Trap: 0 Fox: 0 Rabbit: 4876 
-Trap: 0 Fox: 0 Rabbit: 4898 
-Trap: 0 Fox: 0 Rabbit: 4922 
-Trap: 0 Fox: 0 Rabbit: 4897 
-Trap: 0 Fox: 0 Rabbit: 4888 
-Trap: 0 Fox: 0 Rabbit: 4892 
-Trap: 0 Fox: 0 Rabbit: 4910 
-Trap: 0 Fox: 0 Rabbit: 4931 
-Trap: 0 Fox: 0 Rabbit: 4939 
-Trap: 0 Fox: 0 Rabbit: 4917 
-Trap: 0 Fox: 0 Rabbit: 4896 
-Trap: 0 Fox: 0 Rabbit: 4880 
-Trap: 0 Fox: 0 Rabbit: 4910 
-Trap: 0 Fox: 0 Rabbit: 4890 
-Trap: 0 Fox: 0 Rabbit: 4922 
-[Halt]
-[Init]
-Fox: 183 Rabbit: 570 Trap: 41 
-Fox: 223 Rabbit: 595 Trap: 37 
-Fox: 279 Rabbit: 627 Trap: 32 
-Fox: 342 Rabbit: 677 Trap: 29 
-Fox: 407 Rabbit: 691 Trap: 26 
-Fox: 462 Rabbit: 723 Trap: 23 
-Fox: 503 Rabbit: 754 Trap: 21 
-Fox: 506 Rabbit: 777 Trap: 17 
-Fox: 487 Rabbit: 755 Trap: 16 
-Fox: 451 Rabbit: 774 Trap: 15 
-Fox: 462 Rabbit: 780 Trap: 13 
-Fox: 451 Rabbit: 786 Trap: 11 
-Fox: 481 Rabbit: 811 Trap: 11 
-Fox: 531 Rabbit: 816 Trap: 11 
-Fox: 573 Rabbit: 776 Trap: 11 
-Fox: 625 Rabbit: 704 Trap: 10 
-Fox: 660 Rabbit: 644 Trap: 8 
-Fox: 700 Rabbit: 599 Trap: 5 
-Fox: 716 Rabbit: 522 Trap: 5 
-Fox: 756 Rabbit: 426 Trap: 5 
-Fox: 766 Rabbit: 322 Trap: 5 
-Fox: 765 Rabbit: 252 Trap: 2 
-Fox: 755 Rabbit: 227 Trap: 2 
-Fox: 753 Rabbit: 186 Trap: 2 
-Fox: 773 Rabbit: 161 Trap: 2 
-Fox: 780 Rabbit: 145 Trap: 2 
-Fox: 753 Rabbit: 137 Trap: 2 
-Fox: 757 Rabbit: 131 Trap: 2 
-Fox: 673 Rabbit: 124 Trap: 2 
-Fox: 600 Rabbit: 126 Trap: 2 
-Fox: 565 Rabbit: 115 Trap: 2 
-Fox: 493 Rabbit: 115 Trap: 1 
-Fox: 433 Rabbit: 94 Trap: 1 
-Fox: 336 Rabbit: 88 Trap: 1 
-Fox: 243 Rabbit: 78 Trap: 1 
-Fox: 211 Rabbit: 79 Trap: 0 
-Fox: 196 Rabbit: 81 Trap: 0 
-Fox: 160 Rabbit: 81 Trap: 0 
-Fox: 130 Rabbit: 80 Trap: 0 
-Fox: 105 Rabbit: 85 Trap: 0 
-Fox: 95 Rabbit: 104 Trap: 0 
-Fox: 86 Rabbit: 108 Trap: 0 
-Fox: 86 Rabbit: 111 Trap: 0 
-Fox: 74 Rabbit: 120 Trap: 0 
-Fox: 64 Rabbit: 127 Trap: 0 
-Fox: 56 Rabbit: 146 Trap: 0 
-Fox: 57 Rabbit: 153 Trap: 0 
-Fox: 51 Rabbit: 167 Trap: 0 
-Fox: 40 Rabbit: 176 Trap: 0 
-Fox: 36 Rabbit: 192 Trap: 0 
-Fox: 29 Rabbit: 226 Trap: 0 
-Fox: 30 Rabbit: 253 Trap: 0 
-Fox: 37 Rabbit: 267 Trap: 0 
-Fox: 31 Rabbit: 309 Trap: 0 
-Fox: 32 Rabbit: 352 Trap: 0 
-Fox: 39 Rabbit: 377 Trap: 0 
-Fox: 41 Rabbit: 447 Trap: 0 
-Fox: 41 Rabbit: 493 Trap: 0 
-Fox: 41 Rabbit: 535 Trap: 0 
-Fox: 30 Rabbit: 596 Trap: 0 
-Fox: 37 Rabbit: 656 Trap: 0 
-Fox: 38 Rabbit: 741 Trap: 0 
-Fox: 36 Rabbit: 829 Trap: 0 
-Fox: 45 Rabbit: 914 Trap: 0 
-Fox: 62 Rabbit: 1008 Trap: 0 
-Fox: 75 Rabbit: 1098 Trap: 0 
-Fox: 89 Rabbit: 1188 Trap: 0 
-Fox: 92 Rabbit: 1280 Trap: 0 
-Fox: 98 Rabbit: 1367 Trap: 0 
-Fox: 98 Rabbit: 1448 Trap: 0 
-Fox: 103 Rabbit: 1538 Trap: 0 
-Fox: 105 Rabbit: 1600 Trap: 0 
-Fox: 110 Rabbit: 1685 Trap: 0 
-Fox: 120 Rabbit: 1800 Trap: 0 
-Fox: 131 Rabbit: 1870 Trap: 0 
-Fox: 144 Rabbit: 1950 Trap: 0 
-Fox: 161 Rabbit: 2047 Trap: 0 
-Fox: 180 Rabbit: 2176 Trap: 0 
-Fox: 193 Rabbit: 2269 Trap: 0 
-Fox: 218 Rabbit: 2358 Trap: 0 
-Fox: 231 Rabbit: 2462 Trap: 0 
-Fox: 239 Rabbit: 2557 Trap: 0 
-Fox: 257 Rabbit: 2619 Trap: 0 
-Fox: 270 Rabbit: 2659 Trap: 0 
-Fox: 286 Rabbit: 2771 Trap: 0 
-Fox: 286 Rabbit: 2852 Trap: 0 
-Fox: 287 Rabbit: 2895 Trap: 0 
-Fox: 307 Rabbit: 2938 Trap: 0 
-Fox: 307 Rabbit: 2936 Trap: 0 
-Fox: 329 Rabbit: 2967 Trap: 0 
-Fox: 327 Rabbit: 3022 Trap: 0 
-Fox: 311 Rabbit: 3035 Trap: 0 
-Fox: 335 Rabbit: 3067 Trap: 0 
-Fox: 337 Rabbit: 3082 Trap: 0 
-Fox: 337 Rabbit: 3066 Trap: 0 
-Fox: 353 Rabbit: 3058 Trap: 0 
-Fox: 355 Rabbit: 3021 Trap: 0 
-Fox: 347 Rabbit: 3021 Trap: 0 
-Fox: 353 Rabbit: 2976 Trap: 0 
-Fox: 340 Rabbit: 2932 Trap: 0 
-Fox: 321 Rabbit: 2921 Trap: 0 
-Fox: 315 Rabbit: 2858 Trap: 0 
-Fox: 326 Rabbit: 2829 Trap: 0 
-Fox: 321 Rabbit: 2793 Trap: 0 
-Fox: 335 Rabbit: 2748 Trap: 0 
-Fox: 351 Rabbit: 2706 Trap: 0 
-Fox: 358 Rabbit: 2658 Trap: 0 
-Fox: 381 Rabbit: 2606 Trap: 0 
-Fox: 407 Rabbit: 2541 Trap: 0 
-Fox: 412 Rabbit: 2481 Trap: 0 
-Fox: 426 Rabbit: 2413 Trap: 0 
-Fox: 435 Rabbit: 2346 Trap: 0 
-Fox: 421 Rabbit: 2287 Trap: 0 
-Fox: 460 Rabbit: 2243 Trap: 0 
-Fox: 457 Rabbit: 2197 Trap: 0 
-Fox: 453 Rabbit: 2151 Trap: 0 
-Fox: 444 Rabbit: 2095 Trap: 0 
-Fox: 456 Rabbit: 2049 Trap: 0 
-Fox: 476 Rabbit: 1975 Trap: 0 
-Fox: 486 Rabbit: 1936 Trap: 0 
-Fox: 468 Rabbit: 1873 Trap: 0 
-Fox: 469 Rabbit: 1832 Trap: 0 
-Fox: 496 Rabbit: 1787 Trap: 0 
-Fox: 498 Rabbit: 1730 Trap: 0 
-Fox: 479 Rabbit: 1700 Trap: 0 
-Fox: 464 Rabbit: 1663 Trap: 0 
-Fox: 466 Rabbit: 1588 Trap: 0 
-Fox: 449 Rabbit: 1548 Trap: 0 
-Fox: 448 Rabbit: 1518 Trap: 0 
-Fox: 444 Rabbit: 1473 Trap: 0 
-Fox: 445 Rabbit: 1403 Trap: 0 
-Fox: 445 Rabbit: 1356 Trap: 0 
-Fox: 448 Rabbit: 1306 Trap: 0 
-Fox: 464 Rabbit: 1239 Trap: 0 
-Fox: 461 Rabbit: 1171 Trap: 0 
-Fox: 464 Rabbit: 1119 Trap: 0 
-Fox: 485 Rabbit: 1051 Trap: 0 
-Fox: 478 Rabbit: 995 Trap: 0 
-Fox: 499 Rabbit: 909 Trap: 0 
-Fox: 500 Rabbit: 835 Trap: 0 
-Fox: 483 Rabbit: 761 Trap: 0 
-Fox: 485 Rabbit: 716 Trap: 0 
-Fox: 517 Rabbit: 656 Trap: 0 
-Fox: 500 Rabbit: 600 Trap: 0 
-Fox: 501 Rabbit: 550 Trap: 0 
-Fox: 469 Rabbit: 514 Trap: 0 
-Fox: 467 Rabbit: 489 Trap: 0 
-Fox: 450 Rabbit: 465 Trap: 0 
-Fox: 445 Rabbit: 446 Trap: 0 
-Fox: 409 Rabbit: 427 Trap: 0 
-Fox: 398 Rabbit: 407 Trap: 0 
-Fox: 360 Rabbit: 388 Trap: 0 
-Fox: 352 Rabbit: 359 Trap: 0 
-Fox: 349 Rabbit: 340 Trap: 0 
-Fox: 319 Rabbit: 332 Trap: 0 
-Fox: 297 Rabbit: 301 Trap: 0 
-Fox: 263 Rabbit: 281 Trap: 0 
-Fox: 243 Rabbit: 247 Trap: 0 
-Fox: 248 Rabbit: 230 Trap: 0 
-Fox: 251 Rabbit: 214 Trap: 0 
-Fox: 234 Rabbit: 202 Trap: 0 
-Fox: 224 Rabbit: 193 Trap: 0 
-Fox: 205 Rabbit: 191 Trap: 0 
-Fox: 198 Rabbit: 186 Trap: 0 
-Fox: 197 Rabbit: 189 Trap: 0 
-Fox: 183 Rabbit: 190 Trap: 0 
-Fox: 167 Rabbit: 191 Trap: 0 
-Fox: 154 Rabbit: 215 Trap: 0 
-Fox: 149 Rabbit: 232 Trap: 0 
-Fox: 145 Rabbit: 252 Trap: 0 
-Fox: 137 Rabbit: 261 Trap: 0 
-Fox: 134 Rabbit: 290 Trap: 0 
-Fox: 135 Rabbit: 311 Trap: 0 
-Fox: 120 Rabbit: 332 Trap: 0 
-Fox: 116 Rabbit: 354 Trap: 0 
-Fox: 111 Rabbit: 357 Trap: 0 
-Fox: 100 Rabbit: 402 Trap: 0 
-Fox: 100 Rabbit: 438 Trap: 0 
-Fox: 92 Rabbit: 481 Trap: 0 
-Fox: 84 Rabbit: 521 Trap: 0 
-Fox: 89 Rabbit: 547 Trap: 0 
-Fox: 86 Rabbit: 577 Trap: 0 
-Fox: 89 Rabbit: 642 Trap: 0 
-Fox: 79 Rabbit: 690 Trap: 0 
-Fox: 91 Rabbit: 746 Trap: 0 
-Fox: 92 Rabbit: 785 Trap: 0 
-Fox: 95 Rabbit: 818 Trap: 0 
-Fox: 91 Rabbit: 839 Trap: 0 
-Fox: 83 Rabbit: 913 Trap: 0 
-Fox: 89 Rabbit: 971 Trap: 0 
-Fox: 100 Rabbit: 1038 Trap: 0 
-Fox: 89 Rabbit: 1075 Trap: 0 
-Fox: 93 Rabbit: 1156 Trap: 0 
-Fox: 83 Rabbit: 1242 Trap: 0 
-Fox: 89 Rabbit: 1320 Trap: 0 
-Fox: 110 Rabbit: 1378 Trap: 0 
-Fox: 129 Rabbit: 1450 Trap: 0 
-Fox: 139 Rabbit: 1481 Trap: 0 
-Fox: 143 Rabbit: 1550 Trap: 0 
-Fox: 150 Rabbit: 1607 Trap: 0 
-Fox: 170 Rabbit: 1693 Trap: 0 
-Fox: 206 Rabbit: 1757 Trap: 0 
-Fox: 227 Rabbit: 1793 Trap: 0 
-Fox: 225 Rabbit: 1791 Trap: 0 
-Fox: 231 Rabbit: 1833 Trap: 0 
-Fox: 247 Rabbit: 1902 Trap: 0 
-Fox: 273 Rabbit: 1931 Trap: 0 
-Fox: 293 Rabbit: 1934 Trap: 0 
-Fox: 277 Rabbit: 1958 Trap: 0 
-Fox: 292 Rabbit: 1981 Trap: 0 
-Fox: 303 Rabbit: 1955 Trap: 0 
-Fox: 334 Rabbit: 1947 Trap: 0 
-Fox: 373 Rabbit: 1944 Trap: 0 
-Fox: 392 Rabbit: 1915 Trap: 0 
-Fox: 405 Rabbit: 1904 Trap: 0 
-Fox: 421 Rabbit: 1877 Trap: 0 
-Fox: 436 Rabbit: 1857 Trap: 0 
-Fox: 452 Rabbit: 1853 Trap: 0 
-Fox: 478 Rabbit: 1833 Trap: 0 
-Fox: 471 Rabbit: 1816 Trap: 0 
-Fox: 462 Rabbit: 1804 Trap: 0 
-Fox: 478 Rabbit: 1774 Trap: 0 
-Fox: 480 Rabbit: 1737 Trap: 0 
-Fox: 492 Rabbit: 1783 Trap: 0 
-Fox: 494 Rabbit: 1797 Trap: 0 
-Fox: 471 Rabbit: 1767 Trap: 0 
-Fox: 455 Rabbit: 1737 Trap: 0 
-Fox: 455 Rabbit: 1702 Trap: 0 
-Fox: 431 Rabbit: 1685 Trap: 0 
-Fox: 423 Rabbit: 1647 Trap: 0 
-Fox: 430 Rabbit: 1612 Trap: 0 
-Fox: 407 Rabbit: 1595 Trap: 0 
-Fox: 412 Rabbit: 1579 Trap: 0 
-Fox: 414 Rabbit: 1508 Trap: 0 
-Fox: 407 Rabbit: 1466 Trap: 0 
-Fox: 410 Rabbit: 1421 Trap: 0 
-Fox: 406 Rabbit: 1400 Trap: 0 
-Fox: 409 Rabbit: 1361 Trap: 0 
-Fox: 389 Rabbit: 1308 Trap: 0 
-Fox: 376 Rabbit: 1255 Trap: 0 
-Fox: 381 Rabbit: 1244 Trap: 0 
-Fox: 377 Rabbit: 1224 Trap: 0 
-Fox: 375 Rabbit: 1171 Trap: 0 
-Fox: 376 Rabbit: 1143 Trap: 0 
-Fox: 389 Rabbit: 1109 Trap: 0 
-Fox: 436 Rabbit: 1065 Trap: 0 
-Fox: 454 Rabbit: 1030 Trap: 0 
-Fox: 441 Rabbit: 980 Trap: 0 
-Fox: 456 Rabbit: 937 Trap: 0 
-Fox: 465 Rabbit: 872 Trap: 0 
-Fox: 475 Rabbit: 829 Trap: 0 
-Fox: 488 Rabbit: 773 Trap: 0 
-Fox: 444 Rabbit: 766 Trap: 0 
-Fox: 453 Rabbit: 743 Trap: 0 
-Fox: 448 Rabbit: 702 Trap: 0 
-Fox: 427 Rabbit: 667 Trap: 0 
-Fox: 414 Rabbit: 649 Trap: 0 
-Fox: 386 Rabbit: 615 Trap: 0 
-Fox: 338 Rabbit: 597 Trap: 0 
-Fox: 331 Rabbit: 562 Trap: 0 
-Fox: 341 Rabbit: 533 Trap: 0 
-Fox: 348 Rabbit: 503 Trap: 0 
-Fox: 322 Rabbit: 488 Trap: 0 
-Fox: 320 Rabbit: 464 Trap: 0 
-Fox: 326 Rabbit: 457 Trap: 0 
-Fox: 332 Rabbit: 433 Trap: 0 
-Fox: 325 Rabbit: 422 Trap: 0 
-Fox: 299 Rabbit: 413 Trap: 0 
-Fox: 273 Rabbit: 433 Trap: 0 
-Fox: 279 Rabbit: 442 Trap: 0 
-Fox: 257 Rabbit: 428 Trap: 0 
-Fox: 247 Rabbit: 416 Trap: 0 
-Fox: 237 Rabbit: 408 Trap: 0 
-Fox: 215 Rabbit: 410 Trap: 0 
-Fox: 200 Rabbit: 411 Trap: 0 
-Fox: 198 Rabbit: 401 Trap: 0 
-Fox: 187 Rabbit: 431 Trap: 0 
-Fox: 190 Rabbit: 454 Trap: 0 
-Fox: 172 Rabbit: 448 Trap: 0 
-Fox: 172 Rabbit: 446 Trap: 0 
-Fox: 187 Rabbit: 457 Trap: 0 
-Fox: 194 Rabbit: 462 Trap: 0 
-Fox: 194 Rabbit: 471 Trap: 0 
-Fox: 195 Rabbit: 481 Trap: 0 
-Fox: 181 Rabbit: 488 Trap: 0 
-Fox: 198 Rabbit: 498 Trap: 0 
-Fox: 185 Rabbit: 503 Trap: 0 
-Fox: 167 Rabbit: 505 Trap: 0 
-Fox: 170 Rabbit: 528 Trap: 0 
-Fox: 184 Rabbit: 535 Trap: 0 
-Fox: 215 Rabbit: 532 Trap: 0 
-Fox: 224 Rabbit: 503 Trap: 0 
-Fox: 223 Rabbit: 517 Trap: 0 
-Fox: 224 Rabbit: 526 Trap: 0 
-Fox: 234 Rabbit: 556 Trap: 0 
-Fox: 247 Rabbit: 567 Trap: 0 
-Fox: 270 Rabbit: 559 Trap: 0 
-Fox: 278 Rabbit: 558 Trap: 0 
-Fox: 268 Rabbit: 582 Trap: 0 
-Fox: 289 Rabbit: 615 Trap: 0 
-Fox: 317 Rabbit: 631 Trap: 0 
-Fox: 320 Rabbit: 638 Trap: 0 
-Fox: 305 Rabbit: 643 Trap: 0 
-Fox: 306 Rabbit: 638 Trap: 0 
-Fox: 286 Rabbit: 651 Trap: 0 
-Fox: 316 Rabbit: 702 Trap: 0 
-Fox: 300 Rabbit: 695 Trap: 0 
-Fox: 301 Rabbit: 699 Trap: 0 
-Fox: 303 Rabbit: 713 Trap: 0 
-Fox: 328 Rabbit: 729 Trap: 0 
-Fox: 341 Rabbit: 762 Trap: 0 
-Fox: 379 Rabbit: 778 Trap: 0 
-Fox: 378 Rabbit: 790 Trap: 0 
-Fox: 387 Rabbit: 811 Trap: 0 
-Fox: 365 Rabbit: 835 Trap: 0 
-Fox: 349 Rabbit: 846 Trap: 0 
-Fox: 338 Rabbit: 838 Trap: 0 
-Fox: 311 Rabbit: 877 Trap: 0 
-Fox: 276 Rabbit: 907 Trap: 0 
-Fox: 270 Rabbit: 903 Trap: 0 
-Fox: 260 Rabbit: 913 Trap: 0 
-Fox: 267 Rabbit: 930 Trap: 0 
-Fox: 269 Rabbit: 947 Trap: 0 
-Fox: 267 Rabbit: 978 Trap: 0 
-Fox: 282 Rabbit: 977 Trap: 0 
-Fox: 291 Rabbit: 987 Trap: 0 
-Fox: 311 Rabbit: 1043 Trap: 0 
-Fox: 310 Rabbit: 1027 Trap: 0 
-Fox: 310 Rabbit: 1031 Trap: 0 
-Fox: 300 Rabbit: 1041 Trap: 0 
-Fox: 314 Rabbit: 1048 Trap: 0 
-Fox: 304 Rabbit: 1041 Trap: 0 
-Fox: 320 Rabbit: 1039 Trap: 0 
-Fox: 330 Rabbit: 1019 Trap: 0 
-Fox: 331 Rabbit: 1014 Trap: 0 
-Fox: 319 Rabbit: 1020 Trap: 0 
-Fox: 334 Rabbit: 1049 Trap: 0 
-Fox: 361 Rabbit: 1056 Trap: 0 
-Fox: 371 Rabbit: 1044 Trap: 0 
-Fox: 353 Rabbit: 1056 Trap: 0 
-Fox: 336 Rabbit: 1047 Trap: 0 
-Fox: 328 Rabbit: 1060 Trap: 0 
-Fox: 311 Rabbit: 1063 Trap: 0 
-Fox: 301 Rabbit: 1066 Trap: 0 
-Fox: 280 Rabbit: 1111 Trap: 0 
-Fox: 291 Rabbit: 1099 Trap: 0 
-Fox: 300 Rabbit: 1108 Trap: 0 
-Fox: 293 Rabbit: 1130 Trap: 0 
-Fox: 321 Rabbit: 1114 Trap: 0 
-Fox: 332 Rabbit: 1105 Trap: 0 
-Fox: 350 Rabbit: 1115 Trap: 0 
-Fox: 380 Rabbit: 1089 Trap: 0 
-Fox: 395 Rabbit: 1067 Trap: 0 
-Fox: 413 Rabbit: 1029 Trap: 0 
-Fox: 426 Rabbit: 981 Trap: 0 
-Fox: 432 Rabbit: 923 Trap: 0 
-Fox: 446 Rabbit: 880 Trap: 0 
-Fox: 476 Rabbit: 831 Trap: 0 
-Fox: 505 Rabbit: 786 Trap: 0 
-Fox: 567 Rabbit: 732 Trap: 0 
-Fox: 557 Rabbit: 714 Trap: 0 
-Fox: 566 Rabbit: 655 Trap: 0 
-Fox: 607 Rabbit: 612 Trap: 0 
-Fox: 618 Rabbit: 558 Trap: 0 
-Fox: 629 Rabbit: 499 Trap: 0 
-Fox: 639 Rabbit: 464 Trap: 0 
-Fox: 620 Rabbit: 399 Trap: 0 
-Fox: 625 Rabbit: 354 Trap: 0 
-Fox: 634 Rabbit: 314 Trap: 0 
-Fox: 611 Rabbit: 278 Trap: 0 
-Fox: 563 Rabbit: 251 Trap: 0 
-Fox: 544 Rabbit: 224 Trap: 0 
-Fox: 497 Rabbit: 195 Trap: 0 
-Fox: 430 Rabbit: 170 Trap: 0 
-Fox: 396 Rabbit: 150 Trap: 0 
-Fox: 349 Rabbit: 136 Trap: 0 
-Fox: 316 Rabbit: 112 Trap: 0 
-Fox: 289 Rabbit: 85 Trap: 0 
-Fox: 255 Rabbit: 72 Trap: 0 
-Fox: 231 Rabbit: 57 Trap: 0 
-Fox: 221 Rabbit: 51 Trap: 0 
-Fox: 227 Rabbit: 44 Trap: 0 
-Fox: 207 Rabbit: 37 Trap: 0 
-Fox: 181 Rabbit: 31 Trap: 0 
-Fox: 147 Rabbit: 30 Trap: 0 
-Fox: 123 Rabbit: 24 Trap: 0 
-Fox: 94 Rabbit: 21 Trap: 0 
-Fox: 82 Rabbit: 18 Trap: 0 
-Fox: 68 Rabbit: 17 Trap: 0 
-Fox: 57 Rabbit: 17 Trap: 0 
-Fox: 47 Rabbit: 19 Trap: 0 
-Fox: 44 Rabbit: 19 Trap: 0 
-Fox: 44 Rabbit: 18 Trap: 0 
-Fox: 40 Rabbit: 19 Trap: 0 
-Fox: 30 Rabbit: 19 Trap: 0 
-Fox: 26 Rabbit: 22 Trap: 0 
-Fox: 30 Rabbit: 22 Trap: 0 
-Fox: 32 Rabbit: 27 Trap: 0 
-Fox: 30 Rabbit: 29 Trap: 0 
-Fox: 27 Rabbit: 31 Trap: 0 
-Fox: 27 Rabbit: 37 Trap: 0 
-Fox: 27 Rabbit: 40 Trap: 0 
-Fox: 25 Rabbit: 48 Trap: 0 
-Fox: 24 Rabbit: 45 Trap: 0 
-Fox: 21 Rabbit: 61 Trap: 0 
-Fox: 20 Rabbit: 67 Trap: 0 
-Fox: 21 Rabbit: 62 Trap: 0 
-Fox: 21 Rabbit: 70 Trap: 0 
-Fox: 16 Rabbit: 83 Trap: 0 
-Fox: 21 Rabbit: 92 Trap: 0 
-Fox: 16 Rabbit: 109 Trap: 0 
-Fox: 16 Rabbit: 122 Trap: 0 
-Fox: 22 Rabbit: 146 Trap: 0 
-Fox: 28 Rabbit: 150 Trap: 0 
-Fox: 33 Rabbit: 173 Trap: 0 
-Fox: 33 Rabbit: 185 Trap: 0 
-Fox: 36 Rabbit: 201 Trap: 0 
-Fox: 37 Rabbit: 228 Trap: 0 
-Fox: 37 Rabbit: 244 Trap: 0 
-Fox: 38 Rabbit: 277 Trap: 0 
-Fox: 29 Rabbit: 306 Trap: 0 
-Fox: 32 Rabbit: 341 Trap: 0 
-Fox: 34 Rabbit: 396 Trap: 0 
-Fox: 32 Rabbit: 454 Trap: 0 
-Fox: 35 Rabbit: 512 Trap: 0 
-Fox: 39 Rabbit: 562 Trap: 0 
-Fox: 40 Rabbit: 608 Trap: 0 
-Fox: 42 Rabbit: 655 Trap: 0 
-Fox: 40 Rabbit: 713 Trap: 0 
-Fox: 43 Rabbit: 780 Trap: 0 
-Fox: 47 Rabbit: 840 Trap: 0 
-Fox: 50 Rabbit: 915 Trap: 0 
-Fox: 47 Rabbit: 980 Trap: 0 
-Fox: 49 Rabbit: 1030 Trap: 0 
-Fox: 54 Rabbit: 1095 Trap: 0 
-Fox: 52 Rabbit: 1142 Trap: 0 
-Fox: 53 Rabbit: 1176 Trap: 0 
-Fox: 62 Rabbit: 1228 Trap: 0 
-Fox: 67 Rabbit: 1283 Trap: 0 
-Fox: 69 Rabbit: 1329 Trap: 0 
-Fox: 70 Rabbit: 1402 Trap: 0 
-Fox: 76 Rabbit: 1451 Trap: 0 
-Fox: 81 Rabbit: 1523 Trap: 0 
-Fox: 91 Rabbit: 1586 Trap: 0 
-Fox: 97 Rabbit: 1646 Trap: 0 
-Fox: 111 Rabbit: 1665 Trap: 0 
-Fox: 115 Rabbit: 1696 Trap: 0 
-Fox: 123 Rabbit: 1722 Trap: 0 
-Fox: 129 Rabbit: 1774 Trap: 0 
-Fox: 151 Rabbit: 1813 Trap: 0 
-Fox: 155 Rabbit: 1846 Trap: 0 
-Fox: 158 Rabbit: 1850 Trap: 0 
-Fox: 153 Rabbit: 1875 Trap: 0 
-Fox: 154 Rabbit: 1928 Trap: 0 
-Fox: 161 Rabbit: 1973 Trap: 0 
-Fox: 153 Rabbit: 1986 Trap: 0 
-Fox: 138 Rabbit: 1997 Trap: 0 
-Fox: 131 Rabbit: 2045 Trap: 0 
-Fox: 136 Rabbit: 2055 Trap: 0 
-Fox: 145 Rabbit: 2039 Trap: 0 
-Fox: 171 Rabbit: 2094 Trap: 0 
-Fox: 167 Rabbit: 2089 Trap: 0 
-Fox: 187 Rabbit: 2096 Trap: 0 
-Fox: 198 Rabbit: 2076 Trap: 0 
-Fox: 226 Rabbit: 2089 Trap: 0 
-Fox: 230 Rabbit: 2083 Trap: 0 
-Fox: 245 Rabbit: 2077 Trap: 0 
-Fox: 241 Rabbit: 2097 Trap: 0 
-Fox: 252 Rabbit: 2129 Trap: 0 
-Fox: 269 Rabbit: 2110 Trap: 0 
-Fox: 268 Rabbit: 2109 Trap: 0 
-Fox: 268 Rabbit: 2087 Trap: 0 
-Fox: 268 Rabbit: 2049 Trap: 0 
-Fox: 264 Rabbit: 2048 Trap: 0 
-Fox: 283 Rabbit: 2085 Trap: 0 
-Fox: 276 Rabbit: 2076 Trap: 0 
-Fox: 279 Rabbit: 2092 Trap: 0 
-Fox: 285 Rabbit: 2068 Trap: 0 
-Fox: 280 Rabbit: 2054 Trap: 0 
-Fox: 300 Rabbit: 2044 Trap: 0 
-Fox: 300 Rabbit: 2047 Trap: 0 
-Fox: 308 Rabbit: 2037 Trap: 0 
-Fox: 322 Rabbit: 2032 Trap: 0 
-Fox: 317 Rabbit: 2014 Trap: 0 
-Fox: 315 Rabbit: 2005 Trap: 0 
-Fox: 305 Rabbit: 1983 Trap: 0 
-Fox: 284 Rabbit: 1988 Trap: 0 
-Fox: 274 Rabbit: 1977 Trap: 0 
-Fox: 257 Rabbit: 1953 Trap: 0 
-Fox: 277 Rabbit: 1957 Trap: 0 
-Fox: 290 Rabbit: 1935 Trap: 0 
-Fox: 296 Rabbit: 1927 Trap: 0 
-Fox: 310 Rabbit: 1900 Trap: 0 
-Fox: 322 Rabbit: 1882 Trap: 0 
-Fox: 350 Rabbit: 1858 Trap: 0 
-Fox: 380 Rabbit: 1818 Trap: 0 
-Fox: 372 Rabbit: 1823 Trap: 0 
-Fox: 380 Rabbit: 1812 Trap: 0 
-Fox: 374 Rabbit: 1801 Trap: 0 
-Fox: 379 Rabbit: 1784 Trap: 0 
-Fox: 399 Rabbit: 1777 Trap: 0 
-Fox: 394 Rabbit: 1727 Trap: 0 
-Fox: 383 Rabbit: 1719 Trap: 0 
-Fox: 390 Rabbit: 1697 Trap: 0 
-Fox: 407 Rabbit: 1655 Trap: 0 
-Fox: 424 Rabbit: 1597 Trap: 0 
-Fox: 445 Rabbit: 1574 Trap: 0 
-Fox: 465 Rabbit: 1520 Trap: 0 
-Fox: 459 Rabbit: 1465 Trap: 0 
-Fox: 449 Rabbit: 1398 Trap: 0 
-Fox: 439 Rabbit: 1340 Trap: 0 
-Fox: 429 Rabbit: 1276 Trap: 0 
-Fox: 432 Rabbit: 1208 Trap: 0 
-Fox: 420 Rabbit: 1150 Trap: 0 
-Fox: 431 Rabbit: 1082 Trap: 0 
-Fox: 481 Rabbit: 1025 Trap: 0 
-Fox: 515 Rabbit: 960 Trap: 0 
-Fox: 573 Rabbit: 907 Trap: 0 
-Fox: 598 Rabbit: 849 Trap: 0 
-Fox: 632 Rabbit: 763 Trap: 0 
-Fox: 636 Rabbit: 685 Trap: 0 
-Fox: 607 Rabbit: 625 Trap: 0 
-Fox: 601 Rabbit: 566 Trap: 0 
-Fox: 622 Rabbit: 505 Trap: 0 
-Fox: 583 Rabbit: 440 Trap: 0 
-Fox: 552 Rabbit: 386 Trap: 0 
-Fox: 512 Rabbit: 341 Trap: 0 
-Fox: 504 Rabbit: 316 Trap: 0 
-Fox: 500 Rabbit: 283 Trap: 0 
-Fox: 477 Rabbit: 253 Trap: 0 
-Fox: 419 Rabbit: 233 Trap: 0 
-Fox: 383 Rabbit: 213 Trap: 0 
-Fox: 385 Rabbit: 198 Trap: 0 
-Fox: 338 Rabbit: 181 Trap: 0 
-Fox: 299 Rabbit: 174 Trap: 0 
-Fox: 278 Rabbit: 154 Trap: 0 
-Fox: 241 Rabbit: 141 Trap: 0 
-Fox: 212 Rabbit: 128 Trap: 0 
-Fox: 220 Rabbit: 112 Trap: 0 
-Fox: 213 Rabbit: 97 Trap: 0 
-Fox: 215 Rabbit: 90 Trap: 0 
-Fox: 208 Rabbit: 88 Trap: 0 
-Fox: 207 Rabbit: 93 Trap: 0 
-Fox: 202 Rabbit: 102 Trap: 0 
-Fox: 209 Rabbit: 108 Trap: 0 
-Fox: 184 Rabbit: 109 Trap: 0 
-Fox: 151 Rabbit: 120 Trap: 0 
-Fox: 144 Rabbit: 127 Trap: 0 
-Fox: 122 Rabbit: 149 Trap: 0 
-Fox: 103 Rabbit: 154 Trap: 0 
-Fox: 92 Rabbit: 169 Trap: 0 
-Fox: 81 Rabbit: 174 Trap: 0 
-Fox: 71 Rabbit: 194 Trap: 0 
-Fox: 70 Rabbit: 216 Trap: 0 
-Fox: 59 Rabbit: 238 Trap: 0 
-Fox: 63 Rabbit: 274 Trap: 0 
-Fox: 69 Rabbit: 293 Trap: 0 
-Fox: 65 Rabbit: 303 Trap: 0 
-Fox: 69 Rabbit: 336 Trap: 0 
-Fox: 65 Rabbit: 388 Trap: 0 
-Fox: 69 Rabbit: 435 Trap: 0 
-Fox: 76 Rabbit: 463 Trap: 0 
-Fox: 77 Rabbit: 483 Trap: 0 
-Fox: 74 Rabbit: 522 Trap: 0 
-Fox: 64 Rabbit: 565 Trap: 0 
-Fox: 55 Rabbit: 629 Trap: 0 
-Fox: 43 Rabbit: 686 Trap: 0 
-Fox: 43 Rabbit: 729 Trap: 0 
-Fox: 45 Rabbit: 784 Trap: 0 
-Fox: 44 Rabbit: 844 Trap: 0 
-Fox: 45 Rabbit: 912 Trap: 0 
-Fox: 44 Rabbit: 999 Trap: 0 
-Fox: 51 Rabbit: 1088 Trap: 0 
-Fox: 53 Rabbit: 1137 Trap: 0 
-Fox: 55 Rabbit: 1200 Trap: 0 
-Fox: 59 Rabbit: 1274 Trap: 0 
-Fox: 55 Rabbit: 1358 Trap: 0 
-Fox: 65 Rabbit: 1414 Trap: 0 
-Fox: 67 Rabbit: 1464 Trap: 0 
-Fox: 68 Rabbit: 1512 Trap: 0 
-Fox: 72 Rabbit: 1600 Trap: 0 
-Fox: 73 Rabbit: 1675 Trap: 0 
-Fox: 79 Rabbit: 1720 Trap: 0 
-Fox: 98 Rabbit: 1785 Trap: 0 
-Fox: 117 Rabbit: 1826 Trap: 0 
-Fox: 138 Rabbit: 1873 Trap: 0 
-Fox: 142 Rabbit: 1961 Trap: 0 
-Fox: 165 Rabbit: 1990 Trap: 0 
-Fox: 193 Rabbit: 2078 Trap: 0 
-Fox: 202 Rabbit: 2140 Trap: 0 
-Fox: 214 Rabbit: 2171 Trap: 0 
-Fox: 223 Rabbit: 2219 Trap: 0 
-Fox: 236 Rabbit: 2245 Trap: 0 
-Fox: 270 Rabbit: 2256 Trap: 0 
-Fox: 283 Rabbit: 2249 Trap: 0 
-Fox: 332 Rabbit: 2295 Trap: 0 
-Fox: 347 Rabbit: 2299 Trap: 0 
-Fox: 368 Rabbit: 2306 Trap: 0 
-Fox: 380 Rabbit: 2323 Trap: 0 
-Fox: 405 Rabbit: 2338 Trap: 0 
-Fox: 403 Rabbit: 2369 Trap: 0 
-Fox: 398 Rabbit: 2348 Trap: 0 
-Fox: 386 Rabbit: 2367 Trap: 0 
-Fox: 386 Rabbit: 2365 Trap: 0 
-Fox: 397 Rabbit: 2360 Trap: 0 
-Fox: 404 Rabbit: 2350 Trap: 0 
-Fox: 420 Rabbit: 2312 Trap: 0 
-Fox: 413 Rabbit: 2305 Trap: 0 
-Fox: 443 Rabbit: 2271 Trap: 0 
-Fox: 469 Rabbit: 2197 Trap: 0 
-Fox: 497 Rabbit: 2142 Trap: 0 
-Fox: 496 Rabbit: 2094 Trap: 0 
-Fox: 536 Rabbit: 2033 Trap: 0 
-Fox: 522 Rabbit: 2015 Trap: 0 
-Fox: 575 Rabbit: 1946 Trap: 0 
-Fox: 614 Rabbit: 1857 Trap: 0 
-Fox: 620 Rabbit: 1799 Trap: 0 
-Fox: 645 Rabbit: 1735 Trap: 0 
-Fox: 662 Rabbit: 1695 Trap: 0 
-Fox: 631 Rabbit: 1631 Trap: 0 
-Fox: 650 Rabbit: 1543 Trap: 0 
-Fox: 649 Rabbit: 1492 Trap: 0 
-Fox: 616 Rabbit: 1426 Trap: 0 
-Fox: 592 Rabbit: 1349 Trap: 0 
-Fox: 590 Rabbit: 1269 Trap: 0 
-Fox: 546 Rabbit: 1213 Trap: 0 
-Fox: 540 Rabbit: 1114 Trap: 0 
-Fox: 557 Rabbit: 1050 Trap: 0 
-Fox: 539 Rabbit: 990 Trap: 0 
-Fox: 544 Rabbit: 927 Trap: 0 
-Fox: 545 Rabbit: 836 Trap: 0 
-Fox: 520 Rabbit: 772 Trap: 0 
-Fox: 548 Rabbit: 718 Trap: 0 
-Fox: 584 Rabbit: 669 Trap: 0 
-Fox: 593 Rabbit: 637 Trap: 0 
-Fox: 579 Rabbit: 593 Trap: 0 
-Fox: 564 Rabbit: 550 Trap: 0 
-Fox: 530 Rabbit: 525 Trap: 0 
-Fox: 541 Rabbit: 526 Trap: 0 
-Fox: 496 Rabbit: 510 Trap: 0 
-Fox: 468 Rabbit: 487 Trap: 0 
-Fox: 425 Rabbit: 465 Trap: 0 
-Fox: 402 Rabbit: 450 Trap: 0 
-Fox: 373 Rabbit: 438 Trap: 0 
-Fox: 352 Rabbit: 421 Trap: 0 
-Fox: 299 Rabbit: 428 Trap: 0 
-Fox: 278 Rabbit: 428 Trap: 0 
-Fox: 242 Rabbit: 455 Trap: 0 
-Fox: 240 Rabbit: 474 Trap: 0 
-Fox: 209 Rabbit: 492 Trap: 0 
-Fox: 185 Rabbit: 513 Trap: 0 
-Fox: 168 Rabbit: 565 Trap: 0 
-Fox: 166 Rabbit: 581 Trap: 0 
-Fox: 150 Rabbit: 619 Trap: 0 
-Fox: 126 Rabbit: 656 Trap: 0 
-Fox: 86 Rabbit: 683 Trap: 0 
-Fox: 76 Rabbit: 724 Trap: 0 
-Fox: 70 Rabbit: 745 Trap: 0 
-Fox: 60 Rabbit: 787 Trap: 0 
-Fox: 42 Rabbit: 818 Trap: 0 
-Fox: 27 Rabbit: 856 Trap: 0 
-Fox: 22 Rabbit: 903 Trap: 0 
-Fox: 16 Rabbit: 939 Trap: 0 
-Fox: 11 Rabbit: 986 Trap: 0 
-Fox: 9 Rabbit: 1012 Trap: 0 
-Fox: 8 Rabbit: 1054 Trap: 0 
-Fox: 3 Rabbit: 1098 Trap: 0 
-Fox: 2 Rabbit: 1133 Trap: 0 
-Fox: 2 Rabbit: 1187 Trap: 0 
-Fox: 2 Rabbit: 1203 Trap: 0 
-Fox: 0 Rabbit: 1225 Trap: 0 
-Fox: 0 Rabbit: 1275 Trap: 0 
-Fox: 0 Rabbit: 1308 Trap: 0 
-Fox: 0 Rabbit: 1363 Trap: 0 
-Fox: 0 Rabbit: 1396 Trap: 0 
-Fox: 0 Rabbit: 1416 Trap: 0 
-Fox: 0 Rabbit: 1456 Trap: 0 
-Fox: 0 Rabbit: 1473 Trap: 0 
-Fox: 0 Rabbit: 1511 Trap: 0 
-Fox: 0 Rabbit: 1541 Trap: 0 
-Fox: 0 Rabbit: 1591 Trap: 0 
-Fox: 0 Rabbit: 1649 Trap: 0 
-Fox: 0 Rabbit: 1706 Trap: 0 
-Fox: 0 Rabbit: 1760 Trap: 0 
-Fox: 0 Rabbit: 1791 Trap: 0 
-Fox: 0 Rabbit: 1809 Trap: 0 
-Fox: 0 Rabbit: 1851 Trap: 0 
-Fox: 0 Rabbit: 1886 Trap: 0 
-Fox: 0 Rabbit: 1922 Trap: 0 
-Fox: 0 Rabbit: 1958 Trap: 0 
-Fox: 0 Rabbit: 2002 Trap: 0 
-Fox: 0 Rabbit: 2048 Trap: 0 
-Fox: 0 Rabbit: 2105 Trap: 0 
-Fox: 0 Rabbit: 2139 Trap: 0 
-Fox: 0 Rabbit: 2183 Trap: 0 
-Fox: 0 Rabbit: 2214 Trap: 0 
-Fox: 0 Rabbit: 2254 Trap: 0 
-Fox: 0 Rabbit: 2322 Trap: 0 
-Fox: 0 Rabbit: 2359 Trap: 0 
-Fox: 0 Rabbit: 2405 Trap: 0 
-Fox: 0 Rabbit: 2445 Trap: 0 
-Fox: 0 Rabbit: 2482 Trap: 0 
-Fox: 0 Rabbit: 2527 Trap: 0 
-Fox: 0 Rabbit: 2562 Trap: 0 
-Fox: 0 Rabbit: 2589 Trap: 0 
-Fox: 0 Rabbit: 2685 Trap: 0 
-Fox: 0 Rabbit: 2695 Trap: 0 
-Fox: 0 Rabbit: 2727 Trap: 0 
-Fox: 0 Rabbit: 2790 Trap: 0 
-Fox: 0 Rabbit: 2844 Trap: 0 
-Fox: 0 Rabbit: 2882 Trap: 0 
-Fox: 0 Rabbit: 2933 Trap: 0 
-Fox: 0 Rabbit: 2975 Trap: 0 
-Fox: 0 Rabbit: 3009 Trap: 0 
-Fox: 0 Rabbit: 3065 Trap: 0 
-Fox: 0 Rabbit: 3127 Trap: 0 
-Fox: 0 Rabbit: 3187 Trap: 0 
-Fox: 0 Rabbit: 3214 Trap: 0 
-Fox: 0 Rabbit: 3287 Trap: 0 
-Fox: 0 Rabbit: 3348 Trap: 0 
-Fox: 0 Rabbit: 3410 Trap: 0 
-Fox: 0 Rabbit: 3418 Trap: 0 
-Fox: 0 Rabbit: 3454 Trap: 0 
-Fox: 0 Rabbit: 3505 Trap: 0 
-Fox: 0 Rabbit: 3550 Trap: 0 
-Fox: 0 Rabbit: 3629 Trap: 0 
-Fox: 0 Rabbit: 3653 Trap: 0 
-Fox: 0 Rabbit: 3698 Trap: 0 
-Fox: 0 Rabbit: 3773 Trap: 0 
-Fox: 0 Rabbit: 3840 Trap: 0 
-Fox: 0 Rabbit: 3896 Trap: 0 
-Fox: 0 Rabbit: 3927 Trap: 0 
-Fox: 0 Rabbit: 3998 Trap: 0 
-Fox: 0 Rabbit: 4026 Trap: 0 
-Fox: 0 Rabbit: 4068 Trap: 0 
-Fox: 0 Rabbit: 4133 Trap: 0 
-Fox: 0 Rabbit: 4166 Trap: 0 
-Fox: 0 Rabbit: 4223 Trap: 0 
-Fox: 0 Rabbit: 4255 Trap: 0 
-Fox: 0 Rabbit: 4283 Trap: 0 
-Fox: 0 Rabbit: 4374 Trap: 0 
-Fox: 0 Rabbit: 4381 Trap: 0 
-Fox: 0 Rabbit: 4447 Trap: 0 
-Fox: 0 Rabbit: 4466 Trap: 0 
-Fox: 0 Rabbit: 4481 Trap: 0 
-Fox: 0 Rabbit: 4514 Trap: 0 
-Fox: 0 Rabbit: 4555 Trap: 0 
-Fox: 0 Rabbit: 4604 Trap: 0 
-Fox: 0 Rabbit: 4608 Trap: 0 
-Fox: 0 Rabbit: 4609 Trap: 0 
-[Halt]
-[Init]
-Fox: 183 Rabbit: 570 Trap: 41 
-Fox: 223 Rabbit: 595 Trap: 37 
-Fox: 279 Rabbit: 627 Trap: 32 
-Fox: 342 Rabbit: 677 Trap: 29 
-Fox: 407 Rabbit: 691 Trap: 26 
-Fox: 462 Rabbit: 723 Trap: 23 
-Fox: 503 Rabbit: 754 Trap: 21 
-Fox: 506 Rabbit: 777 Trap: 17 
-Fox: 487 Rabbit: 755 Trap: 16 
-Fox: 451 Rabbit: 774 Trap: 15 
-Fox: 462 Rabbit: 780 Trap: 13 
-Fox: 451 Rabbit: 786 Trap: 11 
-Fox: 481 Rabbit: 811 Trap: 11 
-Fox: 531 Rabbit: 816 Trap: 11 
-Fox: 573 Rabbit: 776 Trap: 11 
-Fox: 625 Rabbit: 704 Trap: 10 
-Fox: 660 Rabbit: 644 Trap: 8 
-Fox: 700 Rabbit: 599 Trap: 5 
-Fox: 716 Rabbit: 522 Trap: 5 
-Fox: 756 Rabbit: 426 Trap: 5 
-Fox: 766 Rabbit: 322 Trap: 5 
-Fox: 765 Rabbit: 252 Trap: 2 
-Fox: 755 Rabbit: 227 Trap: 2 
-Fox: 753 Rabbit: 186 Trap: 2 
-Fox: 773 Rabbit: 161 Trap: 2 
-Fox: 780 Rabbit: 145 Trap: 2 
-Fox: 753 Rabbit: 137 Trap: 2 
-Fox: 757 Rabbit: 131 Trap: 2 
-Fox: 673 Rabbit: 124 Trap: 2 
-Fox: 600 Rabbit: 126 Trap: 2 
-Fox: 565 Rabbit: 115 Trap: 2 
-Fox: 493 Rabbit: 115 Trap: 1 
-Fox: 433 Rabbit: 94 Trap: 1 
-Fox: 336 Rabbit: 88 Trap: 1 
-Fox: 243 Rabbit: 78 Trap: 1 
-Fox: 211 Rabbit: 79 Trap: 0 
-Fox: 196 Rabbit: 81 Trap: 0 
-Fox: 160 Rabbit: 81 Trap: 0 
-Fox: 130 Rabbit: 80 Trap: 0 
-Fox: 105 Rabbit: 85 Trap: 0 
-Fox: 95 Rabbit: 104 Trap: 0 
-Fox: 86 Rabbit: 108 Trap: 0 
-Fox: 86 Rabbit: 111 Trap: 0 
-Fox: 74 Rabbit: 120 Trap: 0 
-Fox: 64 Rabbit: 127 Trap: 0 
-Fox: 56 Rabbit: 146 Trap: 0 
-Fox: 57 Rabbit: 153 Trap: 0 
-Fox: 51 Rabbit: 167 Trap: 0 
-Fox: 40 Rabbit: 176 Trap: 0 
-Fox: 36 Rabbit: 192 Trap: 0 
-Fox: 29 Rabbit: 226 Trap: 0 
-Fox: 30 Rabbit: 253 Trap: 0 
-Fox: 37 Rabbit: 267 Trap: 0 
-Fox: 31 Rabbit: 309 Trap: 0 
-Fox: 32 Rabbit: 352 Trap: 0 
-Fox: 39 Rabbit: 377 Trap: 0 
-Fox: 41 Rabbit: 447 Trap: 0 
-Fox: 41 Rabbit: 493 Trap: 0 
-Fox: 41 Rabbit: 535 Trap: 0 
-Fox: 30 Rabbit: 596 Trap: 0 
-Fox: 37 Rabbit: 656 Trap: 0 
-Fox: 38 Rabbit: 741 Trap: 0 
-Fox: 36 Rabbit: 829 Trap: 0 
-Fox: 45 Rabbit: 914 Trap: 0 
-Fox: 62 Rabbit: 1008 Trap: 0 
-Fox: 75 Rabbit: 1098 Trap: 0 
-Fox: 89 Rabbit: 1188 Trap: 0 
-Fox: 92 Rabbit: 1280 Trap: 0 
-Fox: 98 Rabbit: 1367 Trap: 0 
-Fox: 98 Rabbit: 1448 Trap: 0 
-Fox: 103 Rabbit: 1538 Trap: 0 
-Fox: 105 Rabbit: 1600 Trap: 0 
-Fox: 110 Rabbit: 1685 Trap: 0 
-Fox: 120 Rabbit: 1800 Trap: 0 
-Fox: 131 Rabbit: 1870 Trap: 0 
-Fox: 144 Rabbit: 1950 Trap: 0 
-Fox: 161 Rabbit: 2047 Trap: 0 
-Fox: 180 Rabbit: 2176 Trap: 0 
-Fox: 193 Rabbit: 2269 Trap: 0 
-Fox: 218 Rabbit: 2358 Trap: 0 
-Fox: 231 Rabbit: 2462 Trap: 0 
-Fox: 239 Rabbit: 2557 Trap: 0 
-Fox: 257 Rabbit: 2619 Trap: 0 
-Fox: 270 Rabbit: 2659 Trap: 0 
-Fox: 286 Rabbit: 2771 Trap: 0 
-Fox: 286 Rabbit: 2852 Trap: 0 
-Fox: 287 Rabbit: 2895 Trap: 0 
-Fox: 307 Rabbit: 2938 Trap: 0 
-Fox: 307 Rabbit: 2936 Trap: 0 
-Fox: 329 Rabbit: 2967 Trap: 0 
-Fox: 327 Rabbit: 3022 Trap: 0 
-Fox: 311 Rabbit: 3035 Trap: 0 
-Fox: 335 Rabbit: 3067 Trap: 0 
-Fox: 337 Rabbit: 3082 Trap: 0 
-Fox: 337 Rabbit: 3066 Trap: 0 
-Fox: 353 Rabbit: 3058 Trap: 0 
-Fox: 355 Rabbit: 3021 Trap: 0 
-Fox: 347 Rabbit: 3021 Trap: 0 
-Fox: 353 Rabbit: 2976 Trap: 0 
-Fox: 340 Rabbit: 2932 Trap: 0 
-Fox: 321 Rabbit: 2921 Trap: 0 
-Fox: 315 Rabbit: 2858 Trap: 0 
-Fox: 326 Rabbit: 2829 Trap: 0 
-Fox: 321 Rabbit: 2793 Trap: 0 
-Fox: 335 Rabbit: 2748 Trap: 0 
-Fox: 351 Rabbit: 2706 Trap: 0 
-Fox: 358 Rabbit: 2658 Trap: 0 
-Fox: 381 Rabbit: 2606 Trap: 0 
-Fox: 407 Rabbit: 2541 Trap: 0 
-Fox: 412 Rabbit: 2481 Trap: 0 
-Fox: 426 Rabbit: 2413 Trap: 0 
-Fox: 435 Rabbit: 2346 Trap: 0 
-Fox: 421 Rabbit: 2287 Trap: 0 
-Fox: 460 Rabbit: 2243 Trap: 0 
-Fox: 457 Rabbit: 2197 Trap: 0 
-Fox: 453 Rabbit: 2151 Trap: 0 
-Fox: 444 Rabbit: 2095 Trap: 0 
-Fox: 456 Rabbit: 2049 Trap: 0 
-Fox: 476 Rabbit: 1975 Trap: 0 
-Fox: 486 Rabbit: 1936 Trap: 0 
-Fox: 468 Rabbit: 1873 Trap: 0 
-Fox: 469 Rabbit: 1832 Trap: 0 
-Fox: 496 Rabbit: 1787 Trap: 0 
-Fox: 498 Rabbit: 1730 Trap: 0 
-Fox: 479 Rabbit: 1700 Trap: 0 
-Fox: 464 Rabbit: 1663 Trap: 0 
-Fox: 466 Rabbit: 1588 Trap: 0 
-Fox: 449 Rabbit: 1548 Trap: 0 
-Fox: 448 Rabbit: 1518 Trap: 0 
-Fox: 444 Rabbit: 1473 Trap: 0 
-Fox: 445 Rabbit: 1403 Trap: 0 
-Fox: 445 Rabbit: 1356 Trap: 0 
-Fox: 448 Rabbit: 1306 Trap: 0 
-Fox: 464 Rabbit: 1239 Trap: 0 
-Fox: 461 Rabbit: 1171 Trap: 0 
-Fox: 464 Rabbit: 1119 Trap: 0 
-Fox: 485 Rabbit: 1051 Trap: 0 
-Fox: 478 Rabbit: 995 Trap: 0 
-Fox: 499 Rabbit: 909 Trap: 0 
-Fox: 500 Rabbit: 835 Trap: 0 
-Fox: 483 Rabbit: 761 Trap: 0 
-Fox: 485 Rabbit: 716 Trap: 0 
-Fox: 517 Rabbit: 656 Trap: 0 
-Fox: 500 Rabbit: 600 Trap: 0 
-Fox: 501 Rabbit: 550 Trap: 0 
-Fox: 469 Rabbit: 514 Trap: 0 
-Fox: 467 Rabbit: 489 Trap: 0 
-Fox: 450 Rabbit: 465 Trap: 0 
-Fox: 445 Rabbit: 446 Trap: 0 
-Fox: 409 Rabbit: 427 Trap: 0 
-Fox: 398 Rabbit: 407 Trap: 0 
-Fox: 360 Rabbit: 388 Trap: 0 
-Fox: 352 Rabbit: 359 Trap: 0 
-Fox: 349 Rabbit: 340 Trap: 0 
-Fox: 319 Rabbit: 332 Trap: 0 
-Fox: 297 Rabbit: 301 Trap: 0 
-Fox: 263 Rabbit: 281 Trap: 0 
-Fox: 243 Rabbit: 247 Trap: 0 
-Fox: 248 Rabbit: 230 Trap: 0 
-Fox: 251 Rabbit: 214 Trap: 0 
-Fox: 234 Rabbit: 202 Trap: 0 
-Fox: 224 Rabbit: 193 Trap: 0 
-Fox: 205 Rabbit: 191 Trap: 0 
-Fox: 198 Rabbit: 186 Trap: 0 
-Fox: 197 Rabbit: 189 Trap: 0 
-Fox: 183 Rabbit: 190 Trap: 0 
-Fox: 167 Rabbit: 191 Trap: 0 
-Fox: 154 Rabbit: 215 Trap: 0 
-Fox: 149 Rabbit: 232 Trap: 0 
-Fox: 145 Rabbit: 252 Trap: 0 
-Fox: 137 Rabbit: 261 Trap: 0 
-Fox: 134 Rabbit: 290 Trap: 0 
-Fox: 135 Rabbit: 311 Trap: 0 
-Fox: 120 Rabbit: 332 Trap: 0 
-Fox: 116 Rabbit: 354 Trap: 0 
-Fox: 111 Rabbit: 357 Trap: 0 
-Fox: 100 Rabbit: 402 Trap: 0 
-Fox: 100 Rabbit: 438 Trap: 0 
-Fox: 92 Rabbit: 481 Trap: 0 
-Fox: 84 Rabbit: 521 Trap: 0 
-Fox: 89 Rabbit: 547 Trap: 0 
-Fox: 86 Rabbit: 577 Trap: 0 
-Fox: 89 Rabbit: 642 Trap: 0 
-Fox: 79 Rabbit: 690 Trap: 0 
-Fox: 91 Rabbit: 746 Trap: 0 
-Fox: 92 Rabbit: 785 Trap: 0 
-Fox: 95 Rabbit: 818 Trap: 0 
-Fox: 91 Rabbit: 839 Trap: 0 
-Fox: 83 Rabbit: 913 Trap: 0 
-Fox: 89 Rabbit: 971 Trap: 0 
-Fox: 100 Rabbit: 1038 Trap: 0 
-Fox: 89 Rabbit: 1075 Trap: 0 
-Fox: 93 Rabbit: 1156 Trap: 0 
-Fox: 83 Rabbit: 1242 Trap: 0 
-Fox: 89 Rabbit: 1320 Trap: 0 
-Fox: 110 Rabbit: 1378 Trap: 0 
-Fox: 129 Rabbit: 1450 Trap: 0 
-Fox: 139 Rabbit: 1481 Trap: 0 
-Fox: 143 Rabbit: 1550 Trap: 0 
-Fox: 150 Rabbit: 1607 Trap: 0 
-Fox: 170 Rabbit: 1693 Trap: 0 
-Fox: 206 Rabbit: 1757 Trap: 0 
-Fox: 227 Rabbit: 1793 Trap: 0 
-Fox: 225 Rabbit: 1791 Trap: 0 
-Fox: 231 Rabbit: 1833 Trap: 0 
-Fox: 247 Rabbit: 1902 Trap: 0 
-Fox: 273 Rabbit: 1931 Trap: 0 
-Fox: 293 Rabbit: 1934 Trap: 0 
-Fox: 277 Rabbit: 1958 Trap: 0 
-Fox: 292 Rabbit: 1981 Trap: 0 
-Fox: 303 Rabbit: 1955 Trap: 0 
-Fox: 334 Rabbit: 1947 Trap: 0 
-Fox: 373 Rabbit: 1944 Trap: 0 
-Fox: 392 Rabbit: 1915 Trap: 0 
-Fox: 405 Rabbit: 1904 Trap: 0 
-Fox: 421 Rabbit: 1877 Trap: 0 
-Fox: 436 Rabbit: 1857 Trap: 0 
-Fox: 452 Rabbit: 1853 Trap: 0 
-Fox: 478 Rabbit: 1833 Trap: 0 
-Fox: 471 Rabbit: 1816 Trap: 0 
-Fox: 462 Rabbit: 1804 Trap: 0 
-Fox: 478 Rabbit: 1774 Trap: 0 
-Fox: 480 Rabbit: 1737 Trap: 0 
-Fox: 492 Rabbit: 1783 Trap: 0 
-Fox: 494 Rabbit: 1797 Trap: 0 
-Fox: 471 Rabbit: 1767 Trap: 0 
-Fox: 455 Rabbit: 1737 Trap: 0 
-Fox: 455 Rabbit: 1702 Trap: 0 
-Fox: 431 Rabbit: 1685 Trap: 0 
-Fox: 423 Rabbit: 1647 Trap: 0 
-Fox: 430 Rabbit: 1612 Trap: 0 
-Fox: 407 Rabbit: 1595 Trap: 0 
-Fox: 412 Rabbit: 1579 Trap: 0 
-Fox: 414 Rabbit: 1508 Trap: 0 
-Fox: 407 Rabbit: 1466 Trap: 0 
-Fox: 410 Rabbit: 1421 Trap: 0 
-Fox: 406 Rabbit: 1400 Trap: 0 
-Fox: 409 Rabbit: 1361 Trap: 0 
-Fox: 389 Rabbit: 1308 Trap: 0 
-Fox: 376 Rabbit: 1255 Trap: 0 
-Fox: 381 Rabbit: 1244 Trap: 0 
-Fox: 377 Rabbit: 1224 Trap: 0 
-Fox: 375 Rabbit: 1171 Trap: 0 
-Fox: 376 Rabbit: 1143 Trap: 0 
-Fox: 389 Rabbit: 1109 Trap: 0 
-Fox: 436 Rabbit: 1065 Trap: 0 
-Fox: 454 Rabbit: 1030 Trap: 0 
-Fox: 441 Rabbit: 980 Trap: 0 
-Fox: 456 Rabbit: 937 Trap: 0 
-Fox: 465 Rabbit: 872 Trap: 0 
-Fox: 475 Rabbit: 829 Trap: 0 
-Fox: 488 Rabbit: 773 Trap: 0 
-Fox: 444 Rabbit: 766 Trap: 0 
-Fox: 453 Rabbit: 743 Trap: 0 
-Fox: 448 Rabbit: 702 Trap: 0 
-Fox: 427 Rabbit: 667 Trap: 0 
-Fox: 414 Rabbit: 649 Trap: 0 
-Fox: 386 Rabbit: 615 Trap: 0 
-Fox: 338 Rabbit: 597 Trap: 0 
-Fox: 331 Rabbit: 562 Trap: 0 
-Fox: 341 Rabbit: 533 Trap: 0 
-Fox: 348 Rabbit: 503 Trap: 0 
-Fox: 322 Rabbit: 488 Trap: 0 
-Fox: 320 Rabbit: 464 Trap: 0 
-Fox: 326 Rabbit: 457 Trap: 0 
-Fox: 332 Rabbit: 433 Trap: 0 
-Fox: 325 Rabbit: 422 Trap: 0 
-Fox: 299 Rabbit: 413 Trap: 0 
-Fox: 273 Rabbit: 433 Trap: 0 
-Fox: 279 Rabbit: 442 Trap: 0 
-Fox: 257 Rabbit: 428 Trap: 0 
-Fox: 247 Rabbit: 416 Trap: 0 
-Fox: 237 Rabbit: 408 Trap: 0 
-Fox: 215 Rabbit: 410 Trap: 0 
-Fox: 200 Rabbit: 411 Trap: 0 
-Fox: 198 Rabbit: 401 Trap: 0 
-Fox: 187 Rabbit: 431 Trap: 0 
-Fox: 190 Rabbit: 454 Trap: 0 
-Fox: 172 Rabbit: 448 Trap: 0 
-Fox: 172 Rabbit: 446 Trap: 0 
-Fox: 187 Rabbit: 457 Trap: 0 
-Fox: 194 Rabbit: 462 Trap: 0 
-Fox: 194 Rabbit: 471 Trap: 0 
-Fox: 195 Rabbit: 481 Trap: 0 
-Fox: 181 Rabbit: 488 Trap: 0 
-Fox: 198 Rabbit: 498 Trap: 0 
-Fox: 185 Rabbit: 503 Trap: 0 
-Fox: 167 Rabbit: 505 Trap: 0 
-Fox: 170 Rabbit: 528 Trap: 0 
-Fox: 184 Rabbit: 535 Trap: 0 
-Fox: 215 Rabbit: 532 Trap: 0 
-Fox: 224 Rabbit: 503 Trap: 0 
-Fox: 223 Rabbit: 517 Trap: 0 
-Fox: 224 Rabbit: 526 Trap: 0 
-Fox: 234 Rabbit: 556 Trap: 0 
-Fox: 247 Rabbit: 567 Trap: 0 
-Fox: 270 Rabbit: 559 Trap: 0 
-Fox: 278 Rabbit: 558 Trap: 0 
-Fox: 268 Rabbit: 582 Trap: 0 
-Fox: 289 Rabbit: 615 Trap: 0 
-Fox: 317 Rabbit: 631 Trap: 0 
-Fox: 320 Rabbit: 638 Trap: 0 
-Fox: 305 Rabbit: 643 Trap: 0 
-Fox: 306 Rabbit: 638 Trap: 0 
-Fox: 286 Rabbit: 651 Trap: 0 
-Fox: 316 Rabbit: 702 Trap: 0 
-Fox: 300 Rabbit: 695 Trap: 0 
-Fox: 301 Rabbit: 699 Trap: 0 
-Fox: 303 Rabbit: 713 Trap: 0 
-Fox: 328 Rabbit: 729 Trap: 0 
-Fox: 341 Rabbit: 762 Trap: 0 
-Fox: 379 Rabbit: 778 Trap: 0 
-Fox: 378 Rabbit: 790 Trap: 0 
-Fox: 387 Rabbit: 811 Trap: 0 
-Fox: 365 Rabbit: 835 Trap: 0 
-Fox: 349 Rabbit: 846 Trap: 0 
-Fox: 338 Rabbit: 838 Trap: 0 
-Fox: 311 Rabbit: 877 Trap: 0 
-Fox: 276 Rabbit: 907 Trap: 0 
-Fox: 270 Rabbit: 903 Trap: 0 
-Fox: 260 Rabbit: 913 Trap: 0 
-Fox: 267 Rabbit: 930 Trap: 0 
-Fox: 269 Rabbit: 947 Trap: 0 
-Fox: 267 Rabbit: 978 Trap: 0 
-Fox: 282 Rabbit: 977 Trap: 0 
-Fox: 291 Rabbit: 987 Trap: 0 
-Fox: 311 Rabbit: 1043 Trap: 0 
-Fox: 310 Rabbit: 1027 Trap: 0 
-Fox: 310 Rabbit: 1031 Trap: 0 
-Fox: 300 Rabbit: 1041 Trap: 0 
-Fox: 314 Rabbit: 1048 Trap: 0 
-Fox: 304 Rabbit: 1041 Trap: 0 
-Fox: 320 Rabbit: 1039 Trap: 0 
-Fox: 330 Rabbit: 1019 Trap: 0 
-Fox: 331 Rabbit: 1014 Trap: 0 
-Fox: 319 Rabbit: 1020 Trap: 0 
-Fox: 334 Rabbit: 1049 Trap: 0 
-Fox: 361 Rabbit: 1056 Trap: 0 
-Fox: 371 Rabbit: 1044 Trap: 0 
-Fox: 353 Rabbit: 1056 Trap: 0 
-Fox: 336 Rabbit: 1047 Trap: 0 
-Fox: 328 Rabbit: 1060 Trap: 0 
-Fox: 311 Rabbit: 1063 Trap: 0 
-Fox: 301 Rabbit: 1066 Trap: 0 
-Fox: 280 Rabbit: 1111 Trap: 0 
-Fox: 291 Rabbit: 1099 Trap: 0 
-Fox: 300 Rabbit: 1108 Trap: 0 
-Fox: 293 Rabbit: 1130 Trap: 0 
-Fox: 321 Rabbit: 1114 Trap: 0 
-Fox: 332 Rabbit: 1105 Trap: 0 
-Fox: 350 Rabbit: 1115 Trap: 0 
-Fox: 380 Rabbit: 1089 Trap: 0 
-Fox: 395 Rabbit: 1067 Trap: 0 
-Fox: 413 Rabbit: 1029 Trap: 0 
-Fox: 426 Rabbit: 981 Trap: 0 
-Fox: 432 Rabbit: 923 Trap: 0 
-Fox: 446 Rabbit: 880 Trap: 0 
-Fox: 476 Rabbit: 831 Trap: 0 
-Fox: 505 Rabbit: 786 Trap: 0 
-Fox: 567 Rabbit: 732 Trap: 0 
-Fox: 557 Rabbit: 714 Trap: 0 
-Fox: 566 Rabbit: 655 Trap: 0 
-Fox: 607 Rabbit: 612 Trap: 0 
-Fox: 618 Rabbit: 558 Trap: 0 
-Fox: 629 Rabbit: 499 Trap: 0 
-Fox: 639 Rabbit: 464 Trap: 0 
-Fox: 620 Rabbit: 399 Trap: 0 
-Fox: 625 Rabbit: 354 Trap: 0 
-Fox: 634 Rabbit: 314 Trap: 0 
-Fox: 611 Rabbit: 278 Trap: 0 
-Fox: 563 Rabbit: 251 Trap: 0 
-Fox: 544 Rabbit: 224 Trap: 0 
-Fox: 497 Rabbit: 195 Trap: 0 
-Fox: 430 Rabbit: 170 Trap: 0 
-Fox: 396 Rabbit: 150 Trap: 0 
-Fox: 349 Rabbit: 136 Trap: 0 
-Fox: 316 Rabbit: 112 Trap: 0 
-Fox: 289 Rabbit: 85 Trap: 0 
-Fox: 255 Rabbit: 72 Trap: 0 
-Fox: 231 Rabbit: 57 Trap: 0 
-Fox: 221 Rabbit: 51 Trap: 0 
-Fox: 227 Rabbit: 44 Trap: 0 
-Fox: 207 Rabbit: 37 Trap: 0 
-Fox: 181 Rabbit: 31 Trap: 0 
-Fox: 147 Rabbit: 30 Trap: 0 
-Fox: 123 Rabbit: 24 Trap: 0 
-Fox: 94 Rabbit: 21 Trap: 0 
-Fox: 82 Rabbit: 18 Trap: 0 
-Fox: 68 Rabbit: 17 Trap: 0 
-Fox: 57 Rabbit: 17 Trap: 0 
-Fox: 47 Rabbit: 19 Trap: 0 
-Fox: 44 Rabbit: 19 Trap: 0 
-Fox: 44 Rabbit: 18 Trap: 0 
-Fox: 40 Rabbit: 19 Trap: 0 
-Fox: 30 Rabbit: 19 Trap: 0 
-Fox: 26 Rabbit: 22 Trap: 0 
-Fox: 30 Rabbit: 22 Trap: 0 
-Fox: 32 Rabbit: 27 Trap: 0 
-Fox: 30 Rabbit: 29 Trap: 0 
-Fox: 27 Rabbit: 31 Trap: 0 
-Fox: 27 Rabbit: 37 Trap: 0 
-Fox: 27 Rabbit: 40 Trap: 0 
-Fox: 25 Rabbit: 48 Trap: 0 
-Fox: 24 Rabbit: 45 Trap: 0 
-Fox: 21 Rabbit: 61 Trap: 0 
-Fox: 20 Rabbit: 67 Trap: 0 
-Fox: 21 Rabbit: 62 Trap: 0 
-Fox: 21 Rabbit: 70 Trap: 0 
-Fox: 16 Rabbit: 83 Trap: 0 
-Fox: 21 Rabbit: 92 Trap: 0 
-Fox: 16 Rabbit: 109 Trap: 0 
-Fox: 16 Rabbit: 122 Trap: 0 
-Fox: 22 Rabbit: 146 Trap: 0 
-Fox: 28 Rabbit: 150 Trap: 0 
-Fox: 33 Rabbit: 173 Trap: 0 
-Fox: 33 Rabbit: 185 Trap: 0 
-Fox: 36 Rabbit: 201 Trap: 0 
-Fox: 37 Rabbit: 228 Trap: 0 
-Fox: 37 Rabbit: 244 Trap: 0 
-Fox: 38 Rabbit: 277 Trap: 0 
-Fox: 29 Rabbit: 306 Trap: 0 
-Fox: 32 Rabbit: 341 Trap: 0 
-Fox: 34 Rabbit: 396 Trap: 0 
-Fox: 32 Rabbit: 454 Trap: 0 
-Fox: 35 Rabbit: 512 Trap: 0 
-Fox: 39 Rabbit: 562 Trap: 0 
-Fox: 40 Rabbit: 608 Trap: 0 
-Fox: 42 Rabbit: 655 Trap: 0 
-Fox: 40 Rabbit: 713 Trap: 0 
-Fox: 43 Rabbit: 780 Trap: 0 
-Fox: 47 Rabbit: 840 Trap: 0 
-Fox: 50 Rabbit: 915 Trap: 0 
-Fox: 47 Rabbit: 980 Trap: 0 
-Fox: 49 Rabbit: 1030 Trap: 0 
-Fox: 54 Rabbit: 1095 Trap: 0 
-Fox: 52 Rabbit: 1142 Trap: 0 
-Fox: 53 Rabbit: 1176 Trap: 0 
-Fox: 62 Rabbit: 1228 Trap: 0 
-Fox: 67 Rabbit: 1283 Trap: 0 
-Fox: 69 Rabbit: 1329 Trap: 0 
-Fox: 70 Rabbit: 1402 Trap: 0 
-Fox: 76 Rabbit: 1451 Trap: 0 
-Fox: 81 Rabbit: 1523 Trap: 0 
-Fox: 91 Rabbit: 1586 Trap: 0 
-Fox: 97 Rabbit: 1646 Trap: 0 
-Fox: 111 Rabbit: 1665 Trap: 0 
-Fox: 115 Rabbit: 1696 Trap: 0 
-Fox: 123 Rabbit: 1722 Trap: 0 
-Fox: 129 Rabbit: 1774 Trap: 0 
-Fox: 151 Rabbit: 1813 Trap: 0 
-Fox: 155 Rabbit: 1846 Trap: 0 
-Fox: 158 Rabbit: 1850 Trap: 0 
-Fox: 153 Rabbit: 1875 Trap: 0 
-Fox: 154 Rabbit: 1928 Trap: 0 
-Fox: 161 Rabbit: 1973 Trap: 0 
-Fox: 153 Rabbit: 1986 Trap: 0 
-Fox: 138 Rabbit: 1997 Trap: 0 
-Fox: 131 Rabbit: 2045 Trap: 0 
-Fox: 136 Rabbit: 2055 Trap: 0 
-Fox: 145 Rabbit: 2039 Trap: 0 
-Fox: 171 Rabbit: 2094 Trap: 0 
-Fox: 167 Rabbit: 2089 Trap: 0 
-Fox: 187 Rabbit: 2096 Trap: 0 
-Fox: 198 Rabbit: 2076 Trap: 0 
-Fox: 226 Rabbit: 2089 Trap: 0 
-Fox: 230 Rabbit: 2083 Trap: 0 
-Fox: 245 Rabbit: 2077 Trap: 0 
-Fox: 241 Rabbit: 2097 Trap: 0 
-Fox: 252 Rabbit: 2129 Trap: 0 
-Fox: 269 Rabbit: 2110 Trap: 0 
-Fox: 268 Rabbit: 2109 Trap: 0 
-Fox: 268 Rabbit: 2087 Trap: 0 
-Fox: 268 Rabbit: 2049 Trap: 0 
-Fox: 264 Rabbit: 2048 Trap: 0 
-Fox: 283 Rabbit: 2085 Trap: 0 
-Fox: 276 Rabbit: 2076 Trap: 0 
-Fox: 279 Rabbit: 2092 Trap: 0 
-Fox: 285 Rabbit: 2068 Trap: 0 
-Fox: 280 Rabbit: 2054 Trap: 0 
-Fox: 300 Rabbit: 2044 Trap: 0 
-Fox: 300 Rabbit: 2047 Trap: 0 
-Fox: 308 Rabbit: 2037 Trap: 0 
-Fox: 322 Rabbit: 2032 Trap: 0 
-Fox: 317 Rabbit: 2014 Trap: 0 
-Fox: 315 Rabbit: 2005 Trap: 0 
-Fox: 305 Rabbit: 1983 Trap: 0 
-Fox: 284 Rabbit: 1988 Trap: 0 
-Fox: 274 Rabbit: 1977 Trap: 0 
-Fox: 257 Rabbit: 1953 Trap: 0 
-Fox: 277 Rabbit: 1957 Trap: 0 
-Fox: 290 Rabbit: 1935 Trap: 0 
-Fox: 296 Rabbit: 1927 Trap: 0 
-Fox: 310 Rabbit: 1900 Trap: 0 
-Fox: 322 Rabbit: 1882 Trap: 0 
-Fox: 350 Rabbit: 1858 Trap: 0 
-Fox: 380 Rabbit: 1818 Trap: 0 
-Fox: 372 Rabbit: 1823 Trap: 0 
-Fox: 380 Rabbit: 1812 Trap: 0 
-Fox: 374 Rabbit: 1801 Trap: 0 
-Fox: 379 Rabbit: 1784 Trap: 0 
-Fox: 399 Rabbit: 1777 Trap: 0 
-Fox: 394 Rabbit: 1727 Trap: 0 
-Fox: 383 Rabbit: 1719 Trap: 0 
-Fox: 390 Rabbit: 1697 Trap: 0 
-Fox: 407 Rabbit: 1655 Trap: 0 
-Fox: 424 Rabbit: 1597 Trap: 0 
-Fox: 445 Rabbit: 1574 Trap: 0 
-Fox: 465 Rabbit: 1520 Trap: 0 
-Fox: 459 Rabbit: 1465 Trap: 0 
-Fox: 449 Rabbit: 1398 Trap: 0 
-Fox: 439 Rabbit: 1340 Trap: 0 
-Fox: 429 Rabbit: 1276 Trap: 0 
-Fox: 432 Rabbit: 1208 Trap: 0 
-Fox: 420 Rabbit: 1150 Trap: 0 
-Fox: 431 Rabbit: 1082 Trap: 0 
-Fox: 481 Rabbit: 1025 Trap: 0 
-Fox: 515 Rabbit: 960 Trap: 0 
-Fox: 573 Rabbit: 907 Trap: 0 
-Fox: 598 Rabbit: 849 Trap: 0 
-Fox: 632 Rabbit: 763 Trap: 0 
-Fox: 636 Rabbit: 685 Trap: 0 
-Fox: 607 Rabbit: 625 Trap: 0 
-Fox: 601 Rabbit: 566 Trap: 0 
-Fox: 622 Rabbit: 505 Trap: 0 
-Fox: 583 Rabbit: 440 Trap: 0 
-Fox: 552 Rabbit: 386 Trap: 0 
-Fox: 512 Rabbit: 341 Trap: 0 
-Fox: 504 Rabbit: 316 Trap: 0 
-Fox: 500 Rabbit: 283 Trap: 0 
-Fox: 477 Rabbit: 253 Trap: 0 
-Fox: 419 Rabbit: 233 Trap: 0 
-Fox: 383 Rabbit: 213 Trap: 0 
-Fox: 385 Rabbit: 198 Trap: 0 
-Fox: 338 Rabbit: 181 Trap: 0 
-Fox: 299 Rabbit: 174 Trap: 0 
-Fox: 278 Rabbit: 154 Trap: 0 
-Fox: 241 Rabbit: 141 Trap: 0 
-Fox: 212 Rabbit: 128 Trap: 0 
-Fox: 220 Rabbit: 112 Trap: 0 
-Fox: 213 Rabbit: 97 Trap: 0 
-Fox: 215 Rabbit: 90 Trap: 0 
-Fox: 208 Rabbit: 88 Trap: 0 
-Fox: 207 Rabbit: 93 Trap: 0 
-Fox: 202 Rabbit: 102 Trap: 0 
-Fox: 209 Rabbit: 108 Trap: 0 
-Fox: 184 Rabbit: 109 Trap: 0 
-Fox: 151 Rabbit: 120 Trap: 0 
-Fox: 144 Rabbit: 127 Trap: 0 
-Fox: 122 Rabbit: 149 Trap: 0 
-Fox: 103 Rabbit: 154 Trap: 0 
-Fox: 92 Rabbit: 169 Trap: 0 
-Fox: 81 Rabbit: 174 Trap: 0 
-Fox: 71 Rabbit: 194 Trap: 0 
-Fox: 70 Rabbit: 216 Trap: 0 
-Fox: 59 Rabbit: 238 Trap: 0 
-Fox: 63 Rabbit: 274 Trap: 0 
-Fox: 69 Rabbit: 293 Trap: 0 
-Fox: 65 Rabbit: 303 Trap: 0 
-Fox: 69 Rabbit: 336 Trap: 0 
-Fox: 65 Rabbit: 388 Trap: 0 
-Fox: 69 Rabbit: 435 Trap: 0 
-Fox: 76 Rabbit: 463 Trap: 0 
-Fox: 77 Rabbit: 483 Trap: 0 
-Fox: 74 Rabbit: 522 Trap: 0 
-Fox: 64 Rabbit: 565 Trap: 0 
-Fox: 55 Rabbit: 629 Trap: 0 
-Fox: 43 Rabbit: 686 Trap: 0 
-Fox: 43 Rabbit: 729 Trap: 0 
-Fox: 45 Rabbit: 784 Trap: 0 
-Fox: 44 Rabbit: 844 Trap: 0 
-Fox: 45 Rabbit: 912 Trap: 0 
-Fox: 44 Rabbit: 999 Trap: 0 
-Fox: 51 Rabbit: 1088 Trap: 0 
-Fox: 53 Rabbit: 1137 Trap: 0 
-Fox: 55 Rabbit: 1200 Trap: 0 
-Fox: 59 Rabbit: 1274 Trap: 0 
-Fox: 55 Rabbit: 1358 Trap: 0 
-Fox: 65 Rabbit: 1414 Trap: 0 
-Fox: 67 Rabbit: 1464 Trap: 0 
-Fox: 68 Rabbit: 1512 Trap: 0 
-Fox: 72 Rabbit: 1600 Trap: 0 
-Fox: 73 Rabbit: 1675 Trap: 0 
-Fox: 79 Rabbit: 1720 Trap: 0 
-Fox: 98 Rabbit: 1785 Trap: 0 
-Fox: 117 Rabbit: 1826 Trap: 0 
-Fox: 138 Rabbit: 1873 Trap: 0 
-Fox: 142 Rabbit: 1961 Trap: 0 
-Fox: 165 Rabbit: 1990 Trap: 0 
-Fox: 193 Rabbit: 2078 Trap: 0 
-Fox: 202 Rabbit: 2140 Trap: 0 
-Fox: 214 Rabbit: 2171 Trap: 0 
-Fox: 223 Rabbit: 2219 Trap: 0 
-Fox: 236 Rabbit: 2245 Trap: 0 
-Fox: 270 Rabbit: 2256 Trap: 0 
-Fox: 283 Rabbit: 2249 Trap: 0 
-Fox: 332 Rabbit: 2295 Trap: 0 
-Fox: 347 Rabbit: 2299 Trap: 0 
-Fox: 368 Rabbit: 2306 Trap: 0 
-Fox: 380 Rabbit: 2323 Trap: 0 
-Fox: 405 Rabbit: 2338 Trap: 0 
-Fox: 403 Rabbit: 2369 Trap: 0 
-Fox: 398 Rabbit: 2348 Trap: 0 
-Fox: 386 Rabbit: 2367 Trap: 0 
-Fox: 386 Rabbit: 2365 Trap: 0 
-Fox: 397 Rabbit: 2360 Trap: 0 
-Fox: 404 Rabbit: 2350 Trap: 0 
-Fox: 420 Rabbit: 2312 Trap: 0 
-Fox: 413 Rabbit: 2305 Trap: 0 
-Fox: 443 Rabbit: 2271 Trap: 0 
-Fox: 469 Rabbit: 2197 Trap: 0 
-Fox: 497 Rabbit: 2142 Trap: 0 
-Fox: 496 Rabbit: 2094 Trap: 0 
-Fox: 536 Rabbit: 2033 Trap: 0 
-Fox: 522 Rabbit: 2015 Trap: 0 
-Fox: 575 Rabbit: 1946 Trap: 0 
-Fox: 614 Rabbit: 1857 Trap: 0 
-Fox: 620 Rabbit: 1799 Trap: 0 
-Fox: 645 Rabbit: 1735 Trap: 0 
-Fox: 662 Rabbit: 1695 Trap: 0 
-Fox: 631 Rabbit: 1631 Trap: 0 
-Fox: 650 Rabbit: 1543 Trap: 0 
-Fox: 649 Rabbit: 1492 Trap: 0 
-Fox: 616 Rabbit: 1426 Trap: 0 
-Fox: 592 Rabbit: 1349 Trap: 0 
-Fox: 590 Rabbit: 1269 Trap: 0 
-Fox: 546 Rabbit: 1213 Trap: 0 
-Fox: 540 Rabbit: 1114 Trap: 0 
-Fox: 557 Rabbit: 1050 Trap: 0 
-Fox: 539 Rabbit: 990 Trap: 0 
-Fox: 544 Rabbit: 927 Trap: 0 
-Fox: 545 Rabbit: 836 Trap: 0 
-Fox: 520 Rabbit: 772 Trap: 0 
-Fox: 548 Rabbit: 718 Trap: 0 
-Fox: 584 Rabbit: 669 Trap: 0 
-Fox: 593 Rabbit: 637 Trap: 0 
-Fox: 579 Rabbit: 593 Trap: 0 
-Fox: 564 Rabbit: 550 Trap: 0 
-Fox: 530 Rabbit: 525 Trap: 0 
-Fox: 541 Rabbit: 526 Trap: 0 
-Fox: 496 Rabbit: 510 Trap: 0 
-Fox: 468 Rabbit: 487 Trap: 0 
-Fox: 425 Rabbit: 465 Trap: 0 
-Fox: 402 Rabbit: 450 Trap: 0 
-Fox: 373 Rabbit: 438 Trap: 0 
-Fox: 352 Rabbit: 421 Trap: 0 
-Fox: 299 Rabbit: 428 Trap: 0 
-Fox: 278 Rabbit: 428 Trap: 0 
-Fox: 242 Rabbit: 455 Trap: 0 
-Fox: 240 Rabbit: 474 Trap: 0 
-Fox: 209 Rabbit: 492 Trap: 0 
-Fox: 185 Rabbit: 513 Trap: 0 
-Fox: 168 Rabbit: 565 Trap: 0 
-Fox: 166 Rabbit: 581 Trap: 0 
-Fox: 150 Rabbit: 619 Trap: 0 
-Fox: 126 Rabbit: 656 Trap: 0 
-Fox: 86 Rabbit: 683 Trap: 0 
-Fox: 76 Rabbit: 724 Trap: 0 
-Fox: 70 Rabbit: 745 Trap: 0 
-Fox: 60 Rabbit: 787 Trap: 0 
-Fox: 42 Rabbit: 818 Trap: 0 
-Fox: 27 Rabbit: 856 Trap: 0 
-Fox: 22 Rabbit: 903 Trap: 0 
-Fox: 16 Rabbit: 939 Trap: 0 
-Fox: 11 Rabbit: 986 Trap: 0 
-Fox: 9 Rabbit: 1012 Trap: 0 
-Fox: 8 Rabbit: 1054 Trap: 0 
-Fox: 3 Rabbit: 1098 Trap: 0 
-Fox: 2 Rabbit: 1133 Trap: 0 
-Fox: 2 Rabbit: 1187 Trap: 0 
-Fox: 2 Rabbit: 1203 Trap: 0 
-Fox: 0 Rabbit: 1225 Trap: 0 
-Fox: 0 Rabbit: 1275 Trap: 0 
-Fox: 0 Rabbit: 1308 Trap: 0 
-Fox: 0 Rabbit: 1363 Trap: 0 
-Fox: 0 Rabbit: 1396 Trap: 0 
-Fox: 0 Rabbit: 1416 Trap: 0 
-Fox: 0 Rabbit: 1456 Trap: 0 
-Fox: 0 Rabbit: 1473 Trap: 0 
-Fox: 0 Rabbit: 1511 Trap: 0 
-Fox: 0 Rabbit: 1541 Trap: 0 
-Fox: 0 Rabbit: 1591 Trap: 0 
-Fox: 0 Rabbit: 1649 Trap: 0 
-Fox: 0 Rabbit: 1706 Trap: 0 
-Fox: 0 Rabbit: 1760 Trap: 0 
-Fox: 0 Rabbit: 1791 Trap: 0 
-Fox: 0 Rabbit: 1809 Trap: 0 
-Fox: 0 Rabbit: 1851 Trap: 0 
-Fox: 0 Rabbit: 1886 Trap: 0 
-Fox: 0 Rabbit: 1922 Trap: 0 
-Fox: 0 Rabbit: 1958 Trap: 0 
-Fox: 0 Rabbit: 2002 Trap: 0 
-Fox: 0 Rabbit: 2048 Trap: 0 
-Fox: 0 Rabbit: 2105 Trap: 0 
-Fox: 0 Rabbit: 2139 Trap: 0 
-Fox: 0 Rabbit: 2183 Trap: 0 
-Fox: 0 Rabbit: 2214 Trap: 0 
-Fox: 0 Rabbit: 2254 Trap: 0 
-Fox: 0 Rabbit: 2322 Trap: 0 
-Fox: 0 Rabbit: 2359 Trap: 0 
-Fox: 0 Rabbit: 2405 Trap: 0 
-Fox: 0 Rabbit: 2445 Trap: 0 
-Fox: 0 Rabbit: 2482 Trap: 0 
-Fox: 0 Rabbit: 2527 Trap: 0 
-Fox: 0 Rabbit: 2562 Trap: 0 
-Fox: 0 Rabbit: 2589 Trap: 0 
-Fox: 0 Rabbit: 2685 Trap: 0 
-Fox: 0 Rabbit: 2695 Trap: 0 
-Fox: 0 Rabbit: 2727 Trap: 0 
-Fox: 0 Rabbit: 2790 Trap: 0 
-Fox: 0 Rabbit: 2844 Trap: 0 
-Fox: 0 Rabbit: 2882 Trap: 0 
-Fox: 0 Rabbit: 2933 Trap: 0 
-Fox: 0 Rabbit: 2975 Trap: 0 
-Fox: 0 Rabbit: 3009 Trap: 0 
-Fox: 0 Rabbit: 3065 Trap: 0 
-Fox: 0 Rabbit: 3127 Trap: 0 
-Fox: 0 Rabbit: 3187 Trap: 0 
-Fox: 0 Rabbit: 3214 Trap: 0 
-Fox: 0 Rabbit: 3287 Trap: 0 
-Fox: 0 Rabbit: 3348 Trap: 0 
-Fox: 0 Rabbit: 3410 Trap: 0 
-Fox: 0 Rabbit: 3418 Trap: 0 
-Fox: 0 Rabbit: 3454 Trap: 0 
-Fox: 0 Rabbit: 3505 Trap: 0 
-Fox: 0 Rabbit: 3550 Trap: 0 
-Fox: 0 Rabbit: 3629 Trap: 0 
-Fox: 0 Rabbit: 3653 Trap: 0 
-Fox: 0 Rabbit: 3698 Trap: 0 
-Fox: 0 Rabbit: 3773 Trap: 0 
-Fox: 0 Rabbit: 3840 Trap: 0 
-Fox: 0 Rabbit: 3896 Trap: 0 
-Fox: 0 Rabbit: 3927 Trap: 0 
-Fox: 0 Rabbit: 3998 Trap: 0 
-Fox: 0 Rabbit: 4026 Trap: 0 
-Fox: 0 Rabbit: 4068 Trap: 0 
-Fox: 0 Rabbit: 4133 Trap: 0 
-Fox: 0 Rabbit: 4166 Trap: 0 
-Fox: 0 Rabbit: 4223 Trap: 0 
-Fox: 0 Rabbit: 4255 Trap: 0 
-Fox: 0 Rabbit: 4283 Trap: 0 
-Fox: 0 Rabbit: 4374 Trap: 0 
-Fox: 0 Rabbit: 4381 Trap: 0 
-Fox: 0 Rabbit: 4447 Trap: 0 
-Fox: 0 Rabbit: 4466 Trap: 0 
-Fox: 0 Rabbit: 4481 Trap: 0 
-Fox: 0 Rabbit: 4514 Trap: 0 
-Fox: 0 Rabbit: 4555 Trap: 0 
-Fox: 0 Rabbit: 4604 Trap: 0 
-Fox: 0 Rabbit: 4608 Trap: 0 
-Fox: 0 Rabbit: 4609 Trap: 0 
-[Halt]
-Fox: 0 Rabbit: 4620 Trap: 0 
-Fox: 0 Rabbit: 4633 Trap: 0 
-Fox: 0 Rabbit: 4642 Trap: 0 
-Fox: 0 Rabbit: 4682 Trap: 0 
-Fox: 0 Rabbit: 4713 Trap: 0 
-Fox: 0 Rabbit: 4724 Trap: 0 
-Fox: 0 Rabbit: 4750 Trap: 0 
-Fox: 0 Rabbit: 4733 Trap: 0 
-Fox: 0 Rabbit: 4743 Trap: 0 
-Fox: 0 Rabbit: 4751 Trap: 0 
-Fox: 0 Rabbit: 4721 Trap: 0 
-Fox: 0 Rabbit: 4765 Trap: 0 
-Fox: 0 Rabbit: 4797 Trap: 0 
-Fox: 0 Rabbit: 4807 Trap: 0 
-Fox: 0 Rabbit: 4853 Trap: 0 
-Fox: 0 Rabbit: 4824 Trap: 0 
-Fox: 0 Rabbit: 4804 Trap: 0 
-Fox: 0 Rabbit: 4826 Trap: 0 
-Fox: 0 Rabbit: 4840 Trap: 0 
-Fox: 0 Rabbit: 4811 Trap: 0 
-Fox: 0 Rabbit: 4818 Trap: 0 
-Fox: 0 Rabbit: 4847 Trap: 0 
-Fox: 0 Rabbit: 4852 Trap: 0 
-Fox: 0 Rabbit: 4877 Trap: 0 
-Fox: 0 Rabbit: 4900 Trap: 0 
-Fox: 0 Rabbit: 4893 Trap: 0 
-Fox: 0 Rabbit: 4917 Trap: 0 
-Fox: 0 Rabbit: 4898 Trap: 0 
-Fox: 0 Rabbit: 4889 Trap: 0 
-Fox: 0 Rabbit: 4894 Trap: 0 
-Fox: 0 Rabbit: 4889 Trap: 0 
-Fox: 0 Rabbit: 4901 Trap: 0 
-Fox: 0 Rabbit: 4885 Trap: 0 
-Fox: 0 Rabbit: 4922 Trap: 0 
-Fox: 0 Rabbit: 4904 Trap: 0 
-Fox: 0 Rabbit: 4897 Trap: 0 
-Fox: 0 Rabbit: 4901 Trap: 0 
-Fox: 0 Rabbit: 4885 Trap: 0 
-Fox: 0 Rabbit: 4884 Trap: 0 
-Fox: 0 Rabbit: 4886 Trap: 0 
-Fox: 0 Rabbit: 4910 Trap: 0 
-Fox: 0 Rabbit: 4898 Trap: 0 
-Fox: 0 Rabbit: 4941 Trap: 0 
-Fox: 0 Rabbit: 4932 Trap: 0 
-Fox: 0 Rabbit: 4903 Trap: 0 
-Fox: 0 Rabbit: 4891 Trap: 0 
-Fox: 0 Rabbit: 4913 Trap: 0 
-Fox: 0 Rabbit: 4870 Trap: 0 
-Fox: 0 Rabbit: 4873 Trap: 0 
-Fox: 0 Rabbit: 4897 Trap: 0 
-Fox: 0 Rabbit: 4882 Trap: 0 
-Fox: 0 Rabbit: 4889 Trap: 0 
-Fox: 0 Rabbit: 4904 Trap: 0 
-Fox: 0 Rabbit: 4911 Trap: 0 
-Fox: 0 Rabbit: 4867 Trap: 0 
-Fox: 0 Rabbit: 4883 Trap: 0 
-Fox: 0 Rabbit: 4896 Trap: 0 
-Fox: 0 Rabbit: 4904 Trap: 0 
-Fox: 0 Rabbit: 4892 Trap: 0 
-Fox: 0 Rabbit: 4919 Trap: 0 
-Fox: 0 Rabbit: 4917 Trap: 0 
-Fox: 0 Rabbit: 4901 Trap: 0 
-Fox: 0 Rabbit: 4904 Trap: 0 
-Fox: 0 Rabbit: 4921 Trap: 0 
-Fox: 0 Rabbit: 4904 Trap: 0 
-Fox: 0 Rabbit: 4903 Trap: 0 
-Fox: 0 Rabbit: 4890 Trap: 0 
-Fox: 0 Rabbit: 4885 Trap: 0 
-Fox: 0 Rabbit: 4892 Trap: 0 
-Fox: 0 Rabbit: 4915 Trap: 0 
-Fox: 0 Rabbit: 4901 Trap: 0 
-Fox: 0 Rabbit: 4908 Trap: 0 
-Fox: 0 Rabbit: 4907 Trap: 0 
-Fox: 0 Rabbit: 4906 Trap: 0 
-Fox: 0 Rabbit: 4919 Trap: 0 
-Fox: 0 Rabbit: 4897 Trap: 0 
-Fox: 0 Rabbit: 4871 Trap: 0 
-Fox: 0 Rabbit: 4894 Trap: 0 
-Fox: 0 Rabbit: 4925 Trap: 0 
-Fox: 0 Rabbit: 4904 Trap: 0 
-Fox: 0 Rabbit: 4899 Trap: 0 
-Fox: 0 Rabbit: 4881 Trap: 0 
-Fox: 0 Rabbit: 4880 Trap: 0 
-Fox: 0 Rabbit: 4879 Trap: 0 
-Fox: 0 Rabbit: 4882 Trap: 0 
-Fox: 0 Rabbit: 4889 Trap: 0 
-Fox: 0 Rabbit: 4874 Trap: 0 
-Fox: 0 Rabbit: 4871 Trap: 0 
-Fox: 0 Rabbit: 4894 Trap: 0 
-Fox: 0 Rabbit: 4913 Trap: 0 
-Fox: 0 Rabbit: 4892 Trap: 0 
-Fox: 0 Rabbit: 4901 Trap: 0 
-Fox: 0 Rabbit: 4879 Trap: 0 
-Fox: 0 Rabbit: 4877 Trap: 0 
-Fox: 0 Rabbit: 4889 Trap: 0 
-Fox: 0 Rabbit: 4907 Trap: 0 
-Fox: 0 Rabbit: 4906 Trap: 0 
-Fox: 0 Rabbit: 4900 Trap: 0 
-Fox: 0 Rabbit: 4901 Trap: 0 
-Fox: 0 Rabbit: 4920 Trap: 0 
-[Halt]
-[Init]
-Fox: 144 Rabbit: 601 Trap: 33 
-Fox: 174 Rabbit: 667 Trap: 30 
-Fox: 213 Rabbit: 728 Trap: 26 
-Fox: 267 Rabbit: 774 Trap: 24 
-Fox: 301 Rabbit: 775 Trap: 21 
-Fox: 352 Rabbit: 830 Trap: 18 
-Fox: 373 Rabbit: 877 Trap: 17 
-Fox: 380 Rabbit: 903 Trap: 14 
-Fox: 376 Rabbit: 924 Trap: 11 
-Fox: 368 Rabbit: 955 Trap: 10 
-Fox: 372 Rabbit: 967 Trap: 8 
-Fox: 385 Rabbit: 983 Trap: 6 
-Fox: 424 Rabbit: 947 Trap: 6 
-Fox: 488 Rabbit: 926 Trap: 6 
-Fox: 551 Rabbit: 925 Trap: 6 
-Fox: 603 Rabbit: 912 Trap: 3 
-Fox: 664 Rabbit: 870 Trap: 3 
-Fox: 710 Rabbit: 831 Trap: 2 
-Fox: 738 Rabbit: 732 Trap: 1 
-Fox: 774 Rabbit: 635 Trap: 1 
-Fox: 798 Rabbit: 593 Trap: 1 
-Fox: 793 Rabbit: 517 Trap: 1 
-Fox: 781 Rabbit: 457 Trap: 1 
-Fox: 817 Rabbit: 406 Trap: 1 
-Fox: 813 Rabbit: 339 Trap: 1 
-Fox: 841 Rabbit: 269 Trap: 1 
-Fox: 810 Rabbit: 200 Trap: 1 
-Fox: 783 Rabbit: 152 Trap: 1 
-Fox: 778 Rabbit: 109 Trap: 1 
-Fox: 776 Rabbit: 87 Trap: 1 
-Fox: 719 Rabbit: 66 Trap: 1 
-Fox: 674 Rabbit: 53 Trap: 1 
-Fox: 617 Rabbit: 41 Trap: 1 
-Fox: 569 Rabbit: 37 Trap: 1 
-Fox: 481 Rabbit: 31 Trap: 1 
-Fox: 398 Rabbit: 27 Trap: 1 
-Fox: 337 Rabbit: 28 Trap: 1 
-Fox: 280 Rabbit: 37 Trap: 1 
-Fox: 233 Rabbit: 43 Trap: 1 
-Fox: 163 Rabbit: 49 Trap: 1 
-Fox: 116 Rabbit: 52 Trap: 1 
-Fox: 95 Rabbit: 50 Trap: 1 
-Fox: 76 Rabbit: 63 Trap: 1 
-Fox: 64 Rabbit: 68 Trap: 1 
-Fox: 55 Rabbit: 74 Trap: 1 
-Fox: 43 Rabbit: 75 Trap: 1 
-Fox: 38 Rabbit: 86 Trap: 1 
-Fox: 28 Rabbit: 105 Trap: 1 
-Fox: 25 Rabbit: 112 Trap: 1 
-Fox: 29 Rabbit: 132 Trap: 1 
-Fox: 28 Rabbit: 156 Trap: 1 
-Fox: 30 Rabbit: 185 Trap: 1 
-Fox: 26 Rabbit: 208 Trap: 1 
-Fox: 18 Rabbit: 234 Trap: 1 
-Fox: 18 Rabbit: 282 Trap: 0 
-Fox: 16 Rabbit: 326 Trap: 0 
-Fox: 14 Rabbit: 385 Trap: 0 
-Fox: 9 Rabbit: 455 Trap: 0 
-Fox: 5 Rabbit: 517 Trap: 0 
-Fox: 5 Rabbit: 574 Trap: 0 
-Fox: 5 Rabbit: 655 Trap: 0 
-Fox: 4 Rabbit: 727 Trap: 0 
-Fox: 6 Rabbit: 815 Trap: 0 
-Fox: 7 Rabbit: 878 Trap: 0 
-Fox: 9 Rabbit: 1010 Trap: 0 
-Fox: 9 Rabbit: 1099 Trap: 0 
-Fox: 8 Rabbit: 1178 Trap: 0 
-Fox: 8 Rabbit: 1292 Trap: 0 
-Fox: 8 Rabbit: 1383 Trap: 0 
-Fox: 7 Rabbit: 1471 Trap: 0 
-Fox: 7 Rabbit: 1577 Trap: 0 
-Fox: 6 Rabbit: 1692 Trap: 0 
-Fox: 11 Rabbit: 1859 Trap: 0 
-Fox: 15 Rabbit: 1986 Trap: 0 
-Fox: 14 Rabbit: 2083 Trap: 0 
-Fox: 15 Rabbit: 2186 Trap: 0 
-Fox: 20 Rabbit: 2281 Trap: 0 
-Fox: 22 Rabbit: 2368 Trap: 0 
-Fox: 22 Rabbit: 2489 Trap: 0 
-Fox: 23 Rabbit: 2602 Trap: 0 
-Fox: 20 Rabbit: 2693 Trap: 0 
-Fox: 20 Rabbit: 2806 Trap: 0 
-Fox: 20 Rabbit: 2873 Trap: 0 
-Fox: 30 Rabbit: 3002 Trap: 0 
-Fox: 33 Rabbit: 3113 Trap: 0 
-Fox: 43 Rabbit: 3174 Trap: 0 
-Fox: 51 Rabbit: 3271 Trap: 0 
-Fox: 65 Rabbit: 3328 Trap: 0 
-Fox: 69 Rabbit: 3393 Trap: 0 
-Fox: 92 Rabbit: 3444 Trap: 0 
-Fox: 105 Rabbit: 3470 Trap: 0 
-Fox: 113 Rabbit: 3523 Trap: 0 
-Fox: 115 Rabbit: 3547 Trap: 0 
-Fox: 125 Rabbit: 3555 Trap: 0 
-Fox: 139 Rabbit: 3602 Trap: 0 
-Fox: 160 Rabbit: 3605 Trap: 0 
-Fox: 157 Rabbit: 3619 Trap: 0 
-Fox: 149 Rabbit: 3622 Trap: 0 
-Fox: 170 Rabbit: 3612 Trap: 0 
-Fox: 194 Rabbit: 3568 Trap: 0 
-Fox: 210 Rabbit: 3592 Trap: 0 
-Fox: 234 Rabbit: 3570 Trap: 0 
-Fox: 255 Rabbit: 3531 Trap: 0 
-Fox: 271 Rabbit: 3525 Trap: 0 
-Fox: 296 Rabbit: 3465 Trap: 0 
-Fox: 323 Rabbit: 3457 Trap: 0 
-Fox: 322 Rabbit: 3435 Trap: 0 
-Fox: 320 Rabbit: 3392 Trap: 0 
-Fox: 337 Rabbit: 3370 Trap: 0 
-Fox: 329 Rabbit: 3301 Trap: 0 
-Fox: 342 Rabbit: 3279 Trap: 0 
-Fox: 364 Rabbit: 3236 Trap: 0 
-Fox: 365 Rabbit: 3198 Trap: 0 
-Fox: 374 Rabbit: 3138 Trap: 0 
-Fox: 409 Rabbit: 3127 Trap: 0 
-Fox: 420 Rabbit: 3083 Trap: 0 
-Fox: 426 Rabbit: 3015 Trap: 0 
-Fox: 425 Rabbit: 2918 Trap: 0 
-Fox: 411 Rabbit: 2837 Trap: 0 
-Fox: 421 Rabbit: 2807 Trap: 0 
-Fox: 428 Rabbit: 2766 Trap: 0 
-Fox: 412 Rabbit: 2735 Trap: 0 
-Fox: 409 Rabbit: 2652 Trap: 0 
-Fox: 393 Rabbit: 2606 Trap: 0 
-Fox: 405 Rabbit: 2538 Trap: 0 
-Fox: 407 Rabbit: 2497 Trap: 0 
-Fox: 403 Rabbit: 2464 Trap: 0 
-Fox: 389 Rabbit: 2405 Trap: 0 
-Fox: 422 Rabbit: 2365 Trap: 0 
-Fox: 420 Rabbit: 2297 Trap: 0 
-Fox: 445 Rabbit: 2235 Trap: 0 
-Fox: 443 Rabbit: 2176 Trap: 0 
-Fox: 430 Rabbit: 2099 Trap: 0 
-Fox: 433 Rabbit: 2067 Trap: 0 
-Fox: 447 Rabbit: 2008 Trap: 0 
-Fox: 430 Rabbit: 1906 Trap: 0 
-Fox: 440 Rabbit: 1845 Trap: 0 
-Fox: 448 Rabbit: 1787 Trap: 0 
-Fox: 425 Rabbit: 1697 Trap: 0 
-Fox: 426 Rabbit: 1629 Trap: 0 
-Fox: 428 Rabbit: 1570 Trap: 0 
-Fox: 436 Rabbit: 1468 Trap: 0 
-Fox: 422 Rabbit: 1409 Trap: 0 
-Fox: 422 Rabbit: 1357 Trap: 0 
-Fox: 427 Rabbit: 1318 Trap: 0 
-Fox: 433 Rabbit: 1226 Trap: 0 
-Fox: 462 Rabbit: 1167 Trap: 0 
-Fox: 468 Rabbit: 1103 Trap: 0 
-Fox: 452 Rabbit: 1055 Trap: 0 
-Fox: 443 Rabbit: 997 Trap: 0 
-Fox: 431 Rabbit: 949 Trap: 0 
-Fox: 431 Rabbit: 905 Trap: 0 
-Fox: 409 Rabbit: 841 Trap: 0 
-Fox: 386 Rabbit: 791 Trap: 0 
-Fox: 381 Rabbit: 737 Trap: 0 
-Fox: 357 Rabbit: 675 Trap: 0 
-Fox: 360 Rabbit: 636 Trap: 0 
-Fox: 396 Rabbit: 580 Trap: 0 
-Fox: 379 Rabbit: 515 Trap: 0 
-Fox: 374 Rabbit: 466 Trap: 0 
-Fox: 366 Rabbit: 423 Trap: 0 
-Fox: 367 Rabbit: 373 Trap: 0 
-Fox: 349 Rabbit: 336 Trap: 0 
-Fox: 350 Rabbit: 298 Trap: 0 
-Fox: 302 Rabbit: 261 Trap: 0 
-Fox: 299 Rabbit: 229 Trap: 0 
-Fox: 281 Rabbit: 206 Trap: 0 
-Fox: 262 Rabbit: 180 Trap: 0 
-Fox: 244 Rabbit: 169 Trap: 0 
-Fox: 240 Rabbit: 143 Trap: 0 
-Fox: 210 Rabbit: 121 Trap: 0 
-Fox: 208 Rabbit: 96 Trap: 0 
-Fox: 200 Rabbit: 80 Trap: 0 
-Fox: 178 Rabbit: 72 Trap: 0 
-Fox: 167 Rabbit: 62 Trap: 0 
-Fox: 150 Rabbit: 47 Trap: 0 
-Fox: 156 Rabbit: 35 Trap: 0 
-Fox: 136 Rabbit: 27 Trap: 0 
-Fox: 119 Rabbit: 21 Trap: 0 
-Fox: 114 Rabbit: 15 Trap: 0 
-Fox: 111 Rabbit: 12 Trap: 0 
-Fox: 111 Rabbit: 7 Trap: 0 
-Fox: 103 Rabbit: 3 Trap: 0 
-Fox: 81 Rabbit: 0 Trap: 0 
-[Halt]
-[Init]
-Fox: 144 Rabbit: 601 Trap: 33 
-Fox: 174 Rabbit: 667 Trap: 30 
-Fox: 213 Rabbit: 728 Trap: 26 
-Fox: 267 Rabbit: 774 Trap: 24 
-Fox: 301 Rabbit: 775 Trap: 21 
-Fox: 352 Rabbit: 830 Trap: 18 
-Fox: 373 Rabbit: 877 Trap: 17 
-Fox: 380 Rabbit: 903 Trap: 14 
-Fox: 376 Rabbit: 924 Trap: 11 
-Fox: 368 Rabbit: 955 Trap: 10 
-Fox: 372 Rabbit: 967 Trap: 8 
-Fox: 385 Rabbit: 983 Trap: 6 
-Fox: 424 Rabbit: 947 Trap: 6 
-Fox: 488 Rabbit: 926 Trap: 6 
-Fox: 551 Rabbit: 925 Trap: 6 
-Fox: 603 Rabbit: 912 Trap: 3 
-Fox: 664 Rabbit: 870 Trap: 3 
-Fox: 710 Rabbit: 831 Trap: 2 
-Fox: 738 Rabbit: 732 Trap: 1 
-Fox: 774 Rabbit: 635 Trap: 1 
-Fox: 798 Rabbit: 593 Trap: 1 
-Fox: 793 Rabbit: 517 Trap: 1 
-Fox: 781 Rabbit: 457 Trap: 1 
-Fox: 817 Rabbit: 406 Trap: 1 
-Fox: 813 Rabbit: 339 Trap: 1 
-Fox: 841 Rabbit: 269 Trap: 1 
-Fox: 810 Rabbit: 200 Trap: 1 
-Fox: 783 Rabbit: 152 Trap: 1 
-Fox: 778 Rabbit: 109 Trap: 1 
-Fox: 776 Rabbit: 87 Trap: 1 
-Fox: 719 Rabbit: 66 Trap: 1 
-Fox: 674 Rabbit: 53 Trap: 1 
-Fox: 617 Rabbit: 41 Trap: 1 
-Fox: 569 Rabbit: 37 Trap: 1 
-Fox: 481 Rabbit: 31 Trap: 1 
-Fox: 398 Rabbit: 27 Trap: 1 
-Fox: 337 Rabbit: 28 Trap: 1 
-Fox: 280 Rabbit: 37 Trap: 1 
-Fox: 233 Rabbit: 43 Trap: 1 
-Fox: 163 Rabbit: 49 Trap: 1 
-Fox: 116 Rabbit: 52 Trap: 1 
-Fox: 95 Rabbit: 50 Trap: 1 
-Fox: 76 Rabbit: 63 Trap: 1 
-Fox: 64 Rabbit: 68 Trap: 1 
-Fox: 55 Rabbit: 74 Trap: 1 
-Fox: 43 Rabbit: 75 Trap: 1 
-Fox: 38 Rabbit: 86 Trap: 1 
-Fox: 28 Rabbit: 105 Trap: 1 
-Fox: 25 Rabbit: 112 Trap: 1 
-Fox: 29 Rabbit: 132 Trap: 1 
-Fox: 28 Rabbit: 156 Trap: 1 
-Fox: 30 Rabbit: 185 Trap: 1 
-Fox: 26 Rabbit: 208 Trap: 1 
-Fox: 18 Rabbit: 234 Trap: 1 
-Fox: 18 Rabbit: 282 Trap: 0 
-Fox: 16 Rabbit: 326 Trap: 0 
-Fox: 14 Rabbit: 385 Trap: 0 
-Fox: 9 Rabbit: 455 Trap: 0 
-Fox: 5 Rabbit: 517 Trap: 0 
-Fox: 5 Rabbit: 574 Trap: 0 
-Fox: 5 Rabbit: 655 Trap: 0 
-Fox: 4 Rabbit: 727 Trap: 0 
-Fox: 6 Rabbit: 815 Trap: 0 
-Fox: 7 Rabbit: 878 Trap: 0 
-Fox: 9 Rabbit: 1010 Trap: 0 
-Fox: 9 Rabbit: 1099 Trap: 0 
-Fox: 8 Rabbit: 1178 Trap: 0 
-Fox: 8 Rabbit: 1292 Trap: 0 
-Fox: 8 Rabbit: 1383 Trap: 0 
-Fox: 7 Rabbit: 1471 Trap: 0 
-Fox: 7 Rabbit: 1577 Trap: 0 
-Fox: 6 Rabbit: 1692 Trap: 0 
-Fox: 11 Rabbit: 1859 Trap: 0 
-Fox: 15 Rabbit: 1986 Trap: 0 
-Fox: 14 Rabbit: 2083 Trap: 0 
-Fox: 15 Rabbit: 2186 Trap: 0 
-Fox: 20 Rabbit: 2281 Trap: 0 
-Fox: 22 Rabbit: 2368 Trap: 0 
-Fox: 22 Rabbit: 2489 Trap: 0 
-Fox: 23 Rabbit: 2602 Trap: 0 
-Fox: 20 Rabbit: 2693 Trap: 0 
-Fox: 20 Rabbit: 2806 Trap: 0 
-Fox: 20 Rabbit: 2873 Trap: 0 
-Fox: 30 Rabbit: 3002 Trap: 0 
-Fox: 33 Rabbit: 3113 Trap: 0 
-Fox: 43 Rabbit: 3174 Trap: 0 
-Fox: 51 Rabbit: 3271 Trap: 0 
-Fox: 65 Rabbit: 3328 Trap: 0 
-Fox: 69 Rabbit: 3393 Trap: 0 
-Fox: 92 Rabbit: 3444 Trap: 0 
-Fox: 105 Rabbit: 3470 Trap: 0 
-Fox: 113 Rabbit: 3523 Trap: 0 
-Fox: 115 Rabbit: 3547 Trap: 0 
-Fox: 125 Rabbit: 3555 Trap: 0 
-Fox: 139 Rabbit: 3602 Trap: 0 
-Fox: 160 Rabbit: 3605 Trap: 0 
-Fox: 157 Rabbit: 3619 Trap: 0 
-Fox: 149 Rabbit: 3622 Trap: 0 
-Fox: 170 Rabbit: 3612 Trap: 0 
-Fox: 194 Rabbit: 3568 Trap: 0 
-Fox: 210 Rabbit: 3592 Trap: 0 
-Fox: 234 Rabbit: 3570 Trap: 0 
-Fox: 255 Rabbit: 3531 Trap: 0 
-Fox: 271 Rabbit: 3525 Trap: 0 
-Fox: 296 Rabbit: 3465 Trap: 0 
-Fox: 323 Rabbit: 3457 Trap: 0 
-Fox: 322 Rabbit: 3435 Trap: 0 
-Fox: 320 Rabbit: 3392 Trap: 0 
-Fox: 337 Rabbit: 3370 Trap: 0 
-Fox: 329 Rabbit: 3301 Trap: 0 
-Fox: 342 Rabbit: 3279 Trap: 0 
-Fox: 364 Rabbit: 3236 Trap: 0 
-Fox: 365 Rabbit: 3198 Trap: 0 
-Fox: 374 Rabbit: 3138 Trap: 0 
-Fox: 409 Rabbit: 3127 Trap: 0 
-Fox: 420 Rabbit: 3083 Trap: 0 
-Fox: 426 Rabbit: 3015 Trap: 0 
-Fox: 425 Rabbit: 2918 Trap: 0 
-Fox: 411 Rabbit: 2837 Trap: 0 
-Fox: 421 Rabbit: 2807 Trap: 0 
-Fox: 428 Rabbit: 2766 Trap: 0 
-Fox: 412 Rabbit: 2735 Trap: 0 
-Fox: 409 Rabbit: 2652 Trap: 0 
-Fox: 393 Rabbit: 2606 Trap: 0 
-Fox: 405 Rabbit: 2538 Trap: 0 
-Fox: 407 Rabbit: 2497 Trap: 0 
-Fox: 403 Rabbit: 2464 Trap: 0 
-Fox: 389 Rabbit: 2405 Trap: 0 
-Fox: 422 Rabbit: 2365 Trap: 0 
-Fox: 420 Rabbit: 2297 Trap: 0 
-Fox: 445 Rabbit: 2235 Trap: 0 
-Fox: 443 Rabbit: 2176 Trap: 0 
-Fox: 430 Rabbit: 2099 Trap: 0 
-Fox: 433 Rabbit: 2067 Trap: 0 
-Fox: 447 Rabbit: 2008 Trap: 0 
-Fox: 430 Rabbit: 1906 Trap: 0 
-Fox: 440 Rabbit: 1845 Trap: 0 
-Fox: 448 Rabbit: 1787 Trap: 0 
-Fox: 425 Rabbit: 1697 Trap: 0 
-Fox: 426 Rabbit: 1629 Trap: 0 
-Fox: 428 Rabbit: 1570 Trap: 0 
-Fox: 436 Rabbit: 1468 Trap: 0 
-Fox: 422 Rabbit: 1409 Trap: 0 
-Fox: 422 Rabbit: 1357 Trap: 0 
-Fox: 427 Rabbit: 1318 Trap: 0 
-Fox: 433 Rabbit: 1226 Trap: 0 
-Fox: 462 Rabbit: 1167 Trap: 0 
-Fox: 468 Rabbit: 1103 Trap: 0 
-Fox: 452 Rabbit: 1055 Trap: 0 
-Fox: 443 Rabbit: 997 Trap: 0 
-Fox: 431 Rabbit: 949 Trap: 0 
-Fox: 431 Rabbit: 905 Trap: 0 
-Fox: 409 Rabbit: 841 Trap: 0 
-Fox: 386 Rabbit: 791 Trap: 0 
-Fox: 381 Rabbit: 737 Trap: 0 
-Fox: 357 Rabbit: 675 Trap: 0 
-Fox: 360 Rabbit: 636 Trap: 0 
-Fox: 396 Rabbit: 580 Trap: 0 
-Fox: 379 Rabbit: 515 Trap: 0 
-Fox: 374 Rabbit: 466 Trap: 0 
-Fox: 366 Rabbit: 423 Trap: 0 
-Fox: 367 Rabbit: 373 Trap: 0 
-Fox: 349 Rabbit: 336 Trap: 0 
-Fox: 350 Rabbit: 298 Trap: 0 
-Fox: 302 Rabbit: 261 Trap: 0 
-Fox: 299 Rabbit: 229 Trap: 0 
-Fox: 281 Rabbit: 206 Trap: 0 
-Fox: 262 Rabbit: 180 Trap: 0 
-Fox: 244 Rabbit: 169 Trap: 0 
-Fox: 240 Rabbit: 143 Trap: 0 
-Fox: 210 Rabbit: 121 Trap: 0 
-Fox: 208 Rabbit: 96 Trap: 0 
-Fox: 200 Rabbit: 80 Trap: 0 
-Fox: 178 Rabbit: 72 Trap: 0 
-Fox: 167 Rabbit: 62 Trap: 0 
-Fox: 150 Rabbit: 47 Trap: 0 
-Fox: 156 Rabbit: 35 Trap: 0 
-Fox: 136 Rabbit: 27 Trap: 0 
-Fox: 119 Rabbit: 21 Trap: 0 
-Fox: 114 Rabbit: 15 Trap: 0 
-Fox: 111 Rabbit: 12 Trap: 0 
-Fox: 111 Rabbit: 7 Trap: 0 
-Fox: 103 Rabbit: 3 Trap: 0 
-Fox: 81 Rabbit: 0 Trap: 0 
-[Halt]
-[Halt]
-[Init]
-Fox: 144 Rabbit: 601 Trap: 33 
-Fox: 174 Rabbit: 667 Trap: 30 
-Fox: 213 Rabbit: 728 Trap: 26 
-Fox: 267 Rabbit: 774 Trap: 24 
-Fox: 301 Rabbit: 775 Trap: 21 
-Fox: 352 Rabbit: 830 Trap: 18 
-Fox: 373 Rabbit: 877 Trap: 17 
-Fox: 380 Rabbit: 903 Trap: 14 
-Fox: 376 Rabbit: 924 Trap: 11 
-Fox: 368 Rabbit: 955 Trap: 10 
-Fox: 372 Rabbit: 967 Trap: 8 
-Fox: 385 Rabbit: 983 Trap: 6 
-Fox: 424 Rabbit: 947 Trap: 6 
-Fox: 488 Rabbit: 926 Trap: 6 
-Fox: 551 Rabbit: 925 Trap: 6 
-Fox: 603 Rabbit: 912 Trap: 3 
-Fox: 664 Rabbit: 870 Trap: 3 
-Fox: 710 Rabbit: 831 Trap: 2 
-Fox: 738 Rabbit: 732 Trap: 1 
-Fox: 774 Rabbit: 635 Trap: 1 
-Fox: 798 Rabbit: 593 Trap: 1 
-Fox: 793 Rabbit: 517 Trap: 1 
-Fox: 781 Rabbit: 457 Trap: 1 
-Fox: 817 Rabbit: 406 Trap: 1 
-Fox: 813 Rabbit: 339 Trap: 1 
-Fox: 841 Rabbit: 269 Trap: 1 
-Fox: 810 Rabbit: 200 Trap: 1 
-Fox: 783 Rabbit: 152 Trap: 1 
-Fox: 778 Rabbit: 109 Trap: 1 
-Fox: 776 Rabbit: 87 Trap: 1 
-Fox: 719 Rabbit: 66 Trap: 1 
-Fox: 674 Rabbit: 53 Trap: 1 
-Fox: 617 Rabbit: 41 Trap: 1 
-Fox: 569 Rabbit: 37 Trap: 1 
-Fox: 481 Rabbit: 31 Trap: 1 
-Fox: 398 Rabbit: 27 Trap: 1 
-Fox: 337 Rabbit: 28 Trap: 1 
-Fox: 280 Rabbit: 37 Trap: 1 
-Fox: 233 Rabbit: 43 Trap: 1 
-Fox: 163 Rabbit: 49 Trap: 1 
-Fox: 116 Rabbit: 52 Trap: 1 
-Fox: 95 Rabbit: 50 Trap: 1 
-Fox: 76 Rabbit: 63 Trap: 1 
-Fox: 64 Rabbit: 68 Trap: 1 
-Fox: 55 Rabbit: 74 Trap: 1 
-Fox: 43 Rabbit: 75 Trap: 1 
-Fox: 38 Rabbit: 86 Trap: 1 
-Fox: 28 Rabbit: 105 Trap: 1 
-Fox: 25 Rabbit: 112 Trap: 1 
-Fox: 29 Rabbit: 132 Trap: 1 
-Fox: 28 Rabbit: 156 Trap: 1 
-Fox: 30 Rabbit: 185 Trap: 1 
-Fox: 26 Rabbit: 208 Trap: 1 
-Fox: 18 Rabbit: 234 Trap: 1 
-Fox: 18 Rabbit: 282 Trap: 0 
-Fox: 16 Rabbit: 326 Trap: 0 
-Fox: 14 Rabbit: 385 Trap: 0 
-Fox: 9 Rabbit: 455 Trap: 0 
-Fox: 5 Rabbit: 517 Trap: 0 
-Fox: 5 Rabbit: 574 Trap: 0 
-Fox: 5 Rabbit: 655 Trap: 0 
-Fox: 4 Rabbit: 727 Trap: 0 
-Fox: 6 Rabbit: 815 Trap: 0 
-Fox: 7 Rabbit: 878 Trap: 0 
-Fox: 9 Rabbit: 1010 Trap: 0 
-Fox: 9 Rabbit: 1099 Trap: 0 
-Fox: 8 Rabbit: 1178 Trap: 0 
-Fox: 8 Rabbit: 1292 Trap: 0 
-Fox: 8 Rabbit: 1383 Trap: 0 
-Fox: 7 Rabbit: 1471 Trap: 0 
-Fox: 7 Rabbit: 1577 Trap: 0 
-Fox: 6 Rabbit: 1692 Trap: 0 
-Fox: 11 Rabbit: 1859 Trap: 0 
-Fox: 15 Rabbit: 1986 Trap: 0 
-Fox: 14 Rabbit: 2083 Trap: 0 
-Fox: 15 Rabbit: 2186 Trap: 0 
-Fox: 20 Rabbit: 2281 Trap: 0 
-Fox: 22 Rabbit: 2368 Trap: 0 
-Fox: 22 Rabbit: 2489 Trap: 0 
-Fox: 23 Rabbit: 2602 Trap: 0 
-Fox: 20 Rabbit: 2693 Trap: 0 
-Fox: 20 Rabbit: 2806 Trap: 0 
-Fox: 20 Rabbit: 2873 Trap: 0 
-Fox: 30 Rabbit: 3002 Trap: 0 
-Fox: 33 Rabbit: 3113 Trap: 0 
-Fox: 43 Rabbit: 3174 Trap: 0 
-Fox: 51 Rabbit: 3271 Trap: 0 
-Fox: 65 Rabbit: 3328 Trap: 0 
-Fox: 69 Rabbit: 3393 Trap: 0 
-Fox: 92 Rabbit: 3444 Trap: 0 
-Fox: 105 Rabbit: 3470 Trap: 0 
-Fox: 113 Rabbit: 3523 Trap: 0 
-Fox: 115 Rabbit: 3547 Trap: 0 
-Fox: 125 Rabbit: 3555 Trap: 0 
-Fox: 139 Rabbit: 3602 Trap: 0 
-Fox: 160 Rabbit: 3605 Trap: 0 
-Fox: 157 Rabbit: 3619 Trap: 0 
-Fox: 149 Rabbit: 3622 Trap: 0 
-Fox: 170 Rabbit: 3612 Trap: 0 
-Fox: 194 Rabbit: 3568 Trap: 0 
-Fox: 210 Rabbit: 3592 Trap: 0 
-Fox: 234 Rabbit: 3570 Trap: 0 
-Fox: 255 Rabbit: 3531 Trap: 0 
-Fox: 271 Rabbit: 3525 Trap: 0 
-Fox: 296 Rabbit: 3465 Trap: 0 
-Fox: 323 Rabbit: 3457 Trap: 0 
-Fox: 322 Rabbit: 3435 Trap: 0 
-Fox: 320 Rabbit: 3392 Trap: 0 
-Fox: 337 Rabbit: 3370 Trap: 0 
-Fox: 329 Rabbit: 3301 Trap: 0 
-Fox: 342 Rabbit: 3279 Trap: 0 
-Fox: 364 Rabbit: 3236 Trap: 0 
-Fox: 365 Rabbit: 3198 Trap: 0 
-Fox: 374 Rabbit: 3138 Trap: 0 
-Fox: 409 Rabbit: 3127 Trap: 0 
-Fox: 420 Rabbit: 3083 Trap: 0 
-Fox: 426 Rabbit: 3015 Trap: 0 
-Fox: 425 Rabbit: 2918 Trap: 0 
-Fox: 411 Rabbit: 2837 Trap: 0 
-Fox: 421 Rabbit: 2807 Trap: 0 
-Fox: 428 Rabbit: 2766 Trap: 0 
-Fox: 412 Rabbit: 2735 Trap: 0 
-Fox: 409 Rabbit: 2652 Trap: 0 
-Fox: 393 Rabbit: 2606 Trap: 0 
-Fox: 405 Rabbit: 2538 Trap: 0 
-Fox: 407 Rabbit: 2497 Trap: 0 
-Fox: 403 Rabbit: 2464 Trap: 0 
-Fox: 389 Rabbit: 2405 Trap: 0 
-Fox: 422 Rabbit: 2365 Trap: 0 
-Fox: 420 Rabbit: 2297 Trap: 0 
-Fox: 445 Rabbit: 2235 Trap: 0 
-Fox: 443 Rabbit: 2176 Trap: 0 
-Fox: 430 Rabbit: 2099 Trap: 0 
-Fox: 433 Rabbit: 2067 Trap: 0 
-Fox: 447 Rabbit: 2008 Trap: 0 
-Fox: 430 Rabbit: 1906 Trap: 0 
-Fox: 440 Rabbit: 1845 Trap: 0 
-Fox: 448 Rabbit: 1787 Trap: 0 
-Fox: 425 Rabbit: 1697 Trap: 0 
-Fox: 426 Rabbit: 1629 Trap: 0 
-Fox: 428 Rabbit: 1570 Trap: 0 
-Fox: 436 Rabbit: 1468 Trap: 0 
-Fox: 422 Rabbit: 1409 Trap: 0 
-Fox: 422 Rabbit: 1357 Trap: 0 
-Fox: 427 Rabbit: 1318 Trap: 0 
-Fox: 433 Rabbit: 1226 Trap: 0 
-Fox: 462 Rabbit: 1167 Trap: 0 
-Fox: 468 Rabbit: 1103 Trap: 0 
-Fox: 452 Rabbit: 1055 Trap: 0 
-Fox: 443 Rabbit: 997 Trap: 0 
-Fox: 431 Rabbit: 949 Trap: 0 
-Fox: 431 Rabbit: 905 Trap: 0 
-Fox: 409 Rabbit: 841 Trap: 0 
-Fox: 386 Rabbit: 791 Trap: 0 
-Fox: 381 Rabbit: 737 Trap: 0 
-Fox: 357 Rabbit: 675 Trap: 0 
-Fox: 360 Rabbit: 636 Trap: 0 
-Fox: 396 Rabbit: 580 Trap: 0 
-Fox: 379 Rabbit: 515 Trap: 0 
-Fox: 374 Rabbit: 466 Trap: 0 
-Fox: 366 Rabbit: 423 Trap: 0 
-Fox: 367 Rabbit: 373 Trap: 0 
-Fox: 349 Rabbit: 336 Trap: 0 
-Fox: 350 Rabbit: 298 Trap: 0 
-Fox: 302 Rabbit: 261 Trap: 0 
-Fox: 299 Rabbit: 229 Trap: 0 
-Fox: 281 Rabbit: 206 Trap: 0 
-Fox: 262 Rabbit: 180 Trap: 0 
-Fox: 244 Rabbit: 169 Trap: 0 
-Fox: 240 Rabbit: 143 Trap: 0 
-Fox: 210 Rabbit: 121 Trap: 0 
-Fox: 208 Rabbit: 96 Trap: 0 
-Fox: 200 Rabbit: 80 Trap: 0 
-Fox: 178 Rabbit: 72 Trap: 0 
-Fox: 167 Rabbit: 62 Trap: 0 
-Fox: 150 Rabbit: 47 Trap: 0 
-Fox: 156 Rabbit: 35 Trap: 0 
-Fox: 136 Rabbit: 27 Trap: 0 
-Fox: 119 Rabbit: 21 Trap: 0 
-Fox: 114 Rabbit: 15 Trap: 0 
-Fox: 111 Rabbit: 12 Trap: 0 
-Fox: 111 Rabbit: 7 Trap: 0 
-Fox: 103 Rabbit: 3 Trap: 0 
-Fox: 81 Rabbit: 0 Trap: 0 
-[Halt]
-[Halt]
-[Halt]
+[start]
+fox:144+rabbit:561+trap:47
+fox:200+rabbit:597+trap:43
+fox:243+rabbit:637+trap:34
+fox:284+rabbit:647+trap:30
+fox:331+rabbit:660+trap:27
+fox:363+rabbit:682+trap:24
+fox:414+rabbit:696+trap:22
+fox:422+rabbit:744+trap:19
+fox:430+rabbit:759+trap:14
+fox:419+rabbit:777+trap:12
+fox:416+rabbit:803+trap:10
+fox:462+rabbit:814+trap:8
+fox:504+rabbit:798+trap:7
+fox:548+rabbit:801+trap:7
+fox:584+rabbit:794+trap:6
+fox:597+rabbit:786+trap:6
+fox:632+rabbit:759+trap:6
+fox:693+rabbit:729+trap:5
+fox:705+rabbit:697+trap:5
+fox:705+rabbit:637+trap:4
+fox:668+rabbit:580+trap:4
+fox:662+rabbit:526+trap:4
+fox:655+rabbit:467+trap:4
+fox:640+rabbit:400+trap:3
+fox:621+rabbit:354+trap:3
+fox:607+rabbit:310+trap:3
+fox:599+rabbit:270+trap:3
+fox:613+rabbit:231+trap:3
+fox:610+rabbit:203+trap:3
+fox:581+rabbit:165+trap:3
+[finish]
+[start]
+[finish]
+[start]
+fox:169+rabbit:546+trap:47
+fox:216+rabbit:637+trap:37
+fox:251+rabbit:668+trap:34
+fox:295+rabbit:687+trap:31
+fox:326+rabbit:679+trap:26
+fox:353+rabbit:674+trap:24
+fox:403+rabbit:705+trap:21
+fox:408+rabbit:764+trap:19
+fox:409+rabbit:816+trap:17
+fox:402+rabbit:845+trap:15
+fox:407+rabbit:908+trap:11
+fox:439+rabbit:929+trap:7
+fox:437+rabbit:963+trap:6
+fox:435+rabbit:989+trap:5
+fox:464+rabbit:974+trap:4
+fox:493+rabbit:962+trap:4
+fox:526+rabbit:935+trap:4
+fox:563+rabbit:882+trap:4
+fox:606+rabbit:842+trap:4
+fox:649+rabbit:781+trap:4
+fox:699+rabbit:739+trap:3
+fox:722+rabbit:665+trap:2
+fox:759+rabbit:574+trap:2
+fox:798+rabbit:514+trap:2
+fox:839+rabbit:442+trap:2
+fox:830+rabbit:367+trap:2
+fox:852+rabbit:304+trap:2
+fox:885+rabbit:268+trap:2
+fox:900+rabbit:221+trap:2
+fox:874+rabbit:194+trap:2
+fox:865+rabbit:160+trap:2
+fox:786+rabbit:138+trap:2
+fox:746+rabbit:120+trap:1
+fox:689+rabbit:110+trap:0
+fox:594+rabbit:92+trap:0
+fox:517+rabbit:88+trap:0
+fox:463+rabbit:83+trap:0
+fox:414+rabbit:84+trap:0
+fox:389+rabbit:81+trap:0
+fox:339+rabbit:68+trap:0
+fox:281+rabbit:63+trap:0
+fox:243+rabbit:63+trap:0
+fox:219+rabbit:62+trap:0
+fox:192+rabbit:61+trap:0
+fox:144+rabbit:65+trap:0
+fox:115+rabbit:66+trap:0
+fox:100+rabbit:71+trap:0
+fox:90+rabbit:80+trap:0
+fox:98+rabbit:98+trap:0
+fox:86+rabbit:113+trap:0
+fox:76+rabbit:128+trap:0
+fox:60+rabbit:144+trap:0
+fox:55+rabbit:155+trap:0
+fox:43+rabbit:183+trap:0
+fox:40+rabbit:222+trap:0
+fox:32+rabbit:237+trap:0
+fox:22+rabbit:265+trap:0
+fox:23+rabbit:293+trap:0
+fox:22+rabbit:325+trap:0
+fox:22+rabbit:355+trap:0
+fox:22+rabbit:398+trap:0
+fox:19+rabbit:452+trap:0
+fox:17+rabbit:505+trap:0
+fox:15+rabbit:557+trap:0
+fox:6+rabbit:632+trap:0
+fox:7+rabbit:673+trap:0
+fox:12+rabbit:737+trap:0
+fox:17+rabbit:786+trap:0
+fox:17+rabbit:866+trap:0
+fox:15+rabbit:933+trap:0
+fox:15+rabbit:998+trap:0
+fox:20+rabbit:1083+trap:0
+fox:28+rabbit:1178+trap:0
+fox:25+rabbit:1270+trap:0
+fox:24+rabbit:1350+trap:0
+fox:28+rabbit:1466+trap:0
+fox:28+rabbit:1539+trap:0
+fox:40+rabbit:1635+trap:0
+fox:40+rabbit:1776+trap:0
+fox:43+rabbit:1846+trap:0
+fox:49+rabbit:1950+trap:0
+fox:57+rabbit:2038+trap:0
+fox:63+rabbit:2147+trap:0
+fox:73+rabbit:2245+trap:0
+fox:74+rabbit:2334+trap:0
+fox:82+rabbit:2411+trap:0
+fox:81+rabbit:2503+trap:0
+fox:93+rabbit:2551+trap:0
+fox:99+rabbit:2657+trap:0
+fox:116+rabbit:2800+trap:0
+fox:139+rabbit:2857+trap:0
+fox:175+rabbit:2935+trap:0
+fox:193+rabbit:2961+trap:0
+fox:228+rabbit:2959+trap:0
+fox:251+rabbit:3005+trap:0
+fox:281+rabbit:3030+trap:0
+fox:312+rabbit:2991+trap:0
+fox:342+rabbit:3035+trap:0
+fox:360+rabbit:3015+trap:0
+fox:390+rabbit:3025+trap:0
+fox:395+rabbit:3008+trap:0
+fox:414+rabbit:2982+trap:0
+fox:430+rabbit:2951+trap:0
+fox:454+rabbit:2888+trap:0
+fox:452+rabbit:2865+trap:0
+fox:482+rabbit:2865+trap:0
+fox:511+rabbit:2791+trap:0
+fox:544+rabbit:2790+trap:0
+fox:563+rabbit:2710+trap:0
+fox:572+rabbit:2638+trap:0
+fox:555+rabbit:2561+trap:0
+fox:552+rabbit:2509+trap:0
+fox:563+rabbit:2458+trap:0
+fox:540+rabbit:2389+trap:0
+fox:558+rabbit:2313+trap:0
+fox:566+rabbit:2241+trap:0
+fox:594+rabbit:2154+trap:0
+fox:585+rabbit:2091+trap:0
+fox:594+rabbit:1976+trap:0
+fox:584+rabbit:1895+trap:0
+fox:579+rabbit:1790+trap:0
+fox:584+rabbit:1723+trap:0
+fox:545+rabbit:1661+trap:0
+fox:530+rabbit:1588+trap:0
+fox:569+rabbit:1516+trap:0
+fox:559+rabbit:1428+trap:0
+fox:595+rabbit:1352+trap:0
+fox:604+rabbit:1286+trap:0
+fox:565+rabbit:1236+trap:0
+fox:583+rabbit:1171+trap:0
+fox:584+rabbit:1118+trap:0
+fox:549+rabbit:1042+trap:0
+fox:561+rabbit:974+trap:0
+fox:527+rabbit:902+trap:0
+fox:529+rabbit:824+trap:0
+fox:510+rabbit:757+trap:0
+fox:519+rabbit:697+trap:0
+fox:494+rabbit:662+trap:0
+fox:488+rabbit:625+trap:0
+fox:451+rabbit:557+trap:0
+fox:425+rabbit:518+trap:0
+fox:392+rabbit:469+trap:0
+fox:394+rabbit:423+trap:0
+fox:359+rabbit:377+trap:0
+fox:353+rabbit:353+trap:0
+fox:336+rabbit:320+trap:0
+fox:327+rabbit:283+trap:0
+fox:329+rabbit:265+trap:0
+fox:309+rabbit:245+trap:0
+fox:306+rabbit:230+trap:0
+fox:280+rabbit:218+trap:0
+fox:270+rabbit:214+trap:0
+fox:254+rabbit:190+trap:0
+fox:227+rabbit:195+trap:0
+fox:194+rabbit:189+trap:0
+fox:181+rabbit:201+trap:0
+fox:157+rabbit:206+trap:0
+fox:174+rabbit:207+trap:0
+fox:157+rabbit:219+trap:0
+fox:152+rabbit:213+trap:0
+fox:159+rabbit:208+trap:0
+fox:163+rabbit:207+trap:0
+fox:158+rabbit:193+trap:0
+fox:152+rabbit:181+trap:0
+fox:138+rabbit:163+trap:0
+fox:133+rabbit:154+trap:0
+fox:126+rabbit:142+trap:0
+fox:116+rabbit:139+trap:0
+fox:127+rabbit:136+trap:0
+fox:135+rabbit:122+trap:0
+fox:150+rabbit:113+trap:0
+fox:144+rabbit:113+trap:0
+fox:152+rabbit:108+trap:0
+fox:158+rabbit:105+trap:0
+fox:163+rabbit:113+trap:0
+fox:172+rabbit:100+trap:0
+fox:171+rabbit:90+trap:0
+fox:151+rabbit:93+trap:0
+fox:153+rabbit:90+trap:0
+fox:147+rabbit:88+trap:0
+fox:151+rabbit:101+trap:0
+fox:150+rabbit:97+trap:0
+fox:132+rabbit:92+trap:0
+fox:116+rabbit:78+trap:0
+fox:114+rabbit:77+trap:0
+fox:109+rabbit:90+trap:0
+fox:116+rabbit:89+trap:0
+fox:105+rabbit:94+trap:0
+fox:87+rabbit:104+trap:0
+fox:104+rabbit:109+trap:0
+fox:107+rabbit:111+trap:0
+fox:104+rabbit:115+trap:0
+fox:94+rabbit:126+trap:0
+fox:95+rabbit:153+trap:0
+fox:99+rabbit:168+trap:0
+fox:101+rabbit:191+trap:0
+fox:84+rabbit:184+trap:0
+fox:78+rabbit:192+trap:0
+fox:80+rabbit:208+trap:0
+fox:92+rabbit:224+trap:0
+fox:85+rabbit:227+trap:0
+fox:87+rabbit:231+trap:0
+fox:93+rabbit:216+trap:0
+fox:100+rabbit:229+trap:0
+fox:110+rabbit:243+trap:0
+fox:122+rabbit:243+trap:0
+fox:129+rabbit:235+trap:0
+fox:136+rabbit:228+trap:0
+fox:146+rabbit:215+trap:0
+fox:142+rabbit:219+trap:0
+fox:140+rabbit:228+trap:0
+fox:154+rabbit:232+trap:0
+fox:163+rabbit:237+trap:0
+fox:165+rabbit:226+trap:0
+fox:181+rabbit:212+trap:0
+fox:171+rabbit:193+trap:0
+fox:182+rabbit:179+trap:0
+fox:186+rabbit:159+trap:0
+fox:196+rabbit:160+trap:0
+fox:201+rabbit:144+trap:0
+fox:208+rabbit:147+trap:0
+fox:196+rabbit:132+trap:0
+fox:199+rabbit:124+trap:0
+fox:191+rabbit:118+trap:0
+fox:179+rabbit:104+trap:0
+fox:162+rabbit:102+trap:0
+fox:145+rabbit:98+trap:0
+fox:130+rabbit:97+trap:0
+fox:127+rabbit:104+trap:0
+fox:124+rabbit:96+trap:0
+fox:125+rabbit:94+trap:0
+fox:115+rabbit:85+trap:0
+fox:108+rabbit:86+trap:0
+fox:103+rabbit:90+trap:0
+fox:105+rabbit:92+trap:0
+fox:107+rabbit:100+trap:0
+fox:103+rabbit:100+trap:0
+fox:96+rabbit:105+trap:0
+fox:92+rabbit:115+trap:0
+fox:92+rabbit:122+trap:0
+fox:101+rabbit:112+trap:0
+fox:100+rabbit:111+trap:0
+fox:102+rabbit:122+trap:0
+fox:90+rabbit:124+trap:0
+fox:87+rabbit:136+trap:0
+fox:80+rabbit:141+trap:0
+fox:78+rabbit:150+trap:0
+fox:73+rabbit:157+trap:0
+fox:70+rabbit:191+trap:0
+fox:57+rabbit:198+trap:0
+fox:72+rabbit:205+trap:0
+fox:70+rabbit:208+trap:0
+fox:65+rabbit:222+trap:0
+fox:58+rabbit:233+trap:0
+fox:65+rabbit:255+trap:0
+fox:64+rabbit:277+trap:0
+fox:74+rabbit:296+trap:0
+fox:73+rabbit:306+trap:0
+fox:79+rabbit:297+trap:0
+fox:82+rabbit:302+trap:0
+fox:87+rabbit:325+trap:0
+fox:88+rabbit:330+trap:0
+fox:92+rabbit:345+trap:0
+fox:92+rabbit:366+trap:0
+fox:101+rabbit:375+trap:0
+fox:113+rabbit:401+trap:0
+fox:132+rabbit:417+trap:0
+fox:164+rabbit:436+trap:0
+fox:181+rabbit:449+trap:0
+fox:208+rabbit:443+trap:0
+fox:227+rabbit:433+trap:0
+fox:243+rabbit:442+trap:0
+fox:248+rabbit:432+trap:0
+fox:246+rabbit:429+trap:0
+fox:241+rabbit:440+trap:0
+fox:270+rabbit:432+trap:0
+fox:268+rabbit:419+trap:0
+fox:275+rabbit:426+trap:0
+fox:297+rabbit:422+trap:0
+fox:312+rabbit:403+trap:0
+fox:341+rabbit:421+trap:0
+fox:357+rabbit:404+trap:0
+fox:354+rabbit:402+trap:0
+fox:361+rabbit:389+trap:0
+fox:369+rabbit:403+trap:0
+fox:365+rabbit:408+trap:0
+fox:371+rabbit:390+trap:0
+fox:375+rabbit:397+trap:0
+fox:368+rabbit:395+trap:0
+fox:366+rabbit:376+trap:0
+fox:357+rabbit:366+trap:0
+fox:361+rabbit:352+trap:0
+fox:352+rabbit:324+trap:0
+fox:340+rabbit:338+trap:0
+fox:325+rabbit:328+trap:0
+fox:315+rabbit:306+trap:0
+fox:321+rabbit:274+trap:0
+fox:330+rabbit:295+trap:0
+fox:331+rabbit:280+trap:0
+fox:328+rabbit:268+trap:0
+fox:339+rabbit:258+trap:0
+fox:334+rabbit:261+trap:0
+fox:334+rabbit:260+trap:0
+fox:327+rabbit:249+trap:0
+fox:341+rabbit:238+trap:0
+fox:319+rabbit:239+trap:0
+fox:320+rabbit:230+trap:0
+fox:303+rabbit:231+trap:0
+fox:292+rabbit:248+trap:0
+fox:294+rabbit:258+trap:0
+fox:274+rabbit:251+trap:0
+fox:255+rabbit:262+trap:0
+fox:238+rabbit:255+trap:0
+fox:230+rabbit:267+trap:0
+fox:223+rabbit:304+trap:0
+fox:196+rabbit:331+trap:0
+fox:185+rabbit:340+trap:0
+fox:193+rabbit:347+trap:0
+fox:169+rabbit:373+trap:0
+fox:176+rabbit:398+trap:0
+fox:169+rabbit:417+trap:0
+fox:166+rabbit:433+trap:0
+fox:167+rabbit:446+trap:0
+fox:180+rabbit:455+trap:0
+fox:191+rabbit:451+trap:0
+fox:228+rabbit:456+trap:0
+fox:244+rabbit:460+trap:0
+fox:238+rabbit:472+trap:0
+fox:247+rabbit:492+trap:0
+fox:255+rabbit:503+trap:0
+fox:252+rabbit:518+trap:0
+fox:254+rabbit:515+trap:0
+fox:229+rabbit:539+trap:0
+fox:220+rabbit:539+trap:0
+fox:229+rabbit:544+trap:0
+fox:221+rabbit:562+trap:0
+fox:216+rabbit:561+trap:0
+fox:214+rabbit:564+trap:0
+fox:206+rabbit:569+trap:0
+fox:217+rabbit:571+trap:0
+fox:199+rabbit:590+trap:0
+fox:192+rabbit:577+trap:0
+fox:187+rabbit:580+trap:0
+fox:194+rabbit:593+trap:0
+fox:214+rabbit:612+trap:0
+fox:216+rabbit:625+trap:0
+fox:204+rabbit:626+trap:0
+fox:205+rabbit:650+trap:0
+fox:209+rabbit:666+trap:0
+fox:207+rabbit:685+trap:0
+fox:209+rabbit:707+trap:0
+fox:191+rabbit:722+trap:0
+fox:187+rabbit:750+trap:0
+fox:170+rabbit:781+trap:0
+fox:183+rabbit:802+trap:0
+fox:183+rabbit:833+trap:0
+fox:190+rabbit:831+trap:0
+fox:197+rabbit:880+trap:0
+fox:199+rabbit:881+trap:0
+fox:208+rabbit:895+trap:0
+fox:218+rabbit:909+trap:0
+fox:227+rabbit:914+trap:0
+fox:229+rabbit:931+trap:0
+fox:214+rabbit:931+trap:0
+fox:213+rabbit:941+trap:0
+fox:231+rabbit:974+trap:0
+fox:223+rabbit:984+trap:0
+fox:214+rabbit:987+trap:0
+fox:228+rabbit:996+trap:0
+fox:257+rabbit:982+trap:0
+fox:275+rabbit:996+trap:0
+fox:281+rabbit:980+trap:0
+fox:288+rabbit:982+trap:0
+fox:296+rabbit:965+trap:0
+fox:311+rabbit:951+trap:0
+fox:313+rabbit:932+trap:0
+fox:319+rabbit:902+trap:0
+fox:317+rabbit:897+trap:0
+fox:328+rabbit:870+trap:0
+fox:349+rabbit:871+trap:0
+fox:373+rabbit:842+trap:0
+fox:381+rabbit:830+trap:0
+fox:370+rabbit:795+trap:0
+fox:386+rabbit:767+trap:0
+fox:392+rabbit:766+trap:0
+fox:421+rabbit:731+trap:0
+fox:428+rabbit:721+trap:0
+fox:426+rabbit:699+trap:0
+fox:433+rabbit:694+trap:0
+fox:432+rabbit:705+trap:0
+fox:432+rabbit:689+trap:0
+fox:441+rabbit:677+trap:0
+fox:406+rabbit:693+trap:0
+fox:400+rabbit:685+trap:0
+fox:380+rabbit:681+trap:0
+fox:374+rabbit:684+trap:0
+fox:352+rabbit:675+trap:0
+fox:314+rabbit:665+trap:0
+fox:311+rabbit:677+trap:0
+fox:311+rabbit:680+trap:0
+fox:303+rabbit:687+trap:0
+fox:322+rabbit:710+trap:0
+fox:340+rabbit:704+trap:0
+fox:328+rabbit:709+trap:0
+fox:335+rabbit:721+trap:0
+fox:329+rabbit:723+trap:0
+fox:336+rabbit:719+trap:0
+fox:310+rabbit:712+trap:0
+fox:295+rabbit:697+trap:0
+fox:270+rabbit:702+trap:0
+fox:295+rabbit:705+trap:0
+fox:290+rabbit:712+trap:0
+fox:300+rabbit:694+trap:0
+fox:303+rabbit:687+trap:0
+fox:315+rabbit:665+trap:0
+fox:331+rabbit:653+trap:0
+fox:378+rabbit:632+trap:0
+fox:369+rabbit:637+trap:0
+fox:387+rabbit:631+trap:0
+fox:367+rabbit:605+trap:0
+fox:388+rabbit:588+trap:0
+fox:397+rabbit:561+trap:0
+fox:407+rabbit:552+trap:0
+fox:371+rabbit:553+trap:0
+fox:357+rabbit:546+trap:0
+fox:354+rabbit:563+trap:0
+fox:370+rabbit:548+trap:0
+fox:370+rabbit:543+trap:0
+fox:364+rabbit:551+trap:0
+fox:345+rabbit:561+trap:0
+fox:326+rabbit:571+trap:0
+fox:338+rabbit:552+trap:0
+fox:337+rabbit:554+trap:0
+fox:360+rabbit:546+trap:0
+fox:353+rabbit:523+trap:0
+fox:354+rabbit:522+trap:0
+fox:376+rabbit:524+trap:0
+fox:389+rabbit:537+trap:0
+fox:386+rabbit:515+trap:0
+fox:383+rabbit:535+trap:0
+fox:370+rabbit:513+trap:0
+fox:373+rabbit:490+trap:0
+fox:354+rabbit:460+trap:0
+fox:336+rabbit:426+trap:0
+fox:320+rabbit:403+trap:0
+fox:304+rabbit:364+trap:0
+fox:316+rabbit:322+trap:0
+fox:287+rabbit:282+trap:0
+fox:299+rabbit:252+trap:0
+fox:309+rabbit:218+trap:0
+fox:311+rabbit:189+trap:0
+fox:312+rabbit:165+trap:0
+fox:322+rabbit:140+trap:0
+fox:306+rabbit:136+trap:0
+fox:324+rabbit:126+trap:0
+fox:317+rabbit:137+trap:0
+fox:288+rabbit:140+trap:0
+fox:268+rabbit:148+trap:0
+fox:247+rabbit:160+trap:0
+fox:223+rabbit:195+trap:0
+fox:206+rabbit:204+trap:0
+fox:173+rabbit:213+trap:0
+fox:136+rabbit:228+trap:0
+fox:131+rabbit:233+trap:0
+fox:115+rabbit:246+trap:0
+fox:97+rabbit:276+trap:0
+fox:81+rabbit:315+trap:0
+fox:82+rabbit:343+trap:0
+fox:78+rabbit:390+trap:0
+fox:82+rabbit:420+trap:0
+fox:79+rabbit:457+trap:0
+fox:76+rabbit:494+trap:0
+fox:83+rabbit:551+trap:0
+fox:77+rabbit:581+trap:0
+fox:72+rabbit:620+trap:0
+fox:89+rabbit:656+trap:0
+fox:82+rabbit:713+trap:0
+fox:79+rabbit:770+trap:0
+fox:84+rabbit:812+trap:0
+fox:83+rabbit:864+trap:0
+fox:89+rabbit:898+trap:0
+fox:96+rabbit:957+trap:0
+fox:82+rabbit:1031+trap:0
+fox:86+rabbit:1060+trap:0
+fox:91+rabbit:1130+trap:0
+fox:92+rabbit:1166+trap:0
+fox:105+rabbit:1211+trap:0
+fox:136+rabbit:1294+trap:0
+fox:151+rabbit:1328+trap:0
+fox:166+rabbit:1359+trap:0
+fox:169+rabbit:1444+trap:0
+fox:187+rabbit:1491+trap:0
+fox:206+rabbit:1527+trap:0
+fox:218+rabbit:1543+trap:0
+fox:212+rabbit:1561+trap:0
+fox:230+rabbit:1567+trap:0
+fox:236+rabbit:1591+trap:0
+fox:270+rabbit:1589+trap:0
+fox:292+rabbit:1591+trap:0
+fox:326+rabbit:1576+trap:0
+[finish]
+[start]
+[finish]
+[start]
+[finish]
+[start]
+[finish]
+[start]
+[finish]
+[start]
+[finish]
+[start]
+[finish]
+[start]
+fox:131+rabbit:488+trap:58
+[finish]
+[start]
+fox:147+rabbit:486+trap:49
+[finish]
+[start]
+fox:142+rabbit:537+trap:49
+[finish]
+[start]
+fox:122+rabbit:516+trap:52
+[finish]
+[start]
+fox:129+rabbit:515+trap:48
+[finish]
+[start]
+fox:113+rabbit:483+trap:46
+[finish]
+[start]
+fox:105+rabbit:489+trap:49
+[finish]

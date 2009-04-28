@@ -62,7 +62,6 @@ public class Simulator
         
         animals = new ArrayList<Animal>();
         objects = new ArrayList<Objects>();
-        logger = new Logger(this);
         field = new Field(depth, width);
 
         // Create a view of the state of each location in the field.
@@ -160,6 +159,7 @@ public class Simulator
         logged = false;
         // Show the starting state in the view.
         view.showStatus(step, field);
+        logger = new Logger(this);
     }
     
     /**
@@ -200,5 +200,9 @@ public class Simulator
     
     public Field getField() {
     	return this.field;
+    }
+    
+    public SimulatorView getView() {
+    	return this.view;
     }
 }
