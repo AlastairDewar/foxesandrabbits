@@ -16,7 +16,6 @@ public class Logger {
 	private Simulator simulator;
 	
 	/**
-	 * @author alastair
 	 * @param sim The simulator we're logging
 	 */
 	public Logger (Simulator sim) {
@@ -30,7 +29,6 @@ public class Logger {
 	/**
 	 * Add a record to the log
 	 * (This method formats the log)
-	 * @author alastair
 	 * @param record The population record to be logged
 	 */
 	public void addRecord(String record) {
@@ -65,7 +63,7 @@ public class Logger {
 	
 	/**
 	 * Write raw data to the log
-	 * @author alastair
+
 	 * @param data Raw data to be written to the log
 	 */
 	private void write(String data) {
@@ -75,7 +73,7 @@ public class Logger {
 	/**
 	 * Finish writing to the log and actually write to the log file
 	 * (It's saved till last to prevent half-written logs)
-	 * @author alastair
+
 	 */
 	public void finish() {
 		write("[finish]");

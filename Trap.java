@@ -11,7 +11,6 @@ public class Trap extends Objects
 
     /**
      * Create a trap.
-     * @author alastair
      * @param field The field currently occupied.
      * @param location The location within the field.
      */
@@ -24,7 +23,6 @@ public class Trap extends Objects
     /**
      * This is what the trap does most of the time: it just 
      * waits for itself to be snared.
-     * @author alastair
      * @param animal The poor animal to fall into the trap
      */
     public void react(Animal animal)
@@ -39,7 +37,6 @@ public class Trap extends Objects
     /**
      * This is what the trap does most of the time: it just 
      * waits for itself to be snared.
-     * @author alastair
      * @return Whether or not the trap has been snared.
      */
     public boolean isSnared()

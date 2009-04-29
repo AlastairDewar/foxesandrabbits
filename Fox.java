@@ -62,7 +62,6 @@ public class Fox extends Animal
      * This is what the fox does most of the time: it hunts for
      * rabbits. In the process, it might breed, die of hunger,
      * or die of old age.
-     * @param field The field currently occupied.
      * @param newFoxes A list to add newly born foxes to.
      */
     public void act(List<Animal> newFoxes)

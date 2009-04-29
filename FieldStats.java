@@ -62,7 +62,7 @@ public class FieldStats
 
     /**
      * Increment the count for one class of animal.
-     * @param animalClass The class of animal to increment.
+     * @param anyClass The class of animal to increment.
      */
     public void incrementCount(Class anyClass)
     {
@@ -88,6 +88,7 @@ public class FieldStats
     /**
      * Determine whether the simulation is still viable.
      * I.e., should it continue to run.
+     * @param field The field were checking
      * @return true If there is more than one species alive.
      */
     public boolean isViable(Field field)
@@ -129,7 +130,6 @@ public class FieldStats
     
     /**
      * Return all keys which belong to the animal class
-     * @author alastair
      * @return Set<Class> all keys which are animals
      */
     private Set<Class> getAnimalKeys(){

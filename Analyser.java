@@ -18,7 +18,6 @@ public class Analyser {
 	
 	/**
 	 * Loads all the logs from the log file
-	 * @author alastair
 	 */
 	public void loadLogs() {
 		try {
@@ -54,7 +53,6 @@ public class Analyser {
 
 	/**
 	 * Checks the logs to determine which animals lastest the longest
-	 * @author alastair
 	 */
 	public void checkSuccessor() {
 		// Find the most common successor
@@ -69,7 +67,6 @@ public class Analyser {
 	
 	/**
 	 * Checks to see how many logs there are records
-	 * @author alastair
 	 * @return Number of logs
 	 */
 	public int getLogCount() {
@@ -78,7 +75,6 @@ public class Analyser {
 	
 	/**
 	 * Checks to see how many logs are worthy of analysis 
-	 * @author alastair
 	 * @return Number of logs with over 100 steps
 	 */
 	public int getWorthyLogCount() {

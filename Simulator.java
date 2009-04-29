@@ -79,7 +79,6 @@ public class Simulator
     
     /**
      * Pause the simulation
-     * @author alastair
      */
     public void pause() {
     	paused = true;
@@ -88,7 +87,6 @@ public class Simulator
     
     /**
      * Resume the simulation after being paused
-     * @author alastair
      */
     public void resume() {
     	paused = false;
@@ -98,7 +96,6 @@ public class Simulator
     
     /**
      * Return the remaining number of steps to be taken
-     * @author alastair
      * @return int Remaining number of steps to go
      */
     public int getRemainingSteps() {
@@ -215,7 +212,6 @@ public class Simulator
     
     /**
      * Returns the current step
-     * @author alastair
      * @return int the current step
      */
     public int getCurrentStep(){
@@ -224,7 +220,6 @@ public class Simulator
     
     /**
      * Returns the simulators field
-     * @author alastairs
      * @return field The field being used by the simulator
      */
     public Field getField() {
@@ -233,7 +228,6 @@ public class Simulator
     
     /**
      * Returns the SimulatorView being used by the simulator
-     * @author alastair
      * @return the SimulatorView being used by the simulator
      */
     public SimulatorView getView() {
@@ -242,7 +236,6 @@ public class Simulator
     
     /**
      * Add multiple rabbits to the simulation
-     * @author alastair
      * @param count The number of rabbits to added to the simulation
      */
     public void addRabbits(int count) {
@@ -254,7 +247,6 @@ public class Simulator
     
     /**
      * Add a rabbit to the simulation
-     * @author alastair
      */
     public void addRabbit() {
         Location randomFreeLocation = field.getRandomFreeLocation();
@@ -266,7 +258,6 @@ public class Simulator
     
     /**
      * Add multiple foxes to the simulation
-     * @author alastair
      * @param count The number of foxes to added to the simulation
      */
     public void addFoxes(int count) {
@@ -278,7 +269,6 @@ public class Simulator
     
     /**
      * Add a fox to the simulation
-     * @author alastair
      */
     public void addFox() {
         Location randomFreeLocation = field.getRandomFreeLocation();
@@ -290,7 +280,6 @@ public class Simulator
     
     /**
      * Add multiple traps to the simulation
-     * @author alastair
      * @param count The number of trap to added to the simulation
      */
     public void addTraps(int count) {
@@ -302,7 +291,6 @@ public class Simulator
     
     /**
      * Add a trap to the simulation
-     * @author alastair
      */
     public void addTrap() {
         Location randomFreeLocation = field.getRandomFreeLocation();

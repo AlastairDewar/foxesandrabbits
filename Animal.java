@@ -21,7 +21,7 @@ public abstract class Animal
     /**
      * Create a new animal at location in field.
      * 
-     * @param field The field currently occupied.
+     * @param newField The field currently occupied.
      * @param location The location within the field.
      */
     public Animal(Field newField, Location location)
@@ -116,7 +116,6 @@ public abstract class Animal
 
     /**
      * Return the animals gender
-     * @author alastair
      * @return The animals gender
      */
     public char getGender() {
@@ -125,7 +124,6 @@ public abstract class Animal
     
     /**
      * Return whether or not the animal is diseased
-     * @author alastair
      * @return whether or not the animal is diseased
      */
     public boolean diseased() {
@@ -134,7 +132,6 @@ public abstract class Animal
     
     /**
      * Set the whether or not the animal is diseased
-     * @author alastair
      * @param newDisease Whether or not the animal is diseased
      */
     public void setDiseased(boolean newDisease) {

@@ -69,7 +69,6 @@ public class Field
     
     /**
      * Place an object across several locations
-     * @author alastair
      * @param object The object your placing in the field
      * @param newLocations The locations the object is present on
      */
@@ -222,7 +221,6 @@ public class Field
     
     /**
      * Return a random free location in the field
-     * @author alastair
      * @return Location a random free location
      */
     public Location getRandomFreeLocation() 
@@ -247,7 +245,6 @@ public class Field
     
     /**
      * Return how many free locations are left in the field
-     * @author alastair
      * @return int The number of free locations left in the field
      */
     public int getLocationsLeft()

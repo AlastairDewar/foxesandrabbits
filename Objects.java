@@ -18,10 +18,9 @@ public abstract class Objects
     
     /**
      * Create a new object at location in field.
-     * @author alastair
-     * @param field The field currently occupied.
+     * @param newField The field currently occupied.
      * @param location The location within the field.
-     * @param visibility Wether the object is visible to animals
+     * @param animalVisibility Wether the object is visible to animals
      */
     public Objects(Field newField, Location location, boolean animalVisibility)
     {
@@ -34,10 +33,9 @@ public abstract class Objects
  
     /**
      * Create a new object at location in field.
-     * @author alastair
-     * @param field The field currently occupied.
-     * @param location An arraylist of the locations occcupied by the object
-     * @param visibility Wether the object is visible to animals
+     * @param newField The field currently occupied.
+     * @param locations An arraylist of the locations occcupied by the object
+     * @param animalVisibility Wether the object is visible to animals
      */
     public Objects(Field newField, ArrayList<Location> locations, boolean animalVisibility)
     {
@@ -51,14 +49,12 @@ public abstract class Objects
 	/**
      * Make this object react to an animal - that is: make it do
      * whatever it wants/needs to do.
-     * @author alastair
      */
     abstract public void react(Animal animal);
 
     /**
      * Check whether the object is triggered or not.
      * @return true if the object has been triggered.
-     * @author alastair
      */
     public boolean isTriggered()
     {
@@ -68,7 +64,6 @@ public abstract class Objects
     /**
      * Check whether the object is visible to animals or not
      * @return whether the object is visible to animals or not.
-     * @author alastair
      */
     public boolean isVisibleToAnimals()
     {
@@ -78,7 +73,6 @@ public abstract class Objects
     /**
      * Indicate that the object is to be destroyed.
      * It is removed from the field.
-     * @author alastair
      */
     public void destroy()
     {
@@ -91,7 +85,6 @@ public abstract class Objects
 
     /**
      * Return the object's location.
-     * @author alastair
      * @return The object's location.
      */
     public Location getLocation()
@@ -101,7 +94,6 @@ public abstract class Objects
    
     /**
      * Return the object's location.
-     * @author alastair
      * @return The object's location.
      */
     public ArrayList<Location> getLocations()
@@ -111,7 +103,6 @@ public abstract class Objects
     
     /**
      * Return the object's field.
-     * @author alastair
      * @return The object's field.
      */
     public Field getField()
@@ -121,7 +112,6 @@ public abstract class Objects
     
     /**
      * Place the object at the new location in the given field.
-     * @author alastair
      * @param newLocation The object's new location.
      */
     public void setLocation(Location newLocation)
@@ -135,7 +125,6 @@ public abstract class Objects
     
     /**
      * Place the object at the new locations in the given field.
-     * @author alastair
      * @param newLocations The object's new locations.
      */
     public void setLocation(ArrayList<Location> newLocations)
@@ -153,7 +142,6 @@ public abstract class Objects
     
     /**
      * Trigger the object
-     * @author alastair
      */
     public void trigger()
     {

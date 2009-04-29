@@ -222,7 +222,6 @@ public class SimulatorView extends JFrame implements ActionListener
     
     /**
      * Start a new Simulator
-     * @author alastair
      * @param args
      */
 	public static void main(String[] args) {
@@ -231,7 +230,6 @@ public class SimulatorView extends JFrame implements ActionListener
 
 	/**
 	 * React to a user's input on the GUI
-	 * @author alastair
 	 */
 	public void actionPerformed(ActionEvent arg0){
 		if(arg0.getActionCommand().equalsIgnoreCase("run")){
