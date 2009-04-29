@@ -6,6 +6,8 @@ import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import javax.swing.JFrame;
@@ -44,6 +46,7 @@ public class SimulatorView extends JFrame implements ActionListener
     private FieldView fieldView;
     
     public Simulator sim;
+    private Thread simulator = null;
     
     // A map for storing colours for participants in the simulation
 	private Map<Class, Color> colors;
@@ -147,7 +150,20 @@ public class SimulatorView extends JFrame implements ActionListener
         contents.add(population, BorderLayout.SOUTH);
         pack();
         setVisible(true);
-       
+     
+        // When exiting because of what I think is the multiple threads,
+        // it was causing some awful problems. Plus also if I didn't capture
+        // it, I couldn't finish logging the simulation.
+        addWindowListener(new WindowAdapter()
+        {public void windowClosing(WindowEvent e)
+         {
+        	 if(!sim.logged){sim.logger.finish();}
+             dispose();
+             System.exit(0);
+         }
+        });
+
+        
     }
     
     /**
@@ -233,12 +249,33 @@ public class SimulatorView extends JFrame implements ActionListener
 	 */
 	public void actionPerformed(ActionEvent arg0){
 		if(arg0.getActionCommand().equalsIgnoreCase("run")){
-			sim.runLongSimulation();}
+			// Eventually got it working using threads
+			// @see http://java.sun.com/j2se/1.4.2/docs/api/java/lang/Thread.html
+			// @see http://java.sun.com/docs/books/tutorial/essential/concurrency/procthread.html
+			simulator = null;
+			simulator = new Thread(new Runnable(){
+	                public void run(){
+	                try{sim.runLongSimulation();}
+	                catch (Exception excep){
+	                        excep.printStackTrace();
+	                }}});
+	        simulator.start();}
 		else if(arg0.getActionCommand().equalsIgnoreCase("customrun")){
 			try {	
-				String runs = (String)JOptionPane.showInputDialog("How many steps would you like to iterate through?");
+				final String runs = (String)JOptionPane.showInputDialog("How many steps would you like to iterate through?");
 				if(Integer.parseInt(runs) > 0 && Integer.parseInt(runs) <= 3000){
-					sim.simulate(Integer.parseInt(runs));}
+					// Eventually got it working using threads
+					// @see http://java.sun.com/j2se/1.4.2/docs/api/java/lang/Thread.html
+					// @see http://java.sun.com/docs/books/tutorial/essential/concurrency/procthread.html
+			        simulator = null;
+					simulator  =    new Thread(new Runnable(){
+			                public void run(){sim.runLongSimulation();
+			                try{sim.simulate(Integer.parseInt(runs));}
+			                catch (Exception excep){
+			                        excep.printStackTrace();
+			                }}});
+			        simulator.start();
+					} 
 				else{
 					JOptionPane.showMessageDialog(this, "There is a limit set in place of a maxiumum of 3000 steps\n in any one run. You can always keep repeating this step.");
 				}
@@ -262,9 +299,13 @@ public class SimulatorView extends JFrame implements ActionListener
 		else if(arg0.getActionCommand().equalsIgnoreCase("pause")) {
 			if(menuItemPause.getText().equalsIgnoreCase("Pause")){
 			sim.pause();
+			if(simulator != null){
+			simulator.suspend();}
 			menuItemPause.setText("Resume");}
 			else if(menuItemPause.getText().equalsIgnoreCase("Resume")){
 			sim.resume();
+			if(simulator != null){
+			simulator.resume();}
 			menuItemPause.setText("Pause");}
 		}
 		else if(arg0.getActionCommand().equalsIgnoreCase("rabbits")) {
