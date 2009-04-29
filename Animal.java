@@ -4,7 +4,6 @@ import java.util.List;
  * A class representing shared characteristics of animals.
  * 
  * @author David J. Barnes and Michael Kolling
- * @version 2008.03.30
  */
 public abstract class Animal
 {
@@ -115,7 +114,30 @@ public abstract class Animal
         field.place(this, newLocation);
     }
 
+    /**
+     * Return the animals gender
+     * @author alastair
+     * @return The animals gender
+     */
     public char getGender() {
     	return gender;
+    }
+    
+    /**
+     * Return whether or not the animal is diseased
+     * @author alastair
+     * @return whether or not the animal is diseased
+     */
+    public boolean diseased() {
+    	return diseased;
+    }
+    
+    /**
+     * Set the whether or not the animal is diseased
+     * @author alastair
+     * @param newDisease Whether or not the animal is diseased
+     */
+    public void setDiseased(boolean newDisease) {
+    	diseased = newDisease;
     }
 }

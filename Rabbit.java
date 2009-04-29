@@ -10,14 +10,14 @@ import java.util.Random;
  */
 public class Rabbit extends Animal
 {
-    // Characteristics shared by all rabbits (static fields).
-
     // The age at which a rabbit can start to breed.
     private static final int BREEDING_AGE = 5;
     // The age to which a rabbit can live.
     private static final int MAX_AGE = 40;
     // The age to which a rabbit can live when diseased.
     private static final int MAX_DISEASED_AGE = 20;
+    // The chance of being born with thhe disease if your parent is diseased
+    private static final double DISEASED_INHERITANCE_RATE = 0.12;
     // The likelihood of a rabbit breeding.
     private static final double BREEDING_PROBABILITY = 0.12;
     // The maximum number of births.
@@ -38,7 +38,7 @@ public class Rabbit extends Animal
      * @param field The field currently occupied.
      * @param location The location within the field.
      */
-    public Rabbit(boolean randomAge, Field field, Location location)
+    public Rabbit (boolean randomAge, Field field, Location location)
     {
         super(field, location);
         age = 0;
@@ -92,16 +92,20 @@ public class Rabbit extends Animal
     {    	
     	if(getGender() == 'F')
     	{
-	        // New rabbits are born into adjacent locations.
-	        // Get a list of adjacent free locations.
-	        Field field = getField();
-	        List<Location> free = field.getFreeAdjacentLocations(getLocation());
-	        int births = breed();
-	        for(int b = 0; b < births && free.size() > 0; b++) {
-	            Location loc = free.remove(0);
-	            Rabbit young = new Rabbit(false, field, loc);
-	            newRabbits.add(young);
-	        }
+		        // New rabbits are born into adjacent locations.
+		        // Get a list of adjacent free locations.
+		        Field field = getField();
+		        List<Location> free = field.getFreeAdjacentLocations(getLocation());
+		        int births = breed();
+		        for(int b = 0; b < births && free.size() > 0; b++) {
+		            Location loc = free.remove(0);
+		            Rabbit young = new Rabbit(false, field, loc);
+		    		if(diseased() && rand.nextDouble() <= DISEASED_INHERITANCE_RATE)
+		    		{
+		    			young.setDiseased(true);
+		    		}
+		    		newRabbits.add(young);
+		        }
         }
     }
         

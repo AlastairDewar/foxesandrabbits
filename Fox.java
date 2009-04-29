@@ -19,6 +19,8 @@ public class Fox extends Animal
     private static final int MAX_AGE = 150;
     // The age to which a fox can live when diseased.
     private static final int MAX_DISEASED_AGE = 80;
+    // The chance of being born with thhe disease if your parent is diseased
+    private static final double DISEASED_INHERITANCE_RATE = 0.12;
     // The likelihood of a fox breeding.
     private static final double BREEDING_PROBABILITY = 0.25;
     // The maximum number of births.
@@ -155,6 +157,10 @@ public class Fox extends Animal
 	        for(int b = 0; b < births && free.size() > 0; b++) {
 	            Location loc = free.remove(0);
 	            Fox young = new Fox(false, field, loc);
+	    		if(diseased() && rand.nextDouble() <= DISEASED_INHERITANCE_RATE)
+	    		{
+	    			young.setDiseased(true);
+	    		}
 	            newFoxes.add(young);
 	        }
         }

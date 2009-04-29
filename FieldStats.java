@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.Set;
 
 /**
  * This class collects and provides some statistical data on the state 
@@ -126,15 +127,21 @@ public class FieldStats
         countsValid = true;
     }
     
-   /* private Set<Class> getAnimalKeys(){
-    	Set<Class> animalKeys = counters.keySet();
+    /**
+     * Return all keys which belong to the animal class
+     * @author alastair
+     * @return Set<Class> all keys which are animals
+     */
+    private Set<Class> getAnimalKeys(){
+    	Set<Class> animalKeys = null;
+    	/*Set<Class> animalKeys = counters.keySet();
     	for(Class key : animalKeys) {
     		if(!key.getSuperclass().getName().equals("Animal"))
     		{
     			animalKeys.remove(key);
     			//System.out.println(key.getSuperclass().getName());
     		}
-    	}
+    	}*/
     	return animalKeys;
-    }*/
+    }
 }

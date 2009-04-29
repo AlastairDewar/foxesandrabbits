@@ -32,10 +32,13 @@ public class Simulator
     private int step;
     // A graphical view of the simulation.
     private SimulatorView view;
-    
+    // The log for this simulation
     public Logger logger;
+    // If the simulation has been paused
     private boolean paused = false;
+    // The remaining number of steps to be taken
     private int stepsToBeTaken;
+    // Wether the simulation has beed logged
     public boolean logged = false;
     
     /**
@@ -65,28 +68,41 @@ public class Simulator
         field = new Field(depth, width);
 
         // Create a view of the state of each location in the field.
-        this.view = new SimulatorView(this, depth, width);
-        this.view.setColor(Rabbit.class, Color.orange);
-        this.view.setColor(Fox.class, Color.blue);
-        this.view.setColor(Trap.class, Color.red);
+        view = new SimulatorView(this, depth, width);
+        view.setColor(Rabbit.class, Color.orange);
+        view.setColor(Fox.class, Color.blue);
+        view.setColor(Trap.class, Color.red);
 
         // Setup a valid starting point.
         reset();
     }
     
+    /**
+     * Pause the simulation
+     * @author alastair
+     */
     public void pause() {
-    	this.paused = true;
+    	paused = true;
     	System.out.println("Simulation paused");
     }
     
+    /**
+     * Resume the simulation after being paused
+     * @author alastair
+     */
     public void resume() {
-    	this.paused = false;
-    	this.simulate(this.getRemainingSteps());
+    	paused = false;
+    	simulate(getRemainingSteps());
     	System.out.println("Simulation resuming");
     }
     
+    /**
+     * Return the remaining number of steps to be taken
+     * @author alastair
+     * @return int Remaining number of steps to go
+     */
     public int getRemainingSteps() {
-    	return this.stepsToBeTaken - this.step;
+    	return stepsToBeTaken - step;
     }
     
     /**
@@ -114,7 +130,7 @@ public class Simulator
 	        }
 	        if(!view.isViable(field))
 	        {
-	        	this.logged = true;
+	        	logged = true;
 	        	logger.finish();
 	        }
     	}
@@ -146,7 +162,7 @@ public class Simulator
                
         // Add the newly born foxes and rabbits to the main lists.
         animals.addAll(newAnimals);
-        this.view.showStatus(step, field);
+        view.showStatus(step, field);
         String logMessage = view.stats.getPopulationDetails(field);
         logger.addRecord(logMessage);
     }
@@ -197,18 +213,38 @@ public class Simulator
         }
     }
     
+    /**
+     * Returns the current step
+     * @author alastair
+     * @return int the current step
+     */
     public int getCurrentStep(){
-    	return this.step;
+    	return step;
     }
     
+    /**
+     * Returns the simulators field
+     * @author alastairs
+     * @return field The field being used by the simulator
+     */
     public Field getField() {
-    	return this.field;
+    	return field;
     }
     
+    /**
+     * Returns the SimulatorView being used by the simulator
+     * @author alastair
+     * @return the SimulatorView being used by the simulator
+     */
     public SimulatorView getView() {
-    	return this.view;
+    	return view;
     }
     
+    /**
+     * Add multiple rabbits to the simulation
+     * @author alastair
+     * @param count The number of rabbits to added to the simulation
+     */
     public void addRabbits(int count) {
     	if(count > 0 && count <= field.getLocationsLeft()){
     	for(int counter = 0; counter < count; counter++) {
@@ -216,6 +252,10 @@ public class Simulator
     	}}
     }
     
+    /**
+     * Add a rabbit to the simulation
+     * @author alastair
+     */
     public void addRabbit() {
         Location randomFreeLocation = field.getRandomFreeLocation();
         Rabbit rabbit = new Rabbit(true, field, randomFreeLocation);
@@ -224,6 +264,11 @@ public class Simulator
         view.showStatus(step, field);
     }
     
+    /**
+     * Add multiple foxes to the simulation
+     * @author alastair
+     * @param count The number of foxes to added to the simulation
+     */
     public void addFoxes(int count) {
     	if(count > 0 && count <= field.getLocationsLeft()){
 	    for(int counter = 0; counter < count; counter++) {
@@ -231,6 +276,10 @@ public class Simulator
 	    }}
     }
     
+    /**
+     * Add a fox to the simulation
+     * @author alastair
+     */
     public void addFox() {
         Location randomFreeLocation = field.getRandomFreeLocation();
         Fox fox = new Fox(true, field, randomFreeLocation);
@@ -239,6 +288,11 @@ public class Simulator
         view.showStatus(step, field);
     }
     
+    /**
+     * Add multiple traps to the simulation
+     * @author alastair
+     * @param count The number of trap to added to the simulation
+     */
     public void addTraps(int count) {
     	if(count > 0 && count <= field.getLocationsLeft()){
     	for(int counter = 0; counter < count; counter++) {
@@ -246,6 +300,10 @@ public class Simulator
     	}}
     }
     
+    /**
+     * Add a trap to the simulation
+     * @author alastair
+     */
     public void addTrap() {
         Location randomFreeLocation = field.getRandomFreeLocation();
         Trap trap = new Trap(field, randomFreeLocation);

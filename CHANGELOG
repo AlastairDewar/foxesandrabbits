@@ -33,5 +33,11 @@ Feature		Added the ability to pause the simulation
 25/4/09
 Feature		Completed support for objects over multiple locations
 Fix			Logging waits till the end before writing it all at once
+
+16/4/09
+Feature		Added support for gender's amongst animals
+Feature		Only females can give birth
+Feature		Added disease amongst animals
+Fix			Added full frontend validation
 					
 

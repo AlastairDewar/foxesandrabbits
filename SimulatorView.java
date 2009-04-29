@@ -59,7 +59,7 @@ public class SimulatorView extends JFrame implements ActionListener
      */
     public SimulatorView(Simulator newSim, int height, int width)
     {
-    	this.sim = newSim;
+    	sim = newSim;
     	
         stats = new FieldStats();
         colors = new LinkedHashMap<Class, Color>();
@@ -151,8 +151,8 @@ public class SimulatorView extends JFrame implements ActionListener
     }
     
     /**
-     * Define a color to be used for a given class of animal.
-     * @param animalClass The animal's Class object.
+     * Define a color to be used for a given class of animal/object.
+     * @param anyClass The Class of the object.
      * @param color The color to be used for the given class.
      */
     public void setColor(Class anyClass, Color color)
@@ -161,7 +161,8 @@ public class SimulatorView extends JFrame implements ActionListener
     }
 
     /**
-     * @return The color to be used for a given class of animal.
+     * Return the colour for a given animal/object
+     * @return The color to be used for a given class of animal/object.
      */
     private Color getColor(Class<? extends Object> anyClass)
     {
@@ -183,7 +184,7 @@ public class SimulatorView extends JFrame implements ActionListener
     public void showStatus(int step, Field field)
     {
         if(!isVisible()) {
-            this.setVisible(true);
+            setVisible(true);
         }
             
         stepLabel.setText(STEP_PREFIX + step);
@@ -219,25 +220,38 @@ public class SimulatorView extends JFrame implements ActionListener
         return stats.isViable(field);
     }
     
+    /**
+     * Start a new Simulator
+     * @author alastair
+     * @param args
+     */
 	public static void main(String[] args) {
 		new Simulator(80,80);
 	}
 
+	/**
+	 * React to a user's input on the GUI
+	 * @author alastair
+	 */
 	public void actionPerformed(ActionEvent arg0){
 		if(arg0.getActionCommand().equalsIgnoreCase("run")){
-			this.sim.runLongSimulation();}
+			sim.runLongSimulation();}
 		else if(arg0.getActionCommand().equalsIgnoreCase("customrun")){
-			String runs = (String)JOptionPane.showInputDialog("How many steps would you like to iterate through?");
-			if(Integer.parseInt(runs) > 0 && Integer.parseInt(runs) <= 3000){
-				this.sim.simulate(Integer.parseInt(runs));}
-			else{
-				JOptionPane.showMessageDialog(this, "There is a limit set in place of a maxiumum of 3000 steps\n in any one run. You can always keep repeating this step.");
-			}}
+			try {	
+				String runs = (String)JOptionPane.showInputDialog("How many steps would you like to iterate through?");
+				if(Integer.parseInt(runs) > 0 && Integer.parseInt(runs) <= 3000){
+					sim.simulate(Integer.parseInt(runs));}
+				else{
+					JOptionPane.showMessageDialog(this, "There is a limit set in place of a maxiumum of 3000 steps\n in any one run. You can always keep repeating this step.");
+				}
+				} catch (NumberFormatException nfe) {
+				 JOptionPane.showMessageDialog(this, "Please input a number between 1 and 3000");
+				}}
 		else if(arg0.getActionCommand().equalsIgnoreCase("reset")){
-			if(!this.sim.logged){this.sim.logger.finish();}
-			this.sim.reset();}
+			if(!sim.logged){sim.logger.finish();}
+			sim.reset();}
 		else if(arg0.getActionCommand().equalsIgnoreCase("quit")){
-			if(!this.sim.logged){this.sim.logger.finish();}
+			if(!sim.logged){sim.logger.finish();}
 			this.dispose();
 			System.exit(0);}
 		else if(arg0.getActionCommand().equalsIgnoreCase("about")){
@@ -249,30 +263,42 @@ public class SimulatorView extends JFrame implements ActionListener
 			JOptionPane.showConfirmDialog(rootPane, "There are currently "+Integer.toString(analyser.getLogCount())+" logs.\n"+analyser.getWorthyLogCount()+" of which are suitable for analysis.", "Log Analysis", JOptionPane.DEFAULT_OPTION);}
 		else if(arg0.getActionCommand().equalsIgnoreCase("pause")) {
 			if(menuItemPause.getText().equalsIgnoreCase("Pause")){
-			this.sim.pause();
+			sim.pause();
 			menuItemPause.setText("Resume");}
 			else if(menuItemPause.getText().equalsIgnoreCase("Resume")){
-			this.sim.resume();
+			sim.resume();
 			menuItemPause.setText("Pause");}
 		}
 		else if(arg0.getActionCommand().equalsIgnoreCase("rabbits")) {
+			try {
 			String runs = (String)JOptionPane.showInputDialog("How many rabbits would you like to add?");
-	    	if(Integer.parseInt(runs) > sim.getField().getLocationsLeft() && Integer.parseInt(runs) > 0){
+	    	if(runs != null && Integer.parseInt(runs) > sim.getField().getLocationsLeft() && Integer.parseInt(runs) > 0){
 	    		JOptionPane.showMessageDialog(this, "There are "+sim.getField().getLocationsLeft()+" locations free.");
 	    	}else{
-			this.sim.addRabbits(Integer.parseInt(runs));}}
+			sim.addRabbits(Integer.parseInt(runs));}
+			} catch (NumberFormatException nfe) {
+				 JOptionPane.showMessageDialog(this, "Please input a number between 1 and "+sim.getField().getLocationsLeft());
+			}}
 		else if(arg0.getActionCommand().equalsIgnoreCase("foxes")) {
+			try {
 			String runs = (String)JOptionPane.showInputDialog("How many foxes would you like to add?");
-	    	if(Integer.parseInt(runs) > sim.getField().getLocationsLeft() && Integer.parseInt(runs) > 0){
+	    	if(runs != null && Integer.parseInt(runs) > sim.getField().getLocationsLeft() && Integer.parseInt(runs) > 0){
 	    		JOptionPane.showMessageDialog(this, "There are "+sim.getField().getLocationsLeft()+" locations free.");
 	    	}else{
-			this.sim.addFoxes(Integer.parseInt(runs));}}
+			sim.addFoxes(Integer.parseInt(runs));}
+			} catch (NumberFormatException nfe) {
+				 JOptionPane.showMessageDialog(this, "Please input a number between 1 and "+sim.getField().getLocationsLeft());
+			}}
 		else if(arg0.getActionCommand().equalsIgnoreCase("traps")) {
+			try {
 			String runs = (String)JOptionPane.showInputDialog("How many traps would you like to add?");
-	    	if(Integer.parseInt(runs) > sim.getField().getLocationsLeft() && Integer.parseInt(runs) > 0){
+	    	if(runs != null && Integer.parseInt(runs) > sim.getField().getLocationsLeft() && Integer.parseInt(runs) > 0){
 	    		JOptionPane.showMessageDialog(this, "There are "+sim.getField().getLocationsLeft()+" locations free.");
 	    	}else{
-			this.sim.addTraps(Integer.parseInt(runs));}}
+			sim.addTraps(Integer.parseInt(runs));}
+		} catch (NumberFormatException nfe) {
+			 JOptionPane.showMessageDialog(this, "Please input a number between 1 and "+sim.getField().getLocationsLeft());
+		}}
 	}
 	
     /**

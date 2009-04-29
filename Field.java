@@ -23,13 +23,13 @@ public class Field
 
     /**
      * Represent a field of the given dimensions.
-     * @param depth The depth of the field.
-     * @param width The width of the field.
+     * @param newDepth The depth of the field.
+     * @param newWidth The width of the field.
      */
-    public Field(int depth, int width)
+    public Field(int newDepth, int newWidth)
     {
-        this.depth = depth;
-        this.width = width;
+        depth = newDepth;
+        width = newWidth;
         field = new Object[depth][width];
     }
     
@@ -67,6 +67,12 @@ public class Field
         place(object, new Location(row, col));
     }
     
+    /**
+     * Place an object across several locations
+     * @author alastair
+     * @param object The object your placing in the field
+     * @param newLocations The locations the object is present on
+     */
     public void place(Object object, ArrayList<Location> newLocations)
     {
     	for(int counter = 0; counter < newLocations.size(); counter++)
@@ -214,29 +220,36 @@ public class Field
         return width;
     }
     
+    /**
+     * Return a random free location in the field
+     * @author alastair
+     * @return Location a random free location
+     */
     public Location getRandomFreeLocation() 
     {
-    	Location location = null;
-    	Randomizer random = new Randomizer();
-    	int startingPointDepth = random.getRandom().nextInt(this.depth);
-    	int startingPointWidth = random.getRandom().nextInt(this.width);
+    	Location newLocation = null;
+    	if(getLocationsLeft() >= 1){
+        	Location location = null;
+        	Randomizer random = new Randomizer();
+    	while(newLocation == null){
+    	int startingPointDepth = random.getRandom().nextInt(depth);
+    	int startingPointWidth = random.getRandom().nextInt(width);
     	location = new Location(startingPointDepth, startingPointWidth);
-    	// TODO Needs a while loop
-    	if(this.getObjectAt(location) == null)
-    	{
-    		// Do Nothing
-    	}
-    	else if(this.freeAdjacentLocation(location) != null)
-    	{
-    		location = this.freeAdjacentLocation(location);
-    	}
-    	else
-    	{
-    		location = null;
-    	}
-    	return location;
+    	if(getObjectAt(location) == null){
+    		newLocation = location;}
+    	else if(freeAdjacentLocation(location) != null){
+    		newLocation = freeAdjacentLocation(location);}
+    	else{
+    		newLocation = null;
+    	}}}
+    	return newLocation;
     }
     
+    /**
+     * Return how many free locations are left in the field
+     * @author alastair
+     * @return int The number of free locations left in the field
+     */
     public int getLocationsLeft()
     {
     	int locationsLeft = 0;
